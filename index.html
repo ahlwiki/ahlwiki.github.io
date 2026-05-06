@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>KMF图鉴 · 分类筛选版</title>
+    <title>Code Geass·KMF图鉴</title>
     <link rel="icon" type="image/x-icon" href="./Site-favicon.ico">
     <style>
         * {
@@ -205,6 +205,14 @@
 
         /* ========== 移动端专属样式 ========== */
         @media (max-width: 640px) {
+            .header h1{
+                font-size: 1.3rem;
+            }
+
+            .header p {
+                display: none;
+            }
+
             .container {
                 padding: 1rem;
                 padding-bottom: 80px;
@@ -248,12 +256,12 @@
                 text-align: center;
             }
             .card-info .chinese-name {
-                font-size: 0.7rem;    /* 手机端字体稍小 */
+                font-size: 0.6rem;    /* 手机端字体稍小 */
                 white-space: normal;
                 word-break: break-word;
                 line-height: 1.2;
             }
-            /* 手机端隐藏英文名 */
+            /* 手机端隐藏英文名/型号 */
             .card-info .english-name {
                 display: none;
             }
@@ -356,8 +364,8 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>⚙️ KMF GALLERY ⚙️</h1>
-        <p>全骑士机甲档案 · 分类筛选 · 中英对照</p>
+        <h1>⚙️Code Geass·KMF图鉴⚙️</h1>
+        <p>Code Geass系列人型自在战斗装甲骑（Knightmare Frame）档案</p>
     </div>
 
     <!-- 桌面版筛选栏 -->
@@ -554,9 +562,13 @@
     }
 
     function createKmfCard(kmf) {
-        const engName = kmf.name;
+        const engName = kmf.name;               // 原始英文名，用于跳转和图片路径
         const chnName = kmf.chinese_name || kmf.name;
         const thumbPath = `./images/kmf_gallery/${encodeURIComponent(engName)}/cover_thumb.jpg`;
+
+        // 获取型号：若无型号或空字符串则显示 '-'
+        const modelNumber = kmf.model_number;
+        const displayModel = (modelNumber && modelNumber.trim() !== '') ? modelNumber : '-';
 
         const card = document.createElement('div');
         card.className = 'kmf-card';
@@ -579,9 +591,10 @@
 
         const infoDiv = document.createElement('div');
         infoDiv.className = 'card-info';
+        // 桌面版显示型号，移动端通过CSS隐藏 .english-name
         infoDiv.innerHTML = `
             <div class="chinese-name" title="${escapeHtml(chnName)}">${escapeHtml(chnName)}</div>
-            <div class="english-name" title="${escapeHtml(engName)}">${escapeHtml(engName)}</div>
+            <div class="english-name" title="型号: ${escapeHtml(displayModel)}">${escapeHtml(displayModel)}</div>
         `;
         card.appendChild(imgDiv);
         card.appendChild(infoDiv);
@@ -591,7 +604,7 @@
     function setDefaultFilter() {
         if (!allKmfData.length) return;
         const animeValues = getUniqueValuesForCategory("Anime");
-        const defaultVal = "Code Geass: Lelouch of the Rebellion";
+        const defaultVal = "Code Geass 叛逆的鲁鲁修";
         if (!animeValues.includes(defaultVal)) {
             console.warn(`默认筛选值 "${defaultVal}" 不在Anime中`);
             return;
