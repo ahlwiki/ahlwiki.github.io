@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>KMF图鉴 · 分类筛选版</title>
+    <title>Knightmare Frame图鉴</title>
+    <link rel="icon" type="image/x-icon" href="./Site-favicon.ico">
     <style>
         * {
             margin: 0;
@@ -45,7 +46,7 @@
             margin-top: 0.5rem;
         }
 
-        /* 筛选栏 */
+        /* 筛选栏 (桌面版) */
         .filter-bar {
             background: rgba(0, 0, 0, 0.55);
             border-radius: 40px;
@@ -96,16 +97,6 @@
             background: #d4af37;
             color: #0a0f1a;
             box-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
-        }
-
-        .reset-btn {
-            background: #4a2c2c;
-            margin-left: 0.5rem;
-        }
-
-        .reset-btn:hover {
-            background: #b33;
-            color: white;
         }
 
         /* 机体网格 */
@@ -205,23 +196,117 @@
             font-size: 0.8rem;
         }
 
+        /* ========== 移动端专属样式 ========== */
         @media (max-width: 640px) {
             .container {
                 padding: 1rem;
+                padding-bottom: 80px;  /* 为底部抽屉留出空间 */
             }
 
-            .kmf-grid {
-                grid-template-columns: 1fr;
+            /* 隐藏桌面版筛选栏 */
+            .filter-bar {
+                display: none;
+            }
+
+            /* 卡片改为垂直布局 */
+            .kmf-card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 0.6rem;
+            }
+
+            .card-info {
+                width: 100%;
+                text-align: center;
             }
 
             .card-info .chinese-name,
             .card-info .english-name {
                 white-space: normal;
+                text-align: center;
             }
 
-            .filter-group {
+            /* 移动端抽屉筛选器 */
+            .mobile-drawer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+                background: rgba(10, 15, 26, 0.95);
+                backdrop-filter: blur(16px);
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
+                transition: transform 0.3s ease;
+                transform: translateY(calc(100% - 48px)); /* 默认只露出头部 */
+            }
+
+            .mobile-drawer.open {
+                transform: translateY(0);
+            }
+
+            .drawer-handle {
+                padding: 12px;
+                text-align: center;
+                cursor: pointer;
+                user-select: none;
+                background: rgba(0, 0, 0, 0.3);
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+                touch-action: pan-y;  /* 保留垂直滚动时的手势？但为了拖拽需要部分覆盖 */
+            }
+
+            .drawer-handle span:first-child {
+                font-size: 1rem;
+                font-weight: bold;
+                color: #d4af37;
+                letter-spacing: 2px;
+            }
+
+            .drawer-handle .drag-bar {
+                width: 40px;
+                height: 4px;
+                background: #9aaec9;
+                border-radius: 4px;
+                margin-top: 4px;
+            }
+
+            .drawer-content {
+                max-height: 60vh;
+                overflow-y: auto;
+                padding: 0 1rem 1rem;
+                scrollbar-width: thin;
+            }
+
+            /* 抽屉内部筛选组样式适配 */
+            .drawer-content .filter-group {
                 flex-direction: column;
                 align-items: flex-start;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .drawer-content .filter-buttons {
+                flex-wrap: wrap;
+                gap: 0.4rem;
+            }
+
+            .drawer-content .filter-btn {
+                font-size: 0.7rem;
+                padding: 0.2rem 0.8rem;
+            }
+        }
+
+        /* 桌面版无抽屉样式 */
+        @media (min-width: 641px) {
+            .mobile-drawer {
+                display: none;
             }
         }
     </style>
@@ -229,13 +314,13 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>⚙️ KMF GALLERY ⚙️</h1>
-        <p>全骑士机甲档案 · 分类筛选 · 中英对照</p>
+        <h1>⚙️Knightmare Frame图鉴⚙️</h1>
     </div>
 
-    <!-- 分类筛选栏 (动态生成按钮) -->
-    <div class="filter-bar" id="filter-bar"></div>
+    <!-- 桌面版筛选栏 -->
+    <div class="filter-bar" id="desktop-filter-bar"></div>
 
+    <!-- 机体列表容器 -->
     <div id="kmf-list-container" class="kmf-grid">
         <div class="loading">加载机动兵器数据中 ... ⚡</div>
     </div>
@@ -245,24 +330,39 @@
     </div>
 </div>
 
+<!-- 移动端抽屉筛选器 -->
+<div id="mobile-drawer" class="mobile-drawer">
+    <div class="drawer-handle" id="drawer-handle">
+        <div class="drag-bar"></div>
+        <span>📋上拉展开筛选</span>
+    </div>
+    <div class="drawer-content" id="drawer-content"></div>
+</div>
+
 <script>
     const LIST_JSON_URL = "./kmf_list_3.json";
-    let allKmfData = [];            // 原始全部机体列表
-    let currentCategory = null;     // 当前筛选的分类类别 (如 "Anime")
-    let currentValue = null;        // 当前筛选的分类值 (如 "Code Geass: Lelouch of the Rebellion")
-    let filterButtonsState = {};     // 存储各个分类的按钮状态
+    let allKmfData = [];
+    let currentCategory = null;
+    let currentValue = null;
 
-    // 中文分类映射
     const categoryNames = {
         "Anime": "📺 动画",
         "Manga": "📖 漫画",
         "Game": "🎮 游戏",
-    // 暂时隐藏制造商和所属势力：
-    // "Manufacturer": "🏭 制造商",
-    // "Operators": "⚔️ 所属势力"
     };
 
-    // 获取唯一分类值 (例如所有 Anime 下出现的作品名)
+    // 辅助函数
+    function escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/[&<>]/g, function (m) {
+            if (m === '&') return '&amp;';
+            if (m === '<') return '&lt;';
+            if (m === '>') return '&gt;';
+            return m;
+        });
+    }
+
+    // 获取唯一分类值
     function getUniqueValuesForCategory(category) {
         const values = new Set();
         allKmfData.forEach(kmf => {
@@ -277,18 +377,13 @@
         return Array.from(values).sort((a, b) => a.localeCompare(b, 'zh'));
     }
 
-    // 生成筛选栏 HTML
-    function buildFilterBar() {
-        const container = document.getElementById('filter-bar');
-        if (!container) return;
-
+    // 生成筛选 HTML (通用，用于桌面和移动)
+    function generateFilterHTML() {
         const categories = Object.keys(categoryNames);
         let html = '';
-
         categories.forEach(cat => {
             const values = getUniqueValuesForCategory(cat);
             if (values.length === 0) return;
-
             html += `<div class="filter-group">
                         <label>${categoryNames[cat]}:</label>
                         <div class="filter-buttons" data-category="${cat}">
@@ -298,44 +393,35 @@
             });
             html += `</div></div>`;
         });
-
-        if (html) {
-            html += `<div class="filter-group">
-                        <label>操作:</label>
-                        <div class="filter-buttons">
-                            <button class="filter-btn reset-btn" id="reset-all-filters">🗑️ 清除所有筛选</button>
-                        </div>
-                    </div>`;
-            container.innerHTML = html;
-            bindFilterEvents();
-        } else {
-            container.innerHTML = '<div style="text-align:center; color:#aaa;">暂无分类数据</div>';
-        }
+        return html;
     }
 
-    // 绑定按钮点击事件
-    function bindFilterEvents() {
-        // 所有分类按钮
+    // 渲染筛选栏（桌面版和移动版分别填充）
+    function buildFilterBars() {
+        const html = generateFilterHTML();
+        const desktopContainer = document.getElementById('desktop-filter-bar');
+        const mobileContent = document.getElementById('drawer-content');
+        if (desktopContainer) desktopContainer.innerHTML = html;
+        if (mobileContent) mobileContent.innerHTML = html;
+        // 绑定所有 .filter-btn 的点击事件
+        bindAllFilterButtons();
+    }
+
+    // 绑定所有分类按钮事件（动态生成后调用）
+    function bindAllFilterButtons() {
         document.querySelectorAll('.filter-btn[data-category]').forEach(btn => {
             btn.removeEventListener('click', handleFilterClick);
             btn.addEventListener('click', handleFilterClick);
         });
-        const resetBtn = document.getElementById('reset-all-filters');
-        if (resetBtn) {
-            resetBtn.removeEventListener('click', resetFilters);
-            resetBtn.addEventListener('click', resetFilters);
-        }
     }
 
     function handleFilterClick(e) {
         const btn = e.currentTarget;
         const category = btn.dataset.category;
         let value = btn.dataset.value;
-        // 如果是“全部”按钮，value 为 "__all__"
         if (value === '__all__') {
-            // 如果当前筛选类别相同且是全部，则清除筛选
             if (currentCategory === category && currentValue === null) {
-                // 已经是全部状态，不做变化
+                // 已是全部，无需变化
             } else {
                 currentCategory = category;
                 currentValue = null;
@@ -344,52 +430,43 @@
             currentCategory = category;
             currentValue = value;
         }
-        // 高亮当前激活的按钮
-        updateActiveButton(category, value);
-        // 执行筛选渲染
+        updateActiveButtonForAll(category, value);
         renderFilteredList();
     }
 
-    function updateActiveButton(category, value) {
-        // 清除同 category 下所有按钮的 active 状态
-        const group = document.querySelector(`.filter-buttons[data-category="${category}"]`);
-        if (!group) return;
-        group.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-        if (value === null) {
-            // 激活“全部”按钮
-            const allBtn = group.querySelector('.category-all');
-            if (allBtn) allBtn.classList.add('active');
-        } else {
-            const targetBtn = group.querySelector(`.filter-btn[data-value="${escapeHtml(value)}"]`);
-            if (targetBtn) targetBtn.classList.add('active');
-        }
+    function updateActiveButtonForAll(category, value) {
+        // 更新桌面版和移动版按钮高亮
+        const groups = document.querySelectorAll(`.filter-buttons[data-category="${category}"]`);
+        groups.forEach(group => {
+            group.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            if (value === null) {
+                const allBtn = group.querySelector('.category-all');
+                if (allBtn) allBtn.classList.add('active');
+            } else {
+                const targetBtn = group.querySelector(`.filter-btn[data-value="${escapeHtml(value)}"]`);
+                if (targetBtn) targetBtn.classList.add('active');
+            }
+        });
     }
 
     function resetFilters() {
         currentCategory = null;
         currentValue = null;
-        // 清除所有高亮
         document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
         renderFilteredList();
     }
 
-    // 根据当前筛选条件过滤机体
     function getFilteredKmf() {
-        if (!currentCategory || !currentValue) {
-            return allKmfData;
-        }
+        if (!currentCategory || !currentValue) return allKmfData;
         return allKmfData.filter(kmf => {
             const cats = kmf.categories || {};
             const values = cats[currentCategory];
             if (!values) return false;
-            if (Array.isArray(values)) {
-                return values.includes(currentValue);
-            }
+            if (Array.isArray(values)) return values.includes(currentValue);
             return values === currentValue;
         });
     }
 
-    // 渲染卡片列表
     function renderFilteredList() {
         const container = document.getElementById('kmf-list-container');
         const filtered = getFilteredKmf();
@@ -406,7 +483,6 @@
         document.getElementById('total-count').innerText = allKmfData.length;
     }
 
-    // 创建单个卡片 DOM
     function createKmfCard(kmf) {
         const engName = kmf.name;
         const chnName = kmf.chinese_name || kmf.name;
@@ -443,17 +519,104 @@
         return card;
     }
 
-    function escapeHtml(str) {
-        if (!str) return '';
-        return str.replace(/[&<>]/g, function (m) {
-            if (m === '&') return '&amp;';
-            if (m === '<') return '&lt;';
-            if (m === '>') return '&gt;';
-            return m;
+    // 设置默认筛选：Anime -> Code Geass: Lelouch of the Rebellion
+    function setDefaultFilter() {
+        if (!allKmfData.length) return;
+        const animeValues = getUniqueValuesForCategory("Anime");
+        const defaultVal = "Code Geass: Lelouch of the Rebellion";
+        if (!animeValues.includes(defaultVal)) {
+            console.warn(`默认筛选值 "${defaultVal}" 不在Anime中`);
+            return;
+        }
+        currentCategory = "Anime";
+        currentValue = defaultVal;
+        updateActiveButtonForAll("Anime", defaultVal);
+        renderFilteredList();
+    }
+
+    function updateDrawerLabel() {
+        const drawer = document.getElementById('mobile-drawer');
+        const labelSpan = drawer?.querySelector('.drawer-handle span');
+        if (!drawer || !labelSpan) return;
+        if (drawer.classList.contains('open')) {
+            labelSpan.innerText = '⬇️ 下拉回收筛选';
+        } else {
+            labelSpan.innerText = '⬆️ 上拉展开筛选';
+        }
+    }
+
+    // 移动端抽屉交互 (拖拽 + 点击)
+    function initMobileDrawer() {
+        const drawer = document.getElementById('mobile-drawer');
+        const handle = document.getElementById('drawer-handle');
+        if (!drawer || !handle) return;
+
+        let startY = 0;
+        let startTransform = 0;
+        let isDragging = false;
+
+        // ---------- 辅助函数：设置状态并更新文字 ----------
+        function setDrawerState(open) {
+            if (open) {
+                drawer.classList.add('open');
+            } else {
+                drawer.classList.remove('open');
+            }
+            updateDrawerLabel();  // 关键！文字跟随状态变化
+        }
+
+        // 设置初始状态文字（确保默认收起时显示“上拉展开筛选”）
+        setDrawerState(drawer.classList.contains('open'));
+
+        // 点击头部切换
+        handle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isOpen = drawer.classList.contains('open');
+            setDrawerState(!isOpen);
+            // 重置拖拽样式（防止残留）
+            drawer.style.transform = '';
+            drawer.style.transition = 'transform 0.3s ease';
+        });
+
+        // 触摸拖拽逻辑
+        handle.addEventListener('touchstart', (e) => {
+            startY = e.touches[0].clientY;
+            const isOpen = drawer.classList.contains('open');
+            const maxTranslate = drawer.offsetHeight - 48;
+            startTransform = isOpen ? 0 : maxTranslate;
+            isDragging = true;
+            drawer.style.transition = 'none';
+            // 可选项：禁用页面滚动
+            e.preventDefault();
+        });
+
+        handle.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+            const deltaY = e.touches[0].clientY - startY;
+            let newTranslate = startTransform + deltaY;
+            const maxTranslate = drawer.offsetHeight - 48;
+            newTranslate = Math.min(maxTranslate, Math.max(0, newTranslate));
+            drawer.style.transform = `translateY(${newTranslate}px)`;
+            e.preventDefault();
+        });
+
+        handle.addEventListener('touchend', () => {
+            if (!isDragging) return;
+            isDragging = false;
+            drawer.style.transition = 'transform 0.3s ease';
+            const currentTranslate = parseFloat(drawer.style.transform.replace('translateY(', '').replace('px)', ''));
+            const maxTranslate = drawer.offsetHeight - 48;
+            const threshold = maxTranslate / 2;
+            if (currentTranslate < threshold) {
+                setDrawerState(true);
+                drawer.style.transform = '';
+            } else {
+                setDrawerState(false);
+                drawer.style.transform = '';
+            }
         });
     }
 
-    // 加载 kmf_list_3.json 并初始化
     async function init() {
         const container = document.getElementById('kmf-list-container');
         try {
@@ -466,12 +629,9 @@
             }
             allKmfData = data;
             document.getElementById('total-count').innerText = allKmfData.length;
-
-            // 生成筛选栏（需要 allKmfData 就绪）
-            buildFilterBar();
-
-            // 初次渲染全部
-            renderFilteredList();
+            buildFilterBars();
+            setDefaultFilter();
+            initMobileDrawer();
         } catch (err) {
             console.error(err);
             container.innerHTML = `<div class="error-msg">❌ 加载失败: ${err.message}<br>请确认 kmf_list_3.json 存在且格式正确</div>`;
