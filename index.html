@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Knightmare Frame图鉴</title>
+    <title>KMF图鉴 · 分类筛选版</title>
     <link rel="icon" type="image/x-icon" href="./Site-favicon.ico">
     <style>
         * {
@@ -99,11 +99,19 @@
             box-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
         }
 
+        .reset-btn {
+            background: #4a2c2c;
+        }
+        .reset-btn:hover {
+            background: #b33;
+            color: white;
+        }
+
         /* 机体网格 */
         .kmf-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 1.2rem;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.6rem;
         }
 
         .kmf-card {
@@ -115,8 +123,7 @@
             transition: all 0.3s ease;
             display: flex;
             align-items: center;
-            padding: 0.8rem;
-            gap: 1rem;
+            gap: 0.6rem;
         }
 
         .kmf-card:hover {
@@ -200,7 +207,13 @@
         @media (max-width: 640px) {
             .container {
                 padding: 1rem;
-                padding-bottom: 80px;  /* 为底部抽屉留出空间 */
+                padding-bottom: 80px;
+            }
+
+            /* 机体网格改为紧凑多列 */
+            .kmf-grid {
+                grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+                gap: 0.4rem;
             }
 
             /* 隐藏桌面版筛选栏 */
@@ -208,26 +221,44 @@
                 display: none;
             }
 
-            /* 卡片改为垂直布局 */
+            /* 卡片：垂直布局、无内边距、描边紧贴内容 */
             .kmf-card {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                padding: 0.6rem;
+                padding: 0;           /* 移除内边距，描边紧贴图片和文字 */
+                gap: 0;
+                border-radius: 12px;
             }
-
+            .card-img {
+                width: 100%;         /* 图片撑满卡片宽度，保持高宽比 */
+                height: auto;
+                aspect-ratio: 60 / 85; /* 维持原比例 */
+                border-radius: 12px 12px 0 0; /* 上圆角，下直角紧贴文字区 */
+            }
+            .card-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: inherit;
+            }
             .card-info {
                 width: 100%;
+                padding: 0.2rem 0.2rem 0.4rem;
                 text-align: center;
             }
-
-            .card-info .chinese-name,
-            .card-info .english-name {
+            .card-info .chinese-name {
+                font-size: 0.7rem;    /* 手机端字体稍小 */
                 white-space: normal;
-                text-align: center;
+                word-break: break-word;
+                line-height: 1.2;
+            }
+            /* 手机端隐藏英文名 */
+            .card-info .english-name {
+                display: none;
             }
 
-            /* 移动端抽屉筛选器 */
+            /* 底部抽屉样式保持不变 */
             .mobile-drawer {
                 position: fixed;
                 bottom: 0;
@@ -240,70 +271,81 @@
                 border-top-right-radius: 20px;
                 box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.5);
                 transition: transform 0.3s ease;
-                transform: translateY(calc(100% - 48px)); /* 默认只露出头部 */
+                transform: translateY(calc(100% - 56px));
             }
-
             .mobile-drawer.open {
                 transform: translateY(0);
             }
-
             .drawer-handle {
-                padding: 12px;
-                text-align: center;
+                padding: 10px 16px;
                 cursor: pointer;
                 user-select: none;
                 background: rgba(0, 0, 0, 0.3);
                 border-top-left-radius: 20px;
                 border-top-right-radius: 20px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 6px;
-                touch-action: pan-y;  /* 保留垂直滚动时的手势？但为了拖拽需要部分覆盖 */
+                touch-action: pan-y;
             }
-
-            .drawer-handle span:first-child {
-                font-size: 1rem;
+            .drag-bar {
+                width: 130px;
+                height: 4px;
+                background: #f0e6a0;
+                border-radius: 4px;
+                margin: 0 auto 8px auto;
+            }
+            .drawer-header-row {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            #drawer-label {
+                font-size: 0.9rem;
                 font-weight: bold;
                 color: #d4af37;
-                letter-spacing: 2px;
             }
-
-            .drawer-handle .drag-bar {
-                width: 40px;
-                height: 4px;
-                background: #9aaec9;
-                border-radius: 4px;
-                margin-top: 4px;
+            .mobile-clear-group {
+                background: rgba(0,0,0,0.2);
+                border-radius: 40px;
+                padding: 0.6rem 1rem;
+                margin-bottom: 1rem;
             }
-
+            .mobile-clear-btn {
+                background: #4a2c2c;
+                border: none;
+                color: white;
+                padding: 6px 16px;
+                border-radius: 30px;
+                font-size: 0.75rem;
+                cursor: pointer;
+                width: auto;
+                display: inline-block;
+            }
+            .mobile-clear-btn:active {
+                background: #b33;
+            }
             .drawer-content {
-                max-height: 60vh;
+                max-height: 55vh;
                 overflow-y: auto;
                 padding: 0 1rem 1rem;
                 scrollbar-width: thin;
             }
-
-            /* 抽屉内部筛选组样式适配 */
             .drawer-content .filter-group {
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 0.5rem;
                 margin-bottom: 1rem;
             }
-
             .drawer-content .filter-buttons {
+                justify-content: flex-start;
                 flex-wrap: wrap;
-                gap: 0.4rem;
             }
-
             .drawer-content .filter-btn {
                 font-size: 0.7rem;
                 padding: 0.2rem 0.8rem;
             }
         }
 
-        /* 桌面版无抽屉样式 */
+        /* 桌面版完全隐藏移动端抽屉 */
         @media (min-width: 641px) {
             .mobile-drawer {
                 display: none;
@@ -314,7 +356,8 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>⚙️Knightmare Frame图鉴⚙️</h1>
+        <h1>⚙️ KMF GALLERY ⚙️</h1>
+        <p>全骑士机甲档案 · 分类筛选 · 中英对照</p>
     </div>
 
     <!-- 桌面版筛选栏 -->
@@ -334,7 +377,9 @@
 <div id="mobile-drawer" class="mobile-drawer">
     <div class="drawer-handle" id="drawer-handle">
         <div class="drag-bar"></div>
-        <span>📋上拉展开筛选</span>
+        <div class="drawer-header-row">
+            <span id="drawer-label">⬆️ 上拉展开筛选</span>
+        </div>
     </div>
     <div class="drawer-content" id="drawer-content"></div>
 </div>
@@ -351,7 +396,6 @@
         "Game": "🎮 游戏",
     };
 
-    // 辅助函数
     function escapeHtml(str) {
         if (!str) return '';
         return str.replace(/[&<>]/g, function (m) {
@@ -362,7 +406,6 @@
         });
     }
 
-    // 获取唯一分类值
     function getUniqueValuesForCategory(category) {
         const values = new Set();
         allKmfData.forEach(kmf => {
@@ -377,7 +420,6 @@
         return Array.from(values).sort((a, b) => a.localeCompare(b, 'zh'));
     }
 
-    // 生成筛选 HTML (通用，用于桌面和移动)
     function generateFilterHTML() {
         const categories = Object.keys(categoryNames);
         let html = '';
@@ -396,18 +438,47 @@
         return html;
     }
 
-    // 渲染筛选栏（桌面版和移动版分别填充）
     function buildFilterBars() {
-        const html = generateFilterHTML();
+        const baseHtml = generateFilterHTML();
+        const desktopHtml = baseHtml + `<div class="filter-group">
+            <label>⚙️ 操作:</label>
+            <div class="filter-buttons">
+                <button class="filter-btn reset-btn" id="desktop-reset-btn">🗑️ 清除筛选</button>
+            </div>
+        </div>`;
+        const mobileHtml = `<div class="mobile-clear-group">
+            <button class="mobile-clear-btn" id="mobile-clear-btn">🗑️ 清除筛选</button>
+        </div>` + baseHtml;
+
         const desktopContainer = document.getElementById('desktop-filter-bar');
         const mobileContent = document.getElementById('drawer-content');
-        if (desktopContainer) desktopContainer.innerHTML = html;
-        if (mobileContent) mobileContent.innerHTML = html;
-        // 绑定所有 .filter-btn 的点击事件
+        if (desktopContainer) desktopContainer.innerHTML = desktopHtml;
+        if (mobileContent) mobileContent.innerHTML = mobileHtml;
+
         bindAllFilterButtons();
+
+        const desktopReset = document.getElementById('desktop-reset-btn');
+        if (desktopReset) {
+            desktopReset.removeEventListener('click', resetFilters);
+            desktopReset.addEventListener('click', resetFilters);
+        }
+        const mobileClear = document.getElementById('mobile-clear-btn');
+        if (mobileClear) {
+            mobileClear.removeEventListener('click', handleMobileClear);
+            mobileClear.addEventListener('click', handleMobileClear);
+        }
     }
 
-    // 绑定所有分类按钮事件（动态生成后调用）
+    function handleMobileClear(e) {
+        e.stopPropagation();
+        resetFilters();
+        const drawer = document.getElementById('mobile-drawer');
+        if (drawer && drawer.classList.contains('open')) {
+            drawer.classList.remove('open');
+            updateDrawerLabel();
+        }
+    }
+
     function bindAllFilterButtons() {
         document.querySelectorAll('.filter-btn[data-category]').forEach(btn => {
             btn.removeEventListener('click', handleFilterClick);
@@ -421,7 +492,7 @@
         let value = btn.dataset.value;
         if (value === '__all__') {
             if (currentCategory === category && currentValue === null) {
-                // 已是全部，无需变化
+                // nothing
             } else {
                 currentCategory = category;
                 currentValue = null;
@@ -435,7 +506,6 @@
     }
 
     function updateActiveButtonForAll(category, value) {
-        // 更新桌面版和移动版按钮高亮
         const groups = document.querySelectorAll(`.filter-buttons[data-category="${category}"]`);
         groups.forEach(group => {
             group.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
@@ -513,13 +583,11 @@
             <div class="chinese-name" title="${escapeHtml(chnName)}">${escapeHtml(chnName)}</div>
             <div class="english-name" title="${escapeHtml(engName)}">${escapeHtml(engName)}</div>
         `;
-
         card.appendChild(imgDiv);
         card.appendChild(infoDiv);
         return card;
     }
 
-    // 设置默认筛选：Anime -> Code Geass: Lelouch of the Rebellion
     function setDefaultFilter() {
         if (!allKmfData.length) return;
         const animeValues = getUniqueValuesForCategory("Anime");
@@ -534,18 +602,6 @@
         renderFilteredList();
     }
 
-    function updateDrawerLabel() {
-        const drawer = document.getElementById('mobile-drawer');
-        const labelSpan = drawer?.querySelector('.drawer-handle span');
-        if (!drawer || !labelSpan) return;
-        if (drawer.classList.contains('open')) {
-            labelSpan.innerText = '⬇️ 下拉回收筛选';
-        } else {
-            labelSpan.innerText = '⬆️ 上拉展开筛选';
-        }
-    }
-
-    // 移动端抽屉交互 (拖拽 + 点击)
     function initMobileDrawer() {
         const drawer = document.getElementById('mobile-drawer');
         const handle = document.getElementById('drawer-handle');
@@ -555,38 +611,42 @@
         let startTransform = 0;
         let isDragging = false;
 
-        // ---------- 辅助函数：设置状态并更新文字 ----------
         function setDrawerState(open) {
             if (open) {
                 drawer.classList.add('open');
             } else {
                 drawer.classList.remove('open');
             }
-            updateDrawerLabel();  // 关键！文字跟随状态变化
+            updateDrawerLabel();
         }
 
-        // 设置初始状态文字（确保默认收起时显示“上拉展开筛选”）
+        function updateDrawerLabel() {
+            const labelSpan = document.getElementById('drawer-label');
+            if (!labelSpan) return;
+            if (drawer.classList.contains('open')) {
+                labelSpan.innerText = '⬇️ 下拉回收筛选';
+            } else {
+                labelSpan.innerText = '⬆️ 上拉展开筛选';
+            }
+        }
+
         setDrawerState(drawer.classList.contains('open'));
 
-        // 点击头部切换
         handle.addEventListener('click', (e) => {
             e.stopPropagation();
             const isOpen = drawer.classList.contains('open');
             setDrawerState(!isOpen);
-            // 重置拖拽样式（防止残留）
             drawer.style.transform = '';
             drawer.style.transition = 'transform 0.3s ease';
         });
 
-        // 触摸拖拽逻辑
         handle.addEventListener('touchstart', (e) => {
             startY = e.touches[0].clientY;
             const isOpen = drawer.classList.contains('open');
-            const maxTranslate = drawer.offsetHeight - 48;
+            const maxTranslate = drawer.offsetHeight - 56;
             startTransform = isOpen ? 0 : maxTranslate;
             isDragging = true;
             drawer.style.transition = 'none';
-            // 可选项：禁用页面滚动
             e.preventDefault();
         });
 
@@ -594,7 +654,7 @@
             if (!isDragging) return;
             const deltaY = e.touches[0].clientY - startY;
             let newTranslate = startTransform + deltaY;
-            const maxTranslate = drawer.offsetHeight - 48;
+            const maxTranslate = drawer.offsetHeight - 56;
             newTranslate = Math.min(maxTranslate, Math.max(0, newTranslate));
             drawer.style.transform = `translateY(${newTranslate}px)`;
             e.preventDefault();
@@ -605,15 +665,17 @@
             isDragging = false;
             drawer.style.transition = 'transform 0.3s ease';
             const currentTranslate = parseFloat(drawer.style.transform.replace('translateY(', '').replace('px)', ''));
-            const maxTranslate = drawer.offsetHeight - 48;
-            const threshold = maxTranslate / 2;
-            if (currentTranslate < threshold) {
+            const delta = currentTranslate - startTransform;
+            const SENSITIVITY = 8;
+            if (delta < -SENSITIVITY) {
                 setDrawerState(true);
-                drawer.style.transform = '';
-            } else {
+            } else if (delta > SENSITIVITY) {
                 setDrawerState(false);
-                drawer.style.transform = '';
+            } else {
+                const wasOpen = (startTransform === 0);
+                setDrawerState(wasOpen);
             }
+            drawer.style.transform = '';
         });
     }
 
