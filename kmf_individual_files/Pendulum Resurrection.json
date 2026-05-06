@@ -1,0 +1,33 @@
+{
+  "english_name": "Pendulum Resurrection",
+  "name": "钟摆复活",
+  "url": "https://codegeass.fandom.com/wiki/Pendulum_Resurrection",
+  "specs": {
+    "Classification": "KMF",
+    "Model Number": "DMX-V01Re",
+    "Official Name": "钟摆",
+    "KMF Generation": "第7和第9",
+    "Overall Height": "4.53 meters",
+    "Gross Weight": "8.97 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Developer": "洛伊德·阿斯普伦德\n塞西尔·克鲁米\n妮娜·爱因斯坦",
+    "Manufacturer": "迪塞尔工业",
+    "Operators": "迪塞尔超合众国十六夜",
+    "Known Pilots": "柴油",
+    "Standard": "能量护盾（Blaze Luminous）系统\n广域感知传感器\n陆行旋轮推进系统\n能量翼\n驾驶舱弹射系统\n茧",
+    "Optional": "交叉武装进化武装悬浮飞行系统",
+    "Fixed": "2x飞燕爪牙2x旋涡爆裂炮",
+    "Handheld": "2 x高周波振动剑（MVS）",
+    "Game": "Code Geass：失落物语",
+    "Mechanical Designer": "ASTRAYS"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/0/07/Pendulum_Resurrection.webp/revision/latest/scale-to-width-down/268?cb=20250412001018",
+  "introduction": "《复活的钟摆》（Pendulum Resurrection）是《Code Geass 反叛的鲁路修 失落物语》中登场的一台KMF，由主角驾驶。在名为G9模式的形态下，它是从受损的钟摆升级而来的机体，也是首台可在第七世代与第九世代之间自由切换的KMF。",
+  "Design and Development": "在零之镇魂曲之后，迪塞尔带着一台受损的“摆锤”KMF旅行，其大部分装备都已丢失，仅剩一把MVS剑刃。在与洛伊德、塞西尔和妮娜重逢后，他们协助修复并升级了“摆锤”，保留了其“转轮系统”，并将“空战臂”和“爆破臂”替换为“十字臂”和“进化臂”。\n\n与之前相比，“十字臂”融合了前两种臂模式，同时保留了相同的武装，包括其MVS、“涡旋爆破”强子炮以及“V-最大”冲刺冲锋。原本“摆锤”需要切换为“空战臂”才能使用“V-最大”，但“十字臂”允许同时使用“涡旋爆破”和“V-最大”。其“涡旋爆破”炮管长度被缩短以支持翻转机构。“进化臂”是复活形态的超越性特征，它能使“摆锤”类型转换为一台独特的第九代KMF，其标志是能量翼系统以及由能量护盾（Blaze Luminous）生成的名为“烈焰飞刃”的武器库。",
+  "Trivia": "如同游戏中的原版“摆锤”一样，尽管没有相关编号，它仍被归类为黑色骑士团的单位。在迪塞尔获得赦免后，它被重新分配至十六夜情报部。",
+  "image_folder": "Pendulum Resurrection",
+  "image_variants": [
+    "Standard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "english_name": "Gracchus",
+  "name": "格拉克乌斯",
+  "url": "https://codegeass.fandom.com/wiki/Gracchus",
+  "specs": {
+    "Model Number": "RPI-210",
+    "Codename": "格拉克乌斯",
+    "KMF Generation": "5th",
+    "Overall Height": "4.56 meters",
+    "Gross Weight": "6.61 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
+    "Armor Materials": "钨，碳纤维（在与兰斯洛特战斗后）",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "萨瑟兰",
+    "Operators": "Holy Britannian EmpireEuro BritanniaKnights of St. Michael",
+    "Known Pilots": "让·罗",
+    "Status": "主动式",
+    "Standard": "陆行旋轮推进系统\n驾驶舱弹射系统\n可伸缩机械臂",
+    "Fixed": "2x 胸部搭载飞燕爪牙\n1x/2x 佩剑\n1x 折叠式加农炮",
+    "Handheld": "1x 突击步枪",
+    "Anime": "Code Geass：亡国的阿基德（第2-5集）"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/2a/Gracchus_-_Lineart.jpg/revision/latest/scale-to-width-down/268?cb=20170914090557",
+  "introduction": "格拉克斯是欧罗巴·布里塔尼亚附属帝国开发的KMF，主要供圣米迦勒骑士团使用，是该势力军械库中最强大的KMF之一。已知的唯一驾驶员是让·罗。",
+  "Design and Specifications": "格拉克斯是KMF的改进型，在争夺萨瑟兰后继机型的竞争中败给了格洛斯特。该机型机动性极高，装甲上装饰着马形设计，最显著的是腿部造型，但机体大部分部件仍沿用萨瑟兰的零件，头部就是明显例证。其陆行旋轮也与众不同，采用安装在双脚后部的单轮设计，而非布里塔尼亚KMF常见的传统结构。该机体的显著特征是双臂均可向外伸展，配合细剑实施出其不意的致命突刺攻击。格拉克斯还配备了一门以樱石为弹药的可折叠式加农炮，使其能在战场上提供支援炮火。\n\n尽管基于第五代萨瑟兰改造，但其整体设计与升级使其性能远超前代，甚至能与先进的第七代兰斯洛特正面交锋。然而在与兰斯洛特交战后严重受损，不得不使用碳纤维部件进行紧急修复，因此在阿基托OVA后期可见其黑色涂装的机体部件。",
+  "Specifications": "基本参数\n乘员：1人\n高度：4.56米\n重量：6.61吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特征\n陆行旋轮推进系统\n驾驶舱弹射系统\n可伸缩臂\n\n固定武装\n2×飞燕爪牙（胸部搭载2枚）\n1或2把细剑，收纳于驾驶舱侧方挂载点\n1×折叠式加农炮（暂定），收纳于驾驶舱侧方挂载点，使用樱石弹药\n\n可选武装\n1×突击步枪（アサルトライフル）",
+  "image_folder": "Gracchus",
+  "image_variants": [
+    "Standard"
+  ]
+}

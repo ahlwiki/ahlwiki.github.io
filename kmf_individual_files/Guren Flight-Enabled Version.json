@@ -1,0 +1,34 @@
+{
+  "english_name": "Guren Flight-Enabled Version",
+  "name": "红莲可翔式",
+  "url": "https://codegeass.fandom.com/wiki/Guren_Flight-Enabled_Version",
+  "specs": {
+    "Model Number": "Type-02/F1A",
+    "KMF Generation": "等同于第7世代",
+    "Overall Height": "4.51 meters",
+    "Gross Weight": "7.51 metric tons",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器驱动",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Developed From": "红莲贰式",
+    "Developed Into": "红莲圣天八极式",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "红月华莲",
+    "Standard": "陆行旋轮推进系统\n驾驶舱弹射系统\n可翔翼\n辐射波动护盾",
+    "Optional": "1x 右臂内置穿甲轰炸型辐射波动单元\n1x 左胸部搭载飞燕爪牙\n1x 左臂搭载定制手枪\n1x 12管导弹发射器（搭载于可翔翼）",
+    "Fixed": "1x 右臂内置穿甲轰炸型辐射波动单元\n1x 左胸部搭载飞燕爪牙\n1x 左臂搭载定制手枪\n1x 12管导弹发射器（搭载于可翔翼）",
+    "Handheld": "1把叉刀",
+    "Anime": "Code Geass：叛逆的鲁路修R2",
+    "Manga": "《CODE GEASS：兰斯洛特与红莲》",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/de/Guren_Flight-Enabled_Version_-_Line_Art.jpg/revision/latest/scale-to-width-down/268?cb=20091108170715",
+  "introduction": "红莲可翔式（Guren Kashōshiki，字面意为“红莲可翔式”）是红莲贰式的升级型号。在与黑色骑士团的战斗中，被枢木朱雀的兰斯洛特·征服者击败后，从红莲贰式升级而来。它配备了新开发的“可翔翼”和新型“穿甲爆击型辐射波动单元”。它成为首款运用可翔翼的KMF。",
+  "Design and Development": "红莲可翔式最显著的变化是加装了可翔翼，使其具备飞行能力，同时头部外观也进行了美学调整，例如两侧增设天线、面部增加线条纹路。此外还配备了与KMF配色方案一致的新型\"穿甲轰炸型\"辐射波动臂，不过前臂仍以银色为主。辐射波动装置臂现在装有四根可环绕手掌展开的金属棒，用于扩大辐射波动装置的爆破范围。新型辐射波动臂既能维持近距离爆破威力，又能进行远距离或广域辐射冲击波发射，其威力远超以往。可翔翼组件内置导弹发射器挂载系统，不仅可装载标准导弹，还能发射箔条烟雾弹及便携式干扰装置——干扰网。兰斯洛特·征服者虽配备了应对干扰装置的防护措施以避免完全停机，但面对这种冲击波时仍会降低行动速度。",
+  "Operational History": "尽管改装主要集中在新头部和手臂，但此次升级使红莲达到了与圆桌骑士专用KMF同等的水平，卡莲也重新成为黑色骑士团的王牌驾驶员。然而不久后，红莲与它的\"兄弟\"——中国制KMF XT-404神虎展开对决，却因缺乏维护而在关键时刻失去动力而落败。卡莲与红莲被移交给布里塔尼亚帝国皇子修奈泽尔·El·布里塔尼亚，后者将红莲转交给第七圆桌骑士枢木朱雀麾下的卡美洛工程部队。该部队随后对这台缴获的敌方机体进行了大规模改造，最终诞生了红莲圣天八极式。",
+  "Specifications": "基本参数  \n乘员：1人  \n高度：4.51米  \n重量：7.51公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n陆行旋轮推进系统  \n驾驶舱弹射系统  \n可翔翼  \n辐射波动防护盾  \n\n武装  \n1x 右臂内置彻甲冲炮击辐射波动装置（徹甲衝砲撃輻射波動）  \n1x 左胸部搭载飞燕爪牙  \n1x 左臂搭载定制手枪  \n1x 叉刃（左手持握）  \n1x 12联装导弹发射器（可替换装载干扰装置网单元×12或箔条烟雾弹）（搭载于集成可翔翼系统）",
+  "image_folder": "Guren Flight-Enabled Version",
+  "image_variants": [
+    "Standard"
+  ]
+}

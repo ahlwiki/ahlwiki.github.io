@@ -3,177 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>机体详情 - Code Geass 机甲图鉴</title>
-    <link rel="shortcut icon" href="img/Site-favicon.ico" />
-    <link rel="icon" href="img/Site-favicon.ico" />
-    <link rel="stylesheet" href="css/style.css">
+    <title>KMF 详细档案</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #0b0f17;
+            font-family: 'Segoe UI', 'Roboto', system-ui;
+            color: #eef2ff;
+            padding: 2rem 1.5rem;
+        }
+        .detail-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: rgba(12, 18, 28, 0.85);
+            border-radius: 2rem;
+            padding: 2rem;
+            border: 1px solid rgba(212, 175, 55, 0.4);
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: bold;
+            background: rgba(0,0,0,0.4);
+            padding: 0.3rem 1rem;
+            border-radius: 30px;
+            transition: 0.2s;
+        }
+        .back-link:hover {
+            background: #d4af37;
+            color: #0a0f1a;
+        }
+        .kmf-header {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #2a3448;
+            padding-bottom: 1.5rem;
+        }
+        .kmf-image {
+            flex: 1;
+            min-width: 260px;
+            text-align: center;
+        }
+        .kmf-image img {
+            max-width: 100%;
+            max-height: 400px;
+            border-radius: 20px;
+            background: #10161f;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            object-fit: contain;
+        }
+        .kmf-title {
+            flex: 2;
+        }
+        .kmf-title h1 {
+            font-size: 2.8rem;
+            color: #ffdd99;
+            word-break: break-word;
+        }
+        .kmf-title .sub {
+            font-size: 1rem;
+            color: #bcafa2;
+            margin-top: 0.5rem;
+        }
+        .specs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .spec-card {
+            background: #0f1622cc;
+            border-left: 3px solid #d4af37;
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+        .spec-card h3 {
+            color: #e6c87a;
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+        }
+        .spec-item {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0.4rem 0;
+            border-bottom: 1px dashed #2a3440;
+        }
+        .spec-label {
+            width: 130px;
+            font-weight: bold;
+            color: #9aaec9;
+        }
+        .spec-value {
+            flex: 1;
+            color: #f0f2f5;
+            word-break: break-word;
+            white-space: pre-wrap;
+        }
+        .intro-text {
+            line-height: 1.6;
+            background: #010a14;
+            padding: 1.2rem;
+            border-radius: 1rem;
+            margin: 1rem 0;
+        }
+        .error-msg {
+            text-align: center;
+            padding: 2rem;
+            color: #e07c5c;
+            font-size: 1.2rem;
+        }
+        @media (max-width: 700px) {
+            .detail-container { padding: 1rem; }
+            .spec-label { width: 100px; }
+            .kmf-title h1 { font-size: 1.8rem; }
+        }
+    </style>
 </head>
 <body>
-    <!-- 页面加载提示 -->
-    <div id="page-loading" style="
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: var(--background-dark);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        z-index: 9999;
-        color: var(--text-light);
-    ">
-        <div style="width: 50px; height: 50px; border: 4px solid rgba(192, 0, 0, 0.3); border-left: 4px solid var(--britannia-red); border-radius: 50%; animation: spin 1s linear infinite;"></div>
-        <div style="margin-top: 1rem;">加载中，请稍候...</div>
+<div class="detail-container">
+    <a href="index.html" class="back-link">← 返回机体列表</a>
+    <div id="kmfContent">
+        <div style="text-align:center; padding: 3rem;">加载档案中...</div>
     </div>
-    <header>
-        <nav>
-            <a href="index.html" class="logo">Knightmare Frame 图鉴</a>
-            <div class="nav-links">
-                <a href="index.html">机体图鉴</a>
-                <a href="#factions">阵营</a>
-                <a href="#timeline">时间线</a>
-                <a href="#comparison">机体对比</a>
-            </div>
-        </nav>
-    </header>
+</div>
 
-    <main class="detail-container">
-        <a href="index.html" class="back-btn">← 返回图鉴</a>
-        
-        <div class="detail-header">
-            <div class="detail-name-container">
-                <h1 class="detail-name" id="detail-name">加载中...</h1>
-                <h2 class="detail-name-en" id="detail-name-en">Loading...</h2>
-            </div>
-            
-            <div class="detail-content-row">
-                <!-- 修改图片区域为选项卡结构 -->
-                <div class="detail-image-section">
-                    <div class="image-tabs-container">
-                        <!-- 动态生成的图片选项卡 -->
-                        <div class="image-tabs" id="image-tabs"></div>
-                        <div class="image-display">
-                            <!-- 添加加载提示 -->
-                            <div class="image-loading" id="image-loading">
-                                <div class="loading-spinner"></div>
-                                <div class="loading-text">图片加载中...</div>
-                            </div>
-                            <img id="detail-image" src="" alt="机体图片">
-                            <!-- 移除了图片下方的描述 -->
-                        </div>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const kmfName = urlParams.get('kmf');
+    if (!kmfName) {
+        document.getElementById('kmfContent').innerHTML = '<div class="error-msg">❌ 未指定机体代号</div>';
+        throw new Error('No kmf name');
+    }
+
+    const jsonPath = `./kmf_individual_files/${encodeURIComponent(kmfName)}.json`;
+
+    async function loadDetail() {
+        const container = document.getElementById('kmfContent');
+        try {
+            const resp = await fetch(jsonPath);
+            if (!resp.ok) throw new Error(`HTTP ${resp.status} - 文件不存在`);
+            const data = await resp.json();
+
+            const specs = data.specs || {};
+            const nameZh = data.name || kmfName;
+            const englishName = data.english_name || '';
+            const intro = data.introduction || '暂无简介';
+            const design = data["Design and Development"] || '';
+            const trivia = data.Trivia || '';
+
+            function getSpec(key) {
+                return specs[key] || '—';
+            }
+
+            // 图片处理：本地 Standard.jpg，失败则尝试 Standard.png，再失败则占位符
+            const imageJpg = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/Standard.jpg`;
+            const imagePng = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/Standard.png`;
+
+            const html = `
+                <div class="kmf-header">
+                    <div class="kmf-image">
+                        <img id="detail-img" src="${imageJpg}" alt="${nameZh}"
+                             onerror="this.onerror=null; this.src='${imagePng}'; this.onerror=function(){this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\'%3E%3Crect width=\\'400\\' height=\\'300\\' fill=\\'%23121a26\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%23d4af37\\'%3E⚙️ ${nameZh}%3C/text%3E%3C/svg%3E'}">
+                    </div>
+                    <div class="kmf-title">
+                        <h1>${escapeHtml(nameZh)}</h1>
+                        <div class="sub">${escapeHtml(englishName)} | 型号: ${getSpec("Model Number")}</div>
+                        <div class="sub">世代: ${getSpec("KMF Generation")} | 高度: ${getSpec("Overall Height")} | 重量: ${getSpec("Gross Weight")}</div>
                     </div>
                 </div>
-                
-                <div class="tables-container">
-                    <!-- 原有的技术规范表格 -->
-                    <div class="specs-section">
-                        <h2>技术规范</h2>
-                        <table class="specs-table">
-                            <tr>
-                                <td class="spec-label">类型</td>
-                                <td id="spec-type" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">型号</td>
-                                <td id="spec-model" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">世代</td>
-                                <td id="spec-generation" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">高度</td>
-                                <td id="spec-height" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">重量</td>
-                                <td id="spec-weight" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">能源</td>
-                                <td id="spec-power" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">装甲材料</td>
-                                <td id="spec-armor" class="spec-value">-</td>
-                            </tr>
-                        </table>
+                <div class="specs-grid">
+                    <div class="spec-card"><h3>⚙️ 基本规格</h3>
+                        <div class="spec-item"><span class="spec-label">动力源</span><span class="spec-value">${getSpec("Power Source")}</span></div>
+                        <div class="spec-item"><span class="spec-label">装甲材料</span><span class="spec-value">${getSpec("Armor Materials")}</span></div>
+                        <div class="spec-item"><span class="spec-label">制造商</span><span class="spec-value">${getSpec("Manufacturer")}</span></div>
+                        <div class="spec-item"><span class="spec-label">发展自</span><span class="spec-value">${getSpec("Developed From")}</span></div>
+                        <div class="spec-item"><span class="spec-label">衍生型</span><span class="spec-value">${getSpec("Developed Into")}</span></div>
+                        <div class="spec-item"><span class="spec-label">模式</span><span class="spec-value">${getSpec("Modes")}</span></div>
                     </div>
-                    
-                    <!-- 原有的一般数据表格 -->
-                    <div class="specs-section">
-                        <h2>一般数据</h2>
-                        <table class="specs-table">
-                            <tr>
-                                <td class="spec-label">制造商</td>
-                                <td id="spec-developer" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">衍生自</td>
-                                <td id="spec-derived-from" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">发展型号</td>
-                                <td id="spec-development" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">变体型号</td>
-                                <td id="spec-variants" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">阵营</td>
-                                <td id="spec-faction" class="spec-value">-</td>
-                            </tr>
-                            <tr>
-                                <td class="spec-label">驾驶员</td>
-                                <td id="spec-pilot" class="spec-value">-</td>
-                            </tr>
-                        </table>
+                    <div class="spec-card"><h3>🗡️ 武装 & 系统</h3>
+                        <div class="spec-item"><span class="spec-label">固定武装</span><span class="spec-value">${getSpec("Fixed")}</span></div>
+                        <div class="spec-item"><span class="spec-label">手持武器</span><span class="spec-value">${getSpec("Handheld")}</span></div>
+                        <div class="spec-item"><span class="spec-label">特殊系统</span><span class="spec-value">${getSpec("Standard")}</span></div>
+                    </div>
+                    <div class="spec-card"><h3>📜 作战信息</h3>
+                        <div class="spec-item"><span class="spec-label">驾驶员</span><span class="spec-value">${getSpec("Known Pilots")}</span></div>
+                        <div class="spec-item"><span class="spec-label">所属势力</span><span class="spec-value">${getSpec("Operators")}</span></div>
+                        <div class="spec-item"><span class="spec-label">原作登场</span><span class="spec-value">${getSpec("Manga") || '—'}</span></div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-        <!-- 其余内容保持不变 -->
-        <div class="detail-content">
-            <div class="description-section">
-                <div id="frame-description" class="description-text"></div>
-            </div>
-            
-            <hr class="section-divider">
-            
-            <h2>装备</h2>
-            <div class="equipment-section">
-                <h3>标准装备</h3>
-                <div id="standard-equipment" class="equipment-list"></div>
-                
-                <h3>可选装备</h3>
-                <div id="optional-equipment" class="equipment-list"></div>
-            </div>
-            
-            <h2>标准武器</h2>
-            <div class="weapons-section">
-                <h3>固定式武器</h3>
-                <div id="fixed-weapons" class="weapons-list"></div>
-                
-                <h3>手持式武器</h3>
-                <div id="handheld-weapons" class="weapons-list"></div>
-                
-                <h3>可选武器</h3>
-                <div id="optional-weapons" class="weapons-list"></div>
-            </div>
-            
-            <h2>设计和发展</h2>
-            <div class="history-text" id="design-content"></div>
-            
-            <h2>作战记录</h2>
-            <div class="history-text" id="combat-content"></div>
-        </div>
-    </main>
+                <div class="intro-text">
+                    <strong>📖 机体介绍</strong><br>${escapeHtml(intro)}<br><br>
+                    ${design ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design)}<br><br>` : ''}
+                    ${trivia ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia)}` : ''}
+                </div>
+            `;
+            container.innerHTML = html;
+        } catch (err) {
+            console.error(err);
+            container.innerHTML = `<div class="error-msg">⚠️ 机体档案加载失败: ${err.message}<br>请确保文件 ${kmfName}.json 存在于 /kmf_individual_files/ 目录下</div>`;
+        }
+    }
 
-    <script src="js/data.js"></script>
-    <script src="js/detail.js"></script>
+    function escapeHtml(str) {
+        if (!str) return '';
+        return String(str).replace(/[&<>]/g, function(m) {
+            if (m === '&') return '&amp;';
+            if (m === '<') return '&lt;';
+            if (m === '>') return '&gt;';
+            return m;
+        });
+    }
+
+    loadDetail();
+</script>
 </body>
 </html>

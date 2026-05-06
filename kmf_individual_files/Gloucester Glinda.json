@@ -1,0 +1,29 @@
+{
+  "english_name": "Gloucester Glinda",
+  "name": "格洛斯特·格林达",
+  "url": "https://codegeass.fandom.com/wiki/Gloucester_Glinda",
+  "specs": {
+    "Model Number": "RPI-209/G",
+    "KMF Generation": "5th",
+    "Overall Height": "4.29 meters",
+    "Gross Weight": "7.75 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "格洛斯特",
+    "Operators": "神圣布里塔尼亚帝国格琳达骑士团",
+    "Known Pilots": "奥德琳·泽冯约翰·施瓦泽",
+    "Standard": "广域感知传感器\n陆行旋轮推进系统\n驾驶舱弹射系统\n敌我识别应答器",
+    "Fixed": "2x 胸部搭载型飞燕爪牙",
+    "Handheld": "1x 突击步枪\n1x 电磁骑枪\n2x 高周波振动剑（MVS）",
+    "Manga": "Code Geass：双貌的OZ"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/dc/GloucesterGlinda-Lineart.jpg/revision/latest/scale-to-width-down/268?cb=20240418040015",
+  "introduction": "格洛斯特·格林达（Gloucester Glinda）是《Code Geass: 双面的奥兹》中由格林达骑士团使用的一款格洛斯特衍生型机体。",
+  "Design and Specifications": "格琳达骑士团使用的KMF变体机，最初为奥尔德琳·泽冯定制并由其驾驶，直至她获得兰斯洛特圣杯。格洛斯特·格琳达是以格洛斯特机体为基础，为格琳达骑士团进行改装的型号。除长矛及常规格洛斯特武装外，该机配备两柄强力振荡式高周波振动剑（MVS），但由于使用该武器消耗大量能量，无法用于持久战。最终格洛斯特·格琳达实现量产，作为大格琳达骑士团的指挥官机型，由施瓦泽将军等人使用。",
+  "Operational History": "奥德琳·泽冯在模拟战中驾驶她的格洛斯特·格林达对抗黑色骑士团。她与红莲贰式展开交战并试图使用MVS，但这耗尽了其剩余电池能量。\n\n在兰斯洛特圣杯维修期间，该机体被用于对抗布里塔尼亚恐怖组织\"塔列朗之翼\"。当诱饵小队引爆炸弹摧毁其占据的基地时，该机体在战斗中被摧毁，不过奥德琳及时弹射逃生。\n\n自玛丽贝尔就任第24区总督并扩编格林达骑士团后，格洛斯特·格林达开始量产。施瓦泽将军曾驾驶该机对抗马德里之星，并与黎明女神号展开交战。",
+  "image_folder": "Gloucester Glinda",
+  "image_variants": [
+    "Standard"
+  ]
+}

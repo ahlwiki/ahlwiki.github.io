@@ -1,0 +1,30 @@
+{
+  "english_name": "Lancelot Frontier",
+  "name": "兰斯洛特·圣枪",
+  "url": "https://codegeass.fandom.com/wiki/Lancelot_Frontier",
+  "specs": {
+    "Model Number": "Z-01/A",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.49 meters",
+    "Gross Weight": "6.89 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "卡美洛",
+    "Developed From": "兰斯洛特",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "C.C.",
+    "Standard": "驾驶舱弹射系统\n能量护盾（Blaze Luminous）系统\n广域感知传感器\n陆行旋轮推进系统",
+    "Optional": "悬浮飞行系统",
+    "Fixed": "4x飞燕爪牙",
+    "Handheld": "2x|高周波振动剑（MVS）1xVARIS步枪1x 6联装导弹发射盾",
+    "Anime": "Code Geass：叛逆的鲁路修"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/19/Z-01_Frontier.png/revision/latest/scale-to-width-down/268?cb=20100511220134",
+  "introduction": "兰斯洛特·圣枪是一台KMF，具体来说是兰斯洛特的变体机，为C.C.在鲁鲁修成为布里塔尼亚皇帝时使用而建造。其涂装为粉色以区别于原版机体。",
+  "Design and Specifications": "尽管最初的兰斯洛特是一台高性能机体，但兰斯洛特·圣枪因采用备用和回收零件制造，性能略逊于原版。不过与原版兰斯洛特不同，该机体配备了驾驶舱弹射系统。  \n尽管性能较弱，它仍保留了原版兰斯洛特的所有武器系统，并额外配备了类似帕西瓦尔的导弹发射器护盾。",
+  "Specifications": "一般特性  \n高度：4.49米  \n重量：6.89公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n能量护盾（Blaze Luminous）系统  \n驾驶舱弹射系统  \n广域感知传感器  \n陆行旋轮推进系统  \n可选悬浮飞行系统  \n\n武装  \n4x飞燕爪牙（2x臂装、2x腰部挂载）  \n2x高周波振动剑（MVS）  \n\n可选武装  \n1x 6管导弹发射盾  \n1x VARIS步枪",
+  "image_folder": "Lancelot Frontier",
+  "image_variants": [
+    "Standard"
+  ]
+}

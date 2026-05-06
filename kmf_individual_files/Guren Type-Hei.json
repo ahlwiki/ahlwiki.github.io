@@ -1,0 +1,24 @@
+{
+  "english_name": "Guren Type-Hei",
+  "name": "红莲丙式",
+  "url": "https://codegeass.fandom.com/wiki/Guren_Type-Hei",
+  "specs": {
+    "Model Number": "Type-Hei",
+    "Codename": "红莲丙式",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.51 meters",
+    "Gross Weight": "7.51 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统,能量填充器",
+    "Armor Materials": "钨",
+    "Manufacturer": "印度军事化区域",
+    "Developed From": "红莲贰式",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "扇木要、玉城真一郎"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/b6/GurenType03Ohgi.png/revision/latest/scale-to-width-down/268?cb=20230531030413",
+  "introduction": "红莲丙式（Guren Heishiki）是《Code Geass 反叛的鲁路修 遗失物语》中登场的一款KMF。它是基于红莲贰式衍生出的假想机体。",
+  "image_folder": "Guren Type-Hei",
+  "image_variants": [
+    "Standard"
+  ]
+}

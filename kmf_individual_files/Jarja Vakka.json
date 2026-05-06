@@ -1,0 +1,29 @@
+{
+  "english_name": "Jarja Vakka",
+  "name": "贾尔贾·瓦卡",
+  "url": "https://codegeass.fandom.com/wiki/Jarja_Vakka",
+  "specs": {
+    "Model Number": "K13B/J",
+    "KMF Generation": "可能为第四至第五世代",
+    "Overall Height": "4.18 meters",
+    "Gross Weight": "10.96 metric tons",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Crew": "1",
+    "Manufacturer": "齐尔克斯坦王国",
+    "Developed From": "格多·瓦卡",
+    "Operators": "齐尔克斯坦王国",
+    "Known Pilots": "谢斯塔尔·弗格纳",
+    "Standard": "4x陆行旋轮推进系统1x广域感知传感器",
+    "Fixed": "2x 飞燕爪牙",
+    "Handheld": "1x 剑",
+    "Anime": "《Code Geass 复活的鲁路修》"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/3e/K13bj.jpg/revision/latest/scale-to-width-down/268?cb=20210907032011",
+  "introduction": "贾尔加·瓦卡是齐尔克斯坦王国的KMF。在《Code Geass：复活的鲁路修》中，它作为莎姆娜亲卫队队长谢斯塔尔·福尔格纳的个人机体，参与了恸哭监狱事件。其具体能力未知，但已知装备有肩部飞燕爪牙、一柄剑以及胸部两枚大型广域感知传感器。该机体最终与驾驶员一同被鲁路修设置的樱石炸弹摧毁。",
+  "Design and Specifications": "以其蓝色涂装、黄色光学镜头和红色角状天线而易于辨识的贾尔贾·瓦卡，在齐尔克斯坦王国境内无人不晓。这或许是为了呼应驾驶者张扬的个性。\n\n贾尔贾·瓦卡的设计基于或源自格多·瓦卡，其下半部底盘与之相似，唯一区别在于上半部底盘更接近布里塔尼亚KMF的人形设计。格多·瓦卡的爪状操纵器已被替换为机械手掌。该KMF背部隆起的驼峰结构暗示其搭载了驾驶舱弹射系统，这与许多布里塔尼亚制KMF的设计特征相符。驾驶舱内部构造也与布里塔尼亚KMF存在相似之处。\n\n此KMF仅以佩剑作为主武器，但考虑到贾尔贾·瓦卡是为谢斯塔尔量身定制的专属机体，这种配置可能更多出于个人偏好而非战术考量。即便如此，凭借四具陆行旋轮，贾尔贾·瓦卡仍具备卓越的机动性，能轻松跨越障碍物。配合其佩剑，该KMF擅长近距格斗，在谢斯塔尔驾驶时更显强悍。",
+  "image_folder": "Jarja Vakka",
+  "image_variants": [
+    "Standard"
+  ]
+}

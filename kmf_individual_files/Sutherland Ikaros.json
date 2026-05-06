@@ -1,0 +1,31 @@
+{
+  "english_name": "Sutherland Ikaros",
+  "name": "萨瑟兰·伊卡洛斯",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_Ikaros",
+  "specs": {
+    "Classification": "原型骑士巨型要塞",
+    "Model Number": "FFB-02/RPI-13W",
+    "Codename": "萨瑟兰·伊卡洛斯",
+    "KMF Generation": "KMF巨型要塞",
+    "Overall Height": "9.53 meters",
+    "Gross Weight": "20.65 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨/电磁装甲",
+    "Manufacturer": "施泰纳财团",
+    "Developed From": "萨瑟兰·布拉德福德",
+    "Operators": "塔列朗之翼",
+    "Status": "摧毁",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n电动等离子推进马达",
+    "Fixed": "2x 米吉多飞燕爪牙\n6x 展开式翼内藏线圈炮\n导弹荚舱\n轰炸容器",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/f/f6/Sutherland_Ikaros_%28from_Ch_6%29.jpg/revision/latest/scale-to-width-down/267?cb=20130123004251",
+  "introduction": "萨瑟兰·伊卡洛斯（サザーランド・イカロス，Sazārando Ikarosu）是一台原型KMF巨型要塞，由前施泰纳康采恩武器开发主管、布里塔尼亚反帝国恐怖组织塔列朗之翼的领袖威尔伯·米尔维尔设计并驾驶。该机体采用了部分用于开发布拉德福德的技术。",
+  "Design and Specifications": "萨瑟兰·伊卡洛斯被设计为一种定点轰炸单位，通过从空中对基地和城市进行围攻来发挥作用。它以一架经过改装的萨瑟兰为核心，该核心搭载了飞行控制系统。机体的其余部分由一个大型外部框架构成，该框架承载了作为其飞行系统的电动等离子推进马达，与布拉德福德使用的飞行引擎相同。其武装包括两枚米吉多飞燕爪牙、一系列导弹荚舱、两个收纳于展开机翼内的线圈炮，以及一系列储存在萨瑟兰·伊卡洛斯底部的炸弹容器，可用于投掷攻击下方的敌人。",
+  "Operational History": "唯一的萨瑟兰·伊卡洛斯原型机由塔列朗之翼在2017 a.t.b.年从海岸对首都潘德拉贡发动恐怖袭击时部署。然而，这场袭击被以格琳达骑士团的KMF部队为首的布里塔尼亚军方阻止，萨瑟兰·伊卡洛斯最终在与布拉德福德和兰斯洛特圣杯的战斗结束时，连同其驾驶员威尔伯·米尔维尔一同在高空被摧毁。",
+  "Specifications": "一般特性\n乘员：1名\n高度：9.53米\n重量：20.65公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n电动等离子推进马达\n电磁装甲\n\n武装\n2枚 米吉多飞燕爪牙\n6门 展开式翼内线圈炮（每侧机翼各3门）\n导弹荚舱\n\n可选武装\n轰炸容器（收纳于机翼下方）",
+  "image_folder": "Sutherland Ikaros",
+  "image_variants": [
+    "Standard"
+  ]
+}

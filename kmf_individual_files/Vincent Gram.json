@@ -1,0 +1,31 @@
+{
+  "english_name": "Vincent Gram",
+  "name": "文森特·格拉姆",
+  "url": "https://codegeass.fandom.com/wiki/Vincent_Gram",
+  "specs": {
+    "Model Number": "RZX-7Z-01C",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.43 meters",
+    "Gross Weight": "7.22 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统,能量填充器",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "文森特",
+    "Variants": "文森特·格拉姆诺瓦",
+    "Operators": "神圣布里塔尼亚帝国格琳达骑士团",
+    "Known Pilots": "里尔",
+    "Standard": "能量护盾（Blaze Luminous）系统广域感知传感器陆行旋轮推进系统",
+    "Fixed": "2x 臂装MVS刀片\n1x 能量锥体\n2x 施罗特钢刃\n1x 右肩装强子爆破炮\n1x 左肩装狼牙\n2x 腰部装飞燕爪牙",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/c/c4/Vincent_Gram.jpg/revision/latest/scale-to-width-down/268?cb=20150814174057",
+  "introduction": "文森特·格拉姆是文森特的定制型，由格琳达骑士团新任团长莱尔所驾驶。",
+  "Design and Development": "由早期文森特原型机按莱尔规格开发而成，其意愿影响了该机的开发进程。所有武器系统直接内嵌于机体框架中，确保双手可随时自由使用。右肩搭载强子爆破炮，左肩则配备名为\"狼牙\"的新型武器。左臂的能量护盾（Blaze Luminous）机构可生成钻头状的光锥。\n\n与兰斯洛特圣杯相同，文森特·格拉姆可通过\"直连模式\"将布拉德福德挂载于背部，变形为格拉姆空中骑兵形态。",
+  "Operational History": "文森特·格拉姆是由文森特原型机开发而来的KMF。该机体于皇历2018年在原西班牙地区的第24区首次投入实战，由格琳达骑士团新任团长莱尔驾驶。",
+  "Specifications": "一般特性\n乘员：1名\n高度：4.43米\n重量：7.22公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特点\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n\n武装\n2把高周波振动剑（MVS）刀\n能量护盾（Blaze Luminous）发生器\n发光锥体\n施罗特钢刃（从能量护盾（Blaze Luminous）发生器展开）\n强子爆破枪\n狼牙\n2枚腰部安装的飞燕爪牙",
+  "Trivia": "格拉墨是北欧神话英雄齐格弗里德所使用的传说之剑，他以此剑斩杀巨龙法夫尼尔。",
+  "image_folder": "Vincent Gram",
+  "image_variants": [
+    "Standard"
+  ]
+}

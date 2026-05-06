@@ -1,0 +1,27 @@
+{
+  "english_name": "Sutherland Club",
+  "name": "萨瑟兰·棍棒",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_Club",
+  "specs": {
+    "Model Number": "RPI-13b",
+    "Codename": "萨瑟兰·棍棒",
+    "KMF Generation": "5th",
+    "Overall Height": "4.42 meters",
+    "Gross Weight": "7.483 metric tons",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "卡美洛",
+    "Developed From": "萨瑟兰兰斯洛特",
+    "Operators": "神圣布里塔尼亚帝国布里塔尼亚军",
+    "Standard": "能量护盾（Blaze Luminous）驾驶舱弹射系统广域感知传感器陆行旋轮推进系统",
+    "Game": "Code Geass：失落色彩（构想被否决）"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/56/Sutherclub1.jpg/revision/latest/scale-to-width-down/268?cb=20091211205827",
+  "introduction": "由劳埃德·阿斯普林德大幅改造的萨瑟兰，代号\"萨瑟兰俱乐部\"。在游戏《Code Geass 反叛的鲁路修 - 失落色彩》的早期开发阶段，如果主角黎加入神圣布里塔尼亚帝国军，原本计划让他驾驶其中一台。然而该方案被否决，萨瑟兰俱乐部最终被兰斯洛特俱乐部取代而失去戏份。",
+  "Design and Specifications": "存在两台不同的机体（分别称为1号机和2号机），它们采用了为兰斯洛特开发的多种技术，包括能量护盾（Blaze Luminous）屏障。两者与普通萨瑟兰的区别在于类似兰斯洛特的头部单元和独特的配色方案（1号机为白色配深蓝色轮廓，2号机为海军蓝配深蓝色轮廓）。",
+  "Specifications": "一般特性  \n乘员：1名  \n高度：4.42米  \n重量：7.483公吨  \n动力源：能量填充器  \n\n设计特征  \n能量护盾（Blaze Luminous）  \n驾驶舱弹射系统  \n广域感知传感器  \n陆行旋轮推进系统  \n\n武装  \n2×飞燕爪牙",
+  "image_folder": "Sutherland Club",
+  "image_variants": [
+    "Standard"
+  ]
+}

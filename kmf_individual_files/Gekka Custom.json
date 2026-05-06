@@ -1,0 +1,30 @@
+{
+  "english_name": "Gekka Custom",
+  "name": "月下·改",
+  "url": "https://codegeass.fandom.com/wiki/Gekka_Custom",
+  "specs": {
+    "Model Number": "Type-03F/GC",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.45 meters",
+    "Gross Weight": "7.72 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器驱动",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "月下",
+    "Developed Into": "月下·阿隆索",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "达斯科·拉·克莱蒙",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n红莲·机装驱动轮型\n陆行旋轮推进系统",
+    "Fixed": "1x飞燕爪牙",
+    "Handheld": "1x 祸断刀（旋转刃剑）\n1x 骑枪\n1x 突击步枪",
+    "Manga": "Code Geass：双貌的OZ"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/9/9a/Gekka_Custom.jpg/revision/latest/scale-to-width-down/268?cb=20121102035826",
+  "introduction": "月华改（Gekka Custom）是月华系列的定制机型，最初由黑色骑士团使用，但在黑色叛乱期间被布里塔尼亚军缴获。  \n该机被送往军方研究部门后，应第五皇女卡琳·内·布里塔尼亚的骑士达斯科·拉·克莱蒙的要求进行了修复与改造，并成为其专属KMF。随后，月华改在战斗中被奥菲斯·泽冯的定制型格拉斯哥摧毁。",
+  "Design and Specifications": "总体而言，月下改型与原型月下保持一致，仅将涂装改为红色，并将双臂替换为格洛斯特的部件，以便更好地操作和管理布里塔尼亚制武器。这一改装结合了日制KMF特有的机动性，使其能够实施精准的游击突袭。\n\n其主要武器为胸部左侧的单发飞燕爪牙和一把“花蝶八重刀”链剑。此外，还配备标准布里塔尼亚突击步枪和反KMF电磁骑枪，达斯科将其作为主武器使用。",
+  "Specifications": "基本参数  \n乘员：1人  \n高度：4.45米  \n重量：7.72公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n驾驶舱弹射系统  \n高機走駆動轮式陆行旋轮推进系统  \n\n固定武装  \n1x 飞燕爪牙（飞燕爪牙，左胸部搭载）  \n1x 廻転刃刀（廻転刃刀）  \n\n可选武装  \n1x 骑枪  \n1x 突击步枪",
+  "image_folder": "Gekka Custom",
+  "image_variants": [
+    "Standard"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "english_name": "Quinn Roses Model-Z",
+  "name": "奎因·罗丝 Z型",
+  "url": "https://codegeass.fandom.com/wiki/Quinn_Roses_Model-Z",
+  "specs": {
+    "Classification": "量产型KMF",
+    "Model Number": "UPI-15/Z",
+    "Codename": "奎因·罗丝 Z型",
+    "Overall Height": "5.06 meters",
+    "Gross Weight": "8.15 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Developed From": "格洛斯特（暗示）",
+    "Variants": "奎因·罗丝B型",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "柯内莉亚·li·布里塔尼亚",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n魔法喷射引擎",
+    "Fixed": "2x 胸部搭载型飞燕爪牙",
+    "Handheld": "1x 突击步枪\n1x 电磁骑枪",
+    "Anime": "《Code Geass 复活的鲁路修》"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/3f/Upi-15z.jpg/revision/latest/scale-to-width-down/268?cb=20211006171344",
+  "introduction": "奎因玫瑰Z型是黑色骑士团在皇历时代开发的新型KMF。在《Code Geass：复活的鲁路修》中，它作为柯内莉亚·li·布里塔尼亚的专属KMF。",
+  "Design and Development": "这台KMF是为柯内莉亚在零之镇魂曲后的光和时代加入黑色骑士团并晋升中将后个人使用而制造的。她的副官吉尔福德则配备了UPI-15/B 奎因玫瑰B型。Z型的设计高度呼应了柯内莉亚在系列初期拥有的个性化格洛斯特，暗示该机体可能是格洛斯特KMF设计的后继型号。与柯内莉亚之前的机体一样，其头部装有两根角状天线阵列，并配有白色披风，胸部搭载飞燕爪牙。机体胸前绘有黑色骑士团的标志。\n\n战斗中，它沿用了柯内莉亚在布里塔尼亚服役期间驾驶个人格洛斯特时使用的武器，包括基于线圈炮的突击步枪和电磁骑枪。相较于原始骑枪的升级，Z型（以及同样配备给B型）使用的型号能够生成能量护盾（Blaze Luminous）场。此外，它还采用了一种名为“魔法喷射”的新型实验性推进系统。魔法喷射通过允许机体在空中改变方向，提升了其机动性。",
+  "Operational History": "在入侵齐尔克斯坦期间，科内莉亚驾驶该机体率领部队进攻首都格拉尔巴德。他们遭遇了博尔沃纳·福格纳及其部下。科内莉亚与福格纳及其驾驶的钢髅展开一对一战斗。占据上风后，她将福格纳压制在地。大将军下令部下开火，企图以同归于尽的方式阻止科内莉亚，但士兵们无法执行这道命令。",
+  "image_folder": "Quinn Roses Model-Z",
+  "image_variants": [
+    "Standard"
+  ]
+}

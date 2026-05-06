@@ -1,0 +1,25 @@
+{
+  "english_name": "Valpnir",
+  "name": "瓦尔普尼尔",
+  "url": "https://codegeass.fandom.com/wiki/Valpnir",
+  "specs": {
+    "Model Number": "RPCX-05K/S",
+    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "新布里塔尼亚帝国",
+    "Developed Into": "罗恩格林",
+    "Operators": "新布里塔尼亚帝国 艾因伯格（黑骑士团）",
+    "Known Pilots": "阿诺德·伦克",
+    "Standard": "陆行旋轮推进系统3x 护盾",
+    "Handheld": "剑",
+    "Anime": "Code Geass：夺还的罗塞",
+    "Mechanical Designer": "Junichi Akutsu"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/f/f0/Valpnir.jpg/revision/latest/scale-to-width-down/268?cb=20240701064307",
+  "introduction": "瓦尔普尼尔（ヴァルプニル）是阿诺德·伦克在《Code Geass：夺还的罗赛》中使用的专属KMF。",
+  "Design and Development": "以驾驶舱区块为中心装备了三面护盾，赋予其全方位防御能力。",
+  "image_folder": "Valpnir",
+  "image_variants": [
+    "Standard"
+  ]
+}

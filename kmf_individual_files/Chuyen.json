@@ -1,0 +1,30 @@
+{
+  "english_name": "Chuyen",
+  "name": "朱厌",
+  "url": "https://codegeass.fandom.com/wiki/Chuyen",
+  "specs": {
+    "Model Number": "XT-401",
+    "KMF Generation": "等同于第7世代",
+    "Overall Height": "4.31 meters",
+    "Gross Weight": "9.36 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器驱动",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Developed From": "神虎",
+    "Operators": "中国合众国",
+    "Known Pilots": "徐立峰",
+    "Standard": "驾驶舱弹射系统\n履带式\n陆行旋轮推进系统",
+    "Fixed": "2x 绳索式飞燕爪牙",
+    "Handheld": "1x 电磁如意金箍棒",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/29/Chu_Yen.png/revision/latest/scale-to-width-down/268?cb=20150501182804",
+  "introduction": "朱厌（Zhu Yan (Shuen)）是基于神虎的量产型KMF。",
+  "Design and Specifications": "楚燕是基于神虎由印度军事管理区开发的量产机型。由于基础机体性能过高，普通驾驶员难以驾驭，因此该版本在整体性能上有所降低，但仍足以匹敌同时期其他KMF，例如文森特·格拉姆。胸部搭载的粒子炮也在本设计中取消。\n\n此外，已知驾驶员徐立峰精通功夫，能够充分发挥该机体的敏捷机动性与近战格斗能力。",
+  "Specifications": "一般特征\n乘员：1人\n高度：4.31米\n重量：9.36公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n驾驶舱弹射系统\n武装\n2x 绳索式飞燕爪牙\n1x 电磁如意棒",
+  "Trivia": "\"Chuyen\"之名取自中国神话中的一种怪物，一种白头红腿的灵长类生物，据传是战争的预兆。Chuyen的设计灵感来源于《西游记》中的英雄孙悟空。",
+  "image_folder": "Chuyen",
+  "image_variants": [
+    "Standard"
+  ]
+}

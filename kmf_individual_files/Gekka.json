@@ -1,0 +1,34 @@
+{
+  "english_name": "Gekka",
+  "name": "月华",
+  "url": "https://codegeass.fandom.com/wiki/Gekka",
+  "specs": {
+    "Model Number": "Type-03F",
+    "KMF Generation": "相当于第7代",
+    "Overall Height": "4.45 meters",
+    "Gross Weight": "7.92 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Developed From": "红莲贰式 月下原型机",
+    "Developed Into": "晓量产型",
+    "Variants": "月下（藤堂机）  \n月下（满月型）  \n月下改  \n月下·阿隆索  \n月下·紫电  \n月下·成砂  \n月下（乌鸦机）",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "Kyoshiro TohdohShōgo AsahinaNagisa ChibaRyōga SenbaKōsetsu UrabeGassan (Full Moon Type)",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n背部内置箔条烟雾散布系统",
+    "Fixed": "1x 晓·苍牙式飞燕爪牙",
+    "Handheld": "1x 旋转刃剑\n1x 右臂搭载定制手枪\n1x 右臂搭载火箭发射器",
+    "Anime": "Code Geass：反叛的鲁路修\nCode Geass：反叛的鲁路修 R2",
+    "Manga": "Code Geass：双貌的奥兹",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/e/e3/Gekka_-_Line_Art.jpg/revision/latest/scale-to-width-down/268?cb=20180705222438",
+  "introduction": "月下（Gekka，意为“月光”）是基于红莲和月下试作型开发的新型机体。它们看似为量产而设计，但仅生产了五台作为试作机。采用相同的摩托车座椅设计，这款日本制造的KMF是武士改型的后继机型，搭载了第六至第七代技术，使其性能优于布里塔尼亚现役量产机型萨瑟兰和格洛斯特。现存的五台机体由四圣剑及其首领藤堂镜志朗所持有。",
+  "Design and Specifications": "月下与红莲贰式存在数项差异。其装甲为灰色而非红色，头部单元更换为单眼式样。未搭载辐射波动装置，左臂内置火炮被替换为可选配的全自动步枪，该武器可有效击坠KMF及导弹、空中弹药运输机等高速目标。主武器为\"渴血妖刀\"——一种可加热的加长链锯剑，虽不及MVS高效，但较传统刀剑更易斩断KMF。月下配备\"干扰烟幕\"发射器，可同时释放箔条与烟幕，既能干扰电子设备又能扰乱视觉追踪，便于实施隐蔽撤退。",
+  "Specifications": "一般特性  \n乘员：1人  \n高度：4.45米  \n重量：7.92公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n驾驶舱弹射系统  \n高機走駆動轮式陆行旋轮推进系统  \n背部内置干扰箔条烟雾发射系统  \n\n武装  \n1x 廻転刃刀（Katen Yaibatou，意为“旋转刃刀”）  \n1x 左臂安装式定制手枪（专用ハンドガン）  \n1x 飞燕爪牙式飞燕爪牙（左胸部安装）  \n\n可选武装  \n1x 右臂安装式定制手枪（仅见于《我命令你，枢木朱雀》）  \n1x 右臂安装式火箭发射器（仅见于《太平洋伏击作战》）",
+  "Trivia": "当月下处于离线状态时，它能够以正坐姿势放置。",
+  "image_folder": "Gekka",
+  "image_variants": [
+    "Standard"
+  ]
+}

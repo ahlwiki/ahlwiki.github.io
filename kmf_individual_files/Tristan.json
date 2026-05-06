@@ -1,0 +1,34 @@
+{
+  "english_name": "Tristan",
+  "name": "特里斯坦",
+  "url": "https://codegeass.fandom.com/wiki/Tristan",
+  "specs": {
+    "Classification": "圆桌骑士专用KMF",
+    "Model Number": "RZA-3F9",
+    "Codename": "特里斯坦",
+    "KMF Generation": "第7代",
+    "Modes": "堡垒模式",
+    "Overall Height": "5.45 meters",
+    "Gross Weight": "7.35 metric tons",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "布拉德福德",
+    "Developed Into": "特里斯坦·分离者",
+    "Operators": "圆桌骑士",
+    "Known Pilots": "吉诺·温伯格",
+    "Status": "受损，升级版",
+    "Standard": "飞燕爪牙助推器\n悬浮飞行系统\n陆行旋轮推进系统\n驾驶舱弹射系统",
+    "Fixed": "1x 能量炮（由飞燕爪牙构成）2x 机枪（仅限要塞模式）",
+    "Anime": "圆桌骑士皇帝鲁路修"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/5b/Tristan_-_Line_Art.jpg/revision/latest/scale-to-width-down/268?cb=20090428212433",
+  "introduction": "崔斯坦（トリスタン Torisutan）是神圣布里塔尼亚帝国为圆桌骑士第三骑士基诺·温伯格开发的第七世代可变形KMF。以圆桌骑士中的崔斯坦命名，在圆桌骑士叛乱事件中严重受损。后经修复升级为崔斯坦·分裂者。",
+  "Design and Specifications": "第七代机型崔斯坦，以圆桌骑士命名，是首款可变形KMF，能在人形（Frame）与喷射机（Fortress）形态间切换。由第三骑士基诺·维恩伯格驾驶。该机机动性极高，可在空中展开并变形。喷射形态下可使用一对机枪。前臂搭载两具大型飞燕爪牙，配备爪牙助推器。两具飞燕爪牙可组合发射能量冲击，威力足以匹敌神虎的重子炮。人形形态时可使用两柄镐状高周波振动剑（MVS），名为MVS长柄武器，其握柄可连接组成双刃镰刀。在反抗鲁路修皇帝的起义中，崔斯坦被兰斯洛特·阿尔比昂重创。",
+  "Operational History": "作为圆桌骑士的一员，王牌驾驶员基诺·温伯格获准组建专属研发团队，为其量身定制专属KMF。这台名为RZA-3F9崔斯坦的机体，专为契合基诺的战斗风格与个人偏好而设计。崔斯坦属于高机动型KMF，擅长利用飞燕爪牙与宽刃MVS长矛实施游击战术，以迅雷之势精准撕裂敌阵。本就具备卓越机动性的崔斯坦，更可变形为堡垒模式，化作流线型战机执行高速突袭。直至流亡的布里塔尼亚皇子鲁鲁修·兰佩路基——昔日恐怖分子Zero——夺取皇位并引导超级大国走向其个人野心时，基诺始终善用这台崔斯坦。在效忠已故查尔斯皇帝的阵营中，基诺试图擒获鲁鲁修，却败于鲁鲁修专属骑士枢木朱雀及其KMF Z-01Z兰斯洛特·阿尔比昂的单挑战。受损但仍可运作的崔斯坦，经黑色骑士团改造后进化为全新形态——RZA-3F9X1崔斯坦·分断者。该机体装备了被兰斯洛特·阿尔比昂摧毁的加拉哈德机体所遗留的圣剑双刃，正如动画所示，每半截剑刃都足以击穿蜃气楼的绝对防御领域。",
+  "Specifications": "一般特性  \n乘员：1人  \n高度：5.45米  \n重量：7.35公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n要塞模式  \n飞燕爪牙助推器  \n集成悬浮飞行系统  \n陆行旋轮推进系统  \n驾驶舱弹射系统（极有可能）  \n\n武装  \n2把高周波振动剑（MVS）长柄武器（隐藏于机翼内，要塞模式下无法使用）  \n2门臂装“米吉多飞燕爪牙”  \n1门能量炮（由2枚飞燕爪牙组合而成）  \n2挺机枪（仅限要塞模式）",
+  "image_folder": "Tristan",
+  "image_variants": [
+    "Standard"
+  ]
+}

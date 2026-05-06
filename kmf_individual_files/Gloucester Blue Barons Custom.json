@@ -1,0 +1,29 @@
+{
+  "english_name": "Gloucester Blue Barons Custom",
+  "name": "格洛斯特 蓝色男爵特装型",
+  "url": "https://codegeass.fandom.com/wiki/Gloucester_Blue_Barons_Custom",
+  "specs": {
+    "Model Number": "RPI-209/BC",
+    "KMF Generation": "5th",
+    "Overall Height": "4.29 meters",
+    "Gross Weight": "7.75 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "格洛斯特",
+    "Operators": "神圣布里塔尼亚帝国蓝色男爵",
+    "Known Pilots": "蓝宝石·卡拉斯·班宁斯·杂红莲",
+    "Standard": "2x 胸部搭载型飞燕爪牙",
+    "Handheld": "1x 突击步枪\n1x 电磁骑枪",
+    "Manga": "Code Geass：双貌的奥兹",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/2e/Gloucester-BlueBaronsCustom.jpg/revision/latest/scale-to-width-down/268?cb=20240417193854",
+  "introduction": "格洛斯特（蓝色男爵队特装型）（グロースター（ブルーバロンズ仕様），Gurōsutā Burūbaronzu shiyō）是布里塔尼亚特种部队“蓝色男爵队”所使用的格洛斯特。",
+  "Design and Specifications": "黑色叛乱后，蓝男爵队成立，其目的是追捕黑色骑士团的残余势力，尤其是红月卡莲。该机体以标准型格洛斯特为基础，针对小队使用进行了规格改造，并重新涂装为蓝色。",
+  "Operational History": "蓝色男爵首次参与的战斗是在古吉拉特，当时他们追踪卡莲和浦部至该地。在此期间，他们首先与和平使者特工俄耳甫斯·泽沃纳斯发生冲突，后者为红莲贰式的修复争取时间。当红莲投入战场后，两人击败了被派遣的部队，包括在格洛斯特中指挥行动的指挥官佐布伦男爵。此后，蓝色男爵在第11区参与了数次小规模冲突。最终，除首领萨菲尔·卡拉斯外，整个部队在北海码头战役中被全歼。",
+  "image_folder": "Gloucester Blue Barons Custom",
+  "image_variants": [
+    "Standard"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "english_name": "Lancelot Albion Zero",
+  "name": "兰斯洛特·阿尔比昂零式",
+  "url": "https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero",
+  "specs": {
+    "Model Number": "Z-01Z0",
+    "KMF Generation": "9th",
+    "Overall Height": "5.15 meters",
+    "Gross Weight": "9.12 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "珍珠派对",
+    "Developed From": "兰斯洛特·阿尔比昂",
+    "Operators": "黑色骑士团超合众国",
+    "Known Pilots": "零",
+    "Standard": "能量护盾（Blaze Luminous）系统\n广域感知传感器\n陆行旋轮推进系统\n能量翼\n驾驶舱弹射系统",
+    "Fixed": "4x飞燕爪牙",
+    "Handheld": "2x超级VARIS步枪2x高周波振动剑（MVS）",
+    "Manga": "《Code Geass 复活的鲁路修》"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/4/49/1538730129063.jpg/revision/latest/scale-to-width-down/268?cb=20181204100207",
+  "introduction": "《Code Geass 复活的鲁路修》电影预告片中出现的兰斯洛特·阿尔比昂零式是兰斯洛特·阿尔比昂的变体机型。它在漫画《Code Geass 复活的鲁路修》中作为零的专用KMF首次正式登场。",
+  "Design and Development": "尽管世界已迎来和平，但各地仍存在小规模冲突。零需要一台KMF来应对此类局势。修奈泽尔与华莲主张零应配备一台可在必要时处理冲突的机体，而零则担忧此举会赋予黑色骑士团过大的全球影响力，认为并无必要。尽管零本人反对，修奈泽尔仍秘密委托拉克夏塔建造一台\"兰斯洛特·阿尔比昂零式\"作为应急备用。该机体采用鲁鲁修皇帝统治时期布里塔尼亚研发的部件，由拉克夏塔以研究名义制造。在原型基础上改良后，其性能据称与红莲圣天八极式相当。",
+  "Operational History": "其首次部署发生在日本革命军（日本解放阵线的残余势力）在坂东真少校指挥下占领品川海滨机场时。该事件由Zero率领的黑色骑士团出动阿尔比昂零式处理。这台KMF虽在完成任务时沾满鲜血，却成功完成了使命。这副景象令被其拯救的人们心生恐惧，因此Zero决定不再继续驾驶该机体。此后Zero意识到自己可能仍需重返战场，遂请求拉克夏塔为他开发一台新KMF——不同于\"邪恶\"皇帝鲁鲁修的骑士所使用的兰斯洛特，而是更适合Zero使用的机体。拉克夏塔认为，对Zero而言，蜃气楼的后续机型最为理想。最终开发出用于实战的摩诃罗婆零式，而摩诃罗婆零壹式则用于仪式用途。",
+  "Trivia": "尽管未在《复活的鲁路修》电影中登场，但该机体确实出现在作为动画续作的《复活的鲁路修》漫画中，并在《超级机器人大战30》中以隐藏机体及朱雀早期加入条件的形式首次于电子游戏中亮相。若未获得兰斯洛特·阿尔比昂零式，朱雀将默认随鲁路修一同加入。",
+  "image_folder": "Lancelot Albion Zero",
+  "image_variants": [
+    "Standard"
+  ]
+}

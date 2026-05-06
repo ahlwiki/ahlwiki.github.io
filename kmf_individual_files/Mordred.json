@@ -1,0 +1,33 @@
+{
+  "english_name": "Mordred",
+  "name": "莫德雷德",
+  "url": "https://codegeass.fandom.com/wiki/Mordred",
+  "specs": {
+    "Classification": "圆桌骑士第六席专用机",
+    "Model Number": "RZA-6DG",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.71 meters",
+    "Gross Weight": "10.23 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "卡美洛",
+    "Developed From": "泽特兰泽特兰·希尔德",
+    "Developed Into": "莫德雷德·强化型",
+    "Operators": "神圣布里塔尼亚帝国圆桌骑士",
+    "Known Pilots": "阿尼亚·阿尔斯特雷姆/玛丽安娜·vi·布里塔尼亚",
+    "Standard": "集成悬浮飞行系统\n能量护盾（Blaze Luminous）系统\n驾驶舱弹射系统",
+    "Fixed": "4x 肩部强子炮\n16x 小型近距导弹发射器",
+    "Anime": "Code Geass：叛逆的鲁路修R2",
+    "Manga": "Code Geass: Oz the Reflection\nCode Geass: 兰斯洛特 & 红莲",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/e/eb/Mordred_-_Line_Art.jpg/revision/latest/scale-to-width-down/268?cb=20090610195525",
+  "introduction": "莫德雷德（モルドレッド，Morudoreddo），以圆桌骑士命名；是由圆桌骑士第六位阿尼亚·阿尔斯托雷姆驾驶的重型炮击型KMF。",
+  "Design and Specifications": "莫德雷德搭载了集成式悬浮飞行系统，使其具备飞行能力。该机体以牺牲速度换取厚重装甲，拥有极高耐久性——即便直接承受斩月型\"祸乃汰\"刀的攻击也毫发无损（参见《太平洋伏击战》），而其他KMF早已被拦腰斩断。但悬浮飞行系统本身却极易被切断（参见《激情之力》）。同时，它成为继兰斯洛特之后首批搭载能量护盾（Blaze Luminous）系统的KMF之一，进一步强化防御能力。相较于原版兰斯洛特仅覆盖双臂的系统，莫德雷德的能量护盾可包裹整机。\n\n其双肩各搭载一组强子炮，展开合并后可构成四联装\"斯塔克强子炮\"，将能量汇聚为单发炮击，足以一击摧毁空中巡洋舰。该武器通常用于攻击大型目标、强敌或直线射程内的敌人，也可用于封锁敌方行动，通过炮击施加压力（参见《东京决战II》）。为同时应对多个目标（如分散在战场各处的小型目标）或高速移动目标，莫德雷德还配备微型近程导弹，分别从腕部、胸部、髋部和腿部发射，飞行时留下红黑相间的尾迹。尽管缺乏近战武器，但莫德雷德凭借原始力量可轻易碾压其他小型KMF。",
+  "Operational History": "它参与了多次战斗，包括第二次东京租界攻防战和富士山战役。在最后一集（Re;）中，莫德雷德被杰雷米亚·戈特瓦尔德的萨瑟兰·齐格的残骸严重损坏，双臂和头部被炸毁，驾驶舱破裂暴露，但由于综合悬浮飞行系统仍保持功能，损伤并不算太严重。",
+  "Specifications": "一般特性  \n乘员：1名  \n高度：4.71米  \n重量：10.23公吨  \n动力源：世界树驱动超导体转移系统，能量填充器  \n\n设计特征  \n集成悬浮飞行系统  \n能量护盾（Blaze Luminous）系统  \n驾驶舱弹射系统（极有可能）  \n\n武装  \n4门肩部强子炮（“双联装”）（在“展开”并合并形成“强力强子炮”之前）  \n微型近程导弹发射器（安装于腕部、胸部上方、髋部及腿部下方）",
+  "image_folder": "Mordred",
+  "image_variants": [
+    "Standard"
+  ]
+}

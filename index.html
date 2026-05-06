@@ -2,102 +2,483 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Geass 机甲图鉴</title>
-    <link rel="shortcut icon" href="img/Site-favicon.ico" />
-    <link rel="icon" href="img/Site-favicon.ico" />
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>KMF图鉴 · 分类筛选版</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(circle at 20% 30%, #0a0f1a, #03060c);
+            font-family: 'Segoe UI', 'Roboto', 'Orbitron', system-ui, sans-serif;
+            color: #e6e9f0;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid rgba(230, 200, 100, 0.4);
+            padding-bottom: 1rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #f0e6a0, #b8860b, #d4af37);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            color: #9aaec0;
+            margin-top: 0.5rem;
+        }
+
+        /* 筛选栏 */
+        .filter-bar {
+            background: rgba(0, 0, 0, 0.55);
+            border-radius: 40px;
+            padding: 0.9rem 1.5rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .filter-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-group label {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #d4af37;
+            min-width: 70px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .filter-btn {
+            background: #1f2a3e;
+            border: none;
+            padding: 0.3rem 1rem;
+            border-radius: 30px;
+            color: #e6e9f0;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: #d4af37;
+            color: #0a0f1a;
+            box-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
+        }
+
+        .reset-btn {
+            background: #4a2c2c;
+            margin-left: 0.5rem;
+        }
+
+        .reset-btn:hover {
+            background: #b33;
+            color: white;
+        }
+
+        /* 机体网格 */
+        .kmf-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.2rem;
+        }
+
+        .kmf-card {
+            background: rgba(15, 22, 35, 0.75);
+            backdrop-filter: blur(4px);
+            border-radius: 16px;
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            padding: 0.8rem;
+            gap: 1rem;
+        }
+
+        .kmf-card:hover {
+            transform: translateY(-4px);
+            border-color: #d4af37;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+            background: rgba(20, 30, 48, 0.92);
+        }
+
+        .card-img {
+            width: 60px;
+            height: 85px;
+            flex-shrink: 0;
+            background: #0a0f18;
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.2s;
+        }
+
+        .card-info {
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .card-info .chinese-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #ffdd99;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .card-info .english-name {
+            font-size: 0.7rem;
+            color: #9aaec9;
+            margin-top: 0.2rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .no-result {
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.2rem;
+            color: #e0b05c;
+            grid-column: 1 / -1;
+        }
+
+        .loading,
+        .error-msg {
+            text-align: center;
+            padding: 3rem;
+            font-size: 1.2rem;
+        }
+
+        .error-msg {
+            color: #e07c5c;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+            color: #6b7e9e;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .kmf-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .card-info .chinese-name,
+            .card-info .english-name {
+                white-space: normal;
+            }
+
+            .filter-group {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- 页面加载提示 -->
-    <div id="page-loading" style="
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: var(--background-dark);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        z-index: 9999;
-        color: var(--text-light);
-    ">
-        <div style="width: 50px; height: 50px; border: 4px solid rgba(192, 0, 0, 0.3); border-left: 4px solid var(--britannia-red); border-radius: 50%; animation: spin 1s linear infinite;"></div>
-        <div style="margin-top: 1rem;">加载中，请稍候...</div>
+<div class="container">
+    <div class="header">
+        <h1>⚙️ KMF GALLERY ⚙️</h1>
+        <p>全骑士机甲档案 · 分类筛选 · 中英对照</p>
     </div>
-    <header>
-        <nav>
-            <a href="index.html" class="logo">Knightmare Frame 图鉴</a>
-            <div class="nav-links">
-                <a href="index.html">机体图鉴</a>
-                <a href="#factions">阵营</a>
-                <a href="#timeline">时间线</a>
-                <a href="#comparison">机体对比</a>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <!-- 筛选区域 -->
-        <section class="filters-section">
-            <div class="filter-container">
-                <div class="filter-group">
-                    <label>阵营:</label>
-                    <select id="faction-filter">
-                        <option value="">全部阵营</option>
-                        <option value="britannia">不列颠尼亚</option>
-                        <option value="black-knights">黑色骑士团</option>
-                        <option value="japan">日本解放战线</option>
-                        <option value="chinese">中华联邦</option>
-                        <option value="eu">EU</option>
-                        <option value="other">其他</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label>世代:</label>
-                    <select id="generation-filter">
-                        <option value="">全部世代</option>
-                        <option value="3">第3世代</option>
-                        <option value="4">第4世代</option>
-                        <option value="5">第5世代</option>
-                        <option value="6">第6世代</option>
-                        <option value="7">第7世代</option>
-                        <option value="8">第8世代</option>
-                        <option value="9">第9世代</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label>类型:</label>
-                    <select id="type-filter">
-                        <option value="">全部类型</option>
-                        <option value="mass">量产机</option>
-                        <option value="special">专用机</option>
-                        <option value="command">指挥官机</option>
-                        <option value="prototype">试作机</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group search-box">
-                    <input type="text" id="search-input" placeholder="搜索机体名称或型号...">
-                </div>
-                
-                <div class="stats">
-                    找到 <span id="result-count">0</span> 台机体
-                </div>
-            </div>
-        </section>
+    <!-- 分类筛选栏 (动态生成按钮) -->
+    <div class="filter-bar" id="filter-bar"></div>
 
-        <!-- 图鉴网格 -->
-        <section id="gallery" class="frames-grid">
-            <!-- 动态生成的机体卡片 -->
-        </section>
-    </main>
+    <div id="kmf-list-container" class="kmf-grid">
+        <div class="loading">加载机动兵器数据中 ... ⚡</div>
+    </div>
 
-    <script src="js/data.js"></script>
-    <script src="js/main.js"></script>
+    <div class="footer">
+        © 布里塔尼亚帝国技术部 · 机体总数: <span id="total-count">0</span>
+    </div>
+</div>
+
+<script>
+    const LIST_JSON_URL = "./kmf_list_3.json";
+    let allKmfData = [];            // 原始全部机体列表
+    let currentCategory = null;     // 当前筛选的分类类别 (如 "Anime")
+    let currentValue = null;        // 当前筛选的分类值 (如 "Code Geass: Lelouch of the Rebellion")
+    let filterButtonsState = {};     // 存储各个分类的按钮状态
+
+    // 中文分类映射
+    const categoryNames = {
+        "Anime": "📺 动画",
+        "Manga": "📖 漫画",
+        "Game": "🎮 游戏",
+    // 暂时隐藏制造商和所属势力：
+    // "Manufacturer": "🏭 制造商",
+    // "Operators": "⚔️ 所属势力"
+    };
+
+    // 获取唯一分类值 (例如所有 Anime 下出现的作品名)
+    function getUniqueValuesForCategory(category) {
+        const values = new Set();
+        allKmfData.forEach(kmf => {
+            const cats = kmf.categories || {};
+            const arr = cats[category];
+            if (Array.isArray(arr)) {
+                arr.forEach(v => values.add(v));
+            } else if (typeof arr === 'string') {
+                values.add(arr);
+            }
+        });
+        return Array.from(values).sort((a, b) => a.localeCompare(b, 'zh'));
+    }
+
+    // 生成筛选栏 HTML
+    function buildFilterBar() {
+        const container = document.getElementById('filter-bar');
+        if (!container) return;
+
+        const categories = Object.keys(categoryNames);
+        let html = '';
+
+        categories.forEach(cat => {
+            const values = getUniqueValuesForCategory(cat);
+            if (values.length === 0) return;
+
+            html += `<div class="filter-group">
+                        <label>${categoryNames[cat]}:</label>
+                        <div class="filter-buttons" data-category="${cat}">
+                            <button class="filter-btn category-all" data-category="${cat}" data-value="__all__">全部</button>`;
+            values.forEach(val => {
+                html += `<button class="filter-btn" data-category="${cat}" data-value="${escapeHtml(val)}">${escapeHtml(val)}</button>`;
+            });
+            html += `</div></div>`;
+        });
+
+        if (html) {
+            html += `<div class="filter-group">
+                        <label>操作:</label>
+                        <div class="filter-buttons">
+                            <button class="filter-btn reset-btn" id="reset-all-filters">🗑️ 清除所有筛选</button>
+                        </div>
+                    </div>`;
+            container.innerHTML = html;
+            bindFilterEvents();
+        } else {
+            container.innerHTML = '<div style="text-align:center; color:#aaa;">暂无分类数据</div>';
+        }
+    }
+
+    // 绑定按钮点击事件
+    function bindFilterEvents() {
+        // 所有分类按钮
+        document.querySelectorAll('.filter-btn[data-category]').forEach(btn => {
+            btn.removeEventListener('click', handleFilterClick);
+            btn.addEventListener('click', handleFilterClick);
+        });
+        const resetBtn = document.getElementById('reset-all-filters');
+        if (resetBtn) {
+            resetBtn.removeEventListener('click', resetFilters);
+            resetBtn.addEventListener('click', resetFilters);
+        }
+    }
+
+    function handleFilterClick(e) {
+        const btn = e.currentTarget;
+        const category = btn.dataset.category;
+        let value = btn.dataset.value;
+        // 如果是“全部”按钮，value 为 "__all__"
+        if (value === '__all__') {
+            // 如果当前筛选类别相同且是全部，则清除筛选
+            if (currentCategory === category && currentValue === null) {
+                // 已经是全部状态，不做变化
+            } else {
+                currentCategory = category;
+                currentValue = null;
+            }
+        } else {
+            currentCategory = category;
+            currentValue = value;
+        }
+        // 高亮当前激活的按钮
+        updateActiveButton(category, value);
+        // 执行筛选渲染
+        renderFilteredList();
+    }
+
+    function updateActiveButton(category, value) {
+        // 清除同 category 下所有按钮的 active 状态
+        const group = document.querySelector(`.filter-buttons[data-category="${category}"]`);
+        if (!group) return;
+        group.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        if (value === null) {
+            // 激活“全部”按钮
+            const allBtn = group.querySelector('.category-all');
+            if (allBtn) allBtn.classList.add('active');
+        } else {
+            const targetBtn = group.querySelector(`.filter-btn[data-value="${escapeHtml(value)}"]`);
+            if (targetBtn) targetBtn.classList.add('active');
+        }
+    }
+
+    function resetFilters() {
+        currentCategory = null;
+        currentValue = null;
+        // 清除所有高亮
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        renderFilteredList();
+    }
+
+    // 根据当前筛选条件过滤机体
+    function getFilteredKmf() {
+        if (!currentCategory || !currentValue) {
+            return allKmfData;
+        }
+        return allKmfData.filter(kmf => {
+            const cats = kmf.categories || {};
+            const values = cats[currentCategory];
+            if (!values) return false;
+            if (Array.isArray(values)) {
+                return values.includes(currentValue);
+            }
+            return values === currentValue;
+        });
+    }
+
+    // 渲染卡片列表
+    function renderFilteredList() {
+        const container = document.getElementById('kmf-list-container');
+        const filtered = getFilteredKmf();
+        if (filtered.length === 0) {
+            container.innerHTML = '<div class="no-result">⚠️ 没有找到符合筛选条件的机体</div>';
+            document.getElementById('total-count').innerText = allKmfData.length;
+            return;
+        }
+        container.innerHTML = '';
+        filtered.forEach(kmf => {
+            const card = createKmfCard(kmf);
+            container.appendChild(card);
+        });
+        document.getElementById('total-count').innerText = allKmfData.length;
+    }
+
+    // 创建单个卡片 DOM
+    function createKmfCard(kmf) {
+        const engName = kmf.name;
+        const chnName = kmf.chinese_name || kmf.name;
+        const thumbPath = `./images/kmf_gallery/${encodeURIComponent(engName)}/cover_thumb.jpg`;
+
+        const card = document.createElement('div');
+        card.className = 'kmf-card';
+        card.addEventListener('click', () => {
+            window.location.href = `detail.html?kmf=${encodeURIComponent(engName)}`;
+        });
+
+        const imgDiv = document.createElement('div');
+        imgDiv.className = 'card-img';
+        const img = document.createElement('img');
+        img.src = thumbPath;
+        img.alt = chnName;
+        img.loading = 'lazy';
+        img.onerror = (e) => {
+            e.target.onerror = null;
+            e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 85'%3E%3Crect width='60' height='85' fill='%23151f2c'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23dbb45c' font-size='9'%3E${engName.substring(0, 6)}%3C/text%3E%3C/svg%3E`;
+            img.style.objectFit = 'contain';
+        };
+        imgDiv.appendChild(img);
+
+        const infoDiv = document.createElement('div');
+        infoDiv.className = 'card-info';
+        infoDiv.innerHTML = `
+            <div class="chinese-name" title="${escapeHtml(chnName)}">${escapeHtml(chnName)}</div>
+            <div class="english-name" title="${escapeHtml(engName)}">${escapeHtml(engName)}</div>
+        `;
+
+        card.appendChild(imgDiv);
+        card.appendChild(infoDiv);
+        return card;
+    }
+
+    function escapeHtml(str) {
+        if (!str) return '';
+        return str.replace(/[&<>]/g, function (m) {
+            if (m === '&') return '&amp;';
+            if (m === '<') return '&lt;';
+            if (m === '>') return '&gt;';
+            return m;
+        });
+    }
+
+    // 加载 kmf_list_3.json 并初始化
+    async function init() {
+        const container = document.getElementById('kmf-list-container');
+        try {
+            const res = await fetch(LIST_JSON_URL);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const data = await res.json();
+            if (!Array.isArray(data) || data.length === 0) {
+                container.innerHTML = '<div class="error-msg">⚠️ 机体列表为空</div>';
+                return;
+            }
+            allKmfData = data;
+            document.getElementById('total-count').innerText = allKmfData.length;
+
+            // 生成筛选栏（需要 allKmfData 就绪）
+            buildFilterBar();
+
+            // 初次渲染全部
+            renderFilteredList();
+        } catch (err) {
+            console.error(err);
+            container.innerHTML = `<div class="error-msg">❌ 加载失败: ${err.message}<br>请确认 kmf_list_3.json 存在且格式正确</div>`;
+        }
+    }
+
+    init();
+</script>
 </body>
 </html>

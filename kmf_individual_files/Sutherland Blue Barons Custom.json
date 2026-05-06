@@ -1,0 +1,29 @@
+{
+  "english_name": "Sutherland Blue Barons Custom",
+  "name": "萨瑟兰蓝色男爵特装型",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_Blue_Barons_Custom",
+  "specs": {
+    "Model Number": "RPI-13/BC",
+    "KMF Generation": "5th",
+    "Overall Height": "4.39 meters",
+    "Gross Weight": "7.48 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "萨瑟兰",
+    "Operators": "神圣布里塔尼亚帝国蓝色男爵",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\nI.F.F敌我识别应答系统",
+    "Fixed": "2x飞燕爪牙",
+    "Handheld": "2x 肘部安装式电击拐棍\n1x 突击步枪\n1x 巨型加农炮\n1x 骑枪\n1x 胸部安装式机枪\n混沌地雷",
+    "Manga": "Code Geass：双貌的奥兹",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/37/Sutherland-BlueBaronsCustom.png/revision/latest/scale-to-width-down/268?cb=20240417184629",
+  "introduction": "萨瑟兰（蓝色男爵仕样）是神圣布里塔尼亚帝国特种部队“蓝色男爵”所使用的萨瑟兰。",
+  "Design and Specifications": "黑色叛乱后，蓝男爵队成立，其目的是追捕黑色骑士团的残余势力，尤其是红月卡莲。该机体以标准型萨瑟兰为基础，针对小队使用进行了规格改造，并重新涂装为蓝色。",
+  "Operational History": "蓝色男爵首次参与的战斗是在古吉拉特，当时他们追踪卡莲和浦部至该地。在此期间，他们首先与和平标志特工俄耳甫斯·泽冯交手，后者为红莲贰式的修复争取时间。当红莲投入战场后，两人击败了被派遣的部队。\n\n此后，蓝色男爵在第11区参与了数次小规模冲突。最终，除队长萨菲·卡拉斯外，整个部队在北部码头战役中被全歼。",
+  "image_folder": "Sutherland Blue Barons Custom",
+  "image_variants": [
+    "Standard"
+  ]
+}

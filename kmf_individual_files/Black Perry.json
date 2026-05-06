@@ -1,0 +1,19 @@
+{
+  "english_name": "Black Perry",
+  "name": "黑佩里",
+  "url": "https://codegeass.fandom.com/wiki/Black_Perry",
+  "specs": {
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "抱歉，您只提供了“Perry”这个词，没有提供需要翻译的英文文本。请提供完整的英文文本内容，我将根据您的要求进行专业翻译。",
+    "Standard": "能量护盾（Blaze Luminous）系统悬浮飞行系统强子炮",
+    "Manga": "Code Geass：异世界幕府物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/9/90/The_Blackship.jpg/revision/latest/scale-to-width-down/268?cb=20240814175531",
+  "introduction": "黑色佩里号是佩里使用的一艘巨型黑色舰船。它搭载了大量KMF，并可变形为一台巨型KMF式机体。",
+  "image_folder": "Black Perry",
+  "image_variants": [
+    "Standard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "english_name": "Sougetsu",
+  "name": "苍月",
+  "url": "https://codegeass.fandom.com/wiki/Sougetsu",
+  "specs": {
+    "Model Number": "Type-03B",
+    "Codename": "抱歉，您只提供了“Sougetsu”这个单词，没有提供完整的英文文本。请提供需要翻译的完整英文内容，我将根据您的要求进行专业翻译。",
+    "KMF Generation": "等同于第7世代",
+    "Overall Height": "4.45 meters",
+    "Gross Weight": "8.35 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统,能量填充器",
+    "Armor Materials": "钨",
+    "Manufacturer": "印度军事化区域",
+    "Developed From": "红莲贰式 月下原型机",
+    "Developed Into": "久明创月",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "DiselC.C.（临时）",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n背部内置箔条烟雾散布系统",
+    "Fixed": "1x 左臂搭载型护盾爪\n1x 飞燕爪牙（Hien Souga型）",
+    "Handheld": "1x 旋转刃薙刀"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/e/e6/Sougetsu.jpg/revision/latest/scale-to-width-down/268?cb=20240728160441",
+  "introduction": "苍月（Sōgetsu，意为“蓝月”）是游戏《Code Geass 叛逆的鲁路修 遗失物语》中登场的一台KMF，由主角驾驶。",
+  "Design and Development": "苍月是由月下原型机改造而来。其左臂的辐射波动装置被替换为新型盾爪武器，兼具攻防能力。由于缺乏远程武器，苍月专为近距离格斗战设计。尽管火力不足，但其速度与高机动性足以与兰斯洛特抗衡，不过后者仍能凭借更快的速度占据上风。\n\n苍月利用左臂盾爪锁定敌方机体，随后以锋锐利爪将其粉碎。其战斗风格以游击战术为核心，凭借旋转长枪武器薙刀的一击横扫，即可斩裂KMF机体。",
+  "Operational History": "苍月首次登场时，是与红莲贰式一同从京都交付给黑色骑士团，并由主角驾驶。与红莲一样，它在成田战役中发挥了关键作用，主要任务是牵制安德烈亚斯·达尔顿，阻止他在Zero设伏期间接近柯内莉亚。在此之前，它曾与布里塔尼亚士兵交战，将其引诱至日本解放阵线炮火覆盖范围，从而在兵力劣势下取得优势。\n\n当兰斯洛特出现并释放干扰装置导致黑色骑士团无法达成目标时，苍月前往支援Zero，在其无赖被击落后救出Zero。随后它与兰斯洛特展开战斗，但因能量不足而处于劣势。最终因驾驶员在驾驶舱内受伤而瘫痪。之后Zero回收了苍月，用于运送C.C.和主角至安全地点。战斗结束后，苍月在黑色骑士团总部得到完全修复。\n\n苍月后来在第13章（第一部结尾）再次出现。迪塞尔在与玛格达拉的战斗中失去了萨瑟兰定制型，在废弃运输卡车中发现了苍月，并再次驾驶苍月反击玛格达拉。最终迪塞尔通过摧毁左臂成功击退玛格达拉，但苍月也在该战斗中失去了左盾。\n\n在黑色叛乱事件中，苍月与其他被俘的黑色骑士团KMF一同被转移至横滨的布里塔尼亚军事基地。在\"失落的Zero\"篇第4章中，卡莲等人前来夺回KMF，C.C.偷走苍月逃离横滨地区。",
+  "Specifications": "基本参数  \n乘员：1人  \n高度：4.45米  \n重量：8.34公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n驾驶舱弹射系统  \n高機走駆動轮式陆行旋轮推进系统  \n背部内置干扰箔条烟雾发射装置  \n\n武装  \n1x 飞燕爪牙（Hien Souga型）  \n1x 左臂搭载盾爪  \n\n可选武装  \n1x 旋转刃薙刀",
+  "image_folder": "Sougetsu",
+  "image_variants": [
+    "Standard"
+  ]
+}

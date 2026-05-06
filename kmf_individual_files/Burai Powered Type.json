@@ -1,0 +1,24 @@
+{
+  "english_name": "Burai Powered Type",
+  "name": "Burai强化型",
+  "url": "https://codegeass.fandom.com/wiki/Burai_Powered_Type",
+  "specs": {
+    "Classification": "改装型近战KMF",
+    "Codename": "Burai强化型",
+    "KMF Generation": "4th",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都之家",
+    "Developed From": "无赖",
+    "Operators": "黑色骑士团",
+    "Game": "Code Geass DS"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/26/BuraiPoweredType.png/revision/latest?cb=20100722124653",
+  "introduction": "布赖强化型仅在DS平台《Code Geass 反叛的鲁路修》中登场。布赖强化型是以布赖为基础改造的机型，既承担工程任务又具备作战能力。相较于纯粹的战斗用KMF，该机型更侧重于工程作业或资源采集。然而，黑色骑士团也曾将布赖强化型投入战场使用。",
+  "Design and Development": "根据普通无赖改造而来的无赖强化型。采用黑色涂装，以一对巨型爪作为主要近战武器。",
+  "Specifications": "一般特性\n乘员：1人动力源：世界树驱动超导体转移系统，能量填充器\n设计特点\n驾驶舱弹射系统广域感知传感器陆行旋轮推进系统\n武装\n2x 左右臂内置剪刀爪臂2x 胸部搭载飞燕爪牙\n可选武装\n1x 突击步枪1x 腕部四联装导弹发射器（共8管）1x 左肘部搭载拐棍（仅见于《京都来的使者》）",
+  "image_folder": "Burai Powered Type",
+  "image_variants": [
+    "Standard"
+  ]
+}

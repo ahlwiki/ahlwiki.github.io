@@ -1,0 +1,30 @@
+{
+  "english_name": "Aroundight",
+  "name": "亚隆戴特",
+  "url": "https://codegeass.fandom.com/wiki/Aroundight",
+  "specs": {
+    "Model Number": "RPI-13-TZ01",
+    "Codename": "亚隆戴特",
+    "KMF Generation": "5th",
+    "Overall Height": "4.41 meters",
+    "Gross Weight": "7.95 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "卡美洛",
+    "Developed From": "萨瑟兰定制型（迪塞尔机）兰斯洛特",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "马里奥/玛雅·加菲尔德",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n能量护盾（Blaze Luminous）\n外挂大型能量填充器",
+    "Fixed": "2x飞燕爪牙",
+    "Handheld": "1xVARIS步枪2x高周波振动剑（MVS）"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/5f/Aroundight.jpg/revision/latest/scale-to-width-down/268?cb=20240801045730",
+  "introduction": "阿隆戴特是《Code Geass 反叛的鲁路修 遗失物语》中登场的一台机体。由卡美洛公司为其测试驾驶员建造，用于测试兰斯洛特装备的量产化可行性。",
+  "Design and Development": "为了量产兰斯洛特供普通士兵使用，卡美洛以萨瑟兰为基础，并采用了萨瑟兰定制型的数据。与仅携带VARIS步枪的萨瑟兰定制型不同，阿隆戴特使用了兰斯洛特的大部分装备，包括两把高周波振动剑（MVS）、一把VARIS步枪、两个能量护盾（Blaze Luminous）以及肩部两个广域感知传感器，但仅配备两枚飞燕爪牙。由于能耗较高，像萨瑟兰定制型一样额外安装了一个能量填充器。",
+  "Operational History": "卡美洛与其他研发团队共同承担了为普通士兵开发量产型兰斯洛特的\"文森特计划\"。作为卡美洛的测试平台，他们制造了名为\"阿隆戴特\"的机体，由加菲尔德担任首席测试驾驶员。\n\n该机体的首次任务是执行人质救援行动，与两架搭载定制装备的萨瑟兰共同出击。阿隆戴特此后持续参与作战，直至太平洋战役中最终被摧毁，加菲尔德下落不明。由于这一突发状况，其测试数据未能用于文森特计划，转而采用兰斯洛特试作型的测试数据作为文森特的设计依据。",
+  "Trivia": "\"阿隆戴特\"之名源自亚瑟王赐予兰斯洛特爵士的圣剑，是与誓约胜利之剑成对的姊妹剑。",
+  "image_folder": "Aroundight",
+  "image_variants": [
+    "Standard"
+  ]
+}

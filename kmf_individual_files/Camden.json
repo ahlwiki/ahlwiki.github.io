@@ -1,0 +1,26 @@
+{
+  "english_name": "Camden",
+  "name": "卡姆登",
+  "url": "https://codegeass.fandom.com/wiki/Camden",
+  "specs": {
+    "Model Number": "RPI-221",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "新布里塔尼亚帝国",
+    "Operators": "新布里塔尼亚帝国",
+    "Known Pilots": "Greede KirkwayneGran KirkwayneTomoomi OdaKensei Kuroto",
+    "Standard": "2x陆行旋轮推进系统",
+    "Fixed": "2x 反坦克导弹2x 地对空导弹",
+    "Handheld": "1x 突击步枪",
+    "Anime": "《Code Geass：夺还的Roze》"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/0/04/Camden.jpg/revision/latest/scale-to-width-down/268?cb=20240622143039",
+  "introduction": "卡姆登（Camden，カムデン，Kamuden）是《Code Geass：夺还的罗塞》中登场的KMF。它是新布里塔尼亚帝国使用的量产机型。",
+  "Design and Development": "约第七代KMF的卡姆登型，其设计大幅偏离了传统布里塔尼亚KMF的造型。外观更接近带有\"装甲顶盖\"的方正结构，头部直接连接在\"顶盖\"而非传统布里塔尼亚KMF的\"颈部\"上。这种设计理念使卡姆登型比同代KMF更具\"坦克式\"防御特性。\n同样，这种箱式结构也使该KMF具备极高的模块化与泛用性——其侧面拥有充足表面积，可各安装4×2反坦克导弹或3×2地对空导弹，大幅提升作战能力。这种模块化设计在降低专业性的同时，提高了标准化程度并降低了制造成本。\n机械臂较纤细，取消了前代型号配备的眩晕电击棍，腿部采用趾行式而非跖行式结构。此外，与陆行旋轮推进系统常见的传统车轮不同，卡姆登型采用麦克纳姆轮，赋予KMF全向推进能力，使其具备极高的机动性。",
+  "Operational History": "卡姆登最初在新布里塔尼亚军队进攻并占领北海道时投入使用，并在占领该岛后成为该国标准配备的KMF。由于其更坚固的设计，卡姆登在战斗中证明与晓升级型型号不相上下。但它仍然无法匹敌更先进和专属的KMF。",
+  "Trivia": "其名称可能源自内伦敦的一个自治市——卡姆登。",
+  "image_folder": "Camden",
+  "image_variants": [
+    "Standard"
+  ]
+}

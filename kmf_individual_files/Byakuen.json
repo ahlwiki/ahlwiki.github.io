@@ -1,0 +1,33 @@
+{
+  "english_name": "Byakuen",
+  "name": "白炎",
+  "url": "https://codegeass.fandom.com/wiki/Byakuen",
+  "specs": {
+    "Classification": "定制型KMF",
+    "Model Number": "Type-01/C",
+    "Codename": "白炎",
+    "KMF Generation": "等同于第7世代",
+    "Overall Height": "4.75 meters",
+    "Gross Weight": "7.941 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Developed From": "红莲壹式",
+    "Developed Into": "白炎",
+    "Variants": "白炎可翔式  \n白炎水中定制型",
+    "Operators": "和平标志",
+    "Known Pilots": "奥菲斯·泽冯",
+    "Status": "激活/升级版",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n干扰装置破坏器",
+    "Fixed": "1x 晓苍月型飞燕爪牙（左胸搭载）1x 右臂内置\"7型统合武装右臂\"",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/c/ca/Nyakuren.jpg/revision/latest/scale-to-width-down/268?cb=20120419023807",
+  "introduction": "白炎（Byakuen，意为“白色火焰”）是一款定制型KMF，其基础设计源自红莲贰式的前身——最初在印度军事化区开发的红莲壹式。与红莲相同，白炎的性能优于第五代布里塔尼亚制KMF，其技术水准与多数第七代KMF相当。白炎沿用了红莲的驾驶舱布局和摩托车造型的驾驶员座椅，头部顶端伸出一根甲虫般的角状天线。现存唯一机体由恐怖组织“和平印记”持有，由俄耳甫斯·泽冯驾驶。",
+  "Design and Development": "白炎的主要特征是其“七式统合兵装右腕部”（简称“七式”）。七式由一系列安装在白炎右臂金色装置中的短程与远程武器构成，使白炎能随时适应任何战斗状况。七式包含七种武器：手臂末端的常规机械手；两柄不规则红色刀刃，可组合成锯齿单刃、双刃合并形态或巨型剪刀；能轻易贯穿重型装甲KMF的钻头；可切换弹药发射穿甲弹或榴弹的超出力电磁加速炮；以及另一件尚未完成、仅会追加至白炎升级版的武器。\n\n除七式外，白炎仅有的其他武器是收纳于胸部左侧的单枚飞燕爪牙。不过其额头角部搭载了名为“Gefjun Breaker”的EMP装置，该装置基于拉克夏塔·恰拉发明的干扰装置技术。以消耗白炎大量能量填充器为代价，Gefjun Breaker能停止白炎周围100米范围内所有以樱石为动力的设备运作。然而白炎自身也会因Gefjun场而失去动力，堪称双刃剑。",
+  "Specifications": "一般特性  \n乘员：1人  \n高度：4.75米  \n重量：7.941公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特点  \n驾驶舱弹射系统  \n高機走駆動輪式陆行旋轮推进系统  \n干扰装置（Gefjun Breaker）  \n\n武装  \n1x 飛燕爪牙式飞燕爪牙（左胸部安装）  \n右臂内置“7型统合武装右臂”  \n机械手爪  \n单发不规则刃（带锯齿边缘）  \n组合刃（两片不规则刃连接）  \n巨型剪刀  \n钻头  \n超出力电磁加速炮（可在穿甲弹与榴弹间切换）  \n未知武器（未完成，将追加至白炎·烈火）",
+  "image_folder": "Byakuen",
+  "image_variants": [
+    "Standard"
+  ]
+}

@@ -1,0 +1,2958 @@
+[
+    {
+        "name": "Agravain",
+        "chinese_name": "阿格拉万",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Zevon family"
+            ],
+            "Operators": [
+                "Peace Mark"
+            ]
+        }
+    },
+    {
+        "name": "Ahuramazda",
+        "chinese_name": "阿胡拉·马兹达",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Euro Britannia"
+            ],
+            "Operators": [
+                "Euro Britannia"
+            ]
+        }
+    },
+    {
+        "name": "Akatsuki Command Model Zikisan",
+        "chinese_name": "晓 直参仕样",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Akatsuki Mass-Production Model",
+        "chinese_name": "晓量产型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Akatsuki-Upgrade",
+        "chinese_name": "晓-改",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Operators": [
+                "Seven Shining Stars"
+            ]
+        }
+    },
+    {
+        "name": "Alexa Narisuna",
+        "chinese_name": "亚历克莎·纳里苏纳",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ]
+        }
+    },
+    {
+        "name": "Alexander",
+        "chinese_name": "亚历山大",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "United Republic of EuropiawZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Drone",
+        "chinese_name": "亚历山大无人机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "wZEROUnited Republic of Europia"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Drone (Mass Production Model)",
+        "chinese_name": "亚历山大无人机（量产型）",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "wZEROUnited Republic of Europia"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Liberte",
+        "chinese_name": "亚历山大·解放者",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "wZEROUnited Republic of Europia"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Red Ogre",
+        "chinese_name": "亚历山大·赤鬼",
+        "categories": {}
+    },
+    {
+        "name": "Alexander Type-02",
+        "chinese_name": "亚历山大贰式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Clément Factory"
+            ],
+            "Operators": [
+                "wZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Type-02 Ayano Version",
+        "chinese_name": "亚历山大贰式·绫乃机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Clément Industries"
+            ],
+            "Operators": [
+                "United Republic of EuropiawZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Type-02 Leila Version",
+        "chinese_name": "亚历山大贰式·蕾拉机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "United Republic of EuropiawZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Type-02 Ryo Version",
+        "chinese_name": "亚历山大贰式·流机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "United Republic of EuropiawZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Type-02 Yukiya Version",
+        "chinese_name": "亚历山大贰式·幸也机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "United Republic of EuropiawZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Valiant",
+        "chinese_name": "亚历山大·勇毅型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Clement FactoryEuropia United"
+            ],
+            "Operators": [
+                "Europia United"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Valiant Ayano Version",
+        "chinese_name": "亚历山大·勇毅型·绫乃机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Clement Industries"
+            ],
+            "Operators": [
+                "United Republic of EuropiawZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Valiant Ryo Version",
+        "chinese_name": "亚历山大·勇毅型·流机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Clément Factory"
+            ],
+            "Operators": [
+                "Europia UnitedwZERO"
+            ]
+        }
+    },
+    {
+        "name": "Alexander Valiant Yukiya Version",
+        "chinese_name": "亚历山大·勇毅型·幸也机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Clément Factory"
+            ],
+            "Operators": [
+                "Europia UnitedwZERO"
+            ]
+        }
+    },
+    {
+        "name": "Amanecer",
+        "chinese_name": "黎明",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Star of Madrid"
+            ]
+        }
+    },
+    {
+        "name": "Aquila",
+        "chinese_name": "阿奎拉",
+        "categories": {
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Aroundight",
+        "chinese_name": "亚隆戴特",
+        "categories": {
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Bamides",
+        "chinese_name": "巴米德斯",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Middle Eastern Federation"
+            ],
+            "Operators": [
+                "Middle Eastern FederationThe Order of the Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Batalalan Du",
+        "chinese_name": "巴塔拉兰·杜",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Operators": [
+                "Kingdom of Zilkhstan"
+            ]
+        }
+    },
+    {
+        "name": "Benihozuki",
+        "chinese_name": "红焰月",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "The Black Knights"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Black Perry",
+        "chinese_name": "黑佩里",
+        "categories": {
+            "Manga": [
+                "Code Geass: Tales of an Alternate Shogunate"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Bradford",
+        "chinese_name": "布拉德福德",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Steiner Aeronautics"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Bradford Brave",
+        "chinese_name": "布拉德福德·布雷夫",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Brighton",
+        "chinese_name": "布莱顿",
+        "categories": {
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Burai",
+        "chinese_name": "无赖",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection",
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "Japan Liberation FrontBlack Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Close Combat Type",
+        "chinese_name": "无赖近战型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Custom",
+        "chinese_name": "Burai Custom",
+        "categories": {
+            "Manufacturer": [
+                "The Black Knights"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Drill Type",
+        "chinese_name": "无赖钻头型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Enhanced Long Range Type",
+        "chinese_name": "Burai 强化远程型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black KnightsJapanese Liberation Front"
+            ]
+        }
+    },
+    {
+        "name": "Burai Experimental Radiant Wave Type",
+        "chinese_name": "无赖试作型辐射波动式",
+        "categories": {
+            "Manufacturer": [
+                "The Black Knights"
+            ],
+            "Operators": [
+                "The Black Knights",
+                "Japan Liberation Front"
+            ]
+        }
+    },
+    {
+        "name": "Burai Full Enhancement Type",
+        "chinese_name": "全强化型无赖",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ]
+        }
+    },
+    {
+        "name": "Burai Heavy Weapons Type",
+        "chinese_name": "无赖重武装型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai High Mobility Type",
+        "chinese_name": "无赖高机动型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Kai",
+        "chinese_name": "改式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "Japan Liberation Front"
+            ]
+        }
+    },
+    {
+        "name": "Burai Long Range Type",
+        "chinese_name": "无赖远程型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Powered Type",
+        "chinese_name": "Burai强化型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Radiation Wave Test Type",
+        "chinese_name": "辐射波动试验型无赖",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Special Weapons A-Type",
+        "chinese_name": "Burai特殊武装A型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Special Weapons B-Type",
+        "chinese_name": "Burai特殊武装B型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Burai Zero Custom",
+        "chinese_name": "无赖零式定制型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Byakuen",
+        "chinese_name": "白炎",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Peace Mark"
+            ]
+        }
+    },
+    {
+        "name": "Camden",
+        "chinese_name": "卡姆登",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Canterbury",
+        "chinese_name": "坎特伯雷",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Euro BritanniaBritannian Military"
+            ]
+        }
+    },
+    {
+        "name": "Chuyen",
+        "chinese_name": "朱厌",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Chinese Federation"
+            ]
+        }
+    },
+    {
+        "name": "Code Geass (Nightmare of Nunnally)",
+        "chinese_name": "Code Geass（娜娜莉的梦魇）",
+        "categories": {
+            "Manga": [
+                "Code Geass: Nightmare of Nunnally"
+            ]
+        }
+    },
+    {
+        "name": "Doomsday",
+        "chinese_name": "末日",
+        "categories": {}
+    },
+    {
+        "name": "Elcarmal",
+        "chinese_name": "埃尔卡马尔",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg"
+            ]
+        }
+    },
+    {
+        "name": "Elgrips",
+        "chinese_name": "埃尔格里普斯",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg"
+            ]
+        }
+    },
+    {
+        "name": "Elphaba",
+        "chinese_name": "埃尔法巴",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Equus",
+        "chinese_name": "Equus",
+        "categories": {
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Estrella",
+        "chinese_name": "埃斯特雷拉",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion II — Transgression"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Operators": [
+                "United Republic of EuropiaStar of Madrid"
+            ]
+        }
+    },
+    {
+        "name": "Fleipnir",
+        "chinese_name": "弗莱皮尼尔",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg"
+            ]
+        }
+    },
+    {
+        "name": "Florence",
+        "chinese_name": "佛罗伦萨",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Clément Factory (Basis)Toromo Agency(Modifications)"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKnights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Foulbout",
+        "chinese_name": "福尔伯特",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg"
+            ]
+        }
+    },
+    {
+        "name": "Galahad",
+        "chinese_name": "加拉哈德",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKnights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Ganymede",
+        "chinese_name": "加尼梅德",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Ashford Foundation"
+            ],
+            "Operators": [
+                "Ashford AcademyHoly Britannian EmpireBritannian Military"
+            ]
+        }
+    },
+    {
+        "name": "Gardmare",
+        "chinese_name": "加德玛",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Europia United"
+            ],
+            "Operators": [
+                "Europia United"
+            ]
+        }
+    },
+    {
+        "name": "Gareth",
+        "chinese_name": "加雷斯",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian Air ForceGlaston Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gawain",
+        "chinese_name": "高文",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Holy Britannian EmpireZevon Family"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gawain LDM",
+        "chinese_name": "高文 LDM",
+        "categories": {
+            "Game": [
+                "Code Geass: Genesic Re;Code"
+            ]
+        }
+    },
+    {
+        "name": "Gawain Rezero",
+        "chinese_name": "高文·再零",
+        "categories": {
+            "Game": [
+                "Code Geass: Genesic Re;Code"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gawain Tennsyu",
+        "chinese_name": "高文·天守",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Black Knights"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gekka",
+        "chinese_name": "月华",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gekka (Crow version)",
+        "chinese_name": "月下（鸦型）",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Peace Mark"
+            ]
+        }
+    },
+    {
+        "name": "Gekka (Todoh version)",
+        "chinese_name": "月下（藤堂机）",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gekka Alonso",
+        "chinese_name": "月下·阿隆索",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Militarized Zone of IndiaHoly Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Gekka Custom",
+        "chinese_name": "月下·改",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Gekka Narisuna",
+        "chinese_name": "月下·成澄",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Militarized Zone of India"
+            ]
+        }
+    },
+    {
+        "name": "Gekka Prototype",
+        "chinese_name": "月下原型机",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Colors"
+            ],
+            "Manufacturer": [
+                "Kyoto House"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gekka Shiden",
+        "chinese_name": "月华·紫电",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Peace Mark"
+            ]
+        }
+    },
+    {
+        "name": "Gekkoei",
+        "chinese_name": "月光",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Pearl Party"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gekkoei Sui",
+        "chinese_name": "月光·翠",
+        "categories": {
+            "Game": [
+                "Super Robot Wars 30"
+            ],
+            "Manga": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Pearl Party"
+            ],
+            "Operators": [
+                "The Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Ghedo Vakka",
+        "chinese_name": "格多·瓦卡",
+        "categories": {
+            "Manufacturer": [
+                "Kingdom of Zilkhstan"
+            ],
+            "Operators": [
+                "Kingdom of Zilkhstan"
+            ]
+        }
+    },
+    {
+        "name": "Glasgow",
+        "chinese_name": "格拉斯哥",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian MilitaryJapanese Resistance"
+            ]
+        }
+    },
+    {
+        "name": "Glasgow Orpheus Custom",
+        "chinese_name": "格拉斯哥·俄耳甫斯定制型",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Operators": [
+                "Peace Mark"
+            ]
+        }
+    },
+    {
+        "name": "Gloucester",
+        "chinese_name": "格洛斯特",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlaston Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gloucester (Cornelia version)",
+        "chinese_name": "格洛斯特（柯内莉亚专用机）",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian Military"
+            ]
+        }
+    },
+    {
+        "name": "Gloucester Blue Barons Custom",
+        "chinese_name": "格洛斯特 蓝色男爵特装型",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireBlue Barons"
+            ]
+        }
+    },
+    {
+        "name": "Gloucester Final Type",
+        "chinese_name": "格洛斯特最终型",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian Military"
+            ]
+        }
+    },
+    {
+        "name": "Gloucester Glinda",
+        "chinese_name": "格洛斯特·格林达",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Gloucester Pluton Custom",
+        "chinese_name": "格洛斯特·普鲁顿定制型",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpirePluton"
+            ]
+        }
+    },
+    {
+        "name": "Gloucester Swordsman",
+        "chinese_name": "格洛斯特剑士",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireEuro BritanniaHoly Order of MichaelHoly Order of RaphaelHoly Order of UrielHoly Order of Gabriel"
+            ]
+        }
+    },
+    {
+        "name": "God Rebellion",
+        "chinese_name": "神之反叛",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ]
+        }
+    },
+    {
+        "name": "Gouka Byakuen",
+        "chinese_name": "白炎",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Militarized Zone of IndiaPeace Mark"
+            ],
+            "Operators": [
+                "Peace Mark"
+            ]
+        }
+    },
+    {
+        "name": "Gracchus",
+        "chinese_name": "格拉克乌斯",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireEuro BritanniaKnights of St. Michael"
+            ]
+        }
+    },
+    {
+        "name": "Gun Du Goon",
+        "chinese_name": "钢髅",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Kingdom of Zilkhstan"
+            ],
+            "Operators": [
+                "Kingdom of Zilkhstan"
+            ]
+        }
+    },
+    {
+        "name": "Gun-Ru",
+        "chinese_name": "钢髅",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Chinese Federation"
+            ],
+            "Operators": [
+                "Chinese FederationUnited Federation of NationsThe Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Guren Flight-Enabled Version",
+        "chinese_name": "红莲可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Guren LDM",
+        "chinese_name": "红莲LDM",
+        "categories": {
+            "Game": [
+                "Code Geass: Genesic Re;Code"
+            ]
+        }
+    },
+    {
+        "name": "Guren Mk-II Kai",
+        "chinese_name": "红莲贰式改",
+        "categories": {
+            "Game": [
+                "Code Geass DS"
+            ],
+            "Manufacturer": [
+                "Militarized Zone of India"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Guren SEITEN Eight Elements",
+        "chinese_name": "红莲圣天八极式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection",
+                "Code Geass: Lelouch of the Rebellion Re"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Guren Type Special",
+        "chinese_name": "红莲特式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manga": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Pearl Party"
+            ],
+            "Operators": [
+                "The Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Guren Type Special Flaming Halo",
+        "chinese_name": "红莲特式 烈焰光轮",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manga": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Pearl Party"
+            ],
+            "Operators": [
+                "The Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Guren Type-01",
+        "chinese_name": "红莲壹式",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Militarized Zone of India"
+            ]
+        }
+    },
+    {
+        "name": "Guren Type-02",
+        "chinese_name": "红莲贰式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Guren Type-Hei",
+        "chinese_name": "红莲丙式",
+        "categories": {
+            "Manufacturer": [
+                "Militarized Zone of India"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "GX 01",
+        "chinese_name": "GX 01",
+        "categories": {
+            "Manga": [
+                "Code Geass: Nightmare of Nunnally"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireBritannian Special Honorary Foreign Legion"
+            ]
+        }
+    },
+    {
+        "name": "GX 01 (Dalque)",
+        "chinese_name": "GX 01（达尔克）",
+        "categories": {
+            "Manga": [
+                "Code Geass: Nightmare of Nunnally"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireBritannian Special Honorary Foreign Legion"
+            ]
+        }
+    },
+    {
+        "name": "GX 01 (Lucretia)",
+        "chinese_name": "GX 01（卢克莱修）",
+        "categories": {
+            "Manga": [
+                "Code Geass: Nightmare of Nunnally"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire",
+                "Britannian Special Honorary Foreign Legion"
+            ]
+        }
+    },
+    {
+        "name": "GX 01 (Sancia)",
+        "chinese_name": "GX 01（桑西亚）",
+        "categories": {
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireBritannian Special Honorary Foreign Legion"
+            ]
+        }
+    },
+    {
+        "name": "GX 01 Alpha",
+        "chinese_name": "GX 01 Alpha",
+        "categories": {
+            "Manga": [
+                "Code Geass: Nightmare of Nunnally"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire",
+                "Britannian Special Honorary Foreign Legion"
+            ]
+        }
+    },
+    {
+        "name": "Issus",
+        "chinese_name": "伊苏斯",
+        "categories": {
+            "Manufacturer": [
+                "Kingdom of Zilkhstan"
+            ],
+            "Operators": [
+                "Kingdom of Zilkhstan"
+            ]
+        }
+    },
+    {
+        "name": "Jarja Vakka",
+        "chinese_name": "贾尔贾·瓦卡",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Kingdom of Zilkhstan"
+            ],
+            "Operators": [
+                "Kingdom of Zilkhstan"
+            ]
+        }
+    },
+    {
+        "name": "Keisetsu",
+        "chinese_name": "蛍雪",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "The Black Knights"
+            ],
+            "Operators": [
+                "United Federation of NationsThe Black KnightsSeven Shining Stars"
+            ]
+        }
+    },
+    {
+        "name": "Knight Giga Fortress",
+        "chinese_name": "KMF巨型要塞",
+        "categories": {}
+    },
+    {
+        "name": "Knightmare (Disambiguous)",
+        "chinese_name": "KMF（消歧义）",
+        "categories": {}
+    },
+    {
+        "name": "Knightmare Frame",
+        "chinese_name": "KMF",
+        "categories": {}
+    },
+    {
+        "name": "Knightmare System",
+        "chinese_name": "KMF系统",
+        "categories": {}
+    },
+    {
+        "name": "Knightpolice",
+        "chinese_name": "KMF警察",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian Police Force"
+            ]
+        }
+    },
+    {
+        "name": "Kumei Sougetsu",
+        "chinese_name": "久明创月",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot",
+        "chinese_name": "兰斯洛特",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "ASEEC"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Albion",
+        "chinese_name": "兰斯洛特·阿尔比昂",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Albion Zero",
+        "chinese_name": "兰斯洛特·阿尔比昂零式",
+        "categories": {
+            "Manga": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Pearl Party"
+            ],
+            "Operators": [
+                "The Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Club",
+        "chinese_name": "兰斯洛特俱乐部",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Colors",
+                "Code Geass: Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "ASEEC"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Conquista",
+        "chinese_name": "兰斯洛特·征服者",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKnights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Frontier",
+        "chinese_name": "兰斯洛特·圣枪",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Grail",
+        "chinese_name": "兰斯洛特圣杯",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion III — Glorification"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot HighGrail",
+        "chinese_name": "兰斯洛特·圣杯",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Karma",
+        "chinese_name": "兰斯洛特·卡玛",
+        "categories": {
+            "Game": [
+                "Code Geass: Genesic Re;Code"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot LDM",
+        "chinese_name": "兰斯洛特 LDM",
+        "categories": {
+            "Game": [
+                "Code Geass: Genesic Re;Code"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Leo",
+        "chinese_name": "兰斯洛特·里奥",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Operators": [
+                "="
+            ]
+        }
+    },
+    {
+        "name": "Lancelot siN",
+        "chinese_name": "兰斯洛特siN",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manga": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "United Federation of Nations"
+            ],
+            "Operators": [
+                "Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot siN White Fang",
+        "chinese_name": "兰斯洛特·白炎",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manga": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "United Federation of Nations"
+            ],
+            "Operators": [
+                "The Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Lancelot Trial",
+        "chinese_name": "兰斯洛特试作机",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Levyletaine",
+        "chinese_name": "利维莱坦",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg(Weißritter)"
+            ]
+        }
+    },
+    {
+        "name": "List of Knightmare Frames (Lost Stories)",
+        "chinese_name": "KMF列表（失落物语）",
+        "categories": {}
+    },
+    {
+        "name": "Liverpool",
+        "chinese_name": "利物浦",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Euro Britannia"
+            ]
+        }
+    },
+    {
+        "name": "Lohengrin",
+        "chinese_name": "罗恩格林",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg"
+            ]
+        }
+    },
+    {
+        "name": "Magdala",
+        "chinese_name": "玛格达拉",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Disel Industries"
+            ],
+            "Operators": [
+                "Disel Industries"
+            ]
+        }
+    },
+    {
+        "name": "Mahoroba Type-0",
+        "chinese_name": "摩罗婆零式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "The Black KnightsPearl Party"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Mahoroba Type-01",
+        "chinese_name": "摩罗波壹型",
+        "categories": {
+            "Manufacturer": [
+                "Rakshata Chawla"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Marishiten",
+        "chinese_name": "摩利支天",
+        "categories": {
+            "Manga": [
+                "Code Geass: Pure Almaria"
+            ]
+        }
+    },
+    {
+        "name": "Mark Alice",
+        "chinese_name": "马克·爱丽丝",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ]
+        }
+    },
+    {
+        "name": "Mark Nemo",
+        "chinese_name": "马克·尼莫",
+        "categories": {
+            "Manga": [
+                "Code Geass: Nightmare of Nunnally"
+            ]
+        }
+    },
+    {
+        "name": "Medrawd",
+        "chinese_name": "梅德拉乌德",
+        "categories": {
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKnights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Meigetsu",
+        "chinese_name": "明月",
+        "categories": {
+            "Game": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manga": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Moosa",
+        "chinese_name": "抱歉，您提供的文本“Moosa”不在我作为《CODE GEASS》机械设定翻译官的专业术语库中，且该词并非自然语言描述，无法进行翻译。请提供需要翻译的英文文本。",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Lloyd Asplund"
+            ]
+        }
+    },
+    {
+        "name": "Mordred",
+        "chinese_name": "莫德雷德",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection",
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKnights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Mordred Buildup",
+        "chinese_name": "莫德雷德·强化型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ]
+        }
+    },
+    {
+        "name": "MR-1",
+        "chinese_name": "MR-1",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Ashford AcademyBlack Knights"
+            ]
+        }
+    },
+    {
+        "name": "Nagid Shu Mane",
+        "chinese_name": "纳吉德·舒·马内",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Manufacturer": [
+                "Kingdom of Zilkhstan"
+            ],
+            "Operators": [
+                "Kingdom of Zilkhstan"
+            ]
+        }
+    },
+    {
+        "name": "Nyawain",
+        "chinese_name": "尼亚文",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Operators": [
+                "Wonderland"
+            ]
+        }
+    },
+    {
+        "name": "Palomides",
+        "chinese_name": "帕拉米迪斯",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKnights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Panzer Hummel",
+        "chinese_name": "装甲熊蜂",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manufacturer": [
+                "Europia United"
+            ],
+            "Operators": [
+                "Europia UnitedUnited Federation of NationsThe Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Panzer-Wespe",
+        "chinese_name": "装甲黄蜂",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Europia United"
+            ],
+            "Operators": [
+                "Europia United"
+            ]
+        }
+    },
+    {
+        "name": "Pendulum",
+        "chinese_name": "钟摆",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Disel Industries"
+            ],
+            "Operators": [
+                "DiselHoly Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Pendulum Resurrection",
+        "chinese_name": "钟摆复活",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Disel Industries"
+            ],
+            "Operators": [
+                "DiselUnited Federation of NationsIzayoi"
+            ]
+        }
+    },
+    {
+        "name": "Percival",
+        "chinese_name": "珀西瓦尔",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKnights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Portman",
+        "chinese_name": "波特曼",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Royal Marine Infantry"
+            ]
+        }
+    },
+    {
+        "name": "Portman Type 2",
+        "chinese_name": "波特曼2型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Prytwen",
+        "chinese_name": "普利德温",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Competitive KMF League"
+            ]
+        }
+    },
+    {
+        "name": "Queen Asura",
+        "chinese_name": "阿修罗女王",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg"
+            ]
+        }
+    },
+    {
+        "name": "Queen Curaca",
+        "chinese_name": "库拉卡女王",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg(Schwartzritter)"
+            ]
+        }
+    },
+    {
+        "name": "Queenglint",
+        "chinese_name": "女王辉光",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Quinn Roses Model-B",
+        "chinese_name": "奎因·罗丝B型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Operators": [
+                "United Federation of NationsThe Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Quinn Roses Model-Z",
+        "chinese_name": "奎因·罗丝 Z型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Raikō",
+        "chinese_name": "雷光",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Japan Liberation Front"
+            ],
+            "Operators": [
+                "Japan Liberation FrontBlack Knights"
+            ]
+        }
+    },
+    {
+        "name": "Regalia",
+        "chinese_name": "Regalia",
+        "categories": {
+            "Game": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Rekka Byakuen",
+        "chinese_name": "白炎",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Peace Mark"
+            ],
+            "Operators": [
+                "Peace Mark"
+            ]
+        }
+    },
+    {
+        "name": "Schrodinger",
+        "chinese_name": "薛定谔",
+        "categories": {
+            "Game": [
+                "Code Geass: Genesic Re;Code"
+            ]
+        }
+    },
+    {
+        "name": "Sekka",
+        "chinese_name": "白炎",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "The Black Knights"
+            ],
+            "Operators": [
+                "United Federation of NationsThe Black KnightsSeven Shining Stars"
+            ]
+        }
+    },
+    {
+        "name": "Sheffield Eye",
+        "chinese_name": "谢菲尔德之眼",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Glinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Shen Hu",
+        "chinese_name": "神虎",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection",
+                "Code Geass: Lelouch of the Rebellion Re"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Chinese FederationThe Order of the Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Shingetsu",
+        "chinese_name": "新月",
+        "categories": {
+            "Manga": [
+                "Code Geass: Pure Almaria"
+            ],
+            "Manufacturer": [
+                "Pearl Party"
+            ],
+            "Operators": [
+                "United Federation of NationsIzayoi"
+            ]
+        }
+    },
+    {
+        "name": "Shinkirō",
+        "chinese_name": "蜃气楼",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black KnightsHoly Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Siegfried",
+        "chinese_name": "齐格菲",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGeass Order"
+            ]
+        }
+    },
+    {
+        "name": "Somerset",
+        "chinese_name": "萨默塞特",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian EmpireSteiner Konzern"
+            ],
+            "Operators": [
+                "Wings of Talleyrand"
+            ]
+        }
+    },
+    {
+        "name": "Sougetsu",
+        "chinese_name": "苍月",
+        "categories": {
+            "Manufacturer": [
+                "Militarized Zone of India"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland",
+        "chinese_name": "萨瑟兰",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion",
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Colors",
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpirePurist FactionEuro BritanniaHoly Order of MichaelHoly Order of RaphaelHoly Order of UrielHoly Order of GabrielBlack Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Blue Barons Custom",
+        "chinese_name": "萨瑟兰蓝色男爵特装型",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireBlue Barons"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Club",
+        "chinese_name": "萨瑟兰·棍棒",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Colors"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireBritannian Military"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Custom (Disel Machine)",
+        "chinese_name": "萨瑟兰定制型（迪塞尔机）",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Custom (Ledo Machine)",
+        "chinese_name": "萨瑟兰定制型（莱多机）",
+        "categories": {
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Holy Britannian EmpireCamelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKonoe Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Custom (Schnee Machine)",
+        "chinese_name": "萨瑟兰定制型（施内机）",
+        "categories": {
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Holy Britannian EmpireCamelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKonoe Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Drone",
+        "chinese_name": "萨瑟兰无人机",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Euro Britannia"
+            ],
+            "Operators": [
+                "Euro Britannia"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Eye",
+        "chinese_name": "萨瑟兰·眼",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Glinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Flight-Enabled",
+        "chinese_name": "萨瑟兰可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Glinda",
+        "chinese_name": "萨瑟兰·格林达",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland II",
+        "chinese_name": "萨瑟兰II",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Operators": [
+                "Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Ikaros",
+        "chinese_name": "萨瑟兰·伊卡洛斯",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Steiner Konzern"
+            ],
+            "Operators": [
+                "Wings of Talleyrand"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Loyal",
+        "chinese_name": "萨瑟兰·忠诚",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Re;surrection"
+            ],
+            "Operators": [
+                "Gottwald Plantation Orange VillageThe Black Knights"
+            ]
+        }
+    },
+    {
+        "name": "Sutherland Pluton Custom",
+        "chinese_name": "萨瑟兰·冥王定制型",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection",
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpirePluton"
+            ]
+        }
+    },
+    {
+        "name": "Tristan",
+        "chinese_name": "特里斯坦",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Knights of the Round"
+            ]
+        }
+    },
+    {
+        "name": "Tristan Divider",
+        "chinese_name": "特里斯坦·分离者",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Rakshata Chawlaand her team"
+            ],
+            "Operators": [
+                "The Order of the Black KnightsUnited Federation of Nations"
+            ]
+        }
+    },
+    {
+        "name": "Valpnir",
+        "chinese_name": "瓦尔普尼尔",
+        "categories": {
+            "Anime": [
+                "Code Geass: Roze of the Recapture"
+            ],
+            "Manufacturer": [
+                "Neo Britannian Empire"
+            ],
+            "Operators": [
+                "Neo Britannian EmpireEinberg(Schwartzritter)"
+            ]
+        }
+    },
+    {
+        "name": "Vercingetorix",
+        "chinese_name": "维钦托利",
+        "categories": {
+            "Anime": [
+                "Code Geass: Akito the Exiled"
+            ],
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Euro BritanniaKnights of St. Michael"
+            ]
+        }
+    },
+    {
+        "name": "Vincent",
+        "chinese_name": "文森特",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian MilitaryBlack Knights"
+            ]
+        }
+    },
+    {
+        "name": "Vincent Blaze",
+        "chinese_name": "文森特·烈焰",
+        "categories": {
+            "Manga": [
+                "Code Geass: Lancelot & Guren"
+            ],
+            "Manufacturer": [
+                "Holy Britannian EmpireCamelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireKonoe Knights"
+            ]
+        }
+    },
+    {
+        "name": "Vincent Commander Model",
+        "chinese_name": "文森特指挥官型",
+        "categories": {
+            "Anime": [
+                "Code Geass: Lelouch of the Rebellion"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manga": [
+                "Code Geass: Lelouch of the Rebellion Re"
+            ],
+            "Manufacturer": [
+                "Camelot"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireValkyrie Squadron"
+            ]
+        }
+    },
+    {
+        "name": "Vincent Glinda",
+        "chinese_name": "文森特·格林达",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian MilitaryGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Vincent Gram",
+        "chinese_name": "文森特·格拉姆",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpireGlinda Knights"
+            ]
+        }
+    },
+    {
+        "name": "Vincent GramNoir",
+        "chinese_name": "文森特·格拉姆诺瓦",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        }
+    },
+    {
+        "name": "Vincent Pluton",
+        "chinese_name": "文森特·冥王",
+        "categories": {
+            "Manga": [
+                "Code Geass: Oz the Reflection"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian MilitaryPluton"
+            ]
+        }
+    }
+]

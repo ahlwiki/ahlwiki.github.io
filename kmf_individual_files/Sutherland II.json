@@ -1,0 +1,27 @@
+{
+  "english_name": "Sutherland II",
+  "name": "萨瑟兰II",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_II",
+  "specs": {
+    "Model Number": "UPI-13",
+    "Codename": "萨瑟兰II",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.40 meters",
+    "Gross Weight": "7.88 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统,能量填充器",
+    "Armor Materials": "钨",
+    "Developed From": "萨瑟兰",
+    "Operators": "黑色骑士团",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n能量护盾（Blaze Luminous）系统",
+    "Fixed": "1x 突击步枪",
+    "Anime": "《Code Geass 复活的鲁路修》"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/9/94/Upi-13.jpg/revision/latest?cb=20211123020640",
+  "introduction": "萨瑟兰II是黑色骑士团在光启时代开发的新型KMF。在《Code Geass：复活的鲁路修》中，该机体被黑色骑士团内科内莉亚直属部队的下级成员所使用。",
+  "Design and Development": "萨瑟兰二型，顾名思义，是原版萨瑟兰的升级型号，以经典的第5代机体为蓝本打造的第7代KMF。与文森特型类似，它是对既有KMF进行量产化改造的第7代版本。但不同于文森特型相较已高度先进的第7代兰斯洛特性能有所削弱，萨瑟兰二型较其前身实现了显著提升。其装甲比原版更坚固强化。与黑色骑士团早期使用的无赖相同，萨瑟兰二型配备手部护甲。在柯内莉亚的部队中，该机体沿用萨瑟兰过去使用的经典KMF武装——线圈炮突击步枪。但其手部护甲内藏能量护盾（Blaze Luminous）发生器，可像初代兰斯洛特那样从前臂生成光盾。",
+  "Operational History": "在入侵齐尔克斯坦期间，数台该型机伴随柯内莉亚率领小队突袭首都格拉尔巴德。他们遭遇了波尔沃纳·福格纳及其部下。当柯内莉亚与福格纳及其\"刚杜古恩\"进行一对一交锋时，这些单位正与他的\"格多瓦卡斯\"连队交战。",
+  "image_folder": "Sutherland II",
+  "image_variants": [
+    "Standard"
+  ]
+}

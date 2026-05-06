@@ -1,0 +1,33 @@
+{
+  "english_name": "Sutherland Eye",
+  "name": "萨瑟兰·眼",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_Eye",
+  "specs": {
+    "Classification": "实验型KMF",
+    "Model Number": "RZX-13/ESC",
+    "Codename": "萨瑟兰·眼",
+    "KMF Generation": "5th",
+    "Overall Height": "4.41 meters",
+    "Gross Weight": "7.99 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统，能量填充器",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "萨瑟兰",
+    "Operators": "格琳达骑士团",
+    "Known Pilots": "索基亚·夏尔巴",
+    "Status": "主动",
+    "Standard": "高级广域感知传感器陆行旋轮推进系统驾驶舱弹射系统",
+    "Fixed": "2x 胸部搭载飞燕爪牙\n1x 左腕搭载施罗特钢刃",
+    "Handheld": "1x 实验型VARIS步枪混沌地雷",
+    "Manga": "Code Geass：双貌的OZ"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/21/Sutherland_Eye.jpg/revision/latest/scale-to-width-down/268?cb=20130402182530",
+  "introduction": "萨瑟兰之眼（Sutherland Eye）是分配给格琳达骑士团与泽特兰号一同使用的实验性KMF。其驾驶员为索琪雅·谢尔帕。",
+  "Design and Specifications": "萨瑟兰之眼是萨瑟兰的电子设备强化型，旨在搜索敌人并提升指挥能力。通过将可独立侦测宽频带声波与电磁波的广域感知传感器，与先进计算处理系统相结合，能够三维立体掌握战场态势。该机体搭载了以量产化为目标的实验性VARIS步枪，并在左腕部配备施罗特钢制格斗刃。但由于传统能量填充器自身无法为VARIS提供充足能量，其外部左肩部以球形附加装置的形式搭载了世界树驱动超导体转移系统。",
+  "Operational History": "其中一台该机体被授予了格琳达骑士团，并由索琪亚·谢尔帕德驾驶，因其高超的战术与信息分析能力。在《Code Geass：复活的鲁路修》中，影片开头绑架Zero（朱雀）和娜娜莉的部队中可见到数台该机体。",
+  "Specifications": "一般特性\n乘员：1人\n高度：4.41米\n重量：7.99公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特点\n先进广域感知传感器\n陆行旋轮推进系统\n驾驶舱弹射系统\n\n武装\n2x 胸部搭载飞燕爪牙\n混沌爆雷（ケイオス爆雷，Keiosu Bakurai，意为混沌深水炸弹）（收纳于腰部）\n1x 实验型VARIS步枪（ヴァリス，Varisu）\n1x 左腕部搭载施罗特钢刀",
+  "image_folder": "Sutherland Eye",
+  "image_variants": [
+    "Standard"
+  ]
+}

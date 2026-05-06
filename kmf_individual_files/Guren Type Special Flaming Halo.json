@@ -1,0 +1,30 @@
+{
+  "english_name": "Guren Type Special Flaming Halo",
+  "name": "红莲特式 烈焰光轮",
+  "url": "https://codegeass.fandom.com/wiki/Guren_Type_Special_Flaming_Halo",
+  "specs": {
+    "Model Number": "Type-02/SP1+MTM",
+    "KMF Generation": "9th",
+    "Overall Height": "9.65 meters",
+    "Gross Weight": "44.32 metric tonnes",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "珍珠派对",
+    "Developed From": "红莲特式",
+    "Operators": "黑色骑士团超合众国",
+    "Known Pilots": "红月华莲",
+    "Standard": "能量翼系统辐射波动护盾",
+    "Fixed": "1x大型辐射增幅型右臂",
+    "Handheld": "1x 大型热能剑",
+    "Anime": "《Code Geass 复活的鲁路修》",
+    "Manga": "Code Geass：复活的鲁路修"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/6c/Guren_Special_Type_Flaming_Halo.jpg/revision/latest/scale-to-width-down/268?cb=20191206180143",
+  "introduction": "红莲特式·焰红莲是装备了Frame Coat的红莲特式。",
+  "Design and Development": "作为新型红莲的Frame Coat，烈焰光环拥有重武装与厚装甲。其移动系统采用与所搭载KMF相同的能量翼。此外，与红莲一样，烈焰光环也搭载了独立的辐射波动装置。该型号配备的辐射波动装置体型巨大且威力惊人，一次发射即可摧毁数百个目标。",
+  "Operational History": "该机体由卡莲驾驶投入战斗，对抗齐尔克斯坦的主要军事力量。凭借其毁灭性的武装，卡莲轻松占据上风。然而，由于莎曼女王使用她的Geass预知了敌人的计划，当战斗重演时，维杜尔典狱长及其部下被派去拦截卡莲。在此次交锋中，维杜尔占据优势，利用其巴塔拉兰·杜的电磁捕获场困住烈焰光环，同时其部队从远距离对该机体进行炮击。最终，卡莲被迫自爆机体装甲以逃脱，释放红莲本体击败维杜尔及其部下。",
+  "image_folder": "Guren Type Special Flaming Halo",
+  "image_variants": [
+    "Standard"
+  ]
+}
