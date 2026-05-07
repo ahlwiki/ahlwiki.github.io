@@ -1,19 +1,19 @@
 {
   "english_name": "Akatsuki Command Model Zikisan",
-  "name": "晓 直参仕样",
+  "name": "晓·直参仕样",
   "url": "https://codegeass.fandom.com/wiki/Akatsuki_Command_Model_Zikisan",
   "specs": {
     "Classification": "指挥官机",
     "Model Number": "Type-05S/G",
     "KMF Generation": "等同于第7世代",
-    "Overall Height": "4.81 meters",
-    "Gross Weight": "8.26 metric tonnes",
+    "Overall Height": "4.81 米",
+    "Gross Weight": "8.26 吨",
     "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
     "Manufacturer": "贾巴尔普尔研究中心",
     "Developed From": "晓量产型",
     "Operators": "黑色骑士团",
-    "Known Pilots": "朝比奈省吾千叶凪沙、C.C.、木下",
+    "Known Pilots": "朝比奈省悟、千叶凪沙、C.C.、木下",
     "Standard": "驾驶舱弹射系统辐射波动技术陆行旋轮推进系统",
     "Optional": "可翔翼",
     "Fixed": "2x 肩部机枪1x 飞燕爪牙（苍牙式）",
@@ -23,11 +23,12 @@
     "Mechanical Designer": "安田朗"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/d6/Akatsuki_Command_Model_Jikisanshiy%C5%8D_-_Line_Art.jpg/revision/latest/scale-to-width-down/268?cb=20091129014206",
-  "introduction": "晓直参仕样（Akatsuki Jikisan Shiyō）是黑色骑士团中由中队指挥官驾驶的晓型KMF的衍生型号。与标准晓量产型相比，其外观更接近月下。千叶凪沙、朝比奈省悟及其他中队指挥官驾驶深蓝色版本。C.C.驾驶该机型的粉色版本。",
+  "introduction": "晓直参仕样（暁直参仕様）是黑色骑士团中由中队指挥官驾驶的晓型KMF的衍生型号。与标准晓量产型相比，其外观更接近月下。千叶凪沙、朝比奈省悟及其他中队指挥官驾驶深蓝色版本。C.C.驾驶该机型的粉色版本。",
   "Design and Specifications": "黑色骑士团的工程师拉克夏塔·查瓦拉设计了这款指挥官机型，命名为\"直参仕样\"，\"直参\"是日语中将军直属部下的古称。其性能超越基础型晓，重要特征之一是头部搭载的一对辐射波动发射器，可像红莲贰式Mk-II那样生成防御屏障。\n\n该机配备与标准晓相似的武器系统，但携带的是全尺寸型\"戒夜刀\"，而非缩小的指挥棒版本。在可选武器中，双管手枪和辐射波动导弹最为常见。此外还可加装可翔翼单元，此时机体编号变更为Type-05S/F2F晓指挥官型可翔式。",
   "Specifications": "一般特性  \n乘员：1人  \n高度：4.81米  \n重量：8.26公吨（可翔式状态下为9.25公吨）  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n高機走駆動轮式陆行旋轮推进系统  \n可选配可翔翼  \n驾驶舱弹射系统  \n辐射波动防护装置  \n\n武装  \n1x 廻転刃刀（Katen Yaibatou）  \n2x 肩部机关炮塔  \n1x 飞燕爪牙（Hien Souga型，左胸部安装）  \n\n可选武装  \n1x 左（或右）臂安装式双管手枪  \n1x 右臂安装式火箭筒（罕见情况）  \n右臂安装式辐射波动导弹 x3  \n12管导弹发射器 x1（有时装备于可翔翼系统）",
   "image_folder": "Akatsuki Command Model Zikisan",
   "image_variants": [
-    "Standard"
+    "Standard",
+    "C.C.机"
   ]
 }

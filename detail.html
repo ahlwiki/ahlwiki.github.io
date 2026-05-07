@@ -60,6 +60,28 @@
             box-shadow: 0 10px 20px rgba(0,0,0,0.5);
             object-fit: contain;
         }
+        .image-buttons {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .img-btn {
+            background: #1f2a3e;
+            border: none;
+            padding: 0.3rem 1rem;
+            border-radius: 30px;
+            color: #e6e9f0;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .img-btn.active {
+            background: #d4af37;
+            color: #0a0f1a;
+            box-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
+        }
         .kmf-title {
             flex: 2;
         }
@@ -124,6 +146,15 @@
             .detail-container { padding: 1rem; }
             .spec-label { width: 100px; }
             .kmf-title h1 { font-size: 1.8rem; }
+            /* 手机端隐藏英文名及字段标签 */
+            .eng-part,
+            .field-label {
+                display: none;
+            }
+            /* 调整副标题间距 */
+            .kmf-title .sub {
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -163,20 +194,54 @@
                 return specs[key] || '—';
             }
 
-            // 图片处理：本地 Standard.jpg，失败则尝试 Standard.png，再失败则占位符
-            const imageJpg = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/Standard.jpg`;
-            const imagePng = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/Standard.png`;
+            // 获取图片变体列表
+            let variants = data.image_variants || ["Standard"];
+            if (!variants.includes("Standard")) variants.unshift("Standard");
+            variants = [...new Set(variants)];
+
+            let buttonsHtml = '';
+            let showButtons = variants.length > 1;
+            if (showButtons) {
+                buttonsHtml = `<div class="image-buttons" id="image-buttons">`;
+                variants.forEach(variant => {
+                    const btnName = variant === "Standard" ? "标准" : variant;
+                    buttonsHtml += `<button class="img-btn" data-variant="${variant}">${escapeHtml(btnName)}</button>`;
+                });
+                buttonsHtml += `</div>`;
+            }
+
+            const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
+
+            function setImage(imgElement, variant) {
+                if (variant === "Standard") {
+                    imgElement.src = `${basePath}Standard.jpg`;
+                    imgElement.onerror = function() {
+                        imgElement.onerror = null;
+                        imgElement.src = `${basePath}Standard.png`;
+                        imgElement.onerror = function() {
+                            imgElement.onerror = null;
+                            imgElement.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37'%3E⚙️ ${nameZh}%3C/text%3E%3C/svg%3E`;
+                        };
+                    };
+                } else {
+                    imgElement.src = `${basePath}${variant}.webp`;
+                    imgElement.onerror = function() {
+                        imgElement.onerror = null;
+                        imgElement.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37'%3E⚙️ ${nameZh}%3C/text%3E%3C/svg%3E`;
+                    };
+                }
+            }
 
             const html = `
                 <div class="kmf-header">
                     <div class="kmf-image">
-                        <img id="detail-img" src="${imageJpg}" alt="${nameZh}"
-                             onerror="this.onerror=null; this.src='${imagePng}'; this.onerror=function(){this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 400 300\\'%3E%3Crect width=\\'400\\' height=\\'300\\' fill=\\'%23121a26\\'/%3E%3Ctext x=\\'50%25\\' y=\\'50%25\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%23d4af37\\'%3E⚙️ ${nameZh}%3C/text%3E%3C/svg%3E'}">
+                        <img id="detail-img" src="" alt="${nameZh}">
+                        ${buttonsHtml}
                     </div>
                     <div class="kmf-title">
                         <h1>${escapeHtml(nameZh)}</h1>
-                        <div class="sub">${escapeHtml(englishName)} | 型号: ${getSpec("Model Number")}</div>
-                        <div class="sub">世代: ${getSpec("KMF Generation")} | 高度: ${getSpec("Overall Height")} | 重量: ${getSpec("Gross Weight")}</div>
+                        <div class="sub"><span class="eng-part">${escapeHtml(englishName)} | </span><span class="field-label">型号: </span>${getSpec("Model Number")}</div>
+                        <div class="sub"><span class="field-label">世代: </span>${getSpec("KMF Generation")} | <span class="field-label">高度: </span>${getSpec("Overall Height")} | <span class="field-label">重量: </span>${getSpec("Gross Weight")}</div>
                     </div>
                 </div>
                 <div class="specs-grid">
@@ -206,6 +271,24 @@
                 </div>
             `;
             container.innerHTML = html;
+
+            const imgElement = document.getElementById('detail-img');
+            setImage(imgElement, "Standard");
+
+            if (showButtons) {
+                const buttons = document.querySelectorAll('.img-btn');
+                buttons.forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const variant = btn.dataset.variant;
+                        setImage(imgElement, variant);
+                        buttons.forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                    });
+                    if (btn.dataset.variant === "Standard") {
+                        btn.classList.add('active');
+                    }
+                });
+            }
         } catch (err) {
             console.error(err);
             container.innerHTML = `<div class="error-msg">⚠️ 机体档案加载失败: ${err.message}<br>请确保文件 ${kmfName}.json 存在于 /kmf_individual_files/ 目录下</div>`;
