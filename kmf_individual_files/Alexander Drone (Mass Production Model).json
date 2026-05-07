@@ -25,6 +25,7 @@
   "Specifications": "基本参数  \n乘员：1人  \n高度：4.37米  \n重量：6.47吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n陆行旋轮推进系统  \n\"昆虫模式\"变形机构  \n副臂（收纳于驾驶舱两侧）  \n脑入侵系统  \n\n武装  \n1x WAW-04 30mm线性突击步枪\"审判\"（可挂载于驾驶舱两侧）  \n2x 固定式  \n乌鲁纳刃刀（收纳于手臂轴内）  \n\n可选武装  \n1x 枪管（可与\"审判\"组合为远程狙击步枪）",
   "image_folder": "Alexander Drone (Mass Production Model)",
   "image_variants": [
-    "Standard"
+    "Standard",
+    "幸也版"
   ]
 }

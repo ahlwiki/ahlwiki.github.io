@@ -32,6 +32,9 @@
   "Trivia": "萨瑟兰的名称源自苏格兰的一个郡，该郡位于不列颠群岛，是剧中布里塔尼亚征服的祖先故土的一部分。",
   "image_folder": "Sutherland",
   "image_variants": [
-    "Standard"
+    "Standard",
+    "纯血派配色",
+    "黑色骑士团配色",
+    "亡国的阿基德版"
   ]
 }

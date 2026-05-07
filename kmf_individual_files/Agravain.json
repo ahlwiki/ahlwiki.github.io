@@ -7,7 +7,7 @@
     "KMF Generation": "第7代",
     "Modes": "近战模式",
     "Overall Height": "7.26 米",
-    "Gross Weight": "15.76 吨 (Close Combat Mode: 13.96)",
+    "Gross Weight": "15.76 吨 (近战模式13.96吨)",
     "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
     "Manufacturer": "泽冯家族",
@@ -27,6 +27,7 @@
   "Trivia": "以圆桌骑士阿格拉凡爵士命名，他是加雷斯和高文的兄弟，但与他的兄弟们不同，他以恶毒和邪恶而闻名。",
   "image_folder": "Agravain",
   "image_variants": [
-    "Standard"
+    "普通形态",
+    "近战模式"
   ]
 }

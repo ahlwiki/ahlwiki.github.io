@@ -155,6 +155,14 @@
             .kmf-title .sub {
                 font-size: 0.9rem;
             }
+            .kmf-header {
+                flex-direction: column;   /* 改为垂直排列 */
+                align-items: center;      /* 可选：整体居中 */
+                gap: 0.5rem;
+            }
+            .image-buttons {
+                margin-top: 0.5rem;
+            }
         }
     </style>
 </head>
@@ -188,15 +196,17 @@
             const englishName = data.english_name || '';
             const intro = data.introduction || '暂无简介';
             const design = data["Design and Development"] || '';
+            const design2 = data["Design and Specifications"] || '';
             const trivia = data.Trivia || '';
+            const trivia2 = data["Operational History"] || '';
 
             function getSpec(key) {
                 return specs[key] || '—';
             }
 
-            // 获取图片变体列表
-            let variants = data.image_variants || ["Standard"];
-            if (!variants.includes("Standard")) variants.unshift("Standard");
+            // 获取图片变体列表（原样使用，不额外添加 Standard）
+            let variants = data.image_variants || [];
+            // 去重
             variants = [...new Set(variants)];
 
             let buttonsHtml = '';
@@ -208,12 +218,16 @@
                     buttonsHtml += `<button class="img-btn" data-variant="${variant}">${escapeHtml(btnName)}</button>`;
                 });
                 buttonsHtml += `</div>`;
+            } else if (variants.length === 1) {
+                // 只有一个变体时不显示按钮（隐藏）
+                showButtons = false;
             }
 
             const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
 
             function setImage(imgElement, variant) {
                 if (variant === "Standard") {
+                    // Standard 图片：优先 jpg，失败后 png，再失败占位符
                     imgElement.src = `${basePath}Standard.jpg`;
                     imgElement.onerror = function() {
                         imgElement.onerror = null;
@@ -224,6 +238,7 @@
                         };
                     };
                 } else {
+                    // 非 Standard 变体：直接 webp
                     imgElement.src = `${basePath}${variant}.webp`;
                     imgElement.onerror = function() {
                         imgElement.onerror = null;
@@ -267,13 +282,17 @@
                 <div class="intro-text">
                     <strong>📖 机体介绍</strong><br>${escapeHtml(intro)}<br><br>
                     ${design ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design)}<br><br>` : ''}
+                    ${design2 ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design2)}<br><br>` : ''}
                     ${trivia ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia)}` : ''}
+                    ${trivia2 ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia2)}` : ''}
                 </div>
             `;
             container.innerHTML = html;
 
             const imgElement = document.getElementById('detail-img');
-            setImage(imgElement, "Standard");
+            // 默认加载第一个变体（如果存在），否则加载 Standard
+            const defaultVariant = (variants.length > 0) ? variants[0] : "Standard";
+            setImage(imgElement, defaultVariant);
 
             if (showButtons) {
                 const buttons = document.querySelectorAll('.img-btn');
@@ -284,7 +303,8 @@
                         buttons.forEach(b => b.classList.remove('active'));
                         btn.classList.add('active');
                     });
-                    if (btn.dataset.variant === "Standard") {
+                    // 高亮默认按钮
+                    if (btn.dataset.variant === defaultVariant) {
                         btn.classList.add('active');
                     }
                 });

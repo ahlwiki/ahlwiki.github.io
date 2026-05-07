@@ -419,7 +419,7 @@
     },
     {
         "name": "Black Perry",
-        "chinese_name": "黑佩里",
+        "chinese_name": "黑佩里号",
         "categories": {
             "Manga": [
                 "幕末异闻录 Code Geass 反叛的鲁路修"
@@ -447,7 +447,7 @@
     },
     {
         "name": "Bradford Brave",
-        "chinese_name": "布拉德福德·布雷夫",
+        "chinese_name": "布拉德福德·英勇型",
         "categories": {
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -1842,7 +1842,7 @@
     },
     {
         "name": "Lancelot Club",
-        "chinese_name": "兰斯洛特俱乐部",
+        "chinese_name": "兰斯洛特·Club",
         "categories": {
             "Game": [
                 "Code Geass: Lost Colors",
@@ -1858,7 +1858,7 @@
                 "Holy Britannian Empire"
             ]
         },
-        "model_number": "Z-01b（失落色彩）RZX-7（诺内特专用）"
+        "model_number": "Z-01/B（Lost Colors）RZX-7（诺内特专用）"
     },
     {
         "name": "Lancelot Conquista",
