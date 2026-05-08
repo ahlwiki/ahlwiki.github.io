@@ -1,0 +1,29 @@
+{
+  "english_name": "Bradford Brave",
+  "name": "布拉德福德·英勇型",
+  "url": "https://codegeass.fandom.com/wiki/Bradford_Brave",
+  "specs": {
+    "Model Number": "RZX-3F7-EP1",
+    "KMF Generation": "第7代",
+    "Overall Height": "5.22 米",
+    "Gross Weight": "8.26 吨",
+    "Power Source": "世界树驱动超导体转移系统,能量填充器",
+    "Armor Materials": "钨",
+    "Manufacturer": "卡美洛",
+    "Developed From": "布拉德福德",
+    "Operators": "神圣布里塔尼亚帝国格琳达骑士团",
+    "Known Pilots": "莱昂哈特·施泰纳",
+    "Status": "主动式",
+    "Standard": "飞燕爪牙助推器\n悬浮飞行系统\n陆行旋轮推进系统\n驾驶舱弹射系统",
+    "Fixed": "能量护盾（Blaze Luminous）之锤（与圣杯结合时）",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/8/82/UQo61If.jpg/revision/latest/scale-to-width-down/268?cb=20170917050253",
+  "introduction": "布拉德福德·英勇型（ブラッドフォード・ブレイブ Buraddofōdo Bureibu）是布拉德福德的改造版本，作为翡翠计划的一部分而部署。该机体由莱昂哈特·施泰纳驾驶。",
+  "Design and Development": "布拉德福德·英勇型是为“翡翠计划”开发的。其新型头部单元配备了相互信息链路VTDS（Vates战术数据系统）。等离子推进电机被改装为悬浮单元。麦基多飞燕爪牙通过武装单元升级为兼顾近战与远程攻击的麦基多双飞燕爪牙，但保留了原始麦基多飞燕爪牙，新型双飞燕爪牙可分离并由机械手操控。当与兰斯洛特圣杯或兰斯洛特高圣杯组合时，机首部分可生成能量护盾（Blaze Luminous）叉状结构，形成用于冲锋攻击的“光之冲角”。",
+  "Specifications": "一般特性  \n乘员：1名  \n高度：5.22米  \n重量：8.26公吨  \n动力源：世界树驱动超导体转移系统，能量填充器  \n\n设计特点  \n陆行旋轮推进系统  \n飞燕爪牙助推器  \n悬浮飞行系统  \n驾驶舱弹射系统  \nVTDS  \n\n武装  \n2x 定制双臂（KMF：钨钢刀片，KGF：线性轨道炮）  \n2x 梅吉多双联飞燕爪牙（近战：施罗特钢刀片，远程：线性轨道炮）  \n强子矛  \n\n可选武装  \n能量护盾冲角（与圣杯合体时）",
+  "image_folder": "Bradford Brave",
+  "image_variants": [
+    "Standard"
+  ]
+}

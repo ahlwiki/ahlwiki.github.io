@@ -1,0 +1,30 @@
+{
+  "english_name": "MR-1",
+  "name": "MR-1",
+  "url": "https://codegeass.fandom.com/wiki/MR-1",
+  "specs": {
+    "KMF Generation": "民用用途",
+    "Overall Height": "4.35 米",
+    "Gross Weight": "7.20 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed Into": "萨默塞特",
+    "Operators": "阿什福德学院、黑色骑士团",
+    "Known Pilots": "扇木要 基诺·温伯格",
+    "Standard": "陆行旋轮推进系统\n驾驶舱弹射系统",
+    "Fixed": "2x 胸部搭载型飞燕爪牙",
+    "Anime": "Code Geass：反叛的鲁路修Code Geass：反叛的鲁路修R2",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/19/Mr1-blacknights.jpg/revision/latest/scale-to-width-down/268?cb=20140911184224",
+  "introduction": "MR-1是一种基础的非战斗型KMF，能够折叠成更紧凑的形态。",
+  "Design and Specifications": "MR-1是一款为民用设计的KMF，其大部分装甲已被移除。作为非战斗用KMF，MR-1除了胸部搭载的两具飞燕爪牙外，没有任何进攻性武器。其仅有的其他功能包括陆行旋轮推进系统和驾驶舱弹射系统。性能相当于第四代机型。",
+  "Operational History": "第一季中，黑色骑士团在营救枢木朱雀时使用了一台白黑配色的MR-1。该机体由扇要驾驶，但被柯威尔·索雷西摧毁。第二季中，阿什福德学园用一台紫黄配色的型号取代了加尼梅德。在纪念圆桌骑士第七位枢木朱雀的庆典上，第二次尝试制作世界最大披萨时，原本预定由朱雀驾驶的MR-1被基诺·拜因贝格征用。当鲁路修启动灭火器以隐藏C.C.的存在时，披萨再次被毁。",
+  "Specifications": "一般特性\n乘员：1名\n高度：4.35米\n重量：7.20公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n陆行旋轮推进系统\n驾驶舱弹射系统\n武装\n2x 胸部搭载飞燕爪牙",
+  "image_folder": "MR-1",
+  "image_variants": [
+    "黑色骑士团配色",
+    "阿什福德学园"
+  ]
+}

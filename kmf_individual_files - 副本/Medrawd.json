@@ -1,0 +1,26 @@
+{
+  "english_name": "Medrawd",
+  "name": "梅德拉乌德",
+  "url": "https://codegeass.fandom.com/wiki/Medrawd",
+  "specs": {
+    "Model Number": "RZA-6DH",
+    "Codename": "梅德拉德",
+    "Overall Height": "4.70 米",
+    "Gross Weight": "10.20 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "莫德雷德",
+    "Operators": "神圣布里塔尼亚帝国圆桌骑士",
+    "Known Pilots": "C.C.",
+    "Status": "未使用",
+    "Standard": "集成悬浮飞行系统\n能量护盾（Blaze Luminous）系统\n驾驶舱弹射系统",
+    "Fixed": "4x 肩部强子炮\n小型近程导弹发射器"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/67/Medrawd.jpg/revision/latest/scale-to-width-down/268?cb=20240801051734",
+  "introduction": "梅德拉乌德是《Code Geass 反叛的鲁路修 失落物语》中登场的一台KMF。它应玛丽安娜·vi·布里塔尼亚的要求，通过阿尼亚·阿尔斯特雷姆建造，作为莫德雷德的姐妹机。她原本打算让C.C.使用这台机体。",
+  "image_folder": "Medrawd",
+  "image_variants": [
+    "Standard"
+  ]
+}

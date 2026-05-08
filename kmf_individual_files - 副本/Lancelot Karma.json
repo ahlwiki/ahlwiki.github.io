@@ -1,0 +1,25 @@
+{
+  "english_name": "Lancelot Karma",
+  "name": "兰斯洛特·卡玛",
+  "url": "https://codegeass.fandom.com/wiki/Lancelot_Karma",
+  "specs": {
+    "KMF Generation": "第7代",
+    "Overall Height": "5.06 米",
+    "Gross Weight": "8.95 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Developed From": "兰斯洛特",
+    "Known Pilots": "卡莲·修坦费尔特",
+    "Standard": "能量护盾（Blaze Luminous）系统\n广域感知传感器\n陆行旋轮推进系统\n集成可翔翼",
+    "Fixed": "4x飞燕爪牙1x强子爆破炮",
+    "Handheld": "2x高周波振动剑（MVS）1xVARIS步枪",
+    "Game": "Code Geass: Genesic Re;Code"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/4/40/LancelotKarma-ST.png/revision/latest/scale-to-width-down/268?cb=20240202205410",
+  "introduction": "兰斯洛特·卡玛是《Code Geass: Genesic Re;Code》中登场的一台KMF。这是由来自另一时间线的枢木朱雀驾驶的兰斯洛特版本。",
+  "Design and Development": "兰斯洛特·卡玛与兰斯洛特·征服者完全相同，仅涂装不同，并以可翔翼取代了悬浮飞行系统。除此之外，其性能与功能均与后者一致。",
+  "image_folder": "Lancelot Karma",
+  "image_variants": [
+    "Standard"
+  ]
+}

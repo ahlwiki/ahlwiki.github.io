@@ -1,0 +1,33 @@
+{
+  "english_name": "Lancelot Trial",
+  "name": "兰斯洛特试作机",
+  "url": "https://codegeass.fandom.com/wiki/Lancelot_Trial",
+  "specs": {
+    "Model Number": "Z-01/TX-02",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.49 米",
+    "Gross Weight": "6.89 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "卡美洛",
+    "Developed From": "兰斯洛特",
+    "Developed Into": "埃尔法巴",
+    "Operators": "神圣布里塔尼亚帝国格琳达骑士团",
+    "Known Pilots": "玛丽贝尔·梅尔·布里塔尼亚托马斯·基梅尔",
+    "Standard": "能量护盾（Blaze Luminous）系统\n广域感知传感器\n陆行旋轮推进系统",
+    "Optional": "悬浮飞行系统",
+    "Fixed": "4x飞燕爪牙",
+    "Handheld": "1x EM骑枪",
+    "Manga": "Code Geass：双貌的OZ",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/7/75/LancelotTrial.png/revision/latest/scale-to-width-down/268?cb=20140922055608",
+  "introduction": "兰斯洛特试作型是《Code Geass: 双貌的OZ》中由第88皇女玛丽贝尔·梅尔·布里塔尼亚驾驶的兰斯洛特变体机。",
+  "Design and Development": "在黑色叛乱期间及第11区的其他小规模冲突中，枢木朱雀驾驶的兰斯洛特取得了成功，因此计划开始量产这款高性能KMF，即兰斯洛特量产计划，后被称为文森特计划。该计划遇到的第一个障碍是，兰斯洛特的高规格使得普通驾驶员无法操控。利用原版兰斯洛特的备用零件，兰斯洛特试作型作为该计划的首台机体被制造出来。最终成果是一台性能强大的高端机体，即便规格有所降低。遗憾的是，即使降低了规格，其成本仍然过高，因此兰斯洛特试作型作为潜在量产机型的方案被放弃，生产转向了另一种设计——文森特。\n\n尽管规格有所降低，兰斯洛特试作型仍保留了原版的所有武器和系统。除了红色涂装外，试作型与原版兰斯洛特唯一的物理差异在于不同的肩部装甲，这一设计后来被用于兰斯洛特圣杯。",
+  "Specifications": "基本参数  \n乘员：1人  \n高度：4.49米  \n重量：6.97公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n能量护盾（Blaze Luminous）系统  \n广域感知传感器  \n陆行旋轮推进系统  \n可选悬浮飞行系统  \n\n武装  \n4×飞燕爪牙（2具臂部搭载、2具腰部搭载）  \n2×高周波振动剑（MVS）  \n1×VARIS步枪  \n1×骑枪",
+  "Trivia": "兰斯洛特试作型是基于《Code Geass 反叛的鲁路修》仍在开发与策划阶段时，兰斯洛特的概念艺术原型设计之一。",
+  "image_folder": "Lancelot Trial",
+  "image_variants": [
+    "Standard"
+  ]
+}

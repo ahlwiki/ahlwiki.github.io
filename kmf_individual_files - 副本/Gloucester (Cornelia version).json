@@ -1,0 +1,33 @@
+{
+  "english_name": "Gloucester (Cornelia version)",
+  "name": "格洛斯特·柯内莉亚机",
+  "url": "https://codegeass.fandom.com/wiki/Gloucester_(Cornelia_version)",
+  "specs": {
+    "Model Number": "RPI-00/SC",
+    "Codename": "格洛斯特·柯内莉亚机",
+    "KMF Generation": "5th",
+    "Overall Height": "4.84 米",
+    "Gross Weight": "7.75 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "格洛斯特\n萨瑟兰",
+    "Last Seen": "零",
+    "Operators": "布里塔尼亚军",
+    "Known Pilots": "柯内莉亚·li·布里塔尼亚",
+    "Status": "损坏/退役",
+    "Standard": "广域感知传感器\n陆行旋轮推进系统\n驾驶舱弹射系统\n敌我识别应答器系统",
+    "Optional": "沙地装甲板",
+    "Fixed": "2x 胸部搭载飞燕爪牙\n1x 躯干搭载对人机枪（收纳于胸部）",
+    "Handheld": "1x 突击步枪\n1x 电磁骑枪",
+    "Anime": "公主与魔女（第一幕）"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/7/77/Knightmare_Frame_-_Gloucester_%28Cornelia_Custom%29_-_B.jpg/revision/latest?cb=20100525205849",
+  "introduction": "格洛斯特·柯内莉亚机是为配合神圣布里塔尼亚帝国第11区总督柯内莉亚·li·布里塔尼亚作为顶尖KMF驾驶员与指挥官的能力而专门设计定制的型号。与标准型格洛斯特不同，其编号被指定为RPI-00/SC。该机体首次大规模亮相是在成田连山战役中，并在柯内莉亚参与的所有重大战役中均有出场。在第一季末的黑色叛乱中，该机遭受严重损坏——安德烈亚斯·达尔顿在鲁鲁修的Geass影响下，将电磁骑枪投向机体并贯穿驾驶舱，导致柯内莉亚重伤，该机自此永久退役。",
+  "Design and Specifications": "与普通格洛斯特不同，科内莉亚的专属机在头部两侧装有两根角状天线阵列，腰部装甲也更具装饰性。机体采用更明亮鲜艳的紫色涂装，并配有白色披风。该机强化了格斗能力。除标准萨瑟兰装备外，科内莉亚的格洛斯特通常配备大型骑枪和突击步枪。骑枪四侧装有可展开的卡钳结构，能锁住并解除敌方武器。结合格洛斯特的高机动性与强劲动力，这种可怕武器能直接贯穿敌方KMF的驾驶舱，击杀驾驶员并阻止其通过标准弹射系统逃生。",
+  "Specifications": "一般特性\n乘员：1人\n高度：4.84米\n重量：7.85公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n可选装沙地装甲板\n武装\n2x 胸部搭载飞燕爪牙\n1x 突击步枪\n1x 骑枪",
+  "image_folder": "Gloucester (Cornelia version)",
+  "image_variants": [
+    "Standard"
+  ]
+}

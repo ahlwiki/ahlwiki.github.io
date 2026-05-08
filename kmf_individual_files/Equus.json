@@ -22,6 +22,7 @@
   "Trivia": "Equus是马的拉丁语名称。鉴于该KMF具有半人马般的外观，这个名字非常贴切。Equus是已知唯一的第六代KMF，尽管其正典地位尚不明确。",
   "image_folder": "Equus",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

@@ -137,7 +137,7 @@
             width: 60px;
             height: 85px;
             flex-shrink: 0;
-            background: #0a0f18;
+            background: #ffffff;
             border-radius: 8px;
             overflow: hidden;
             display: flex;
@@ -561,12 +561,10 @@
         document.getElementById('total-count').innerText = allKmfData.length;
     }
 
+    // 创建卡片，缩略图自动兼容 webp 和 jpg
     function createKmfCard(kmf) {
-        const engName = kmf.name;               // 原始英文名，用于跳转和图片路径
+        const engName = kmf.name;
         const chnName = kmf.chinese_name || kmf.name;
-        const thumbPath = `./images/kmf_gallery/${encodeURIComponent(engName)}/cover_thumb.jpg`;
-
-        // 获取型号：若无型号或空字符串则显示 '-'
         const modelNumber = kmf.model_number;
         const displayModel = (modelNumber && modelNumber.trim() !== '') ? modelNumber : '-';
 
@@ -579,19 +577,32 @@
         const imgDiv = document.createElement('div');
         imgDiv.className = 'card-img';
         const img = document.createElement('img');
-        img.src = thumbPath;
-        img.alt = chnName;
         img.loading = 'lazy';
-        img.onerror = (e) => {
-            e.target.onerror = null;
-            e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 85'%3E%3Crect width='60' height='85' fill='%23151f2c'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23dbb45c' font-size='9'%3E${engName.substring(0, 6)}%3C/text%3E%3C/svg%3E`;
-            img.style.objectFit = 'contain';
+
+        // 构建基础路径（不含扩展名）
+        const basePath = `./images/kmf_gallery/${encodeURIComponent(engName)}/cover`;
+
+        // 尝试 webp，失败则回退 jpg
+        let fallbackAttempted = false;
+        img.onerror = function() {
+            if (!fallbackAttempted) {
+                fallbackAttempted = true;
+                // 尝试 jpg 格式
+                this.src = basePath + '.jpg';
+            } else {
+                // jpg 也失败，显示占位符
+                this.onerror = null;
+                this.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 85'%3E%3Crect width='60' height='85' fill='%23151f2c'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23dbb45c' font-size='9'%3E${engName.substring(0, 6)}%3C/text%3E%3C/svg%3E`;
+                this.style.objectFit = 'contain';
+            }
         };
+        img.src = basePath + '.webp';
+        img.alt = chnName;
+
         imgDiv.appendChild(img);
 
         const infoDiv = document.createElement('div');
         infoDiv.className = 'card-info';
-        // 桌面版显示型号，移动端通过CSS隐藏 .english-name
         infoDiv.innerHTML = `
             <div class="chinese-name" title="${escapeHtml(chnName)}">${escapeHtml(chnName)}</div>
             <div class="english-name" title="型号: ${escapeHtml(displayModel)}">${escapeHtml(displayModel)}</div>

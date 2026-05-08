@@ -1,0 +1,31 @@
+{
+  "english_name": "Sutherland Custom (Schnee Machine)",
+  "name": "萨瑟兰定制型（施内机）",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_Custom_(Schnee_Machine)",
+  "specs": {
+    "Model Number": "RPI-13",
+    "Codename": "萨瑟兰定制型",
+    "KMF Generation": "5th",
+    "Overall Height": "4.39 米",
+    "Gross Weight": "7.69 吨",
+    "Power Source": "世界树驱动超导体转移系统,能量填充器",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国卡美洛",
+    "Developed From": "萨瑟兰",
+    "Operators": "神圣布里塔尼亚帝国近卫骑士团",
+    "Known Pilots": "Schnee Hexen",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\nI.F.F应答器系统\n高精度瞄准系统",
+    "Optional": "悬浮飞行系统",
+    "Fixed": "2x飞燕爪牙",
+    "Handheld": "1x 反KMF狙击步枪\n1x 骑枪",
+    "Manga": "《CODE GEASS：兰斯洛特与红莲》"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/1c/Sutherland_Schnee.JPG/revision/latest/scale-to-width-down/268?cb=20220101121947",
+  "introduction": "萨瑟兰定制型（雪莉机）是雪莉·赫克森的专用KMF。",
+  "Design and Specifications": "为修奈泽尔个人定制的标准型萨瑟兰改造版。搭载了高精度瞄准系统以辅助远程射击。",
+  "Specifications": "一般特性\n乘员：1人\n高度：4.39米\n重量：7.69公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特点\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n敌我识别应答系统\n高精度瞄准系统\n可选：悬浮飞行系统\n\n武装\n2×飞燕爪牙\n\n可选武装\n1×反KMF狙击步枪\n1×骑枪",
+  "image_folder": "Sutherland Custom (Schnee Machine)",
+  "image_variants": [
+    "Standard"
+  ]
+}

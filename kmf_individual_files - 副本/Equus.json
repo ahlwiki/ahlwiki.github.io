@@ -1,0 +1,27 @@
+{
+  "english_name": "Equus",
+  "name": "Equus",
+  "url": "https://codegeass.fandom.com/wiki/Equus",
+  "specs": {
+    "KMF Generation": "6th",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed Into": "萨格拉莫雷",
+    "Combines Into": "Regalia（搭载Aquila）",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "波鲁克斯·鲁伊·布里塔尼亚",
+    "Standard": "驾驶舱弹射系统广域感知传感器",
+    "Fixed": "2x 加农炮",
+    "Handheld": "1x 钉头锤"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/13/Equus-1-.jpg/revision/latest/scale-to-width-down/268?cb=20090601012952",
+  "introduction": "Equus（エクウス，Ekūsu）是出现在任天堂DS游戏中的第六代KMF原型机。该KMF以拉丁语中意为“马”的单词命名。",
+  "Design and Specifications": "外形奇特的KMF，名为Equus，拥有四条腿而非两条，使其呈现出类似半人马的外观。迦纳巴提和平之盾的常驻工程师兼商人推测，由于使用了相同的材料与技术，它可能是维钦托利的前身，尽管它不具备后者变形能力。\n\n虽然缺少陆行旋轮，但其蹄下装有小型车轮。广域感知传感器位于头部，并拥有一条机械尾巴，其用途不明，仅出于美学考虑。其武装包括一把用于近战的大型狼牙棒，用于摧毁建筑物及其他敌方资产；以及腰部的一对加农炮，用于远程交战。\n\n该机体由波鲁克斯·鲁伊·布里塔尼亚驾驶。",
+  "Specifications": "一般特性  \n乘员：1名  \n动力源：世界树驱动超导体转移系统，能量填充器  \n\n设计特征  \n广域感知传感器  \n\n武装  \n钉头锤  \n腰部加农炮",
+  "Trivia": "Equus是马的拉丁语名称。鉴于该KMF具有半人马般的外观，这个名字非常贴切。Equus是已知唯一的第六代KMF，尽管其正典地位尚不明确。",
+  "image_folder": "Equus",
+  "image_variants": [
+    "Standard"
+  ]
+}

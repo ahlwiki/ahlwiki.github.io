@@ -1,0 +1,32 @@
+{
+  "english_name": "Alexander Drone",
+  "name": "亚历山大无人机",
+  "url": "https://codegeass.fandom.com/wiki/Alexander_Drone",
+  "specs": {
+    "Model Number": "WOX-Type02/UBW",
+    "KMF Generation": "相当于第七代",
+    "Modes": "昆虫模式",
+    "Overall Height": "4.37 米",
+    "Gross Weight": "6.47 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "克莱门特工业",
+    "Developed From": "亚历山大",
+    "Developed Into": "佛罗伦萨",
+    "Variants": "亚历山大无人机（量产型）",
+    "Operators": "wZERO欧罗巴合众国",
+    "Standard": "陆行旋轮推进系统副臂",
+    "Fixed": "2x 固定式乌鲁那刃刀",
+    "Handheld": "1x WAW-04 30mm Linear Assault Rifle “Judgement”",
+    "Anime": "Code Geass：亡国的阿基德",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/a/a4/AlexDrone.jpg/revision/latest/scale-to-width-down/268?cb=20160330191320",
+  "introduction": "亚历山大无人机是W-0所使用的亚历山大KMF的量产版本。其最显著的特征在于可通过驾驶舱内安装的机器进行操控。",
+  "Design and Development": "亚历山大无人机型是亚历山大的变体，可通过人工智能程序控制，并由现场指挥官/操作员通过安装在亚历山大驾驶舱内的机器辅助操控。在实际战斗场景中，这种KMF的作战效率低于常规有人驾驶KMF，但通过数量优势弥补了效率降低的不足。其开发目的是为了减少wZERO的伤亡。截至目前，蕾拉·玛露卡尔是唯一使用过这些KMF的现场指挥官。",
+  "Specifications": "一般特性  \n机组人员：无  \n高度：4.37米  \n重量：6.47公吨  \n动力源：世界树驱动超导体转移系统，能量填充器  \n\n设计特点  \n陆行旋轮推进系统  \n“昆虫模式”变形机构  \n副臂（收纳于驾驶舱两侧）  \n\n武装  \n1x WAW-04 30mm线性突击步枪“审判”（可挂载于驾驶舱两侧）  \n2x 固定式乌鲁纳刃刀（收纳于臂轴内）",
+  "image_folder": "Alexander Drone",
+  "image_variants": [
+    "Standard"
+  ]
+}

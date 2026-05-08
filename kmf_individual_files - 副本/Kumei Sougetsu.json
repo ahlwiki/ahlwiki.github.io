@@ -1,0 +1,30 @@
+{
+  "english_name": "Kumei Sougetsu",
+  "name": "久明创月",
+  "url": "https://codegeass.fandom.com/wiki/Kumei_Sougetsu",
+  "specs": {
+    "Model Number": "Type-03B/F1",
+    "Codename": "久明宗月",
+    "KMF Generation": "相当于第7代",
+    "Overall Height": "4.60 米",
+    "Gross Weight": "9.34 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Developed From": "抱歉，您只提供了“Sougetsu”这个单词，没有提供完整的英文文本。请提供需要翻译的完整英文内容，我将根据您的要求进行专业翻译。",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "柴油",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n背部内置干扰箔/烟雾散布系统\n可翔翼",
+    "Fixed": "1x 左臂安装式盾爪1x 飞燕爪牙（苍牙型）1x 超电磁雷击",
+    "Handheld": "1x 旋转刃薙刀",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/b9/Kumei_Sougetsu.jpg/revision/latest/scale-to-width-down/268?cb=20240801041539",
+  "introduction": "空明蒼月（Kūmei Sōgetsu）是游戏《Code Geass 叛逆的鲁路修 遗失物语》中登场的一台KMF，由主角驾驶。",
+  "Design and Development": "在堂目归队黑色骑士团后，决定为其升级\"苍月\"机体。整修工作由萨维特里·火神负责。除整体性能提升和新操作系统外，机体还换装了新型头部并加装胸部装甲。其盾爪新增武器\"超电雷击\"，可在盾牌中生成电流并从爪部发射闪电冲击波。",
+  "Operational History": "空明苍月首次出击是在小沛战役中，与崔斯坦交战。第二次出击时，在Zero离开期间协助黑色骑士团其他成员。最终出击是与Zero小队一同突袭Geass教团时，与卡莉交战，最终空明苍月四肢被毁，道明寺被俘并击晕。",
+  "image_folder": "Kumei Sougetsu",
+  "image_variants": [
+    "Standard"
+  ]
+}

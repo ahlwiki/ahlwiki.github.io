@@ -1,0 +1,25 @@
+{
+  "english_name": "GX 01",
+  "name": "GX 01",
+  "url": "https://codegeass.fandom.com/wiki/GX_01",
+  "specs": {
+    "Model Number": "GX-01",
+    "Codename": "GX",
+    "KMF Generation": "第7代",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器驱动",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed Into": "GX 01 AlphaGX 01 (达尔克)GX 01 (卢克雷蒂娅)GX 01 (桑西亚)",
+    "Operators": "神圣布里塔尼亚帝国布里塔尼亚特别荣誉外籍军团",
+    "Known Pilots": "不规则者",
+    "Status": "主动式",
+    "Game": "娜娜莉的噩梦"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/c/cf/25.jpg/revision/latest/scale-to-width-down/268?cb=20100402100856",
+  "introduction": "GX 01系列是专为马德上校指挥的非正规部队打造的KMF，堪称首款第七代KMF。其构造采用电合成凝胶作为灯芯，并以樱石塑形KMF作为外壳，因大量使用樱石于外部装甲，最终成为一台行走的发电机，超越全球所有高输出、高机动性马达，机体高度达五米。它还采用了基于阿什福德框架蓝图开发的革命性框架——\"肌肉框架\"。然而，这台KMF最非凡的能力在于Geass导体，可将使用者的Geass转移至KMF中，某些情况下甚至能将其增幅，例如卢克雷蒂亚机体的案例。但GX 01内部还隐藏着一个险恶机制——C.C.细胞控制药物计数器，它能以使用者生命为代价增强Geass能力，不过通常设有时间限制，以便在药物夺走驾驶员性命前将其救回。",
+  "Operational History": "该机体首次投入实战是在第5区的起义中，一名叛军指挥官因低估敌方KMF的性能，导致其与小队全员阵亡。随后在河口湖事件中，由爱丽丝指挥的GX 01 Alpha凭借其Geass能力\"加速\"轻易摧毁了一架JLFRaikou，并进入建筑物内追击恐怖分子，却遭遇名为\"马克·尼莫\"的新敌人。与马克·尼莫的交战导致GX 01 Alpha失去一条手臂，最终马克·尼莫成功逃脱。在埼玉贫民窟灾难中，该机体再次与马克·尼莫交锋试图捕获驾驶员，但马克·尼莫再度逃脱。成田战役中，该机体成功捕获驾驶员，但GX 01 Alpha因此损毁。此后，该机体在红衣主教罗洛指挥下追捕名为爱丽丝的\"不规则\"前成员，但最终倒戈协助爱丽丝。",
+  "image_folder": "GX 01",
+  "image_variants": [
+    "Standard"
+  ]
+}

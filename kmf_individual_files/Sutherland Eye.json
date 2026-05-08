@@ -28,6 +28,7 @@
   "Specifications": "一般特性\n乘员：1人\n高度：4.41米\n重量：7.99公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特点\n先进广域感知传感器\n陆行旋轮推进系统\n驾驶舱弹射系统\n\n武装\n2x 胸部搭载飞燕爪牙\n混沌爆雷（ケイオス爆雷，Keiosu Bakurai，意为混沌深水炸弹）（收纳于腰部）\n1x 实验型VARIS步枪（ヴァリス，Varisu）\n1x 左腕部搭载施罗特钢刀",
   "image_folder": "Sutherland Eye",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "english_name": "Sutherland Custom (Disel Machine)",
+  "name": "萨瑟兰定制型（迪塞尔机）",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_Custom_(Disel_Machine)",
+  "specs": {
+    "Model Number": "RPI-13",
+    "Codename": "萨瑟兰定制型",
+    "KMF Generation": "5th",
+    "Overall Height": "4.39 米",
+    "Gross Weight": "7.79 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "萨瑟兰",
+    "Developed Into": "亚隆戴特",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "马里奥/玛雅·加菲尔德",
+    "Status": "摧毁",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n额外大型外部能量填充器",
+    "Fixed": "2x飞燕爪牙",
+    "Handheld": "1xVARIS步枪1x电磁骑枪",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/58/Sutherland_Custom_Disel.jpg/revision/latest/scale-to-width-down/268?cb=20240801050713",
+  "introduction": "萨瑟兰定制机是《Code Geass：叛逆的鲁路修 遗失物语》中登场的机体。由高级特使特殊工程兵团为其新兵打造的一台KMF。",
+  "Design and Development": "萨瑟兰定制型基于第五代萨瑟兰的原始规格与设计，但为适应加菲尔德的驾驶技术进行了定制化改造。卡美洛将全部原型机与最新技术应用于该机体。尽管兰斯洛特是极为先进的KMF，但卡美洛的预算仅够生产一台，因此为补充驾驶员及其备用机数量，卡美洛决定以萨瑟兰作为备用机体，并为其配备A.S.S.E.C.全部特殊武器（如VARIS步枪）。\n\n除武器升级外，萨瑟兰定制型的机动性与战斗力被设计为与格洛斯特——一款专精近战的KMF——相当。该机体定位为近中距离格斗型，通过VARIS步枪弥补射程需求（需连接动力管以维持步枪输出）。即便如此，萨瑟兰定制型仍是令人畏惧的KMF，可同时对抗数十台无赖改，并与红莲贰式势均力敌。",
+  "Operational History": "在ASEEC获得新试飞员加菲尔德准尉后，目睹加菲尔德招募测试的劳埃德·阿斯普林德注意到萨瑟兰无法跟上与朱雀相似的驾驶技术，但由于预算限制无法制造全新机体，最终诞生了萨瑟兰定制型。该机首次出击是在黑色骑士团为抓捕朱雀而发动的假旗行动中。加菲尔德与黑色骑士团交战并迎战红莲，为避免引起怀疑故意让卡莲摧毁其左臂。接到同时消灭黑色骑士团和朱雀的命令后，加菲尔德击落导弹以拯救双方。当搭载高文的阿瓦隆发射强子炮抵达时，他们撤退至阿瓦隆。\n\n应加菲尔德要求再次出击搜寻朱雀及Zero与卡莲时，遭遇未知KMF。萨瑟兰定制型被瘫痪，加菲尔德负伤，后被C.C.阻止未知KMF所救。\n\n最终出击是在黑色骑士团发动第一次东京租界攻击时。一群黑色骑士团成员无视命令跟随浦部，企图夺取DGE公司，被加菲尔德阻止。计划重新加入黑色骑士团的加菲尔德再次被同一未知KMF拦截。萨瑟兰定制型最终除驾驶舱外全毁，其数据被用于开发阿隆戴特。",
+  "Specifications": "一般特性  \n乘员：1人  \n高度：4.39米  \n重量：7.63公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n驾驶舱弹射系统  \n广域感知传感器  \n陆行旋轮推进系统  \n敌我识别应答器系统  \n\n武装  \n2x 胸部搭载型飞燕爪牙  \n1x 躯干搭载型对人机枪  \n\n可选武装  \n1x 突击步枪（アサルトライフル，常用武器）  \n2x 肘部搭载型眩晕电击棍（スタントンファ，常用武器，主要见于纯血派系的萨瑟兰）  \n1x VARIS步枪  \n1x 电磁骑枪",
+  "image_folder": "Sutherland Custom (Disel Machine)",
+  "image_variants": [
+    "Standard"
+  ]
+}

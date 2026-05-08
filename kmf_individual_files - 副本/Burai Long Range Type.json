@@ -1,0 +1,25 @@
+{
+  "english_name": "Burai Long Range Type",
+  "name": "无赖远程型",
+  "url": "https://codegeass.fandom.com/wiki/Burai_Long_Range_Type",
+  "specs": {
+    "Classification": "改装型远程KMF",
+    "Codename": "Burai 远距离型",
+    "KMF Generation": "4th",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都之家",
+    "Developed From": "无赖",
+    "Developed Into": "Burai强化远程型\nBurai完全强化型",
+    "Operators": "黑色骑士团",
+    "Game": "Code Geass DS"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/53/BuraiRangedType.png/revision/latest?cb=20100722133435",
+  "introduction": "无赖远程型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。无赖远程型是专为远程支援角色而特化的无赖机体，用于掩护向敌军冲锋的友军KMF，但也能在战斗中独当一面。无赖远程型还存在一种名为“无赖强化远程型”的升级版本。",
+  "Design and Development": "无赖远程型的涂装为浅蓝色，外观与无赖极为相似。另一个显著区别在于其左臂内置的加特林机枪。然而，除加特林机枪外，该机型与普通无赖并无差异。",
+  "Specifications": "基本参数\n乘员：1人动力源：世界树驱动超导体转移系统，能量填充器\n设计特征\n驾驶舱弹射系统广域感知传感器陆行旋轮推进系统\n武装\n1x 左臂内置加特林机枪2x 胸部搭载飞燕爪牙\n可选武装\n1x 突击步枪1x 腕部四联装导弹发射器（共8管）1x 左肘部搭载拐棍（仅见于《京都来的使者》）",
+  "image_folder": "Burai Long Range Type",
+  "image_variants": [
+    "Standard"
+  ]
+}

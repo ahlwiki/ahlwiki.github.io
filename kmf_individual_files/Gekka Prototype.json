@@ -27,6 +27,7 @@
   "Specifications": "基本参数  \n乘员：1人  \n高度：4.45米  \n重量：7.92公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n驾驶舱弹射系统  \n高機走駆動輪式陆行旋轮推进系统  \n背部内置干扰箔片烟雾释放装置  \n\n武装  \n飞燕爪牙 × 1（Hien Souga型 Slash Harken）  \n左臂内置辐射波动装置 × 1  \n\n可选武装  \n廻転刃刀 × 1（Katen Yaibatou）  \n专用手枪 × 1（Custom Hand Gun）",
   "image_folder": "Gekka Prototype",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

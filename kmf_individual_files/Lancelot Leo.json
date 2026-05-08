@@ -13,5 +13,8 @@
   "image_url": "",
   "introduction": "兰斯洛特·里奥()是《Code Geass：叛逆的鲁路修 遗失物语》中登场的一款KMF。",
   "image_folder": "Lancelot Leo",
-  "image_variants": []
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
 }

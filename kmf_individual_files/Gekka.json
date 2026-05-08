@@ -29,6 +29,7 @@
   "Trivia": "当月下处于离线状态时，它能够以正坐姿势放置。",
   "image_folder": "Gekka",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

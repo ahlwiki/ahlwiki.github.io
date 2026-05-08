@@ -25,6 +25,7 @@
   "Design and Development": "为雷多个人定制化的文森特KMF，文森特·烈焰在肩部搭载了两台能量护盾（Blaze Luminous）发生器。该能量护盾（Blaze Luminous）亦可连接至KMF的拳部，用于近战格斗。然而，由于这一装备，文森特·烈焰的肩部缺少了标准文森特所配备的广域感知传感器（Factsphere），仅像旧型号KMF那样在头部保留了该传感器。\n\n文森特·烈焰同样保留了标准文森特的所有武装，包括针刺发射器和长枪型高周波振动剑（MVS）。其飞燕爪牙（Slash Harken）的设计也与标准文森特不同，爪牙长度比常规版本更长。",
   "image_folder": "Vincent Blaze",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

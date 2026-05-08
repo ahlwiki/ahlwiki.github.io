@@ -1,0 +1,30 @@
+{
+  "english_name": "Lancelot HighGrail",
+  "name": "兰斯洛特·圣杯",
+  "url": "https://codegeass.fandom.com/wiki/Lancelot_HighGrail",
+  "specs": {
+    "Model Number": "Z-01/T-EP0",
+    "KMF Generation": "第7代",
+    "Overall Height": "5.22 米",
+    "Gross Weight": "8.26 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "卡美洛",
+    "Developed From": "兰斯洛特圣杯文森特·格拉姆",
+    "Combines Into": "兰斯洛特圣杯空中骑兵（与布拉德福德·勇者合体）\n兰斯洛特圣杯战车（与泽特兰·核心合体）\n兰斯洛特圣杯女武神（与谢菲尔德·眼合体）",
+    "Operators": "神圣布里塔尼亚帝国格琳达骑士团",
+    "Known Pilots": "奥德琳·泽冯",
+    "Standard": "驾驶舱弹射系统\n能量护盾（Blaze Luminous）系统（用于剑刃冲击）\n广域感知传感器\n陆行旋轮推进系统\n肩部安装式\n悬浮飞行系统\nVTDS",
+    "Optional": "可拆卸式剑刃挂载架×4 施罗特钢制Trans剑",
+    "Fixed": "2x飞燕爪牙2x剑刃爆裂器（腕部安装）",
+    "Manga": "Code Geass：双貌的OZ"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/3e/S5Srbff.jpg/revision/latest/scale-to-width-down/268?cb=20170917052805",
+  "introduction": "兰斯洛特·圣杯高文是兰斯洛特圣杯的升级型，也是奥德琳·泽冯的专用KMF。",
+  "Design and Development": "作为“翠绿计划”的一部分，经过改造的兰斯洛特圣杯。该机体基于文森特一型的反馈、框架和操作系统建造，成为兰斯洛特与文森特之间的首款混合型号。新型头部搭载了相互信息链接VTDS（Vates战术数据系统），双肩均内置了悬浮单元。原有的施罗特钢剑已被新型施罗特钢·瞬剑取代，后者从原始概念中精炼而来。尽管数量减少，但这些剑仍可在搭载状态下作为飞燕剑刃使用，并按照驾驶员的意愿通过手臂内置的能量护盾（Blaze Luminous）发生器供能。这些新剑现在还可以相互连接，并利用飞燕剑刃机构作为鞭状剑使用。",
+  "Specifications": "基本参数\n乘员：1人\n高度：4.63米\n重量：8.05公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特征\n驾驶舱弹射系统\n能量护盾（Blaze Luminous）系统（用于剑刃爆发）\n广域感知传感器\n陆行旋轮推进系统\n悬浮飞行系统\nVTDS\n\n武装\n2x 飞燕爪牙\n\n可选武装\n4x 施罗特钢制变形剑",
+  "image_folder": "Lancelot HighGrail",
+  "image_variants": [
+    "Standard"
+  ]
+}

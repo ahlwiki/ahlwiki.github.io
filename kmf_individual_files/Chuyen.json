@@ -25,6 +25,7 @@
   "Trivia": "\"Chuyen\"之名取自中国神话中的一种怪物，一种白头红腿的灵长类生物，据传是战争的预兆。Chuyen的设计灵感来源于《西游记》中的英雄孙悟空。",
   "image_folder": "Chuyen",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

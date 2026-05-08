@@ -26,6 +26,7 @@
   "Specifications": "基本参数\n乘员：1名\n全高：4.39米\n重量：7.58公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n敌我识别应答器系统\n能量护盾（Blaze Luminous）发生器\n可选配悬浮飞行系统\n\n固定武装\n2×飞燕爪牙\n\n可选武装\n1×可变式突击步枪（VARIS步枪）",
   "image_folder": "Sutherland Custom (Ledo Machine)",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

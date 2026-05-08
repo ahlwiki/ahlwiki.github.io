@@ -1,0 +1,24 @@
+{
+  "english_name": "Burai Special Weapons B-Type",
+  "name": "Burai特殊武装B型",
+  "url": "https://codegeass.fandom.com/wiki/Burai_Special_Weapons_B-Type",
+  "specs": {
+    "Classification": "改装型远程KMF",
+    "Codename": "无赖特殊武装B型",
+    "KMF Generation": "4th",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都之家",
+    "Developed From": "无赖",
+    "Operators": "黑色骑士团",
+    "Game": "Code Geass DS"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/5f/BuraiSpecialWeaponsBType.png/revision/latest?cb=20120427193813",
+  "introduction": "Burai特殊武装B型仅在《Code Geass DS》中登场。该机体是Burai的衍生型号，专为远程支援而设计，可在友方KMF冲锋时提供掩护，同时其加特林机枪也能撕裂大量敌军。黑色骑士团曾少量使用该机型。",
+  "Design and Development": "除了浅蓝色的涂装和加特林机枪外，它与普通的无赖并无区别。",
+  "Specifications": "一般特性\n乘员：1人动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n驾驶舱弹射系统广域感知传感器陆行旋轮推进系统\n武装\n2x 胸部搭载飞燕爪牙2x 加特林机枪（弹药为背部搭载）\n可选武装\n1x 突击步枪1x 腕部搭载四联装导弹发射器（共8管）1x 左肘搭载拐棍（仅见于《京都来的使者》）",
+  "image_folder": "Burai Special Weapons B-Type",
+  "image_variants": [
+    "Standard"
+  ]
+}

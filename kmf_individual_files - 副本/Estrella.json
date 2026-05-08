@@ -1,0 +1,32 @@
+{
+  "english_name": "Estrella",
+  "name": "埃斯特雷拉",
+  "url": "https://codegeass.fandom.com/wiki/Estrella",
+  "specs": {
+    "Model Number": "Type-06/ESP",
+    "KMF Generation": "5th",
+    "Overall Height": "4.38 米",
+    "Gross Weight": "7.73 metric tones",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Developed From": "萨瑟兰",
+    "Operators": "欧罗巴联合共和国  \n马德里之星",
+    "Known Pilots": "费尔南多·诺列加玛丽罗莎·诺列加",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统",
+    "Fixed": "2x 肘部安装式电击拐",
+    "Handheld": "1x 大型加农炮",
+    "Anime": "Code Geass 反叛的鲁路修 II — 叛道",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/e/eb/2014101701.jpg/revision/latest/scale-to-width-down/268?cb=20141101192840",
+  "introduction": "埃斯特雷拉是一种基于萨瑟兰开发的KMF，由第24区（原西班牙）的抵抗组织“马德里之星”使用。",
+  "Design and Specifications": "埃斯特雷拉是萨瑟兰的仿制机型，为第24区反布里塔尼亚抵抗组织\"马德里之星\"进行了调校。虽然基础结构相同，但额外增加了装甲。\n\n多数机体采用黑色涂装，但其领袖费尔南多·诺列加的专属机体为绿色，其妹玛丽罗莎的机体则为红色。尽管费尔南多使用一对电击棍，玛丽罗莎使用大型加农炮，但他们的机体整体性能与其他机体完全相同。",
+  "Specifications": "一般特性  \n乘员：1名  \n高度：4.39米  \n重量：7.48公吨  \n动力源：世界树驱动超导体转移系统，能量填充器  \n\n设计特点  \n驾驶舱弹射系统  \n广域感知传感器  \n陆行旋轮推进系统  \n\n武装  \n2x 胸部搭载 飞燕爪牙  \n\n可选武装  \n1x 突击步枪（アサルトライフル，常用武器）  \n2x 肘部搭载 电击棍（スタントンファ）  \n1x 大型加农炮",
+  "Trivia": "埃斯特雷拉在西班牙语中意为“星星”。",
+  "image_folder": "Estrella",
+  "image_variants": [
+    "Standard",
+    "费尔南多配色",
+    "玛丽罗莎配色"
+  ]
+}

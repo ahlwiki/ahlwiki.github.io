@@ -1,0 +1,34 @@
+{
+  "english_name": "Pendulum",
+  "name": "钟摆",
+  "url": "https://codegeass.fandom.com/wiki/Pendulum",
+  "specs": {
+    "Classification": "KMF",
+    "Model Number": "DMX-V01",
+    "Official Name": "钟摆",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.52 米",
+    "Gross Weight": "7.02 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Developer": "卡莉·迪塞尔",
+    "Manufacturer": "迪塞尔工业",
+    "Developed Into": "钟摆复活钟摆Plus",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "柴油",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n能量护盾（Blaze Luminous）发生器",
+    "Optional": "空战武装爆裂武装",
+    "Fixed": "2x飞燕爪牙 2x旋涡爆裂炮",
+    "Handheld": "2 x高周波振动剑（MVS）",
+    "Game": "Code Geass：失落物语",
+    "Mechanical Designer": "ASTRAYS"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/a/a9/Pendulum_Default_Arms.jpg/revision/latest/scale-to-width-down/267?cb=20240701124404",
+  "introduction": "\"钟摆（Pendulum）\"是《Code Geass 反叛的鲁路修 遗失物语》中登场的KMF，由主角驾驶。",
+  "Design and Development": "“摆锤”原是由迪塞尔工业秘密开发的KMF，在卡莉·迪塞尔的直接指挥下作为其座机“抹大拉”的姐妹机而建造。该机体在主角逃脱卡莉掌控后仍处于未完成状态，最终成为主角的新专属机体——由克拉丽丝·加菲尔德（短暂重逢后）完成剩余调试工作。\n\n其性能参数被描述为与兰斯洛特·征服者同级，配备双持高周波振动剑（MVS），搭载能量护盾（Blaze Luminous）发生器与悬浮飞行系统。该机体的独特之处在于其“转轮系统”，可切换双臂战斗模式：“空战臂”与“爆裂臂”。“空战臂”模式专精于特殊“V-Maximum”突进攻击，通过光锥力场摧毁冲锋路径上的所有目标；而“爆裂臂”模式则专注于远程作战，可发射“涡旋爆裂”强子炮。\n\n在主角为执行零之镇魂曲而加入鲁鲁修阵营后，“摆锤”升级了额外武装，成为“摆锤·全武装”（ペンデュラム・フルアームズ）。新增装备包括：在髋部两侧加装两门“涡旋爆裂”炮，以及腰部搭载的4枚名为“巨型飞燕爪牙·贝”的大型飞燕爪牙。",
+  "Trivia": "其正式名称与同名游戏主题相关。尽管与黑色骑士团并无关联，游戏仍将\"摆锤\"归类为该组织的单位。在官方设计图公布前，该机体最初以蓝色涂装亮相于R1篇片头动画，后在R2篇正式登场时改为红色涂装。游戏剧情中暗示其配色变更源于从敌对阵营转为己方阵营的立场转变。其全武装形态仅当玩家获得\"主角（只为复仇）\"变体时方可解锁。这是《失落物语》中首次出现KMF武器系统需玩家解锁角色后方可使用的设定。",
+  "image_folder": "Pendulum",
+  "image_variants": [
+    "Standard"
+  ]
+}

@@ -25,6 +25,7 @@
   "Specifications": "数据来源：Code Geass 电击数据收藏\n基本规格\n乘员：1人\n高度：4.37米\n重量：8.09公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n武装\n2x 胸部搭载飞燕爪牙\n2x 冲锋手枪（收纳于腰部）\n2x 反KMF战斗刀（安装于手臂）（可拆卸）\n可选武装\n2x 拐棍（肘部搭载）\n1x 防暴盾牌",
   "image_folder": "Knightpolice",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

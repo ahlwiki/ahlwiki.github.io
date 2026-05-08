@@ -20,6 +20,7 @@
   "Specifications": "基本参数\n乘员：1人动力源：世界树驱动超导体转移系统，能量填充器\n设计特点\n集成悬浮飞行系统陆行旋轮推进系统\n武装\n长矛翼刃翼部射击 × 4",
   "image_folder": "Aquila",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }
