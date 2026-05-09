@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Foulbout",
   "name": "福尔伯特",
   "url": "https://codegeass.fandom.com/wiki/Foulbout",
@@ -18,8 +18,8 @@
   "Trivia": "其名称源自北欧神话中“洛基”之父“法布提”。",
   "image_folder": "Foulbout",
   "image_variants": [
+    "标准",
     "前·泰坦形态",
-    "前方",
     "后·泰坦形态"
   ]
 }

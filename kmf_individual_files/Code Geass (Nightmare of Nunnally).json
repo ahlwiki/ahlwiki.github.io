@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Code Geass (Nightmare of Nunnally)",
   "name": "Code Geass（娜娜莉的梦魇）",
   "url": "https://codegeass.fandom.com/wiki/Code_Geass_(Nightmare_of_Nunnally)",
@@ -17,7 +17,7 @@
   "Specifications": "\"神之火焰\"——Code Geass能够制造出具有高度破坏性的能量球，既可引爆也可作为武器使用。  \n\"神速\"——Code Nemo能将爱丽丝的Geass强化至其速度无限提升的程度，从而让她能够绕过罗洛的Geass。  \n金色短刀",
   "image_folder": "Code Geass (Nightmare of Nunnally)",
   "image_variants": [
-    "无装甲",
-    "装甲"
+    "装甲",
+    "无装甲"
   ]
 }

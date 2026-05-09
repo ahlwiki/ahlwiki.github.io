@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Alexander",
   "name": "亚历山大",
   "url": "https://codegeass.fandom.com/wiki/Alexander",
@@ -32,8 +32,8 @@
   "image_folder": "Alexander",
   "image_variants": [
     "前·人形态",
-    "前·昆虫形态",
     "后·人形态",
+    "前·昆虫形态",
     "后·昆虫形态"
   ]
 }

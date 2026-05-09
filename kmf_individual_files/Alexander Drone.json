@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Alexander Drone",
   "name": "亚历山大无人机",
   "url": "https://codegeass.fandom.com/wiki/Alexander_Drone",
@@ -28,8 +28,8 @@
   "image_folder": "Alexander Drone",
   "image_variants": [
     "前·人形态",
-    "前·昆虫形态",
     "后·人形态",
+    "前·昆虫形态",
     "后·昆虫形态"
   ]
 }

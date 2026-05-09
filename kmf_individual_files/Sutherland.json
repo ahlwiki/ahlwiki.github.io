@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Sutherland",
   "name": "萨瑟兰",
   "url": "https://codegeass.fandom.com/wiki/Sutherland",
@@ -33,8 +33,8 @@
   "image_folder": "Sutherland",
   "image_variants": [
     "前·标准",
-    "前·纯血派",
     "后·标准",
+    "前·纯血派",
     "后·纯血派",
     "黑色骑士团配色"
   ]

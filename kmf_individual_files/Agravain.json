@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Agravain",
   "name": "阿格拉万",
   "url": "https://codegeass.fandom.com/wiki/Agravain",
@@ -28,8 +28,8 @@
   "image_folder": "Agravain",
   "image_variants": [
     "前·炮击型",
-    "前·近战型",
     "后·炮击型",
+    "前·近战型",
     "后·近战型"
   ]
 }

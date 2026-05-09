@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Alexander Type-02 Ryo Version",
   "name": "亚历山大贰式·流机",
   "url": "https://codegeass.fandom.com/wiki/Alexander_Type-02_Ryo_Version",
@@ -29,8 +29,8 @@
   "image_folder": "Alexander Type-02 Ryo Version",
   "image_variants": [
     "前·人形态",
-    "前·昆虫形态",
     "后·人形态",
+    "前·昆虫形态",
     "后·昆虫形态"
   ]
 }

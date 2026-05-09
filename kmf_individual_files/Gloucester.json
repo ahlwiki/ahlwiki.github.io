@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Gloucester",
   "name": "格洛斯特",
   "url": "https://codegeass.fandom.com/wiki/Gloucester",
@@ -29,9 +29,9 @@
   "Trivia": "格洛斯特的名称来源于英格兰的格洛斯特市、区及郡，该地区属于不列颠群岛，在系列中是布里塔尼亚征服的祖先故土。",
   "image_folder": "Gloucester",
   "image_variants": [
-    "前·吉尔福德_达尔顿",
     "前方",
-    "后·吉尔福德_达尔顿",
-    "后方"
+    "后方",
+    "前·吉尔福德_达尔顿",
+    "后·吉尔福德_达尔顿"
   ]
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Estrella",
   "name": "埃斯特雷拉",
   "url": "https://codegeass.fandom.com/wiki/Estrella",
@@ -25,11 +25,11 @@
   "Trivia": "埃斯特雷拉在西班牙语中意为“星星”。",
   "image_folder": "Estrella",
   "image_variants": [
-    "前·玛丽罗莎",
-    "前·费尔南多",
     "前方",
-    "后·玛丽罗莎",
+    "后方",
+    "前·费尔南多",
     "后·费尔南多",
-    "后方"
+    "前·玛丽罗莎",
+    "后·玛丽罗莎"
   ]
 }

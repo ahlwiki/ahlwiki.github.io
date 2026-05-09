@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Sutherland Custom (Schnee Machine)",
   "name": "萨瑟兰定制型（施内机）",
   "url": "https://codegeass.fandom.com/wiki/Sutherland_Custom_(Schnee_Machine)",
@@ -27,8 +27,8 @@
   "image_folder": "Sutherland Custom (Schnee Machine)",
   "image_variants": [
     "前·标准型",
-    "前·狙击型",
     "后·标准型",
+    "前·狙击型",
     "后·狙击型"
   ]
 }

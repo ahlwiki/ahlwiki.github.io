@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Alexander Drone (Mass Production Model)",
   "name": "亚历山大无人机（量产型）",
   "url": "https://codegeass.fandom.com/wiki/Alexander_Drone_(Mass_Production_Model)",
@@ -26,9 +26,9 @@
   "image_folder": "Alexander Drone (Mass Production Model)",
   "image_variants": [
     "前·人形态",
-    "前·幸也·人形态",
-    "前·幸也·昆虫形态",
     "后·人形态",
-    "后·幸也·人形态"
+    "前·幸也·人形态",
+    "后·幸也·人形态",
+    "前·幸也·昆虫形态"
   ]
 }

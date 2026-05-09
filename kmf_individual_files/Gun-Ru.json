@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Gun-Ru",
   "name": "钢髅",
   "url": "https://codegeass.fandom.com/wiki/Gun-Ru",
@@ -27,10 +27,10 @@
   "Trivia": "在《Code Geass: 奇迹的生日》中，钢髅可以通过在点火钥匙上涂抹强力胶来使其失效。",
   "image_folder": "Gun-Ru",
   "image_variants": [
+    "Standard",
     "前·宦官派",
-    "前·幸丸部队",
-    "前方",
     "后·宦官派",
+    "前·幸丸部队",
     "后·幸丸部队"
   ]
 }

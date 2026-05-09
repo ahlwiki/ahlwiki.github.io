@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Bamides",
   "name": "巴米德斯",
   "url": "https://codegeass.fandom.com/wiki/Bamides",
@@ -23,7 +23,7 @@
   "Specifications": "一般特性\n乘员：1人\n高度：11.19米\n重量：90.29公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特征\n悬浮单元（可实现超低空悬浮）\n可选装备：沙地装甲板\n武装\n1门 腹部搭载长距离炮\n2挺 下肩部搭载机枪\n2具 上肩部搭载导弹发射器（每具可搭载6至12枚导弹）",
   "image_folder": "Bamides",
   "image_variants": [
-    "侧面",
-    "前面"
+    "前面",
+    "侧面"
   ]
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Gloucester (Cornelia version)",
   "name": "格洛斯特·柯内莉亚机",
   "url": "https://codegeass.fandom.com/wiki/Gloucester_(Cornelia_version)",
@@ -29,8 +29,8 @@
   "image_folder": "Gloucester (Cornelia version)",
   "image_variants": [
     "前·带披风",
-    "前·无披风",
     "后·带披风",
+    "前·无披风",
     "后·无披风"
   ]
 }

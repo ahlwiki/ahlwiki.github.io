@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Gloucester Swordsman",
   "name": "格洛斯特剑士",
   "url": "https://codegeass.fandom.com/wiki/Gloucester_Swordsman",
@@ -26,12 +26,12 @@
   "image_variants": [
     "Standard",
     "前·三剑士",
-    "前·拉斐尔",
-    "前·阿修罗",
-    "前·阿修雷",
     "后·三剑士",
+    "前·拉斐尔",
     "后·拉斐尔",
+    "前·阿修罗",
     "后·阿修罗",
+    "前·阿修雷",
     "后·阿修雷"
   ]
 }

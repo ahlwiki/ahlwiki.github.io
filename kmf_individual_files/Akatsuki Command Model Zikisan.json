@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "Akatsuki Command Model Zikisan",
   "name": "晓·直参仕样",
   "url": "https://codegeass.fandom.com/wiki/Akatsuki_Command_Model_Zikisan",
@@ -28,9 +28,9 @@
   "Specifications": "一般特性  \n乘员：1人  \n高度：4.81米  \n重量：8.26公吨（可翔式状态下为9.25公吨）  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n高機走駆動轮式陆行旋轮推进系统  \n可选配可翔翼  \n驾驶舱弹射系统  \n辐射波动防护装置  \n\n武装  \n1x 廻転刃刀（Katen Yaibatou）  \n2x 肩部机关炮塔  \n1x 飞燕爪牙（Hien Souga型，左胸部安装）  \n\n可选武装  \n1x 左（或右）臂安装式双管手枪  \n1x 右臂安装式火箭筒（罕见情况）  \n右臂安装式辐射波动导弹 x3  \n12管导弹发射器 x1（有时装备于可翔翼系统）",
   "image_folder": "Akatsuki Command Model Zikisan",
   "image_variants": [
-    "前·C.C",
     "前方",
-    "后·C.C",
-    "后方"
+    "后方",
+    "前·C.C",
+    "后·C.C"
   ]
 }

@@ -1,4 +1,4 @@
-{
+﻿{
   "english_name": "MR-1",
   "name": "MR-1",
   "url": "https://codegeass.fandom.com/wiki/MR-1",
@@ -24,7 +24,6 @@
   "Specifications": "一般特性\n乘员：1名\n高度：4.35米\n重量：7.20公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n陆行旋轮推进系统\n驾驶舱弹射系统\n武装\n2x 胸部搭载飞燕爪牙",
   "image_folder": "MR-1",
   "image_variants": [
-    "Ashford",
     "阿什福德学园",
     "黑色骑士团配色"
   ]
