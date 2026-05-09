@@ -3,14 +3,14 @@
   "name": "Burai 强化远程型",
   "url": "https://codegeass.fandom.com/wiki/Burai_Enhanced_Long_Range_Type",
   "specs": {
-    "Codename": "Burai 强化远程型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
+    "Codename": "Burai 强化远程型",
     "Developed From": "无赖远程型",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团日本解放战线",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/b5/BuraiEnhancedLongRangeType.png/revision/latest?cb=20100303162156",
   "introduction": "布赖长距离强化型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。该机型由布赖长距离型升级而来，专精于狙击手、远程支援甚至机动火炮的角色。黑色骑士团在一定程度上使用了布赖系列机体。",

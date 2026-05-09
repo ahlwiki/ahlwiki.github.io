@@ -46,7 +46,6 @@
             margin-top: 0.5rem;
         }
 
-        /* 筛选栏 (桌面版) */
         .filter-bar {
             background: rgba(0, 0, 0, 0.55);
             border-radius: 40px;
@@ -107,7 +106,6 @@
             color: white;
         }
 
-        /* 机体网格 */
         .kmf-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -203,46 +201,37 @@
             font-size: 0.8rem;
         }
 
-        /* ========== 移动端专属样式 ========== */
         @media (max-width: 640px) {
             .header h1{
                 font-size: 1.3rem;
             }
-
             .header p {
                 display: none;
             }
-
             .container {
                 padding: 1rem;
                 padding-bottom: 80px;
             }
-
-            /* 机体网格改为紧凑多列 */
             .kmf-grid {
                 grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
                 gap: 0.4rem;
             }
-
-            /* 隐藏桌面版筛选栏 */
             .filter-bar {
                 display: none;
             }
-
-            /* 卡片：垂直布局、无内边距、描边紧贴内容 */
             .kmf-card {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-                padding: 0;           /* 移除内边距，描边紧贴图片和文字 */
+                padding: 0;
                 gap: 0;
                 border-radius: 12px;
             }
             .card-img {
-                width: 100%;         /* 图片撑满卡片宽度，保持高宽比 */
+                width: 100%;
                 height: auto;
-                aspect-ratio: 60 / 85; /* 维持原比例 */
-                border-radius: 12px 12px 0 0; /* 上圆角，下直角紧贴文字区 */
+                aspect-ratio: 60 / 85;
+                border-radius: 12px 12px 0 0;
             }
             .card-img img {
                 width: 100%;
@@ -256,17 +245,15 @@
                 text-align: center;
             }
             .card-info .chinese-name {
-                font-size: 0.6rem;    /* 手机端字体稍小 */
+                font-size: 0.6rem;
                 white-space: normal;
                 word-break: break-word;
                 line-height: 1.2;
             }
-            /* 手机端隐藏英文名/型号 */
             .card-info .english-name {
                 display: none;
             }
 
-            /* 底部抽屉样式保持不变 */
             .mobile-drawer {
                 position: fixed;
                 bottom: 0;
@@ -353,7 +340,6 @@
             }
         }
 
-        /* 桌面版完全隐藏移动端抽屉 */
         @media (min-width: 641px) {
             .mobile-drawer {
                 display: none;
@@ -368,20 +354,17 @@
         <p>Code Geass系列人型自在战斗装甲骑（Knightmare Frame）档案</p>
     </div>
 
-    <!-- 桌面版筛选栏 -->
     <div class="filter-bar" id="desktop-filter-bar"></div>
 
-    <!-- 机体列表容器 -->
     <div id="kmf-list-container" class="kmf-grid">
         <div class="loading">加载机动兵器数据中 ... ⚡</div>
     </div>
 
     <div class="footer">
-        © 布里塔尼亚帝国技术部 · 机体总数: <span id="total-count">0</span>
+        © 布里塔尼亚帝国技术部 · 机体数: <span id="display-count">0</span> / <span id="total-count">0</span>
     </div>
 </div>
 
-<!-- 移动端抽屉筛选器 -->
 <div id="mobile-drawer" class="mobile-drawer">
     <div class="drawer-handle" id="drawer-handle">
         <div class="drag-bar"></div>
@@ -397,6 +380,7 @@
     let allKmfData = [];
     let currentCategory = null;
     let currentValue = null;
+    const HAS_VALUE = "__has_value__";
 
     const categoryNames = {
         "Anime": "📺 动画",
@@ -499,12 +483,8 @@
         const category = btn.dataset.category;
         let value = btn.dataset.value;
         if (value === '__all__') {
-            if (currentCategory === category && currentValue === null) {
-                // nothing
-            } else {
-                currentCategory = category;
-                currentValue = null;
-            }
+            currentCategory = category;
+            currentValue = HAS_VALUE;
         } else {
             currentCategory = category;
             currentValue = value;
@@ -513,11 +493,14 @@
         renderFilteredList();
     }
 
+    // 修改后的高亮函数：清除所有按钮高亮，然后只高亮当前选中的按钮
     function updateActiveButtonForAll(category, value) {
+        // 先清除所有按钮的高亮
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        // 再高亮当前分类的目标按钮
         const groups = document.querySelectorAll(`.filter-buttons[data-category="${category}"]`);
         groups.forEach(group => {
-            group.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-            if (value === null) {
+            if (value === '__all__') {
                 const allBtn = group.querySelector('.category-all');
                 if (allBtn) allBtn.classList.add('active');
             } else {
@@ -535,14 +518,24 @@
     }
 
     function getFilteredKmf() {
-        if (!currentCategory || !currentValue) return allKmfData;
-        return allKmfData.filter(kmf => {
-            const cats = kmf.categories || {};
-            const values = cats[currentCategory];
-            if (!values) return false;
-            if (Array.isArray(values)) return values.includes(currentValue);
-            return values === currentValue;
-        });
+        if (!currentCategory) return allKmfData;
+        if (currentValue === HAS_VALUE) {
+            return allKmfData.filter(kmf => {
+                const cats = kmf.categories || {};
+                const val = cats[currentCategory];
+                if (Array.isArray(val)) return val.length > 0;
+                if (typeof val === 'string') return val.trim() !== '';
+                return false;
+            });
+        } else {
+            return allKmfData.filter(kmf => {
+                const cats = kmf.categories || {};
+                const values = cats[currentCategory];
+                if (!values) return false;
+                if (Array.isArray(values)) return values.includes(currentValue);
+                return values === currentValue;
+            });
+        }
     }
 
     function renderFilteredList() {
@@ -550,6 +543,7 @@
         const filtered = getFilteredKmf();
         if (filtered.length === 0) {
             container.innerHTML = '<div class="no-result">⚠️ 没有找到符合筛选条件的机体</div>';
+            document.getElementById('display-count').innerText = 0;
             document.getElementById('total-count').innerText = allKmfData.length;
             return;
         }
@@ -558,10 +552,10 @@
             const card = createKmfCard(kmf);
             container.appendChild(card);
         });
+        document.getElementById('display-count').innerText = filtered.length;
         document.getElementById('total-count').innerText = allKmfData.length;
     }
 
-    // 创建卡片，缩略图自动兼容 webp 和 jpg
     function createKmfCard(kmf) {
         const engName = kmf.name;
         const chnName = kmf.chinese_name || kmf.name;
@@ -579,18 +573,13 @@
         const img = document.createElement('img');
         img.loading = 'lazy';
 
-        // 构建基础路径（不含扩展名）
         const basePath = `./images/kmf_gallery/${encodeURIComponent(engName)}/cover`;
-
-        // 尝试 webp，失败则回退 jpg
         let fallbackAttempted = false;
         img.onerror = function() {
             if (!fallbackAttempted) {
                 fallbackAttempted = true;
-                // 尝试 jpg 格式
                 this.src = basePath + '.jpg';
             } else {
-                // jpg 也失败，显示占位符
                 this.onerror = null;
                 this.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 85'%3E%3Crect width='60' height='85' fill='%23151f2c'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23dbb45c' font-size='9'%3E${engName.substring(0, 6)}%3C/text%3E%3C/svg%3E`;
                 this.style.objectFit = 'contain';
@@ -626,6 +615,7 @@
         renderFilteredList();
     }
 
+    // 移动端抽屉功能（完整）
     function initMobileDrawer() {
         const drawer = document.getElementById('mobile-drawer');
         const handle = document.getElementById('drawer-handle');
@@ -715,6 +705,7 @@
             }
             allKmfData = data;
             document.getElementById('total-count').innerText = allKmfData.length;
+            document.getElementById('display-count').innerText = allKmfData.length;
             buildFilterBars();
             setDefaultFilter();
             initMobileDrawer();

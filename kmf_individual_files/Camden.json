@@ -3,16 +3,16 @@
   "name": "卡姆登",
   "url": "https://codegeass.fandom.com/wiki/Camden",
   "specs": {
-    "Model Number": "RPI-221",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Anime": "Code Geass 夺还的罗塞",
     "Armor Materials": "钨",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Operators": "新布里塔尼亚帝国",
-    "Known Pilots": "Greede KirkwayneGran KirkwayneTomoomi OdaKensei Kuroto",
-    "Standard": "2x陆行旋轮推进系统",
     "Fixed": "2x 反坦克导弹2x 地对空导弹",
     "Handheld": "1x 突击步枪",
-    "Anime": "《Code Geass：夺还的Roze》"
+    "Known Pilots": "Greede KirkwayneGran KirkwayneTomoomi OdaKensei Kuroto",
+    "Manufacturer": "新布里塔尼亚帝国",
+    "Model Number": "RPI-221",
+    "Operators": "新布里塔尼亚帝国",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "2x陆行旋轮推进系统"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/0/04/Camden.jpg/revision/latest/scale-to-width-down/268?cb=20240622143039",
   "introduction": "卡姆登（Camden，カムデン，Kamuden）是《Code Geass：夺还的罗塞》中登场的KMF。它是新布里塔尼亚帝国使用的量产机型。",

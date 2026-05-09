@@ -1,0 +1,31 @@
+{
+  "english_name": "Vincent Blaze",
+  "name": "文森特·烈焰",
+  "url": "https://codegeass.fandom.com/wiki/Vincent_Blaze",
+  "specs": {
+    "Model Number": "RPI-212/KKC02",
+    "Codename": "文森特·烈焰",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.44 米",
+    "Gross Weight": "7.32 吨",
+    "Power Source": "世界树驱动超导体转移系统,能量填充器",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国卡美洛",
+    "Developed From": "文森特",
+    "Operators": "神圣布里塔尼亚帝国近卫骑士团",
+    "Known Pilots": "莱多·奥芬",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统",
+    "Optional": "悬浮飞行系统",
+    "Fixed": "2x 腰部挂载飞燕爪牙\n2x 肘部挂载针刺炫光\n2x 长枪型高周波振动剑（MVS）\n2x 肩部挂载能量护盾（Blaze Luminous）发生器",
+    "Handheld": "1x 骑枪",
+    "Manga": "《CODE GEASS：兰斯洛特与红莲》"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/20/VincentBlaze.jpg/revision/latest/scale-to-width-down/267?cb=20181201102812",
+  "introduction": "文森特·烈焰是雷多·奥芬专用的定制型文森特KMF。",
+  "Design and Development": "为雷多个人定制化的文森特KMF，文森特·烈焰在肩部搭载了两台能量护盾（Blaze Luminous）发生器。该能量护盾（Blaze Luminous）亦可连接至KMF的拳部，用于近战格斗。然而，由于这一装备，文森特·烈焰的肩部缺少了标准文森特所配备的广域感知传感器（Factsphere），仅像旧型号KMF那样在头部保留了该传感器。\n\n文森特·烈焰同样保留了标准文森特的所有武装，包括针刺发射器和长枪型高周波振动剑（MVS）。其飞燕爪牙（Slash Harken）的设计也与标准文森特不同，爪牙长度比常规版本更长。",
+  "image_folder": "Vincent Blaze",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

@@ -1,0 +1,32 @@
+﻿{
+  "english_name": "Alexander Red Ogre",
+  "name": "亚历山大·赤鬼",
+  "url": "https://codegeass.fandom.com/wiki/Alexander_Redorga",
+  "specs": {
+    "Model Number": "WOX Type-03/SC",
+    "KMF Generation": "等同于第7世代",
+    "Modes": "昆虫模式",
+    "Overall Height": "4.36 米",
+    "Gross Weight": "7.65 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "克莱门特工业",
+    "Developed From": "亚历山大",
+    "Operators": "wZERO",
+    "Known Pilots": "阿什利·阿什拉",
+    "Standard": "陆行旋轮推进系统\n副臂\n脑入侵系统",
+    "Handheld": "2x Heat Swords1x Heat Knife1x WAW-04 “Judgement Mk2” 30mm Linear Assault Rifle",
+    "Anime": "Code Geass：亡国的阿基德"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/9/9c/RedOgre.jpg/revision/latest/scale-to-width-down/268?cb=20160330234219",
+  "introduction": "亚历山大·赤鬼是亚历山大的变体，由阿什利·阿什拉在加入ZERO后使用。",
+  "Design and Development": "亚历山大·赤鬼原本是为日向阿基德定制的专属亚历山大，但最终被转交给阿什利使用，而阿基德的原版亚历山大则升级为亚历山大·解放者。  \n该机体以亚历山大·勇毅型为基础，搭载了由安娜编写的新操作系统。KMF还配备一组额外肢体，可在昆虫模式下使用。其武器包括一对热能剑、一把热能匕首以及\"审判Mk2\"突击步枪，机体多处还设有备用弹药仓。  \n热能匕首前方的两个圆柱体为未命名武器，功能类似手持式热能弹，用于近距离穿透敌方KMF。肩部荚舱搭载可追踪敌人的导弹，此外还配备未投入使用的烟雾发射装置。  \n其红色涂装与\"赤狼\"之名均由阿什利本人选定。",
+  "Specifications": "一般特性\n乘员：1人\n高度：4.36米\n重量：7.65公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特点\n陆行旋轮推进系统\n\"昆虫模式\"变形机构\n副臂（收纳于驾驶舱两侧）\nBRS（脑入侵系统）\n\n武装\n2x 热能剑\n1x 热能匕首\n1x WAW-04 \"审判Mk2\" 30mm线性突击步枪",
+  "image_folder": "Alexander Red Ogre",
+  "image_variants": [
+    "前·人形态",
+    "后·人形态",
+    "前·昆虫形态",
+    "后·昆虫形态"
+  ]
+}

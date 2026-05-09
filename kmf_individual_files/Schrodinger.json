@@ -3,15 +3,15 @@
   "name": "薛定谔",
   "url": "https://codegeass.fandom.com/wiki/Schrodinger",
   "specs": {
-    "Model Number": "GRX-A01",
-    "KMF Generation": "9th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
     "Developer": "劳埃德·阿斯普伦德",
-    "Known Pilots": "Ar",
-    "Standard": "能量翼系统  \n心眼系统  \n红眼",
+    "Game": "Code Geass: Genesic Re;Code",
     "Handheld": "1x BLS剑\n1x BLB射击",
-    "Game": "Code Geass: Genesic Re;Code"
+    "KMF Generation": "第九世代",
+    "Known Pilots": "Ar",
+    "Model Number": "GRX-A01",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "能量翼系统  \n心眼系统  \n红眼"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/69/Schrodinger.png/revision/latest/scale-to-width-down/267?cb=20230331203557",
   "introduction": "施罗丁格是《Code Geass: Genesic Re;Code》中的一台KMF。由洛伊德·阿斯普林德为阿娅个人使用而建造。",

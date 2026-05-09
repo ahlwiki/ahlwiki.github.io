@@ -3,15 +3,15 @@
   "name": "高文 LDM",
   "url": "https://codegeass.fandom.com/wiki/Gawain_LDM",
   "specs": {
-    "Overall Height": "6.57 米",
-    "Gross Weight": "14.57 吨",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
     "Developed From": "高文",
-    "Known Pilots": "EleinEldreiC.C.",
-    "Standard": "德鲁伊系统干扰装置集成悬浮飞行系统陆行旋轮推进系统",
     "Fixed": "10x 指部安装型飞燕爪牙\n2x 肩部安装型强子炮",
-    "Game": "Code Geass: Genesic Re;Code"
+    "Game": "Code Geass: Genesic Re;Code",
+    "Gross Weight": "14.57 吨",
+    "Known Pilots": "EleinEldreiC.C.",
+    "Overall Height": "6.57 米",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "德鲁伊系统干扰装置集成悬浮飞行系统陆行旋轮推进系统"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/6c/GawainLDM-ST.png/revision/latest/scale-to-width-down/268?cb=20240203033700",
   "introduction": "高文LDM是《Code Geass：复活的代码》中登场的一台KMF。该机体由艾蕾因与艾尔德雷共同驾驶，后期则由C.C.与艾尔德雷搭档操控。",

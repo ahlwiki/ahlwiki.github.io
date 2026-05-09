@@ -3,11 +3,11 @@
   "name": "伊苏斯",
   "url": "https://codegeass.fandom.com/wiki/Issus",
   "specs": {
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
+    "Fixed": "2x 肩部加农炮",
     "Manufacturer": "齐尔克斯坦王国",
     "Operators": "齐尔克斯坦王国",
-    "Fixed": "2x 肩部加农炮"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/6e/Issus.jpg/revision/latest/scale-to-width-down/268?cb=20191206113438",
   "introduction": "伊苏斯是齐尔克斯坦王国所运用的KMF。其设计似乎基于亚历山大一型。",

@@ -3,16 +3,16 @@
   "name": "红莲LDM",
   "url": "https://codegeass.fandom.com/wiki/Guren_LDM",
   "specs": {
-    "Overall Height": "4.51 米",
-    "Gross Weight": "7.51 吨",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
     "Developed From": "红莲圣天八极式",
-    "Known Pilots": "埃尔茨维",
-    "Standard": "3x飞燕爪牙助推器陆行旋轮推进系统驾驶舱弹射系统能量翼辐射波动护盾",
     "Fixed": "1x 右臂内置穿甲轰炸型辐射波动装置\n2x 肩部搭载飞燕爪牙\n2x 背部搭载6管导弹发射器",
+    "Game": "Code Geass: Genesic Re;Code",
+    "Gross Weight": "7.51 吨",
     "Handheld": "MVS叉刃",
-    "Game": "Code Geass: Genesic Re;Code"
+    "Known Pilots": "埃尔茨维",
+    "Overall Height": "4.51 米",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "3x飞燕爪牙助推器陆行旋轮推进系统驾驶舱弹射系统能量翼辐射波动护盾"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/0/01/GurenLDM-ST.png/revision/latest/scale-to-width-down/268?cb=20240202215202",
   "introduction": "红莲LDM是《Code Geass: Genesic Re;Code》中登场的一台KMF，由艾尔兹薇驾驶。",

@@ -1,0 +1,32 @@
+{
+  "english_name": "Somerset",
+  "name": "萨默塞特",
+  "url": "https://codegeass.fandom.com/wiki/Somerset",
+  "specs": {
+    "Classification": "原型可翔式KMF",
+    "Model Number": "RAI-X16",
+    "Codename": "萨默塞特",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.36 米",
+    "Gross Weight": "7.54 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国施泰纳财团",
+    "Developed From": "格拉斯哥MR-1",
+    "Operators": "塔列朗之翼",
+    "Status": "摧毁",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n内置飞行系统（仅限堡垒模式）",
+    "Fixed": "2x 胸部搭载飞燕爪牙\n2x 手臂内置线圈炮",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/c/c9/Sommeset_3.JPG/revision/latest/scale-to-width-down/268?cb=20211227135253",
+  "introduction": "萨默塞特（Somerset，サマセット）是由威尔伯·米尔维尔设计的可变式KMF原型机，被布里塔尼亚反帝国恐怖组织\"塔列朗之翼\"所使用。在针对布里塔尼亚首都潘德拉贡的未遂炸弹袭击中，大量该机型作为塔列朗之翼的主力部队参战。",
+  "Design and Specifications": "以MR-1为基础，萨默塞特由前施泰纳财团武器开发主管威尔伯·米尔维尔设计，他利用自己对KMF的独立飞行研究成果进行开发。在堡垒模式下，萨默塞特能够独立飞行，但为了换取飞行能力，它牺牲了KMF模式下的性能。不过，凭借其空中战斗力所提供的绝对力量，它足以构成威胁。其唯一武器是内置在双臂中的两门线圈炮，以及胸部安装的两枚标准飞燕爪牙。",
+  "Operational History": "在2017年a.t.b.，塔列朗之翼在从海岸对首都潘德拉贡发动恐怖袭击时部署了多台萨默塞特。然而，这场袭击被以格林达骑士团的KMF部队为首的布里塔尼亚军方阻止，所有萨默塞特单位均在战斗中被摧毁。",
+  "Specifications": "一般特性\n乘员：1人\n高度：4.36米\n重量：7.54公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n内置飞行系统（仅限堡垒模式）\n武装\n2x 胸部搭载 飞燕爪牙\n2x 手臂内置 线圈炮",
+  "Trivia": "萨默塞特之名源于英格兰西南部的一个郡，该地区属于不列颠群岛，是布里塔尼亚征服的祖先故土。",
+  "image_folder": "Somerset",
+  "image_variants": [
+    "Standard"
+  ]
+}

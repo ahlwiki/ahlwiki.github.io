@@ -1,0 +1,23 @@
+{
+  "english_name": "Burai Enhanced Long Range Type",
+  "name": "Burai 强化远程型",
+  "url": "https://codegeass.fandom.com/wiki/Burai_Enhanced_Long_Range_Type",
+  "specs": {
+    "Codename": "Burai 强化远程型",
+    "KMF Generation": "4th",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都之家",
+    "Developed From": "无赖远程型",
+    "Operators": "黑色骑士团日本解放战线",
+    "Game": "Code Geass DS"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/b5/BuraiEnhancedLongRangeType.png/revision/latest?cb=20100303162156",
+  "introduction": "布赖长距离强化型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。该机型由布赖长距离型升级而来，专精于狙击手、远程支援甚至机动火炮的角色。黑色骑士团在一定程度上使用了布赖系列机体。",
+  "Design and Development": "由无赖改修而成，保留了无赖的大部分特性。但无赖远程强化型采用了蓝色涂装。最显著的区别在于其胸部伸出的巨大炮管，这是雷光超电磁榴散炮的缩小版。尽管如此，这门火炮依然威力强大。",
+  "Specifications": "一般特性\n乘员：1人动力源：世界树驱动超导体转移系统，能量填充器\n设计特点\n驾驶舱弹射系统广域感知传感器陆行旋轮推进系统\n武装\n1门胸部搭载型超级电磁霰弹炮2具胸部搭载型飞燕爪牙\n可选武装\n1挺突击步枪1具腕部搭载型四联装导弹发射器（共8管）1具左肘搭载型拐棍（仅见于《京都来的使者》）",
+  "image_folder": "Burai Enhanced Long Range Type",
+  "image_variants": [
+    "Standard"
+  ]
+}

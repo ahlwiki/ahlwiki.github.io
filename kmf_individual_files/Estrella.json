@@ -1,22 +1,22 @@
-﻿{
+{
   "english_name": "Estrella",
   "name": "埃斯特雷拉",
   "url": "https://codegeass.fandom.com/wiki/Estrella",
   "specs": {
-    "Model Number": "Type-06/ESP",
-    "KMF Generation": "5th",
-    "Overall Height": "4.38 米",
-    "Gross Weight": "7.73 metric tones",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Anime": "Code Geass 叛逆的鲁鲁修Ⅱ 叛道",
     "Armor Materials": "钨",
     "Developed From": "萨瑟兰",
-    "Operators": "欧罗巴联合共和国  \n马德里之星",
-    "Known Pilots": "费尔南多·诺列加玛丽罗莎·诺列加",
-    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统",
     "Fixed": "2x 肘部安装式电击拐",
+    "Gross Weight": "7.73 metric tones",
     "Handheld": "1x 大型加农炮",
-    "Anime": "Code Geass 反叛的鲁路修 II — 叛道",
-    "Manga": "Code Geass：双貌的奥兹"
+    "KMF Generation": "第五世代",
+    "Known Pilots": "费尔南多·诺列加玛丽罗莎·诺列加",
+    "Manga": "Code Geass 双貌的奥兹",
+    "Model Number": "Type-06/ESP",
+    "Operators": "欧罗巴联合共和国  \n马德里之星",
+    "Overall Height": "4.38 米",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/e/eb/2014101701.jpg/revision/latest/scale-to-width-down/268?cb=20141101192840",
   "introduction": "埃斯特雷拉是一种基于萨瑟兰开发的KMF，由第24区（原西班牙）的抵抗组织“马德里之星”使用。",

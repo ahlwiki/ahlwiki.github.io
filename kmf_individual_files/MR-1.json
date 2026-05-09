@@ -1,21 +1,21 @@
-﻿{
+{
   "english_name": "MR-1",
   "name": "MR-1",
   "url": "https://codegeass.fandom.com/wiki/MR-1",
   "specs": {
-    "KMF Generation": "民用用途",
-    "Overall Height": "4.35 米",
-    "Gross Weight": "7.20 吨",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Anime": "Code Geass 叛逆的鲁鲁修",
     "Armor Materials": "钨",
-    "Manufacturer": "神圣布里塔尼亚帝国",
     "Developed Into": "萨默塞特",
-    "Operators": "阿什福德学院、黑色骑士团",
-    "Known Pilots": "扇木要 基诺·温伯格",
-    "Standard": "陆行旋轮推进系统\n驾驶舱弹射系统",
     "Fixed": "2x 胸部搭载型飞燕爪牙",
-    "Anime": "Code Geass：反叛的鲁路修Code Geass：反叛的鲁路修R2",
-    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语",
+    "Gross Weight": "7.20 吨",
+    "KMF Generation": "民用用途",
+    "Known Pilots": "扇木要 基诺·温伯格",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Operators": "阿什福德学院、黑色骑士团",
+    "Overall Height": "4.35 米",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "陆行旋轮推进系统\n驾驶舱弹射系统"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/19/Mr1-blacknights.jpg/revision/latest/scale-to-width-down/268?cb=20140911184224",
   "introduction": "MR-1是一种基础的非战斗型KMF，能够折叠成更紧凑的形态。",

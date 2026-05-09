@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>KMF 详细档案</title>
     <style>
         * {
@@ -142,35 +142,135 @@
             color: #e07c5c;
             font-size: 1.2rem;
         }
+
+        /* 手机端样式 */
         @media (max-width: 700px) {
-            .detail-container { padding: 1rem; }
-            .spec-label { width: 100px; }
-            .kmf-title h1 { font-size: 1.8rem; }
-            /* 手机端隐藏英文名及字段标签 */
-            .eng-part,
-            .field-label {
-                display: none;
+            body { padding: 0.5rem; }
+            .detail-container { padding: 0.8rem; border-radius: 1rem; }
+            .desktop-only .back-link { display: none; }
+            .mobile-layout { display: block; }
+            .kmf-title-mobile {
+                text-align: center;
+                margin-bottom: 1rem;
             }
-            /* 调整副标题间距 */
-            .kmf-title .sub {
+            .kmf-title-mobile h1 { font-size: 1.8rem; color: #ffdd99; }
+            .kmf-title-mobile .sub { font-size: 0.8rem; color: #bcafa2; }
+
+            /* 单图居中，多图横滑 */
+            .image-single {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1rem;
+            }
+            .image-single img {
+                max-width: 100%;
+                max-height: 240px;
+                background: #ffffff;
+                border-radius: 12px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            }
+            .image-scroll-container {
+                width: 100%;
+                overflow-x: auto;
+                overflow-y: hidden;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: thin;
+                margin-bottom: 1rem;
+            }
+            .image-scroll-wrapper {
+                display: flex;
+                gap: 1rem;
+                padding: 0.5rem 0.2rem;
+            }
+            .image-scroll-item {
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                width: 150px;
+                flex-shrink: 0;
+            }
+            .image-scroll-item img {
+                width: 100%;
+                height: auto;
+                background: #ffffff;
+                border-radius: 12px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                object-fit: contain;
+                max-height: 200px;
+            }
+            .img-label {
+                margin-top: 0.4rem;
+                font-size: 0.7rem;
+                color: #e6c87a;
+                text-align: center;
+                word-break: break-word;
+                white-space: normal;
+                max-width: 150px;
+            }
+
+            .specs-table {
+                margin: 1rem 0;
+                background: #0f1622cc;
+                border-radius: 0.8rem;
+                overflow: hidden;
+            }
+            .specs-row {
+                display: flex;
+                padding: 0.6rem 0.8rem;
+                border-bottom: 1px solid #2a3440;
+            }
+            .specs-row .specs-label {
+                width: 110px;
+                font-weight: bold;
+                color: #9aaec9;
+                flex-shrink: 0;
+            }
+            .specs-row .specs-value {
+                flex: 1;
+                color: #f0f2f5;
+                word-break: break-word;
+                white-space: pre-wrap;
+            }
+            .more-btn {
+                display: block;
+                width: 100%;
+                background: #1f2a3e;
+                border: none;
+                padding: 0.5rem;
+                text-align: center;
+                color: #d4af37;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 0 0 0.8rem 0.8rem;
+                transition: 0.2s;
+            }
+            .more-btn:hover {
+                background: #d4af37;
+                color: #0a0f1a;
+            }
+            .intro-text {
                 font-size: 0.9rem;
+                padding: 0.8rem;
             }
-            .kmf-header {
-                flex-direction: column;   /* 改为垂直排列 */
-                align-items: center;      /* 可选：整体居中 */
-                gap: 0.5rem;
-            }
-            .image-buttons {
-                margin-top: 0.5rem;
-            }
+        }
+
+        @media (min-width: 701px) {
+            .mobile-layout { display: none; }
+        }
+        @media (max-width: 700px) {
+            .desktop-layout { display: none; }
         }
     </style>
 </head>
 <body>
-<div class="detail-container">
-    <a href="index.html" class="back-link">← 返回机体列表</a>
-    <div id="kmfContent">
-        <div style="text-align:center; padding: 3rem;">加载档案中...</div>
+<div class="detail-container" id="detail-container">
+    <div class="desktop-layout" id="desktop-layout">
+        <a href="index.html" class="back-link">← 返回机体列表</a>
+        <div id="desktopContent"></div>
+    </div>
+    <div class="mobile-layout" id="mobile-layout">
+        <div id="mobileContent"></div>
     </div>
 </div>
 
@@ -178,160 +278,49 @@
     const urlParams = new URLSearchParams(window.location.search);
     const kmfName = urlParams.get('kmf');
     if (!kmfName) {
-        document.getElementById('kmfContent').innerHTML = '<div class="error-msg">❌ 未指定机体代号</div>';
+        document.getElementById('desktopContent').innerHTML = '<div class="error-msg">❌ 未指定机体代号</div>';
+        document.getElementById('mobileContent').innerHTML = '<div class="error-msg">❌ 未指定机体代号</div>';
         throw new Error('No kmf name');
     }
 
     const jsonPath = `./kmf_individual_files/${encodeURIComponent(kmfName)}.json`;
 
-    async function loadDetail() {
-        const container = document.getElementById('kmfContent');
-        try {
-            const resp = await fetch(jsonPath);
-            if (!resp.ok) throw new Error(`HTTP ${resp.status} - 文件不存在`);
-            const data = await resp.json();
-
-            const specs = data.specs || {};
-            const nameZh = data.name || kmfName;
-            const englishName = data.english_name || '';
-            const intro = data.introduction || '暂无简介';
-            const design = data["Design and Development"] || '';
-            const design2 = data["Design and Specifications"] || '';
-            const trivia = data.Trivia || '';
-            const trivia2 = data["Operational History"] || '';
-
-            function getSpec(key) {
-                return specs[key] || '—';
-            }
-
-            // 获取图片变体列表（原样使用，不额外添加 Standard）
-            let variants = data.image_variants || [];
-            // 去重
-            variants = [...new Set(variants)];
-
-            let buttonsHtml = '';
-            let showButtons = variants.length > 1;
-            if (showButtons) {
-                buttonsHtml = `<div class="image-buttons" id="image-buttons">`;
-                variants.forEach(variant => {
-                    const btnName = variant === "Standard" ? "标准" : variant;
-                    buttonsHtml += `<button class="img-btn" data-variant="${variant}">${escapeHtml(btnName)}</button>`;
-                });
-                buttonsHtml += `</div>`;
-            } else if (variants.length === 1) {
-                // 只有一个变体时不显示按钮（隐藏）
-                showButtons = false;
-            }
-
-            const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
-
-            /**
-             * 设置图片源（Standard形态支持 WebP / JPG / PNG 自动降级，其他变体优先 WebP）
-             * @param {HTMLImageElement} imgElement 图片元素
-             * @param {string} variant 变体名称 (如 "Standard", "Armed", etc.)
-             */
-            function setImage(imgElement, variant) {
-                if (variant === "Standard") {
-                    // Standard 变体: 依次尝试 JPG → WebP → PNG (兼容既有图片并增加 WebP 支持)
-                    const extensions = ['jpg', 'webp', 'png'];
-                    let attemptIndex = 0;
-
-                    // 清除之前可能残留的 onerror 回调，避免冲突
-                    imgElement.onerror = null;
-
-                    const tryNext = () => {
-                        if (attemptIndex >= extensions.length) {
-                            // 所有扩展都失败，显示占位符 SVG
-                            imgElement.onerror = null;
-                            imgElement.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37'%3E⚙️ ${nameZh}%3C/text%3E%3C/svg%3E`;
-                            return;
-                        }
-                        const ext = extensions[attemptIndex];
-                        imgElement.src = `${basePath}Standard.${ext}`;
-                        imgElement.onerror = () => {
-                            // 防止重复触发导致栈溢出，清除当前回调后尝试下一个扩展名
-                            imgElement.onerror = null;
-                            attemptIndex++;
-                            tryNext();
-                        };
-                    };
-                    tryNext();
-                } else {
-                    // 非 Standard 变体：直接加载 WebP（原逻辑保持不变，性能最佳）
-                    imgElement.src = `${basePath}${variant}.webp`;
-                    imgElement.onerror = function() {
-                        imgElement.onerror = null;
-                        imgElement.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37'%3E⚙️ ${nameZh}%3C/text%3E%3C/svg%3E`;
-                    };
-                }
-            }
-
-            const html = `
-                <div class="kmf-header">
-                    <div class="kmf-image">
-                        <img id="detail-img" src="" alt="${nameZh}">
-                        ${buttonsHtml}
-                    </div>
-                    <div class="kmf-title">
-                        <h1>${escapeHtml(nameZh)}</h1>
-                        <div class="sub"><span class="eng-part">${escapeHtml(englishName)} | </span><span class="field-label">型号: </span>${getSpec("Model Number")}</div>
-                        <div class="sub"><span class="field-label">世代: </span>${getSpec("KMF Generation")} | <span class="field-label">高度: </span>${getSpec("Overall Height")} | <span class="field-label">重量: </span>${getSpec("Gross Weight")}</div>
-                    </div>
-                </div>
-                <div class="specs-grid">
-                    <div class="spec-card"><h3>⚙️ 基本规格</h3>
-                        <div class="spec-item"><span class="spec-label">动力源</span><span class="spec-value">${getSpec("Power Source")}</span></div>
-                        <div class="spec-item"><span class="spec-label">装甲材料</span><span class="spec-value">${getSpec("Armor Materials")}</span></div>
-                        <div class="spec-item"><span class="spec-label">制造商</span><span class="spec-value">${getSpec("Manufacturer")}</span></div>
-                        <div class="spec-item"><span class="spec-label">发展自</span><span class="spec-value">${getSpec("Developed From")}</span></div>
-                        <div class="spec-item"><span class="spec-label">衍生型</span><span class="spec-value">${getSpec("Developed Into")}</span></div>
-                        <div class="spec-item"><span class="spec-label">模式</span><span class="spec-value">${getSpec("Modes")}</span></div>
-                    </div>
-                    <div class="spec-card"><h3>🗡️ 武装 & 系统</h3>
-                        <div class="spec-item"><span class="spec-label">固定武装</span><span class="spec-value">${getSpec("Fixed")}</span></div>
-                        <div class="spec-item"><span class="spec-label">手持武器</span><span class="spec-value">${getSpec("Handheld")}</span></div>
-                        <div class="spec-item"><span class="spec-label">特殊系统</span><span class="spec-value">${getSpec("Standard")}</span></div>
-                    </div>
-                    <div class="spec-card"><h3>📜 作战信息</h3>
-                        <div class="spec-item"><span class="spec-label">驾驶员</span><span class="spec-value">${getSpec("Known Pilots")}</span></div>
-                        <div class="spec-item"><span class="spec-label">所属势力</span><span class="spec-value">${getSpec("Operators")}</span></div>
-                        <div class="spec-item"><span class="spec-label">原作登场</span><span class="spec-value">${getSpec("Manga") || '—'}</span></div>
-                    </div>
-                </div>
-                <div class="intro-text">
-                    <strong>📖 机体介绍</strong><br>${escapeHtml(intro)}<br><br>
-                    ${design ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design)}<br><br>` : ''}
-                    ${design2 ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design2)}<br><br>` : ''}
-                    ${trivia ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia)}` : ''}
-                    ${trivia2 ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia2)}` : ''}
-                </div>
-            `;
-            container.innerHTML = html;
-
-            const imgElement = document.getElementById('detail-img');
-            // 默认加载第一个变体（如果存在），否则加载 Standard
-            const defaultVariant = (variants.length > 0) ? variants[0] : "Standard";
-            setImage(imgElement, defaultVariant);
-
-            if (showButtons) {
-                const buttons = document.querySelectorAll('.img-btn');
-                buttons.forEach(btn => {
-                    btn.addEventListener('click', (e) => {
-                        const variant = btn.dataset.variant;
-                        setImage(imgElement, variant);
-                        buttons.forEach(b => b.classList.remove('active'));
-                        btn.classList.add('active');
-                    });
-                    // 高亮默认按钮
-                    if (btn.dataset.variant === defaultVariant) {
-                        btn.classList.add('active');
-                    }
-                });
-            }
-        } catch (err) {
-            console.error(err);
-            container.innerHTML = `<div class="error-msg">⚠️ 机体档案加载失败: ${err.message}<br>请确保文件 ${kmfName}.json 存在于 /kmf_individual_files/ 目录下</div>`;
+    // 桌面端字段分组（不变）
+    const groups = [
+        {
+            title: "⚙️ 基本规格",
+            fields: [
+                { key: "Classification", label: "分类" }, { key: "Official Name", label: "官方名称" },
+                { key: "Codename", label: "代号" }, { key: "Crew", label: "乘员" },
+                { key: "Power Source", label: "动力源" }, { key: "Armor Materials", label: "装甲材料" },
+                { key: "Developer", label: "开发者" }, { key: "Manufacturer", label: "制造商" },
+                { key: "Produced Units", label: "生产数量" }, { key: "Status", label: "状态" },
+                { key: "First deployment", label: "首次部署" }, { key: "Last Seen", label: "最后出现" },
+                { key: "Combines Into", label: "合体目标" }, { key: "Developed From", label: "发展自" },
+                { key: "Developed Into", label: "衍生型" }, { key: "Modes", label: "模式/形态" }
+            ]
+        },
+        {
+            title: "🗡️ 武装 & 系统",
+            fields: [
+                { key: "Fixed", label: "固定武装" }, { key: "Handheld", label: "手持武器" },
+                { key: "Standard", label: "特殊系统" }, { key: "Optional", label: "可选装备" }
+            ]
+        },
+        {
+            title: "📜 作战 & 背景",
+            fields: [
+                { key: "Known Pilots", label: "驾驶员" }, { key: "Operators", label: "所属势力" },
+                { key: "Anime", label: "动画登场" }, { key: "Manga", label: "漫画登场" },
+                { key: "Novel", label: "小说登场" }, { key: "Game", label: "游戏登场" },
+                { key: "Mechanical Designer", label: "机械设计" }
+            ]
         }
+    ];
+
+    function getSpecValue(specs, key) {
+        const val = specs[key];
+        return (val !== undefined && val !== null && val !== "") ? val : null;
     }
 
     function escapeHtml(str) {
@@ -344,7 +333,300 @@
         });
     }
 
-    loadDetail();
+    // ========== 桌面端渲染 ==========
+    function renderDesktop(data) {
+        const specs = data.specs || {};
+        const nameZh = data.name || kmfName;
+        const englishName = data.english_name || '';
+        const intro = data.introduction || '暂无简介';
+        const design = data["Design and Development"] || '';
+        const design2 = data["Design and Specifications"] || '';
+        const trivia = data.Trivia || '';
+        const trivia2 = data["Operational History"] || '';
+
+        function getSpec(key) { return getSpecValue(specs, key) || '—'; }
+
+        let variants = data.image_variants || [];
+        variants = [...new Set(variants)];
+        let showButtons = variants.length > 1;
+        let buttonsHtml = '';
+        if (showButtons) {
+            buttonsHtml = `<div class="image-buttons" id="image-buttons">`;
+            variants.forEach(variant => {
+                const btnName = variant === "Standard" ? "标准" : variant;
+                buttonsHtml += `<button class="img-btn" data-variant="${variant}">${escapeHtml(btnName)}</button>`;
+            });
+            buttonsHtml += `</div>`;
+        }
+
+        const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
+
+        let specsGridHtml = '<div class="specs-grid">';
+        for (const group of groups) {
+            let hasAny = false;
+            let itemsHtml = '';
+            for (const field of group.fields) {
+                const value = getSpecValue(specs, field.key);
+                if (value) {
+                    hasAny = true;
+                    itemsHtml += `<div class="spec-item"><span class="spec-label">${field.label}</span><span class="spec-value">${escapeHtml(value)}</span></div>`;
+                }
+            }
+            if (hasAny) {
+                specsGridHtml += `<div class="spec-card"><h3>${group.title}</h3>${itemsHtml}</div>`;
+            }
+        }
+        specsGridHtml += '</div>';
+        if (!specsGridHtml.includes('spec-card')) {
+            specsGridHtml = '<div class="specs-grid"><div class="spec-card"><h3>⚠️ 暂无详细规格数据</h3></div></div>';
+        }
+
+        const html = `
+            <div class="kmf-header">
+                <div class="kmf-image">
+                    <img id="detail-img" src="" alt="${nameZh}">
+                    ${buttonsHtml}
+                </div>
+                <div class="kmf-title">
+                    <h1>${escapeHtml(nameZh)}</h1>
+                    <div class="sub"><span class="eng-part">${escapeHtml(englishName)} | </span><span class="field-label">型号: </span>${getSpec("Model Number")}</div>
+                    <div class="sub"><span class="field-label">世代: </span>${getSpec("KMF Generation")} | <span class="field-label">高度: </span>${getSpec("Overall Height")} | <span class="field-label">重量: </span>${getSpec("Gross Weight")}</div>
+                </div>
+            </div>
+            ${specsGridHtml}
+            <div class="intro-text">
+                <strong>📖 机体介绍</strong><br>${escapeHtml(intro)}<br><br>
+                ${design ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design)}<br><br>` : ''}
+                ${design2 ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design2)}<br><br>` : ''}
+                ${trivia ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia)}` : ''}
+                ${trivia2 ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia2)}` : ''}
+            </div>
+        `;
+        document.getElementById('desktopContent').innerHTML = html;
+
+        const imgElement = document.getElementById('detail-img');
+        const defaultVariant = (variants.length > 0) ? variants[0] : "Standard";
+        setImageDesktop(imgElement, defaultVariant, basePath, nameZh);
+        if (showButtons) {
+            const buttons = document.querySelectorAll('.img-btn');
+            buttons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const variant = btn.dataset.variant;
+                    setImageDesktop(imgElement, variant, basePath, nameZh);
+                    buttons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                });
+                if (btn.dataset.variant === defaultVariant) btn.classList.add('active');
+            });
+        }
+    }
+
+    function setImageDesktop(img, variant, basePath, fallbackText) {
+        if (variant === "Standard") {
+            const extensions = ['jpg', 'webp', 'png'];
+            let attempt = 0;
+            const tryNext = () => {
+                if (attempt >= extensions.length) {
+                    img.onerror = null;
+                    img.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37'%3E⚙️ ${fallbackText}%3C/text%3E%3C/svg%3E`;
+                    return;
+                }
+                img.src = `${basePath}Standard.${extensions[attempt]}`;
+                img.onerror = () => { img.onerror = null; attempt++; tryNext(); };
+            };
+            tryNext();
+        } else {
+            img.src = `${basePath}${variant}.webp`;
+            img.onerror = function() {
+                img.onerror = null;
+                img.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37'%3E⚙️ ${fallbackText}%3C/text%3E%3C/svg%3E`;
+            };
+        }
+    }
+
+    // ========== 手机端渲染 ==========
+    function renderMobile(data) {
+        const specs = data.specs || {};
+        const nameZh = data.name || kmfName;
+        const englishName = data.english_name || '';
+        const intro = data.introduction || '暂无简介';
+        const design = data["Design and Development"] || '';
+        const design2 = data["Design and Specifications"] || '';
+        const trivia = data.Trivia || '';
+        const trivia2 = data["Operational History"] || '';
+
+        // 直接使用 image_variants，不添加 Standard
+        let variants = data.image_variants || [];
+        variants = [...new Set(variants)];
+
+        const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
+
+        // 图片区域 HTML
+        let imagesHtml = '';
+        if (variants.length === 0) {
+            // 没有图片，不显示区域
+            imagesHtml = '';
+        } else if (variants.length === 1) {
+            // 单张图片：居中显示，不显示名称
+            const variant = variants[0];
+            imagesHtml = `<div class="image-single"><img class="single-img" data-variant="${variant}" src="" alt="${nameZh}"></div>`;
+        } else {
+            // 多张图片：横向滑动 + 显示名称
+            let itemsHtml = '';
+            for (let variant of variants) {
+                itemsHtml += `
+                    <div class="image-scroll-item">
+                        <img class="scroll-img" data-variant="${variant}" src="" alt="${variant}">
+                        <div class="img-label">${escapeHtml(variant)}</div>
+                    </div>
+                `;
+            }
+            imagesHtml = `<div class="image-scroll-container"><div class="image-scroll-wrapper">${itemsHtml}</div></div>`;
+        }
+
+        // 收集 specs 字段（标题区已显示的四个字段不重复）
+        const orderedKeys = [
+            "Classification", "Official Name", "Codename", "Crew", "Power Source", "Armor Materials",
+            "Developer", "Manufacturer", "Produced Units", "Status", "First deployment", "Last Seen",
+            "Combines Into", "Developed From", "Developed Into", "Modes", "Fixed", "Handheld", "Standard",
+            "Optional", "Known Pilots", "Operators", "Anime", "Manga", "Novel", "Game", "Mechanical Designer"
+        ];
+        const labelMap = {
+            "Classification": "分类", "Official Name": "官方名称", "Codename": "代号", "Crew": "乘员",
+            "Power Source": "动力源", "Armor Materials": "装甲材料", "Developer": "开发者", "Manufacturer": "制造商",
+            "Produced Units": "生产数量", "Status": "状态", "First deployment": "首次部署", "Last Seen": "最后出现",
+            "Combines Into": "合体目标", "Developed From": "发展自", "Developed Into": "衍生型", "Modes": "模式/形态",
+            "Fixed": "固定武装", "Handheld": "手持武器", "Standard": "特殊系统", "Optional": "可选装备",
+            "Known Pilots": "驾驶员", "Operators": "所属势力", "Anime": "动画登场", "Manga": "漫画登场",
+            "Novel": "小说登场", "Game": "游戏登场", "Mechanical Designer": "机械设计"
+        };
+        const allSpecsEntries = [];
+        for (let key of orderedKeys) {
+            const val = getSpecValue(specs, key);
+            if (val) {
+                allSpecsEntries.push({ label: labelMap[key] || key, value: val });
+            }
+        }
+        // 补充可能遗漏的字段
+        for (let [key, val] of Object.entries(specs)) {
+            if (val && !orderedKeys.includes(key) && !["Model Number", "KMF Generation", "Overall Height", "Gross Weight"].includes(key)) {
+                allSpecsEntries.push({ label: labelMap[key] || key, value: val });
+            }
+        }
+
+        const INITIAL_SHOW = 5;
+        let specsTableHtml = `<div class="specs-table" id="specs-table-mobile">`;
+        for (let i = 0; i < Math.min(INITIAL_SHOW, allSpecsEntries.length); i++) {
+            specsTableHtml += `<div class="specs-row"><div class="specs-label">${escapeHtml(allSpecsEntries[i].label)}</div><div class="specs-value">${escapeHtml(allSpecsEntries[i].value)}</div></div>`;
+        }
+        specsTableHtml += `</div>`;
+        if (allSpecsEntries.length > INITIAL_SHOW) {
+            specsTableHtml += `<button id="toggle-specs-btn" class="more-btn">更多 ↓</button>`;
+        } else if (allSpecsEntries.length === 0) {
+            specsTableHtml = `<div class="specs-table"><div class="specs-row"><div class="specs-value">暂无详细规格</div></div></div>`;
+        }
+
+        const html = `
+            <div class="kmf-title-mobile">
+                <h1>${escapeHtml(nameZh)}</h1>
+                <div class="sub">${escapeHtml(englishName)}</div>
+                <div class="sub" style="font-size:0.7rem">型号: ${getSpecValue(specs, "Model Number") || '—'} | 世代: ${getSpecValue(specs, "KMF Generation") || '—'}</div>
+            </div>
+            ${imagesHtml}
+            ${specsTableHtml}
+            <div class="intro-text">
+                <strong>📖 机体介绍</strong><br>${escapeHtml(intro)}<br><br>
+                ${design ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design)}<br><br>` : ''}
+                ${design2 ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design2)}<br><br>` : ''}
+                ${trivia ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia)}` : ''}
+                ${trivia2 ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia2)}` : ''}
+            </div>
+        `;
+
+        const mobileContainer = document.getElementById('mobileContent');
+        mobileContainer.innerHTML = html;
+
+        // 加载手机端图片
+        if (variants.length === 1) {
+            const singleImg = document.querySelector('.single-img');
+            if (singleImg) {
+                const variant = singleImg.dataset.variant;
+                loadMobileImage(singleImg, variant, basePath, nameZh);
+            }
+        } else if (variants.length > 1) {
+            const scrollImgs = document.querySelectorAll('.scroll-img');
+            scrollImgs.forEach(img => {
+                const variant = img.dataset.variant;
+                loadMobileImage(img, variant, basePath, variant);
+            });
+        }
+
+        // 折叠/展开逻辑
+        const toggleBtn = document.getElementById('toggle-specs-btn');
+        if (toggleBtn) {
+            let expanded = false;
+            const fullHtml = allSpecsEntries.map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
+            const tableDiv = document.getElementById('specs-table-mobile');
+            toggleBtn.addEventListener('click', () => {
+                if (!expanded) {
+                    tableDiv.innerHTML = fullHtml;
+                    toggleBtn.innerHTML = '收起 ↑';
+                    expanded = true;
+                } else {
+                    tableDiv.innerHTML = allSpecsEntries.slice(0, INITIAL_SHOW).map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
+                    toggleBtn.innerHTML = '更多 ↓';
+                    expanded = false;
+                }
+            });
+        }
+    }
+
+    function loadMobileImage(imgElement, variant, basePath, fallbackText) {
+        if (variant === "Standard") {
+            const extensions = ['jpg', 'webp', 'png'];
+            let attempt = 0;
+            const tryNext = () => {
+                if (attempt >= extensions.length) {
+                    imgElement.onerror = null;
+                    imgElement.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 200'%3E%3Crect width='150' height='200' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37' font-size='12'%3E${fallbackText}%3C/text%3E%3C/svg%3E`;
+                    return;
+                }
+                imgElement.src = `${basePath}Standard.${extensions[attempt]}`;
+                imgElement.onerror = () => { imgElement.onerror = null; attempt++; tryNext(); };
+            };
+            tryNext();
+        } else {
+            imgElement.src = `${basePath}${variant}.webp`;
+            imgElement.onerror = function() {
+                imgElement.onerror = null;
+                imgElement.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 200'%3E%3Crect width='150' height='200' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37' font-size='12'%3E${fallbackText}%3C/text%3E%3C/svg%3E`;
+            };
+        }
+    }
+
+    // 主流程
+    async function loadData() {
+        try {
+            const resp = await fetch(jsonPath);
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            const data = await resp.json();
+            const isMobile = window.innerWidth <= 700;
+            if (isMobile) {
+                renderMobile(data);
+            } else {
+                renderDesktop(data);
+            }
+            window.addEventListener('resize', () => {
+                window.location.reload();
+            });
+        } catch (err) {
+            const msg = `⚠️ 机体档案加载失败: ${err.message}<br>请确保文件 ${kmfName}.json 存在于 /kmf_individual_files/ 目录下`;
+            document.getElementById('desktopContent').innerHTML = `<div class="error-msg">${msg}</div>`;
+            document.getElementById('mobileContent').innerHTML = `<div class="error-msg">${msg}</div>`;
+        }
+    }
+
+    loadData();
 </script>
 </body>
 </html>

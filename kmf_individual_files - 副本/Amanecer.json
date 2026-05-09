@@ -1,0 +1,32 @@
+{
+  "english_name": "Amanecer",
+  "name": "黎明",
+  "url": "https://codegeass.fandom.com/wiki/Amanecer",
+  "specs": {
+    "Model Number": "Type-05G/ESP",
+    "KMF Generation": "等同于第7世代",
+    "Overall Height": "4.69 米",
+    "Gross Weight": "9.01 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器驱动",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Developed From": "晓量产型",
+    "Developed Into": "红莲圣天八极式",
+    "Operators": "马德里之星",
+    "Known Pilots": "奥德琳·泽冯",
+    "Standard": "陆行旋轮推进系统\n驾驶舱弹射系统\nBrazo Caliente\nPluma Libélula",
+    "Fixed": "2x 飞燕爪牙（大型）",
+    "Handheld": "4x 爱斯帕达",
+    "Manga": "Code Geass：双貌的OZ"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/54/Amanecer.jpg/revision/latest/scale-to-width-down/268?cb=20150814174024",
+  "introduction": "阿马内塞尔（Amanecer）是基于晓（Akatsuki）开发的KMF。它由印度为第24区抵抗组织“马德里之星”研制并交付。布里塔尼亚称其为“红色斗篷”。",
+  "Design and Specifications": "尽管以晓为蓝本，但其性能已得到强化，更接近指挥官型或斩月而非量产机，能与文森特·格拉姆势均力敌。  \n该机体可使用实验型MVS刀片，但与布里塔尼亚版本不同，必须安装在双臂的\"炽热臂\"发电系统上才能激活；且不同于正版布里塔尼亚制品，电流从刀柄传导至刀身以实现类似MVS的效果。剑刃收纳于\"蜻蜓羽\"特殊装备中，该装备还能生成类似能量护盾（Blaze Luminous）或辐射波动护盾的能量屏障，足以抵挡强子炮的轰击。肩部搭载了名为\"飞燕爪牙·巨\"的大型飞燕爪牙。",
+  "Specifications": "一般特性  \n乘员：1人  \n高度：4.69米  \n重量：9.01公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特点  \n高機走駆動輪式陆行旋轮推进系统  \n驾驶舱弹射系统  \nBrazo Caliente  \nPluma Libélula  \n\n武装  \n2x 飞燕爪牙·大  \n4x Espada",
+  "Trivia": "Amanecer在西班牙语中意为“黎明”。在交付给奥德琳之前，这台Amanecer原本计划由玛丽罗莎·诺列加驾驶，但她后来受伤了。",
+  "image_folder": "Amanecer",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

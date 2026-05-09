@@ -1,0 +1,31 @@
+{
+  "english_name": "Meigetsu",
+  "name": "明月",
+  "url": "https://codegeass.fandom.com/wiki/Meigetsu",
+  "specs": {
+    "Model Number": "Type-06",
+    "Codename": "明月",
+    "KMF Generation": "等同于第7代",
+    "Overall Height": "4.45 米",
+    "Gross Weight": "10.86 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "小西辽",
+    "Standard": "Kou Kisou Kudourin型陆行旋轮推进系统EMA可翔翼系统驾驶舱弹射系统辐射波动护盾",
+    "Fixed": "2x 肩部手持式刀片\n2x 臂装3管枪\n1x 飞燕爪牙（Hien Souga型）",
+    "Manga": "《Code Geass 复活的鲁路修》",
+    "Game": "Code Geass 反叛的鲁路修 R2 柏青哥游戏"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/b8/Meigetsu.jpg/revision/latest/scale-to-width-down/268?cb=20181201043625",
+  "introduction": "明月是黑色骑士团使用的KMF，为对抗布里塔尼亚高火力KMF而开发。",
+  "Design and Development": "\"明月\"是为了对抗布里塔尼亚高火力KMF而开发的，专用于游击战术。其可翔翼内置电磁马达以增强飞行出力，肩部还搭载了强化型辐射波动护盾。",
+  "Operational History": "大约有十几台被投入实战，用于对抗鲁路修皇帝。其中一部分曾在富士山战役中使用过。",
+  "Specifications": "基本参数\n乘员：1人\n高度：4.45米\n重量：10.86公吨\n\n设计特征\n高機走駆動輪式陆行旋轮推进系统\n电磁可翔翼系统\n驾驶舱弹射系统\n辐射波动防护装置\n\n武装\n2x 肩部手持式刀片\n2x 臂部3管式机枪\n1x 飞燕爪牙（Hien Souga型）（左胸部安装）",
+  "Trivia": "\"明月\"之名意为\"泣月\"。",
+  "image_folder": "Meigetsu",
+  "image_variants": [
+    "Standard"
+  ]
+}

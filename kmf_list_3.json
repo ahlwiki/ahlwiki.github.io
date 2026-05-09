@@ -167,7 +167,17 @@
     {
         "name": "Alexander Red Ogre",
         "chinese_name": "亚历山大·赤鬼",
-        "categories": {},
+        "categories": {
+            "Anime": [
+                "Code Geass 亡国的阿基德"
+            ],
+            "Manufacturer": [
+                "Clément Factory"
+            ],
+            "Operators": [
+                "wZERO"
+            ]
+        },
         "model_number": "WOX Type-03/SC"
     },
     {
@@ -390,7 +400,7 @@
         "chinese_name": "巴塔拉兰·杜",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Operators": [
                 "Kingdom of Zilkhstan"
@@ -422,7 +432,7 @@
         "chinese_name": "黑佩里号",
         "categories": {
             "Manga": [
-                "幕末异闻录 Code Geass 反叛的鲁路修"
+                "幕末异闻录 Code Geass 反叛的鲁鲁修"
             ],
             "Operators": [
                 "Holy Britannian Empire"
@@ -843,7 +853,7 @@
     },
     {
         "name": "Equus",
-        "chinese_name": "Equus",
+        "chinese_name": "马",
         "categories": {
             "Manufacturer": [
                 "Holy Britannian Empire"
@@ -858,7 +868,7 @@
         "chinese_name": "埃斯特雷拉",
         "categories": {
             "Anime": [
-                "Code Geass 叛逆的鲁路修Ⅱ 叛道"
+                "Code Geass 叛逆的鲁鲁修Ⅱ 叛道"
             ],
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -1184,7 +1194,7 @@
         "chinese_name": "月光",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Pearl Party"
@@ -1203,7 +1213,7 @@
                 "Super Robot Wars 30"
             ],
             "Manga": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Pearl Party"
@@ -1432,7 +1442,7 @@
         "chinese_name": "钢髅",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Kingdom of Zilkhstan"
@@ -1530,10 +1540,10 @@
         "chinese_name": "红莲特式",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manga": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Pearl Party"
@@ -1549,10 +1559,10 @@
         "chinese_name": "红莲特式 烈焰光轮",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manga": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Pearl Party"
@@ -1707,7 +1717,7 @@
         "chinese_name": "贾尔贾·瓦卡",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Kingdom of Zilkhstan"
@@ -1814,7 +1824,7 @@
         "chinese_name": "兰斯洛特·阿尔比昂零式",
         "categories": {
             "Manga": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Pearl Party"
@@ -1888,7 +1898,7 @@
         "chinese_name": "兰斯洛特圣杯",
         "categories": {
             "Anime": [
-                "Code Geass 叛逆的鲁路修Ⅲ 皇道"
+                "Code Geass 叛逆的鲁鲁修Ⅲ 皇道"
             ],
             "Game": [
                 "Code Geass: Lost Stories"
@@ -1956,10 +1966,10 @@
         "chinese_name": "兰斯洛特siN",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manga": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "United Federation of Nations"
@@ -1975,10 +1985,10 @@
         "chinese_name": "兰斯洛特·白炎",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manga": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "United Federation of Nations"
@@ -2023,11 +2033,6 @@
             ]
         },
         "model_number": "RPCX-06P/S1"
-    },
-    {
-        "name": "List of Knightmare Frames (Lost Stories)",
-        "chinese_name": "KMF列表（失落物语）",
-        "categories": {}
     },
     {
         "name": "Liverpool",
@@ -2081,7 +2086,7 @@
         "chinese_name": "摩罗婆零式",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "The Black KnightsPearl Party"
@@ -2154,7 +2159,7 @@
                 "Code Geass 叛逆的鲁鲁修"
             ],
             "Manga": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Jabalpur Research Center"
@@ -2170,7 +2175,7 @@
         "chinese_name": "莫斯",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Lloyd Asplund"
@@ -2206,7 +2211,7 @@
         "chinese_name": "莫德雷德·强化型",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ]
         },
         "model_number": "RZA-6DGX1"
@@ -2234,7 +2239,7 @@
         "chinese_name": "纳吉德·舒·马内",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Manufacturer": [
                 "Kingdom of Zilkhstan"
@@ -2281,6 +2286,7 @@
         "chinese_name": "装甲熊蜂",
         "categories": {
             "Anime": [
+                "Code Geass 叛逆的鲁鲁修",
                 "Code Geass 亡国的阿基德"
             ],
             "Manufacturer": [
@@ -2458,7 +2464,7 @@
         "chinese_name": "奎因·罗丝B型",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Operators": [
                 "United Federation of NationsThe Black Knights"
@@ -2471,7 +2477,7 @@
         "chinese_name": "奎因·罗丝 Z型",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Operators": [
                 "Black Knights"
@@ -2497,7 +2503,7 @@
     },
     {
         "name": "Regalia",
-        "chinese_name": "Regalia",
+        "chinese_name": "雷加利亚",
         "categories": {
             "Game": [
                 "Code Geass 叛逆的鲁鲁修"
@@ -2849,7 +2855,7 @@
         "chinese_name": "萨瑟兰II",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Operators": [
                 "Black Knights"
@@ -2878,7 +2884,7 @@
         "chinese_name": "萨瑟兰·忠诚",
         "categories": {
             "Anime": [
-                "Code Geass 复活的鲁路修"
+                "Code Geass 复活的鲁鲁修"
             ],
             "Operators": [
                 "Gottwald Plantation Orange VillageThe Black Knights"

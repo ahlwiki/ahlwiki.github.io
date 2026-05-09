@@ -1,0 +1,34 @@
+{
+  "english_name": "Guren Type Special",
+  "name": "红莲特式",
+  "url": "https://codegeass.fandom.com/wiki/Guren_Type_Special",
+  "specs": {
+    "Model Number": "Type-02/SP1",
+    "KMF Generation": "9th",
+    "Overall Height": "4.91 米",
+    "Gross Weight": "8.77 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "珍珠派对",
+    "Developed From": "红莲圣天八极式",
+    "Variants": "红莲特式·焰光",
+    "Operators": "黑色骑士团超合众国",
+    "Known Pilots": "红月华莲",
+    "Standard": "陆行旋轮推进系统\n广域感知传感器\n飞行滑翔翼改\n驾驶舱弹射系统\n辐射波动护盾",
+    "Optional": "框架涂层",
+    "Fixed": "2x复合制导飞燕爪牙（HienSouga型）1x辐射推进式可动有线穿甲轰炸右臂",
+    "Handheld": "1x高周波振动剑（MVS）四圣一剑热斩刀",
+    "Anime": "《Code Geass 复活的鲁路修》",
+    "Manga": "《CODE GEASS：复活的鲁路修》",
+    "Mechanical Designer": "安田朗（设计草图）中田荣治（清稿）"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/33/Guren_tokushiki_front_no_wing.jpg/revision/latest/scale-to-width-down/268?cb=20190923031510",
+  "introduction": "红莲特式（Guren Type Special），代号“火炎红牌”，是红莲圣天八极式（Guren S.E.I.T.E.N. Eight Elements）的后继机体，首次登场于《Code Geass：复活的鲁路修》。",
+  "Design and Development": "以兼顾补给需求为理念重新设计的机体，在保留红莲系列高机动性与特殊武器优势的同时，针对日本抵抗组织游击战需求进行开发，即便在补给匮乏环境下仍可运作。而作为黑色骑士团旗舰机的最新锐红莲特式，其设计前提是假设能在充足补给环境中作战，因此能耗较前代提升约10%。\n\n该机搭载\"飞翔滑走翼改\"，成功实现了第九世代KMF标志性装备\"能量翼\"的外置化单元。机体可完全覆盖于辐射屏障之下，机动性与防御性能均获得显著提升。",
+  "Operational History": "该机体通过空中运输送达齐尔克斯坦，随后配合其外挂装甲对驻扎在沙漠中的绝望敌军KMF部队实施毁灭性打击。这场屠杀直到时间重置才告终结——卡莲持续遭到驾驶巴塔拉兰·杜的比特尔率领的格多·瓦卡小队伏击。不幸的是，卡莲不断被巴塔拉兰·杜的电磁场锁定，被迫卸除外挂装甲以提升机动性。双方鏖战数小时后，卡莲最终通过近身格斗偏转尾部光束，用MVS南斗斩刀劈开杜的驾驶舱，才击败比特尔。该机体后来再次被卡莲用于保卫东京，抵御诺兰德·冯·鲁内贝尔格率领的洛基KMF大军。",
+  "image_folder": "Guren Type Special",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

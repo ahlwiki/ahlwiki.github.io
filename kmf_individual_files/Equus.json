@@ -1,19 +1,19 @@
 {
   "english_name": "Equus",
-  "name": "Equus",
+  "name": "马",
   "url": "https://codegeass.fandom.com/wiki/Equus",
   "specs": {
-    "KMF Generation": "6th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
-    "Manufacturer": "神圣布里塔尼亚帝国",
-    "Developed Into": "萨格拉莫雷",
     "Combines Into": "Regalia（搭载Aquila）",
-    "Operators": "神圣布里塔尼亚帝国",
-    "Known Pilots": "波鲁克斯·鲁伊·布里塔尼亚",
-    "Standard": "驾驶舱弹射系统广域感知传感器",
+    "Developed Into": "萨格拉莫雷",
     "Fixed": "2x 加农炮",
-    "Handheld": "1x 钉头锤"
+    "Handheld": "1x 钉头锤",
+    "KMF Generation": "第六世代",
+    "Known Pilots": "波鲁克斯·鲁伊·布里塔尼亚",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "驾驶舱弹射系统广域感知传感器"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/13/Equus-1-.jpg/revision/latest/scale-to-width-down/268?cb=20090601012952",
   "introduction": "Equus（エクウス，Ekūsu）是出现在任天堂DS游戏中的第六代KMF原型机。该KMF以拉丁语中意为“马”的单词命名。",

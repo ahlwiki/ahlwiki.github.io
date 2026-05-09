@@ -3,16 +3,16 @@
   "name": "辐射波动试验型无赖",
   "url": "https://codegeass.fandom.com/wiki/Burai_Radiation_Wave_Test_Type",
   "specs": {
+    "Armor Materials": "钨",
     "Classification": "实验型KMF",
     "Codename": "辐射波动试验型无赖",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统",
-    "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
     "Developed From": "无赖",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n广域感知传感器",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n广域感知传感器"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/8/84/BuraiRadiationWaveTestType.png/revision/latest?cb=20100728124159",
   "introduction": "Burai辐射波动测试型仅在《Code Geass DS》中登场。该机体是搭载了早期型辐射波动装置的Burai，被黑色骑士团有限度地使用。",

@@ -3,15 +3,15 @@
   "name": "无赖重武装型",
   "url": "https://codegeass.fandom.com/wiki/Burai_Heavy_Weapons_Type",
   "specs": {
+    "Armor Materials": "钨",
     "Classification": "改装重型突击KMF",
     "Codename": "无赖重武装型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
-    "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
     "Developed From": "无赖",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/a/a8/BuraiHeavyWeaponsType.png/revision/latest?cb=20100303171555",
   "introduction": "无赖重武装型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。无赖重武装型是作为重型KMF进行特化的无赖机体。它似乎被用作突破敌方防线与要塞的突击型KMF。无赖在一定程度上被黑色骑士团所使用。",

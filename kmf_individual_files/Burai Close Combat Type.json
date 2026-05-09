@@ -3,14 +3,14 @@
   "name": "无赖近战型",
   "url": "https://codegeass.fandom.com/wiki/Burai_Close_Combat_Type",
   "specs": {
-    "Codename": "无赖近战型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
+    "Codename": "无赖近战型",
     "Developed From": "无赖",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/8/87/BuraiMeleeType.png/revision/latest?cb=20100303154901",
   "introduction": "近战型无赖仅在DS平台《Code Geass 反叛的鲁路修》中登场。近战型无赖是专精于近战KMF定位的无赖改型，负责在近距离内迎击敌人。黑色骑士团在一定程度上使用无赖。",

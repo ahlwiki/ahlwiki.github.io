@@ -1,0 +1,30 @@
+{
+  "english_name": "Vincent GramNoir",
+  "name": "文森特·格拉姆诺瓦",
+  "url": "https://codegeass.fandom.com/wiki/Vincent_GramNoir",
+  "specs": {
+    "Model Number": "RZX-72-01C2",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.44 米",
+    "Gross Weight": "7.22 吨",
+    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "文森特·格拉姆",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "约翰·施瓦泽",
+    "Standard": "能量护盾（Blaze Luminous）系统广域感知传感器陆行旋轮推进系统",
+    "Optional": "悬浮飞行系统",
+    "Fixed": "2x 臂装MVS刀片\n1x 能量锥体\n2x 施罗特钢刃\n1x 右肩装强子爆破炮\n1x 左肩装狼牙\n2x 腰部装飞燕爪牙",
+    "Handheld": "1x EM 骑枪\n1x 定制盾牌",
+    "Manga": "Code Geass：双貌的OZ"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/1b/Gram.jpg/revision/latest/scale-to-width-down/268?cb=20170918154744",
+  "introduction": "文森特·格拉姆·诺伊里斯是奥菲斯叛逃后，在龙门石窟回收的文森特·格拉姆的改造型。该机由约翰·施瓦泽将军驾驶。",
+  "Design and Development": "文森特·格拉姆Noir是奥菲斯离开格林达骑士团后，为施瓦泽将军改造的文森特·格拉姆。功能上与先前版本完全相同，其白色涂装被改为黑色，头部也更换为标准文森特型头部。\n\n文森特·格拉姆是根据里尔的规格从早期文森特原型机开发而来，其意愿影响了该机的开发进程。所有武器系统直接内置于机体框架中，以便双手始终可自由使用。右肩搭载强子炮，左肩则配备名为\"狼牙\"的新型武器。左臂的能量护盾（Blaze Luminous）装置还可生成钻头状的光锥。",
+  "Specifications": "基本规格  \n乘员：1人  \n高度：4.44米  \n重量：7.22公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n驾驶舱弹射系统  \n陆行旋轮推进系统  \n能量护盾（Blaze Luminous）系统  \n广域感知传感器  \n\n武装  \n2×高周波振动剑（MVS）匕首  \n能量护盾（Blaze Luminous）发生器  \n光锥  \n施罗特钢刃（从能量护盾（Blaze Luminous）发生器展开）  \n强子爆破炮  \n狼牙  \n2×腰部挂载飞燕爪牙  \n\n可选武装  \n1×电磁骑枪  \n1×定制盾牌",
+  "image_folder": "Vincent GramNoir",
+  "image_variants": [
+    "Standard"
+  ]
+}

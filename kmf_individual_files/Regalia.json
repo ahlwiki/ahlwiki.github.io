@@ -1,17 +1,17 @@
 {
   "english_name": "Regalia",
-  "name": "Regalia",
+  "name": "雷加利亚",
   "url": "https://codegeass.fandom.com/wiki/Regalia",
   "specs": {
-    "Codename": "Regalia",
-    "KMF Generation": "第7代",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器驱动",
     "Armor Materials": "钨",
-    "Manufacturer": "神圣布里塔尼亚帝国",
-    "Developed From": "EquusAquila",
+    "Codename": "雷加利亚",
+    "Developed From": "马、阿奎拉",
+    "Game": "Code Geass：叛逆的鲁路修（游戏）",
+    "KMF Generation": "第七世代",
     "Known Pilots": "卡斯特·鲁伊·布里塔尼亚\n波吕克斯·鲁伊·布里塔尼亚",
-    "Status": "摧毁",
-    "Game": "Code Geass：叛逆的鲁路修（游戏）"
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Status": "摧毁"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/67/Regalia.jpg/revision/latest/scale-to-width-down/268?cb=20081209234738",
   "introduction": "出现在任天堂DS游戏中的雷加利亚将阿奎拉与伊奎斯的特性整合为单一机体。由被剥夺继承权的虚构第十五皇子卡斯托·鲁伊·布里塔尼亚及其双胞胎兄弟波鲁克斯驾驶。",

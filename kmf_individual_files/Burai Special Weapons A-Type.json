@@ -3,13 +3,13 @@
   "name": "Burai特殊武装A型",
   "url": "https://codegeass.fandom.com/wiki/Burai_Special_Weapons_A-Type",
   "specs": {
-    "Codename": "无赖特殊武装A型",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
+    "Codename": "无赖特殊武装A型",
     "Developed From": "无赖",
+    "Game": "Code Geass DS",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/6d/BuraiSpecialWeaponsAType.png/revision/latest?cb=20120427192957",
   "introduction": "布赖特殊武装A型仅在《Code Geass DS》中登场。该机型是以布赖为基础、专精于拆除与建造作业的改型。然而，它也能凭借铁球在战斗中独当一面，作为具备战斗能力的KMF从远近距离支援友军。黑色骑士团曾少量使用过布赖。",

@@ -3,13 +3,13 @@
   "name": "白炎",
   "url": "https://codegeass.fandom.com/wiki/Sekka",
   "specs": {
-    "Model Number": "Type-07",
-    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
+    "Anime": "Code Geass 夺还的罗塞",
     "Armor Materials": "钨",
-    "Manufacturer": "黑色骑士团",
-    "Operators": "超合众国\n黑色骑士团\n七星",
     "Known Pilots": "Isao MonobeTomo-omi OdaShota MunemoriSanshiro TomiTokio Iwamoto",
-    "Anime": "《Code Geass：夺还的Roze》"
+    "Manufacturer": "黑色骑士团",
+    "Model Number": "Type-07",
+    "Operators": "超合众国\n黑色骑士团\n七星",
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/23/Sekka.jpg/revision/latest/scale-to-width-down/268?cb=20240621203331",
   "introduction": "雪花是《Code Geass：夺还的罗赛》中黑色骑士团最新量产型KMF。",

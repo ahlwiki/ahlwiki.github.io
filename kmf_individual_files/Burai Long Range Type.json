@@ -3,16 +3,16 @@
   "name": "无赖远程型",
   "url": "https://codegeass.fandom.com/wiki/Burai_Long_Range_Type",
   "specs": {
+    "Armor Materials": "钨",
     "Classification": "改装型远程KMF",
     "Codename": "Burai 远距离型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
-    "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
     "Developed From": "无赖",
     "Developed Into": "Burai强化远程型\nBurai完全强化型",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/53/BuraiRangedType.png/revision/latest?cb=20100722133435",
   "introduction": "无赖远程型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。无赖远程型是专为远程支援角色而特化的无赖机体，用于掩护向敌军冲锋的友军KMF，但也能在战斗中独当一面。无赖远程型还存在一种名为“无赖强化远程型”的升级版本。",

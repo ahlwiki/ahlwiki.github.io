@@ -1,0 +1,29 @@
+{
+  "english_name": "Gekka Narisuna",
+  "name": "月下·成澄",
+  "url": "https://codegeass.fandom.com/wiki/Gekka_Narisuna",
+  "specs": {
+    "Model Number": "Type-03H/C",
+    "Codename": "月下·鸣砂",
+    "KMF Generation": "等同于第7世代",
+    "Overall Height": "4.45 米",
+    "Gross Weight": "8.15 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "印度军事化区域",
+    "Developed From": "月下",
+    "Developed Into": "亚历克莎·纳里苏纳",
+    "Known Pilots": "加山",
+    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n背部内置箔条烟雾弹发射系统",
+    "Manga": "Code Geass：双貌的OZ"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/34/1432854332221.png/revision/latest/scale-to-width-down/268?cb=20150529020608",
+  "introduction": "月下·鸣雷是加山驾驶的定制型月下。",
+  "Design and Specifications": "在败于俄耳甫斯后，月下（Gassan）的月华几近损毁。他利用兄长被毁月华的零件进行修复，并将机体涂成黑色以铭记为亡兄复仇的誓言。修复后的机体性能超越标准月华，头部还加装了角状部件。\n\n原版月华双臂各装备一门双管火箭炮，而月华·鸣砂则仅配备单门火箭炮，另一手持兄长的回旋刃剑。",
+  "Specifications": "一般特征  \n乘员：1人  \n高度：4.45米  \n重量：8.15公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特点  \n驾驶舱弹射系统  \n甲鬼走驱动轮式陆行旋轮推进系统  \n背部内置干扰箔条烟雾发射系统  \n\n武装  \n1x旋转刃剑  \n1x左臂搭载火箭筒",
+  "image_folder": "Gekka Narisuna",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

@@ -1,0 +1,25 @@
+﻿{
+  "english_name": "Foulbout",
+  "name": "福尔伯特",
+  "url": "https://codegeass.fandom.com/wiki/Foulbout",
+  "specs": {
+    "Model Number": "RPCX-01K",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "新布里塔尼亚帝国",
+    "Operators": "新布里塔尼亚帝国  \n艾因伯格",
+    "Known Pilots": "诺兰德·冯·鲁内贝尔格",
+    "Standard": "陆行旋轮推进系统能量翼（泰坦）",
+    "Anime": "Code Geass：夺还的罗赛",
+    "Mechanical Designer": "Junichi Akutsu"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/3c/Foulbout.jpg/revision/latest/scale-to-width-down/268?cb=20240701064646",
+  "introduction": "法尔巴特（ファウルバウト，Faurubauto）是诺兰德·冯·鲁内贝尔格在《Code Geass：夺还的罗塞》中使用的专属KMF。",
+  "Trivia": "其名称源自北欧神话中“洛基”之父“法布提”。",
+  "image_folder": "Foulbout",
+  "image_variants": [
+    "标准",
+    "前·泰坦形态",
+    "后·泰坦形态"
+  ]
+}

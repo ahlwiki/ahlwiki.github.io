@@ -1,0 +1,31 @@
+﻿{
+  "english_name": "Alexander Valiant Ryo Version",
+  "name": "亚历山大·勇毅型·流机",
+  "url": "https://codegeass.fandom.com/wiki/Alexander_Valiant_Ryo_Version",
+  "specs": {
+    "Model Number": "WOX-Type02V/MF",
+    "KMF Generation": "等同于第7世代",
+    "Overall Height": "4.36 米",
+    "Gross Weight": "6.58 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "克莱门特工厂",
+    "Developed From": "亚历山大贰式·流机",
+    "Operators": "欧洲共和国联盟 ZERO",
+    "Known Pilots": "佐山流",
+    "Status": "严重损坏",
+    "Standard": "陆行旋轮推进系统\n\"昆虫模式\"变形机构\n副臂\n脑入侵系统\n驾驶舱弹射系统",
+    "Handheld": "1x 双刃反KMF战斗可变战斧（前臂安装型）1x 4联装导弹荚舱",
+    "Anime": "光芒陨落（最初）致所爱之人（最终）"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/a/a2/ValiantRyo.jpg/revision/latest/scale-to-width-down/268?cb=20160330204218",
+  "introduction": "亚历山大·勇毅型·流机是为欧罗巴联合特种部队wZERO的成员佐山流个人使用而设计的。",
+  "Design and Development": "在斯洛尼姆战役后，W-0小队的战斗数据被研究部门审查，并用于进一步改进该小组使用的每台机体的性能。此外，其变形速度也得到了提升。它们还配备了EU巴塞罗那实验室开发的新型武器。与最初的亚历山大一型或亚历山大贰式不同，亚历山大·勇者型确实配备了可远程激活的驾驶舱弹射系统。\n\n每台机体都被重新涂装为蓝色，并辅以每位驾驶员专属的第二配色，其中流的配色为橙色。在凉的专用机型上，除了标准亚历山大装备外，还加装了多种重型武器系统，以配合凉偏好用蛮力压制对手的战斗风格。该机搭载一门线性机关炮和安装在驾驶舱两侧的四联装导弹荚舱。近战方面，其前臂装备了一把双刃反KMF战斗可变战斧。",
+  "Specifications": "基本参数  \n乘员：1人  \n全高：4.36米  \n重量：6.58吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n陆行旋轮推进系统  \n\"昆虫模式\"变形机构  \n副臂（收纳于驾驶舱两侧）  \n驾驶舱弹射系统  \nBRS（脑入侵系统）  \n\n武装  \n1挺线性机关炮（可安装于驾驶舱两侧）  \n1具4联装导弹发射器  \n1把双刃反KMF战斗可变战斧（前臂安装）  \n2把固定式乌鲁纳刃（收纳于臂轴内）  \n1具前臂安装式飞燕爪牙",
+  "image_folder": "Alexander Valiant Ryo Version",
+  "image_variants": [
+    "前·人形态",
+    "后·人形态",
+    "前·昆虫形态"
+  ]
+}

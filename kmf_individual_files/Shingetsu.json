@@ -3,13 +3,13 @@
   "name": "新月",
   "url": "https://codegeass.fandom.com/wiki/Shingetsu",
   "specs": {
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
-    "Manufacturer": "珍珠派对",
     "Developed From": "月下",
-    "Operators": "超合众国十六夜",
     "Known Pilots": "白炎·苍牙",
-    "Manga": "Code Geass: Pure Almaria"
+    "Manga": "Code Geass 新洁的阿尔玛利亚",
+    "Manufacturer": "珍珠派对",
+    "Operators": "超合众国十六夜",
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/d9/Shingetsu.jpg/revision/latest/scale-to-width-down/268?cb=20240906163920",
   "introduction": "《Code Geass: Pure Almaria》中登场的KMF“新月”，是十六夜特工·白马创（代号“新月”）的专属KMF。",

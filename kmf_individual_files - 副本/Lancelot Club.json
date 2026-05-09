@@ -1,0 +1,34 @@
+{
+  "english_name": "Lancelot Club",
+  "name": "兰斯洛特·Club",
+  "url": "https://codegeass.fandom.com/wiki/Lancelot_Club",
+  "specs": {
+    "Model Number": "Z-01/B（Lost Colors）RZX-7（诺内特专用）",
+    "KMF Generation": "第7代",
+    "Overall Height": "4.51 米",
+    "Gross Weight": "6.83 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "ASEEC",
+    "Developed From": "兰斯洛特·萨瑟兰",
+    "Developed Into": "文森特",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "RaiNonette Enneagram",
+    "Standard": "能量护盾（Blaze Luminous）系统\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统",
+    "Optional": "悬浮飞行系统",
+    "Fixed": "飞燕爪牙2x 能量护盾（Blaze Luminous）锥体发生器",
+    "Handheld": "1x EM骑枪",
+    "Manga": "Code Geass：双貌的奥兹",
+    "Game": "Code Geass：叛逆的鲁路修 - 失落色彩Code Geass：叛逆的鲁路修 失落物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/52/Lancelot_Club.jpg/revision/latest?cb=20080815165837",
+  "introduction": "兰斯洛特·Club（简称“俱乐部”）是洛伊德·阿斯普林德制造的第七代KMF，专为其预定驾驶员莱（游戏《Code Geass 反叛的鲁路修 失落色彩》的主角）进行调校。从某种意义上说，它是兰斯洛特的次代姐妹机。与原版兰斯洛特一样，其设计后来促成了RPI-212文森特——布里塔尼亚量产型第七代KMF——的开发。",
+  "Design and Specifications": "该机体以萨瑟兰为基础，采用兰斯洛特的备用零件与部分实验组件建造。由于预算限制，樱石的应用受到制约，因此其性能虽优于萨瑟兰，但仍不及兰斯洛特。此外，因其调整参数极为极端，除雷外无人能妥善驾驭。\n\n该机体为配合雷卓越的指挥能力及其分散敌军、迫使其一对一作战的战术而进行调校。装备一对可组合为双刃MVS长枪的短剑型MVS，强化型广域感知传感器，与兰斯洛特相同的前臂一体式飞燕爪牙/能量护盾（Blaze Luminous）组合单元，以及可切换为\"狙击模式\"的定制突击步枪。在该模式下，武器枪管长度与射程大幅提升，但无法进行连射。同时，因需提升广域感知传感器的灵敏度，机体能量消耗增至15倍。\n\n圆桌骑士第九席诺内特·埃内格拉姆以定制型兰斯洛特·Club作为其专属KMF。长枪型MVS已替换为剑型，双臂搭载核心能量护盾锥体发生器，并配备骑枪。该机体已针对近战进行改造。在《失落物语》中，诺内特偶尔提及该机体仅为卡美洛借予她使用，并表达希望归还兰斯洛特·Club的意愿。",
+  "Specifications": "一般特性  \n乘员：1人  \n高度：4.51米  \n重量：6.83公吨  \n动力源：世界树驱动超导体转移系统，能量填充器  \n\n设计特征  \n能量护盾（Blaze Luminous）  \n驾驶舱弹射系统  \n广域感知传感器  \n陆行旋轮推进系统  \n可选悬浮飞行系统  \n\n武装  \n2x 飞燕爪牙  \n2x 长枪型高周波振动剑（MVS）  \n1x 定制型突击步枪（附榴弹发射器）  \n\n可选武装  \n1x VARIS步枪  \n\n一般特性  \n乘员：1人  \n高度：4.49米  \n重量：6.89公吨  \n动力源：世界树驱动超导体转移系统，能量填充器  \n\n设计特征  \n能量护盾（Blaze Luminous）  \n驾驶舱弹射系统  \n广域感知传感器  \n陆行旋轮推进系统  \n可选悬浮飞行系统  \n\n武装  \n2x 高周波振动剑（MVS）  \n2x 发光锥体发生器  \n1x 骑枪",
+  "Trivia": "该机体首次登场于《Code Geass：失落色彩》，是专为主角黎星刻（若玩家选择布里塔尼亚军路线）建造并驾驶的KMF。随后在《Code Geass：双貌的O2》中作为诺内特·恩内阿格拉姆的KMF登场。",
+  "image_folder": "Lancelot Club",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

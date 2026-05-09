@@ -3,12 +3,12 @@
   "name": "女王辉光",
   "url": "https://codegeass.fandom.com/wiki/Queenglint",
   "specs": {
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
-    "Operators": "神圣布里塔尼亚帝国",
-    "Known Pilots": "玛丽安娜·vi·布里塔尼亚",
     "Fixed": "1x \"Caliburn\" MVS",
-    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语",
+    "Known Pilots": "玛丽安娜·vi·布里塔尼亚",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/c/cc/Queenglint-Game.jpg/revision/latest/scale-to-width-down/268?cb=20240518023605",
   "introduction": "女王辉光（TheQueenglint）是《Code Geass 反叛的鲁路修 遗失物语》中登场的KMF。这是一台专为玛丽安娜·vi·布里塔尼亚设计的原创KMF。",

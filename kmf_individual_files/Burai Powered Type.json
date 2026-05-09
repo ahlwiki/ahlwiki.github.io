@@ -3,15 +3,15 @@
   "name": "Burai强化型",
   "url": "https://codegeass.fandom.com/wiki/Burai_Powered_Type",
   "specs": {
+    "Armor Materials": "钨",
     "Classification": "改装型近战KMF",
     "Codename": "Burai强化型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
-    "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
     "Developed From": "无赖",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/26/BuraiPoweredType.png/revision/latest?cb=20100722124653",
   "introduction": "布赖强化型仅在DS平台《Code Geass 反叛的鲁路修》中登场。布赖强化型是以布赖为基础改造的机型，既承担工程任务又具备作战能力。相较于纯粹的战斗用KMF，该机型更侧重于工程作业或资源采集。然而，黑色骑士团也曾将布赖强化型投入战场使用。",

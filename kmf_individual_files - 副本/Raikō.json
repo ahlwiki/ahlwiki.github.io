@@ -1,0 +1,31 @@
+{
+  "english_name": "Raikō",
+  "name": "雷光",
+  "url": "https://codegeass.fandom.com/wiki/Raik%C5%8D",
+  "specs": {
+    "Model Number": "Type-5R/11G",
+    "Codename": "雷光",
+    "KMF Generation": "4th",
+    "Overall Height": "5.03 米",
+    "Gross Weight": "22.44 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "日本解放战线",
+    "Developed From": "格拉斯哥·无赖",
+    "Operators": "日本解放阵线黑色骑士团",
+    "Known Pilots": "吉田透",
+    "Status": "退役",
+    "Standard": "4x陆行旋轮推进系统4x广域感知传感器",
+    "Fixed": "1x 超级电磁霰弹炮\n1x 四联装自由射击臂部机枪\n4x 胸部搭载飞燕爪牙",
+    "Anime": "黑色骑士团（第一幕）崩塌的舞台（最终幕）"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/f/fb/Raiko.jpg/revision/latest/scale-to-width-down/268?cb=20120302034133",
+  "introduction": "一种完全革命性的武器类型，通过组合多台KMF制造而成，雷光（Raikō，字面意为“闪电”）是日本抵抗组织使用的一种特殊武装。雷光最初由日本解放战线开发，作为重型攻城武器。",
+  "Design and Specifications": "一门由四台格拉斯哥或布拉伊改型组成的巨型线圈炮。它发射一种霰弹：高速弹壳释放出二十余枚钢珠，可轻易撕裂KMF及大多数其他目标。四台KMF沿炮身两侧排列提供支撑，其头部连接至炮身顶部的圆盘以实现360度视野。每侧两台KMF的驾驶舱相互连接，形成双座驾驶舱。  \n除主炮外，每台KMF开放侧的手臂被替换为可连接式火炮，形成四门副炮，以防主炮未能摧毁目标。",
+  "Operational History": "系列中仅有两台投入使用，第一台由日本解放战线在\"日本解放战线酒店事件\"中使用，第二台由黑色骑士团在\"东京租界突击战\"期间使用。然而，两者均被枢木朱雀摧毁。",
+  "Specifications": "一般特性  \n乘员：2人  \n高度：5.03米  \n重量：22.44公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特征  \n4x广域感知传感器  \n4x陆行旋轮推进系统  \n\n武装  \n1x 超级电磁霰弹炮（主武器）  \n1x 四联装自由射击臂炮（替换原有手臂）  \n4x 胸部搭载飞燕爪牙（スラッシュハーケン, Surasshuhāken）",
+  "image_folder": "Raikō",
+  "image_variants": [
+    "Standard"
+  ]
+}

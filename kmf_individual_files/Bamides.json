@@ -1,20 +1,20 @@
-﻿{
+{
   "english_name": "Bamides",
   "name": "巴米德斯",
   "url": "https://codegeass.fandom.com/wiki/Bamides",
   "specs": {
-    "Codename": "巴米德斯",
-    "KMF Generation": "4th",
-    "Overall Height": "11.19 米",
-    "Gross Weight": "90.29 吨",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Anime": "Code Geass 叛逆的鲁鲁修",
     "Armor Materials": "钨",
+    "Codename": "巴米德斯",
+    "Fixed": "1x Belly-mountedLong-Range Cannon2x Bottom Shoulder-mountedMachine Guns2x Top Shoulder-mountedMissile Launchers (can carry upto 6-12 missiles each)",
+    "Gross Weight": "90.29 吨",
+    "KMF Generation": "第四世代",
     "Manufacturer": "中东联邦",
     "Operators": "中东联邦黑色骑士团",
-    "Status": "退役",
     "Optional": "悬浮单元（可实现超低空悬浮）可选装沙地装甲板",
-    "Fixed": "1x Belly-mountedLong-Range Cannon2x Bottom Shoulder-mountedMachine Guns2x Top Shoulder-mountedMissile Launchers (can carry upto 6-12 missiles each)",
-    "Anime": "公主与魔女"
+    "Overall Height": "11.19 米",
+    "Power Source": "世界树驱动器，能量填充剂",
+    "Status": "退役"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/e/e8/Bamides.jpg/revision/latest/scale-to-width-down/268?cb=20100119114516",
   "introduction": "巴米迪斯是中东联邦为对抗神圣布里塔尼亚帝国的军事力量而开发的异型第四代KMF。",

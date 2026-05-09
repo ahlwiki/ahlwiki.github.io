@@ -3,15 +3,15 @@
   "name": "无赖高机动型",
   "url": "https://codegeass.fandom.com/wiki/Burai_High_Mobility_Type",
   "specs": {
+    "Armor Materials": "钨",
     "Classification": "改良型高机动性KMF",
     "Codename": "无赖高机动型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器驱动",
-    "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
     "Developed From": "无赖",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/f/f9/BuraiHighMobilityType.png/revision/latest?cb=20100303174100",
   "introduction": "无赖高机动型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。无赖高机动型是以无赖为基础进行特化改造的KMF，专精于高机动性作战，其卓越的机动性与优越的武器系统最适合采用闪电战战术。黑色骑士团在一定程度上也使用无赖。",

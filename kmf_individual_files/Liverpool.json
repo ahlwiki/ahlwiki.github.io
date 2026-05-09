@@ -3,16 +3,16 @@
   "name": "利物浦",
   "url": "https://codegeass.fandom.com/wiki/Liverpool",
   "specs": {
-    "Codename": "利物浦",
-    "KMF Generation": "5th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Anime": "Code Geass 亡国的阿基德",
     "Armor Materials": "钨",
+    "Codename": "利物浦",
+    "Fixed": "主战炮侧挂式迷你机枪",
+    "KMF Generation": "第五世代",
     "Manufacturer": "神圣布里塔尼亚帝国",
     "Operators": "欧洲布里塔尼亚",
-    "Status": "量产型",
+    "Power Source": "世界树驱动器，能量填充剂",
     "Standard": "烟雾发射器",
-    "Fixed": "主战炮侧挂式迷你机枪",
-    "Anime": "Code Geass：亡国的阿基德（第2/4集）"
+    "Status": "量产型"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/0/07/Liverpool2.jpg/revision/latest/scale-to-width-down/268?cb=20220626133407",
   "introduction": "利物浦是神圣布里塔尼亚帝国与欧罗布里塔尼亚在对抗欧罗巴联合的战争中所使用的第五代KMF。",

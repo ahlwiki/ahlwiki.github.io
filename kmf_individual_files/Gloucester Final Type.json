@@ -3,14 +3,14 @@
   "name": "格洛斯特最终型",
   "url": "https://codegeass.fandom.com/wiki/Gloucester_Final_Type",
   "specs": {
-    "Codename": "格洛斯特最终型",
-    "KMF Generation": "5th",
-    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
     "Armor Materials": "钨",
-    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Codename": "格洛斯特最终型",
     "Developed From": "格洛斯特",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第五世代",
+    "Manufacturer": "神圣布里塔尼亚帝国",
     "Operators": "布里塔尼亚军",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/a/ab/GloucesterFinalType.png/revision/latest?cb=20130926162457",
   "introduction": "格洛斯特最终型仅在NDS平台的《Code Geass 反叛的鲁路修》中登场。格洛斯特最终型是格洛斯特的优化版本。",

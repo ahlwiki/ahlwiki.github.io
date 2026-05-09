@@ -1,0 +1,31 @@
+{
+  "english_name": "Sheffield Eye",
+  "name": "谢菲尔德之眼",
+  "url": "https://codegeass.fandom.com/wiki/Sheffield_Eye",
+  "specs": {
+    "Classification": "实验型KMF",
+    "Model Number": "RZX-9ED-EP2",
+    "Codename": "谢菲尔德之眼",
+    "KMF Generation": "8th",
+    "Overall Height": "4.52 米",
+    "Gross Weight": "7.85 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Operators": "格琳达骑士团",
+    "Known Pilots": "索基亚·夏尔巴",
+    "Standard": "陆行旋轮推进系统驾驶舱弹射系统集成悬浮飞行系统",
+    "Fixed": "2x飞燕爪牙12x ACO飞燕爪牙",
+    "Manga": "Code Geass：双貌的奥兹"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/de/2LIA75r.jpg/revision/latest/scale-to-width-down/268?cb=20170917045314",
+  "introduction": "谢菲尔德之眼是索琪雅·谢尔帕使用的KMF。它最初是为第九圆桌骑士诺内特·埃内格拉姆制造的。",
+  "Design and Specifications": "本机型专精于电子战与指挥通信，具备战场态势感知、通信干扰等功能。作为\"翡翠计划\"的一部分，为索琪雅进行了改装。其头部单元搭载了被称为\"维特斯系统\"的准德鲁伊系统，这是VTDS（维特斯战术数据系统）的核心。同时配备有集成式悬浮飞行系统。其ACO飞燕爪牙为本机专属装备，是一种利用维特斯系统进行高精度行为预测的半自主型飞燕爪牙（安装于长腰裙甲内）。本机拥有陆地高速模式，该模式下双腿并拢形成组合式中央陆行旋轮，外观酷似稻草人。可与兰斯洛特圣杯背部对接，合体为兰斯洛特·大瓦尔基里。",
+  "Operational History": "该机体于皇历2018年在第11区的第二次东京决战中首次投入实战，成功摧毁了鲁路修部署在东京租界列车上的大量干扰装置。战斗末期，它协助兰斯洛特圣杯型救出了被枢木朱雀驾驶兰斯洛特·征服者发射的首枚F.L.E.I.J.A.波及的总督娜娜莉。谢菲尔德之眼亦参与了由和平印记与格林达骑士团联合发起的对达摩克里斯的最终攻击。",
+  "Specifications": "一般特性  \n乘员：1人  \n高度：4.52米  \n重量：7.85公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特点  \n陆行旋轮推进系统  \n驾驶舱弹射系统  \n集成悬浮飞行系统  \n\n武装  \n2×飞燕爪牙  \n12×ACO飞燕爪牙",
+  "Trivia": "它以南约克郡的谢菲尔德市命名。",
+  "image_folder": "Sheffield Eye",
+  "image_variants": [
+    "Standard"
+  ]
+}

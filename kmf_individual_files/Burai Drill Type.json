@@ -3,15 +3,15 @@
   "name": "无赖钻头型",
   "url": "https://codegeass.fandom.com/wiki/Burai_Drill_Type",
   "specs": {
+    "Armor Materials": "钨",
     "Classification": "改装型近战KMF",
     "Codename": "无赖钻头型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
-    "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
     "Developed From": "无赖",
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Game": "Code Geass DS"
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/de/BuraiDrillType.png/revision/latest?cb=20100303160444",
   "introduction": "无赖钻探型仅在DS平台的《Code Geass 反叛的鲁路修》游戏中登场。该机型是专为工兵角色改造的无赖衍生型，因此更适合建筑与拆除作业而非作为战斗用KMF，但偶尔也被用于后者。",

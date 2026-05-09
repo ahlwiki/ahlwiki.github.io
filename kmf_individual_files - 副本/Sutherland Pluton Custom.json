@@ -1,0 +1,32 @@
+{
+  "english_name": "Sutherland Pluton Custom",
+  "name": "萨瑟兰·冥王定制型",
+  "url": "https://codegeass.fandom.com/wiki/Sutherland_Pluton_Custom",
+  "specs": {
+    "Model Number": "RPI-13/PC",
+    "KMF Generation": "5th",
+    "Overall Height": "4.39 米",
+    "Gross Weight": "7.48 吨",
+    "Power Source": "世界树驱动超导体转移系统由能量填充器提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣布里塔尼亚帝国",
+    "Developed From": "萨瑟兰",
+    "Operators": "神圣布里塔尼亚帝国 普鲁托",
+    "Known Pilots": "抱歉，我无法处理这个请求。",
+    "Standard": "驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n自毁装置",
+    "Fixed": "2x飞燕爪牙",
+    "Handheld": "2x 肘部安装式电击拐棍\n1x 突击步枪\n1x 巨型加农炮\n1x 骑枪\n1x 胸部安装式机枪\n混沌地雷",
+    "Manga": "Code Geass: Oz the Reflection\nCode Geass: 兰斯洛特 & 红莲",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "image_url": "https://static.wikia.nocookie.net/codegeass/images/9/92/Sutherland_Pluton_Custom.jpg/revision/latest/scale-to-width-down/267?cb=20180804184047",
+  "introduction": "萨瑟兰（冥王仕样）是神圣布里塔尼亚帝国为组织“冥王”改造的萨瑟兰衍生型。",
+  "Design and Specifications": "RPI-13/PC萨瑟兰·普鲁托是《Code Geass 亡国的阿基德》漫画及写真故事中出现的萨瑟兰衍生型号，专供为皇室执行脏活的布里塔尼亚特种部队\"普鲁托\"使用。其内部框架与操作系统经过定制化改造，虽配备相同武器系统，但性能效率远超常规萨瑟兰。为与普通萨瑟兰区分，该机体采用全黑装甲，搭配紫色肩部装甲与面罩。\n\n在紧急情况下，该机还搭载自毁装置，可引爆驾驶舱，使追踪机体或驾驶员至该部队及其他相关方的行动几乎不可能实现。",
+  "Operational History": "萨瑟兰·普路同似乎是普路同组织使用的主要KMF。其中一台由普路同成员刻耳柏洛斯驾驶，在匈牙利南部一处废墟村庄被驾驶定制格拉斯哥的俄耳甫斯瘫痪。随后，数台该机型伴随卡琳·内·布里塔尼亚的骑士达斯科·拉·克莱蒙执行攻击东南亚反布里塔尼亚组织的任务，但被俄耳甫斯阻止并击败。在黑色骑士团突袭Geass教团期间，红城红树与一队该机型交战并击败了它们。",
+  "Specifications": "一般特性\n乘员：1人\n高度：4.39米\n重量：7.48公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n敌我识别应答器系统\n可选：悬浮飞行系统\n\n武装\n2x 胸部安装型飞燕爪牙\n1x 躯干安装型反人员机枪\n\n可选武装\n1x 突击步枪\n2x 肘部安装型电击棍\n1x 骑枪\n2x 肩部安装型“鞍座武器”导弹发射器（位于驾驶舱两侧）\n1x 巨型加农炮\n混沌爆雷（携带于腰部）\n1x 反KMF狙击步枪\n电击枪（安装于电击棍上）",
+  "image_folder": "Sutherland Pluton Custom",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

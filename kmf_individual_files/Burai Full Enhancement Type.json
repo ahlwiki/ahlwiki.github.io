@@ -3,13 +3,13 @@
   "name": "全强化型无赖",
   "url": "https://codegeass.fandom.com/wiki/Burai_Full_Enhancement_Type",
   "specs": {
-    "Codename": "Burai 全强化型",
-    "KMF Generation": "4th",
-    "Power Source": "世界树驱动超导体转移系统 由 能量填充器 提供动力",
     "Armor Materials": "钨",
-    "Manufacturer": "京都之家",
+    "Codename": "Burai 全强化型",
     "Developed From": "无赖",
-    "Game": "Code Geass DS"
+    "Game": "Code Geass DS",
+    "KMF Generation": "第四世代",
+    "Manufacturer": "京都之家",
+    "Power Source": "世界树驱动器，能量填充剂"
   },
   "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/5c/BuraiFullEnhanceType.png/revision/latest?cb=20100303165000",
   "introduction": "无赖全强化型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。无赖全强化型是一种被特化为机动支援型KMF的无赖，用于在战线后方从远处支援友方KMF和步兵。无赖在一定程度上被黑色骑士团使用。",
