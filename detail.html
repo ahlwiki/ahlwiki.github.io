@@ -225,20 +225,39 @@
 
             const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
 
+            /**
+             * 设置图片源（Standard形态支持 WebP / JPG / PNG 自动降级，其他变体优先 WebP）
+             * @param {HTMLImageElement} imgElement 图片元素
+             * @param {string} variant 变体名称 (如 "Standard", "Armed", etc.)
+             */
             function setImage(imgElement, variant) {
                 if (variant === "Standard") {
-                    // Standard 图片：优先 jpg，失败后 png，再失败占位符
-                    imgElement.src = `${basePath}Standard.jpg`;
-                    imgElement.onerror = function() {
-                        imgElement.onerror = null;
-                        imgElement.src = `${basePath}Standard.png`;
-                        imgElement.onerror = function() {
+                    // Standard 变体: 依次尝试 JPG → WebP → PNG (兼容既有图片并增加 WebP 支持)
+                    const extensions = ['jpg', 'webp', 'png'];
+                    let attemptIndex = 0;
+
+                    // 清除之前可能残留的 onerror 回调，避免冲突
+                    imgElement.onerror = null;
+
+                    const tryNext = () => {
+                        if (attemptIndex >= extensions.length) {
+                            // 所有扩展都失败，显示占位符 SVG
                             imgElement.onerror = null;
                             imgElement.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect width='400' height='300' fill='%23121a26'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23d4af37'%3E⚙️ ${nameZh}%3C/text%3E%3C/svg%3E`;
+                            return;
+                        }
+                        const ext = extensions[attemptIndex];
+                        imgElement.src = `${basePath}Standard.${ext}`;
+                        imgElement.onerror = () => {
+                            // 防止重复触发导致栈溢出，清除当前回调后尝试下一个扩展名
+                            imgElement.onerror = null;
+                            attemptIndex++;
+                            tryNext();
                         };
                     };
+                    tryNext();
                 } else {
-                    // 非 Standard 变体：直接 webp
+                    // 非 Standard 变体：直接加载 WebP（原逻辑保持不变，性能最佳）
                     imgElement.src = `${basePath}${variant}.webp`;
                     imgElement.onerror = function() {
                         imgElement.onerror = null;
