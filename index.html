@@ -578,6 +578,7 @@
         img.onerror = function() {
             if (!fallbackAttempted) {
                 fallbackAttempted = true;
+                //this.src = basePath + '.icon';
                 this.src = basePath + '.jpg';
             } else {
                 this.onerror = null;

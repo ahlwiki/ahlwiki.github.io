@@ -24,6 +24,7 @@
   "Specifications": "一般特性\n乘员：1人\n高度：2.44米\n重量：4.12公吨\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n陆行旋轮推进系统\n驾驶舱弹射系统\n武装\n2x 臂装自动炮\n2x 大型爪",
   "image_folder": "Gardmare",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

@@ -3,6 +3,7 @@
   "name": "兰斯洛特·阿尔比昂零式",
   "url": "https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero",
   "specs": {
+    "Anime": "Code Geass 复活的鲁路修",
     "Armor Materials": "钨",
     "Developed From": "兰斯洛特·阿尔比昂",
     "Fixed": "4x飞燕爪牙",
@@ -25,6 +26,7 @@
   "Trivia": "尽管未在《复活的鲁路修》电影中登场，但该机体确实出现在作为动画续作的《复活的鲁路修》漫画中，并在《超级机器人大战30》中以隐藏机体及朱雀早期加入条件的形式首次于电子游戏中亮相。若未获得兰斯洛特·阿尔比昂零式，朱雀将默认随鲁路修一同加入。",
   "image_folder": "Lancelot Albion Zero",
   "image_variants": [
-    "Standard"
+    "Standard",
+    "动漫截图"
   ]
 }

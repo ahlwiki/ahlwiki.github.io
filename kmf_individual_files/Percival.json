@@ -28,6 +28,7 @@
   "Trivia": "其名称源自圆桌骑士珀西瓦尔，该骑士在追寻圣杯的传说中最初被描绘为英雄，但在后世文学中被加拉哈德所取代。",
   "image_folder": "Percival",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

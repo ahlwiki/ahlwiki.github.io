@@ -18,6 +18,8 @@
   "Design and Development": "由于是由罗伊德·阿斯普林德设计，薛定谔在视觉上与他之前制造的兰斯洛特系列机型相似。机体以白色为主，辅以红色与金色点缀。薛定谔采用了Geass主题设计，其肩部和胸部呈现Geass符号造型，所搭载的能量翼系统也呈Geass符号形状。",
   "image_folder": "Schrodinger",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方",
+    "光翼展开"
   ]
 }

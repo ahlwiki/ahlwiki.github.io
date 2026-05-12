@@ -181,22 +181,6 @@
         "model_number": "WOX Type-03/SC"
     },
     {
-        "name": "Alexander Type-02",
-        "chinese_name": "亚历山大贰式",
-        "categories": {
-            "Anime": [
-                "Code Geass 亡国的阿基德"
-            ],
-            "Manufacturer": [
-                "Clément Factory"
-            ],
-            "Operators": [
-                "wZERO"
-            ]
-        },
-        "model_number": "WOX-Type02"
-    },
-    {
         "name": "Alexander Type-02 Ayano Version",
         "chinese_name": "亚历山大贰式·绫乃机",
         "categories": {
@@ -271,22 +255,6 @@
             ]
         },
         "model_number": "WOX-Type02/DF"
-    },
-    {
-        "name": "Alexander Valiant",
-        "chinese_name": "亚历山大·勇毅型",
-        "categories": {
-            "Anime": [
-                "Code Geass 亡国的阿基德"
-            ],
-            "Manufacturer": [
-                "Clement FactoryEuropia United"
-            ],
-            "Operators": [
-                "Europia United"
-            ]
-        },
-        "model_number": "WOX-Type02V"
     },
     {
         "name": "Alexander Valiant Ayano Version",
@@ -1823,6 +1791,9 @@
         "name": "Lancelot Albion Zero",
         "chinese_name": "兰斯洛特·阿尔比昂零式",
         "categories": {
+            "Anime": [
+                "Code Geass 复活的鲁鲁修"
+            ],
             "Manga": [
                 "Code Geass 复活的鲁鲁修"
             ],
@@ -1879,7 +1850,7 @@
     },
     {
         "name": "Lancelot Frontier",
-        "chinese_name": "兰斯洛特·圣枪",
+        "chinese_name": "兰斯洛特·边境",
         "categories": {
             "Anime": [
                 "Code Geass 叛逆的鲁鲁修"
@@ -2082,8 +2053,8 @@
         "model_number": "DMX-44S1"
     },
     {
-        "name": "Mahoroba Type-0",
-        "chinese_name": "摩罗婆零式",
+        "name": "Mahoroba Type-00",
+        "chinese_name": "真母衣波零式",
         "categories": {
             "Anime": [
                 "Code Geass 复活的鲁鲁修"
@@ -2099,8 +2070,11 @@
     },
     {
         "name": "Mahoroba Type-01",
-        "chinese_name": "摩罗波壹型",
+        "chinese_name": "真母衣波壹式",
         "categories": {
+            "Anime": [
+                "Code Geass 复活的鲁鲁修"
+            ],
             "Manufacturer": [
                 "Rakshata Chawla"
             ],
@@ -2331,7 +2305,7 @@
     },
     {
         "name": "Pendulum Resurrection",
-        "chinese_name": "钟摆复活",
+        "chinese_name": "钟摆·复苏",
         "categories": {
             "Game": [
                 "Code Geass: Lost Stories"
@@ -2515,7 +2489,7 @@
     },
     {
         "name": "Rekka Byakuen",
-        "chinese_name": "白炎",
+        "chinese_name": "烈火白炎",
         "categories": {
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -2541,7 +2515,7 @@
     },
     {
         "name": "Sekka",
-        "chinese_name": "白炎",
+        "chinese_name": "雪花",
         "categories": {
             "Anime": [
                 "Code Geass 夺还的罗塞"
@@ -2718,7 +2692,7 @@
     },
     {
         "name": "Sutherland Club",
-        "chinese_name": "萨瑟兰·棍棒",
+        "chinese_name": "萨瑟兰·Club",
         "categories": {
             "Game": [
                 "Code Geass: Lost Colors"

@@ -16,6 +16,8 @@
   "Trivia": "Queenglint是根据《失落物语》1.5周年期间进行的原创KMF投票结果而制造的。",
   "image_folder": "Queenglint",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方",
+    "LS艺术"
   ]
 }

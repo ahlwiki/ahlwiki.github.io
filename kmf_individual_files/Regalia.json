@@ -19,6 +19,7 @@
   "Specifications": "一般特征  \n乘员：2人  \n动力源：世界树驱动超导体转移系统，能量填充器  \n设计特点  \n集成悬浮飞行系统  \n武装  \n长矛  \n能量射击（来自翼部）  \n导弹",
   "image_folder": "Regalia",
   "image_variants": [
-    "Standard"
+    "前方",
+    "后方"
   ]
 }

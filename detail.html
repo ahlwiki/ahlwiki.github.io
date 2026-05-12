@@ -17,7 +17,6 @@
             padding: 2rem 1.5rem;
         }
         .detail-container {
-            max-width: 1300px;
             margin: 0 auto;
             background: rgba(12, 18, 28, 0.85);
             border-radius: 2rem;
@@ -146,7 +145,7 @@
         /* 手机端样式 */
         @media (max-width: 700px) {
             body { padding: 0.5rem; }
-            .detail-container { padding: 0.8rem; border-radius: 1rem; }
+            .detail-container { padding: 0rem; border: none; }
             .desktop-only .back-link { display: none; }
             .mobile-layout { display: block; }
             .kmf-title-mobile {
@@ -156,7 +155,7 @@
             .kmf-title-mobile h1 { font-size: 1.8rem; color: #ffdd99; }
             .kmf-title-mobile .sub { font-size: 0.8rem; color: #bcafa2; }
 
-            /* 单图居中，多图横滑 */
+            /* 单图居中 */
             .image-single {
                 display: flex;
                 justify-content: center;
@@ -169,6 +168,36 @@
                 border-radius: 12px;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.3);
             }
+            /* 两图并排居中 */
+            .image-double {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                margin-bottom: 1rem;
+                flex-wrap: wrap;
+            }
+            .image-double .image-item {
+                flex: 0 0 auto;
+                width: 150px;
+                text-align: center;
+            }
+            .image-double img {
+                width: 100%;
+                height: auto;
+                background: #ffffff;
+                border-radius: 12px;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+                object-fit: contain;
+                max-height: 200px;
+            }
+            .image-double .img-label {
+                margin-top: 0.4rem;
+                font-size: 0.7rem;
+                color: #e6c87a;
+                text-align: center;
+                word-break: break-word;
+            }
+            /* 多图横滑 */
             .image-scroll-container {
                 width: 100%;
                 overflow-x: auto;
@@ -222,7 +251,7 @@
             }
             .specs-row .specs-label {
                 font-size: 0.8rem;
-                width: 65px;
+                width: 80px;
                 font-weight: bold;
                 color: #9aaec9;
                 flex-shrink: 0;
@@ -457,23 +486,30 @@
         const trivia = data.Trivia || '';
         const trivia2 = data["Operational History"] || '';
 
-        // 直接使用 image_variants，不添加 Standard
         let variants = data.image_variants || [];
         variants = [...new Set(variants)];
 
         const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
 
-        // 图片区域 HTML
+        // 图片区域 HTML（根据数量不同布局）
         let imagesHtml = '';
         if (variants.length === 0) {
-            // 没有图片，不显示区域
             imagesHtml = '';
         } else if (variants.length === 1) {
-            // 单张图片：居中显示，不显示名称
             const variant = variants[0];
             imagesHtml = `<div class="image-single"><img class="single-img" data-variant="${variant}" src="" alt="${nameZh}"></div>`;
+        } else if (variants.length === 2) {
+            let itemsHtml = '';
+            for (let variant of variants) {
+                itemsHtml += `
+                    <div class="image-item">
+                        <img class="double-img" data-variant="${variant}" src="" alt="${variant}">
+                        <div class="img-label">${escapeHtml(variant)}</div>
+                    </div>
+                `;
+            }
+            imagesHtml = `<div class="image-double">${itemsHtml}</div>`;
         } else {
-            // 多张图片：横向滑动 + 显示名称
             let itemsHtml = '';
             for (let variant of variants) {
                 itemsHtml += `
@@ -486,7 +522,8 @@
             imagesHtml = `<div class="image-scroll-container"><div class="image-scroll-wrapper">${itemsHtml}</div></div>`;
         }
 
-        // 收集 specs 字段（标题区已显示的四个字段不重复）
+        // ----- 构建手机端规格条目，高度和重量合并为一行 -----
+        // 普通字段（除了高度和重量）
         const orderedKeys = [
             "Classification", "Official Name", "Codename", "Crew", "Power Source", "Armor Materials",
             "Developer", "Manufacturer", "Produced Units", "Status", "First deployment", "Last Seen",
@@ -502,29 +539,59 @@
             "Known Pilots": "驾驶员", "Operators": "所属势力", "Anime": "动画登场", "Manga": "漫画登场",
             "Novel": "小说登场", "Game": "游戏登场", "Mechanical Designer": "机械设计"
         };
-        const allSpecsEntries = [];
+        const allEntries = [];
+
+        // 先处理普通字段（不包括高度和重量）
         for (let key of orderedKeys) {
             const val = getSpecValue(specs, key);
             if (val) {
-                allSpecsEntries.push({ label: labelMap[key] || key, value: val });
+                allEntries.push({ label: labelMap[key] || key, value: val });
             }
         }
-        // 补充可能遗漏的字段
+
+        // 处理高度和重量合并
+        const height = getSpecValue(specs, "Overall Height");
+        const weight = getSpecValue(specs, "Gross Weight");
+        let combinedValue = '';
+        if (height && weight) {
+            combinedValue = `${height} | ${weight}`;
+        } else if (height) {
+            combinedValue = height;
+        } else if (weight) {
+            combinedValue = weight;
+        }
+        if (combinedValue) {
+            allEntries.unshift({ label: "高度 | 重量", value: combinedValue });
+        }
+
+        // 补充可能遗漏的字段（排除已处理的）
+        const excludeKeys = ["Model Number", "KMF Generation", "Overall Height", "Gross Weight"];
         for (let [key, val] of Object.entries(specs)) {
-            if (val && !orderedKeys.includes(key) && !["Model Number", "KMF Generation", "Overall Height", "Gross Weight"].includes(key)) {
-                allSpecsEntries.push({ label: labelMap[key] || key, value: val });
+            if (val && !orderedKeys.includes(key) && !excludeKeys.includes(key)) {
+                allEntries.push({ label: labelMap[key] || key, value: val });
             }
+        }
+
+        // 手机端标题区，隐藏“型号:”、“世代:”标签，只显示数值
+        const modelNum = getSpecValue(specs, "Model Number");
+        const gen = getSpecValue(specs, "KMF Generation");
+        let titleExtraHtml = '';
+        if (modelNum || gen) {
+            let parts = [];
+            if (modelNum) parts.push(`${escapeHtml(modelNum)}`);
+            if (gen) parts.push(`${escapeHtml(gen)}`);
+            titleExtraHtml = `<div class="sub" style="font-size:0.7rem">${parts.join(' | ')}</div>`;
         }
 
         const INITIAL_SHOW = 5;
         let specsTableHtml = `<div class="specs-table" id="specs-table-mobile">`;
-        for (let i = 0; i < Math.min(INITIAL_SHOW, allSpecsEntries.length); i++) {
-            specsTableHtml += `<div class="specs-row"><div class="specs-label">${escapeHtml(allSpecsEntries[i].label)}</div><div class="specs-value">${escapeHtml(allSpecsEntries[i].value)}</div></div>`;
+        for (let i = 0; i < Math.min(INITIAL_SHOW, allEntries.length); i++) {
+            specsTableHtml += `<div class="specs-row"><div class="specs-label">${escapeHtml(allEntries[i].label)}</div><div class="specs-value">${escapeHtml(allEntries[i].value)}</div></div>`;
         }
         specsTableHtml += `</div>`;
-        if (allSpecsEntries.length > INITIAL_SHOW) {
+        if (allEntries.length > INITIAL_SHOW) {
             specsTableHtml += `<button id="toggle-specs-btn" class="more-btn">更多 ↓</button>`;
-        } else if (allSpecsEntries.length === 0) {
+        } else if (allEntries.length === 0) {
             specsTableHtml = `<div class="specs-table"><div class="specs-row"><div class="specs-value">暂无详细规格</div></div></div>`;
         }
 
@@ -532,7 +599,7 @@
             <div class="kmf-title-mobile">
                 <h1>${escapeHtml(nameZh)}</h1>
                 <div class="sub">${escapeHtml(englishName)}</div>
-                <div class="sub" style="font-size:0.7rem">型号: ${getSpecValue(specs, "Model Number") || '—'} | 世代: ${getSpecValue(specs, "KMF Generation") || '—'}</div>
+                ${titleExtraHtml}
             </div>
             ${imagesHtml}
             ${specsTableHtml}
@@ -555,7 +622,13 @@
                 const variant = singleImg.dataset.variant;
                 loadMobileImage(singleImg, variant, basePath, nameZh);
             }
-        } else if (variants.length > 1) {
+        } else if (variants.length === 2) {
+            const doubleImgs = document.querySelectorAll('.double-img');
+            doubleImgs.forEach(img => {
+                const variant = img.dataset.variant;
+                loadMobileImage(img, variant, basePath, variant);
+            });
+        } else if (variants.length >= 3) {
             const scrollImgs = document.querySelectorAll('.scroll-img');
             scrollImgs.forEach(img => {
                 const variant = img.dataset.variant;
@@ -567,7 +640,7 @@
         const toggleBtn = document.getElementById('toggle-specs-btn');
         if (toggleBtn) {
             let expanded = false;
-            const fullHtml = allSpecsEntries.map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
+            const fullHtml = allEntries.map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
             const tableDiv = document.getElementById('specs-table-mobile');
             toggleBtn.addEventListener('click', () => {
                 if (!expanded) {
@@ -575,7 +648,7 @@
                     toggleBtn.innerHTML = '收起 ↑';
                     expanded = true;
                 } else {
-                    tableDiv.innerHTML = allSpecsEntries.slice(0, INITIAL_SHOW).map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
+                    tableDiv.innerHTML = allEntries.slice(0, INITIAL_SHOW).map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
                     toggleBtn.innerHTML = '更多 ↓';
                     expanded = false;
                 }
