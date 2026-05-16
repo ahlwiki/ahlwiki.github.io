@@ -1,17 +1,15 @@
 {
-  "english_name": "Issus",
   "name": "伊苏斯",
-  "url": "https://codegeass.fandom.com/wiki/Issus",
   "specs": {
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
-    "Fixed": "2x 肩部加农炮",
     "Manufacturer": "齐尔克斯坦王国",
     "Operators": "齐尔克斯坦王国",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Fixed": "2门肩部加农炮"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/6e/Issus.jpg/revision/latest/scale-to-width-down/268?cb=20191206113438",
-  "introduction": "伊苏斯是齐尔克斯坦王国所运用的KMF。其设计似乎基于亚历山大一型。",
-  "Design and Specifications": "伊苏斯是一种外形奇特的KMF，其设计类似于四足蜘蛛或昆虫。伊苏斯无法直立，因此天生就是一款低矮的载具。这实际上赋予了伊苏斯相对于大多数KMF的优势——低矮的轮廓使其难以被远距离击中，同时也让伊苏斯能够挤进KMF无法进入的区域，或躲藏在KMF无法利用的掩体位置。\n\n此外，伊苏斯的驾驶舱位于KMF头部后方，使其整体外观极具蛛形纲生物的特征。伊苏斯装备有两门肩部火炮，是一款速度极快且机动性极强的KMF。",
+  "introduction": "伊苏斯是齐尔克斯坦王国操作的人型自在战斗装甲 (KMF)。它似乎是以亚历山大为基础开发的。",
+  "Design and Specifications": "伊苏斯是一种外形奇特的人型自在战斗装甲 (KMF)，设计上类似于四足蜘蛛或昆虫。伊苏斯无法站立，因此是一种天生低矮的载具。这实际上赋予了伊苏斯相对于大多数人型自在战斗装甲 (KMF) 的优势，因为其低矮的轮廓使其难以被远距离击中，同时也允许伊苏斯挤进区域或利用人型自在战斗装甲 (KMF) 无法进入的掩体位置。此外，伊苏斯的驾驶舱位于人型自在战斗装甲 (KMF) 头部的后方，从而形成了一种非常类似蛛形纲的载具外观。伊苏斯装备有两门肩部加农炮，是一种非常快速且灵活的人型自在战斗装甲 (KMF)。",
+  "english_name": "Issus",
   "image_folder": "Issus",
   "image_variants": [
     "Standard"

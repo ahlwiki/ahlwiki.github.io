@@ -1,18 +1,16 @@
 {
-  "english_name": "Keisetsu",
   "name": "蛍雪",
-  "url": "https://codegeass.fandom.com/wiki/Keisetsu",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Known Pilots": "春香·琉高",
-    "Manufacturer": "黑色骑士团",
     "Model Number": "Type-07T",
-    "Operators": "超合众国黑色骑士团七耀星",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "黑色骑士团",
+    "Operators": "联合国联邦、黑色骑士团、七煌星",
+    "Known Pilots": "春香·留高",
+    "Anime": "Code Geass 夺还的罗塞"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/8/88/Keisetsu.jpg/revision/latest/scale-to-width-down/268?cb=20240614211445",
-  "introduction": "《Code Geass 夺还的罗赛》中登场的黑色骑士团最新型KMF——蛍雪，是一台可进行定制调校的王牌机。",
+  "introduction": "圭雪（蛍雪）是出现在《Code Geass: 夺还的罗赛》中的黑色骑士团最新型人型自在战斗装甲（KMF）。它是一台可进行定制调校的王牌机体。",
+  "english_name": "Keisetsu",
   "image_folder": "Keisetsu",
   "image_variants": [
     "Standard"

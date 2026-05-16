@@ -1,24 +1,22 @@
 {
-  "english_name": "GX 01 (Dalque)",
   "name": "GX 01（达尔克）",
-  "url": "https://codegeass.fandom.com/wiki/GX_01_(Dalque)",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "达尔克",
-    "Developed From": "GX 01",
-    "Game": "娜娜莉的噩梦",
-    "KMF Generation": "第七世代",
-    "Known Pilots": "达尔克",
-    "Manufacturer": "神圣布里塔尼亚帝国",
     "Model Number": "GX-01",
-    "Operators": "神圣布里塔尼亚帝国布里塔尼亚特别荣誉外籍军团",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Status": "损坏",
-    "Variants": "GX 01 AlphaGX 01 (卢克雷蒂亚)GX 01 (桑西亚)"
+    "Codename": "达尔克",
+    "KMF Generation": "第七世代",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Developed From": "GX 01",
+    "Variants": "GX 01 Alpha、GX 01（卢克雷蒂娅）、GX 01（桑西亚）",
+    "Operators": "神圣不列颠尼亚帝国、神圣布列塔尼亚帝国",
+    "Known Pilots": "达尔克",
+    "Status": "受损",
+    "Game": "娜娜莉的噩梦"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/c/c9/GX_01_Dalque.JPG/revision/latest/scale-to-width-down/268?cb=20100402144412",
-  "introduction": "这台KMF仅出现在外传漫画《娜娜莉的梦魇》中，由达尔克驾驶的GX-01负责担任队伍先锋。达尔克GX-01因其庞大的体型和缺乏常规武器、转而使用\"赤手空拳\"战斗的特点，成为有史以来最独特的KMF之一。当该机体与红衣主教罗洛的冰之Geass对抗时，遭到了严重损坏。",
-  "Operational History": "该机体首次登场于第5区（格陵兰岛某地）的镇压行动中，作为非正规部队的先锋及尖兵之一。随后在埼玉贫民窟灾难中再次担任相同角色，并参与了成田战役。其最后一次出现，是在达尔克与非正规部队其他成员受命追捕前成员爱丽丝时，因红衣主教罗洛利用Geass操控冰层导致非正规部队倒戈，致使达尔克驾驶的GX 01受损。",
+  "introduction": "这台人型自在战斗装甲仅出现在衍生漫画《娜娜莉的噩梦》中。由达尔克驾驶的这台GX 01负责担任队伍的前锋。达尔克的GX-01是有史以来最独特的人型自在战斗装甲之一，因为它体型相当庞大，且缺乏武器，反而用“赤手空拳”战斗。这台人型自在战斗装甲在对抗红衣主教罗洛时，被他的Geass冰能力所伤。",
+  "Operational History": "它首次出现在第5区（位于格陵兰某处）的镇压行动中，担任非正规部队的前锋和尖兵。在埼玉贫民区的灾难中，它再次以相同角色登场。随后，它又出现在成田之战中，并最后一次亮相。当时，达尔克和其余非正规部队受命追捕前非正规部队成员爱丽丝，但非正规部队转而对抗红衣主教罗洛，结果达尔克驾驶的GX 01因红衣主教罗洛的Geass冰能力而受损。",
+  "english_name": "GX 01 (Dalque)",
   "image_folder": "GX 01 (Dalque)",
   "image_variants": [
     "Standard"

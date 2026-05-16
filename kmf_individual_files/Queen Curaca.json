@@ -1,22 +1,20 @@
 {
-  "english_name": "Queen Curaca",
   "name": "库拉卡女王",
-  "url": "https://codegeass.fandom.com/wiki/Queen_Curaca",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Handheld": "2x 4联装手枪（带刀）",
-    "Known Pilots": "凯瑟琳·萨巴斯拉",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Mechanical Designer": "Junichi Akutsu",
     "Model Number": "RPCX-02Q/W",
-    "Operators": "新布里塔尼亚帝国 艾因伯格（黑骑士团）",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "4x陆行旋轮推进系统2x 侧裙助推器"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Operators": "新不列颠尼亚帝国 阿尔（黑骑士团（EU））",
+    "Known Pilots": "凯瑟琳·萨巴斯拉",
+    "Standard": "4x 陆地旋轮 2x 侧裙助推器",
+    "Handheld": "2x 四管手枪（带刀）",
+    "Anime": "Code Geass 夺还的罗塞",
+    "Mechanical Designer": "阿久津润一"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/e/e1/Queen_Curaca.png/revision/latest/scale-to-width-down/268?cb=20240701064312",
-  "introduction": "《Code Geass：夺还的罗赛》中，凯瑟琳·萨巴斯拉的专属KMF——女王库拉卡（Queen Curaca）。",
-  "Design and Development": "主要使用双手装备刀片的四联装手枪进行战斗，动作如同舞者般优雅。完全具备摧毁大量低级KMF的能力。",
+  "introduction": "女王库拉卡（クインクラカ）是凯瑟琳·萨巴斯拉的专用人型自在战斗装甲（KMF），登场于《Code Geass: 夺还的罗赛》。",
+  "Design and Development": "它主要使用双手装备的四管手枪（带刀）进行战斗，动作如舞者般优雅。完全有能力摧毁大量低等级的人型自在战斗装甲（KMF）。",
+  "english_name": "Queen Curaca",
   "image_folder": "Queen Curaca",
   "image_variants": [
     "Standard"

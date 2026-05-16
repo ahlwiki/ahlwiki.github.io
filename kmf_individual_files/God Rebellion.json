@@ -1,17 +1,15 @@
 {
-  "english_name": "God Rebellion",
   "name": "神之反叛",
-  "url": "https://codegeass.fandom.com/wiki/God_Rebellion",
   "specs": {
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
-    "Developed From": "高文兰斯洛特",
-    "Game": "Code Geass：失落物语",
-    "Known Pilots": "鲁路修·vi·布里塔尼亚（高文）迪塞尔（高文）枢木朱雀（兰斯洛特）",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Developed From": "高文、兰斯洛特",
+    "Known Pilots": "鲁鲁修（高文）、迪塞尔（高文）、枢木朱雀（兰斯洛特）",
+    "Game": "Code Geass：失落物语"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/67/God_Rebellion.jpg/revision/latest/scale-to-width-down/268?cb=20241117150351",
-  "introduction": "神之反叛（ゴッドリベリオン）是游戏《Code Geass 反叛的鲁路修 遗失物语》中登场的限定合体KMF，仅在限时活动\"超王机神 神之反叛\"中可用。",
-  "Trivia": "该机体致敬了《神超合体》中的“神机”，其联动活动是对《超重神》动画系列的致敬。此外，鲁路修的声优福山润也为《超重神》的主角天空寺斗牙配音。",
+  "introduction": "神之叛逆（ゴッドリベリオン）是游戏专属的合体人型自在战斗装甲（KMF），登场于《Code Geass 叛逆的鲁鲁修 Lost Stories》，仅在限时活动“超重神 神之叛逆”中可获得。",
+  "Trivia": "该机体参考了“神·重力王”，合作活动致敬了动画系列《超重神Gravion》。此外，鲁鲁修的声优福山润也为《Gravion》的主角天空寺斗牙配音。",
+  "english_name": "God Rebellion",
   "image_folder": "God Rebellion",
   "image_variants": [
     "前方",

@@ -1,19 +1,17 @@
 {
-  "english_name": "Shingetsu",
   "name": "新月",
-  "url": "https://codegeass.fandom.com/wiki/Shingetsu",
   "specs": {
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
+    "Manufacturer": "珍珠派",
     "Developed From": "月下",
-    "Known Pilots": "白炎·苍牙",
-    "Manga": "Code Geass 新洁的阿尔玛利亚",
-    "Manufacturer": "珍珠派对",
-    "Operators": "超合众国十六夜",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Operators": "联合国联邦 十六夜",
+    "Known Pilots": "白马·曾我",
+    "Manga": "Code Geass 新洁的阿尔玛利亚"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/d9/Shingetsu.jpg/revision/latest/scale-to-width-down/268?cb=20240906163920",
-  "introduction": "《Code Geass: Pure Almaria》中登场的KMF“新月”，是十六夜特工·白马创（代号“新月”）的专属KMF。",
-  "Design and Development": "以月下为基础，为白马个人使用而定制。除了配备可用于远近距离战斗的集成武器外，背部还搭载了由珍珠派开发的新型热能剑。此外，隶属于十六夜的特工代号通常与其KMF相同。",
+  "introduction": "新月（Shingetsu）是《Code Geass: Pure Almaria》中登场的人型自在战斗装甲（KMF）。它是十六夜特工白马·曾我（代号“新月”）的专属人型自在战斗装甲。",
+  "Design and Development": "基于月下改造，为白马的个人使用而定制。除了配备可用于远距离和近距离战斗的内置武器外，其背部还装备了由珍珠派开发的新型热剑。此外，十六夜所属特工的代号通常与其人型自在战斗装甲相同。",
+  "english_name": "Shingetsu",
   "image_folder": "Shingetsu",
   "image_variants": []
 }

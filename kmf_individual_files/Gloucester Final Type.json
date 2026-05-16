@@ -1,21 +1,19 @@
 {
-  "english_name": "Gloucester Final Type",
   "name": "格洛斯特最终型",
-  "url": "https://codegeass.fandom.com/wiki/Gloucester_Final_Type",
   "specs": {
-    "Armor Materials": "钨",
     "Codename": "格洛斯特最终型",
-    "Developed From": "格洛斯特",
-    "Game": "Code Geass DS",
     "KMF Generation": "第五世代",
-    "Manufacturer": "神圣布里塔尼亚帝国",
-    "Operators": "布里塔尼亚军",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Developed From": "格洛斯特",
+    "Operators": "神圣布列塔尼亚帝国",
+    "Game": "Code Geass DS"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/a/ab/GloucesterFinalType.png/revision/latest?cb=20130926162457",
-  "introduction": "格洛斯特最终型仅在NDS平台的《Code Geass 反叛的鲁路修》中登场。格洛斯特最终型是格洛斯特的优化版本。",
-  "Design and Development": "格洛斯特最终型是格洛斯特系列的最终型号。该机型对格洛斯特KMF进行了强化升级，采用粉红/浅紫色涂装。主武器为一把巨剑，并配备盾牌以抵御敌方攻击。",
-  "Specifications": "一般特性\n乘员：1人 动力源：世界树驱动超导体转移系统、能量填充器\n设计特点\n驾驶舱弹射系统、广域感知传感器、陆行旋轮推进系统\n武装\n1把巨剑、1面盾牌、2具胸部搭载型飞燕爪牙\n可选武装\n1挺突击步枪、1把长枪、2具萨特尔武器、2具肘部搭载型拐棍",
+  "introduction": "格洛斯特最终型仅在Nintendo DS平台的《Code Geass: 叛逆的鲁鲁修》中出现。格洛斯特最终型是格洛斯特的优化版本。",
+  "Design and Development": "格洛斯特最终型是格洛斯特的最终型号。对格洛斯特人型自在战斗装甲 (KMF)进行了增强开发。它采用粉红/浅紫色配色方案。主要武器为一把巨剑，并配备一面盾牌以抵御敌方攻击。",
+  "Specifications": "一般特性\n乘员：1名\n动力源：尤克特拉希尔驱动，能量填充器\n设计特点\n驾驶舱弹射系统\n事实球体传感器\n陆地旋轮\n武装\n1x 巨剑\n1x 盾牌\n2x 胸部安装式飞燕爪牙\n可选武装\n1x 突击步枪\n1x 长枪\n2x 鞍式武器\n2x 肘部安装式拐",
+  "english_name": "Gloucester Final Type",
   "image_folder": "Gloucester Final Type",
   "image_variants": [
     "Standard"

@@ -1,21 +1,19 @@
 {
-  "english_name": "Burai Close Combat Type",
   "name": "无赖近战型",
-  "url": "https://codegeass.fandom.com/wiki/Burai_Close_Combat_Type",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "无赖近战型",
-    "Developed From": "无赖",
-    "Game": "Code Geass DS",
+    "Codename": "无赖 近战型",
     "KMF Generation": "第四世代",
-    "Manufacturer": "京都之家",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都六家",
+    "Developed From": "无赖",
     "Operators": "黑色骑士团",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Game": "Code Geass DS"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/8/87/BuraiMeleeType.png/revision/latest?cb=20100303154901",
-  "introduction": "近战型无赖仅在DS平台《Code Geass 反叛的鲁路修》中登场。近战型无赖是专精于近战KMF定位的无赖改型，负责在近距离内迎击敌人。黑色骑士团在一定程度上使用无赖。",
-  "Design and Development": "根据常规型无赖改造而来的无赖近战型，采用绿色涂装，双手各持一面尖刺盾牌以取代防护者。尖刺盾牌可作为无赖的武器使用。",
-  "Specifications": "基本参数\n乘员：1人\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n武装\n2x 胸部搭载飞燕爪牙\n2x 手部搭载尖刺护盾\n可选武装\n1x 突击步枪\n1x 腕部搭载四联装导弹发射器（共8管）\n1x 左肘部搭载拐棍（仅见于《京都来的使者》）",
+  "introduction": "无赖 近战型仅在DS平台的《Code Geass: 叛逆的鲁鲁修》游戏中登场。无赖 近战型是一种以近战人型自在战斗装甲 (KMF) 为定位进行特化的无赖，负责在近距离内迎击敌人。该机体被黑色骑士团部分使用。",
+  "Design and Development": "无赖 近战型基于普通无赖改造而来，但采用绿色涂装，并双手各持一面尖刺盾牌以替代保护者。尖刺盾牌可作为无赖的武器使用。",
+  "Specifications": "一般特性\n乘员：1名\n动力源：尤克特拉希尔驱动，能量填充器\n设计特征\n驾驶舱弹射系统\n事实球体传感器\n陆地旋轮推进系统\n武装\n2x 胸部飞燕爪牙\n2x 手持尖刺盾牌\n可选武装\n1x 突击步枪\n1x 腕部四联装导弹发射器（共8管）\n1x 左肘部拐（仅在《来自京都的使者》中出现）",
+  "english_name": "Burai Close Combat Type",
   "image_folder": "Burai Close Combat Type",
   "image_variants": [
     "Standard"

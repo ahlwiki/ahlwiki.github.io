@@ -1,22 +1,20 @@
 {
-  "english_name": "Mordred Buildup",
   "name": "莫德雷德·强化型",
-  "url": "https://codegeass.fandom.com/wiki/Mordred_Buildup",
   "specs": {
-    "Anime": "Code Geass 复活的鲁鲁修",
-    "Armor Materials": "钨",
-    "Codename": "莫德雷德·强化型",
-    "Crew": "1",
-    "Developed From": "莫德雷德",
-    "Developer": "黑色骑士团",
-    "Gross Weight": "14.42吨",
-    "Known Pilots": "阿尼亚·阿尔斯特雷姆",
     "Model Number": "RZA-6DGX1",
+    "Codename": "莫德雷德强化型",
     "Overall Height": "4.71 米",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Gross Weight": "14.42吨",
+    "Power Source": "尤克特拉希尔驱动，能量填充器",
+    "Armor Materials": "钨",
+    "Crew": "1",
+    "Developer": "黑色骑士团",
+    "Developed From": "莫德雷德强化型",
+    "Known Pilots": "阿尼亚·阿尔斯特雷姆",
+    "Anime": "Code Geass 复活的鲁鲁修"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/59/MordredBuildup.jpg/revision/latest/scale-to-width-down/268?cb=20191206200947",
-  "introduction": "莫德雷德·布尔德普是《Code Geass：复活的鲁路修》中阿尼亚·阿尔斯托雷姆个人使用的KMF。",
+  "introduction": "莫德雷德强化型是阿尼亚·阿尔斯特雷姆在《Code Geass: 复活的鲁鲁修》中使用的专用人型自在战斗装甲(KMF)。",
+  "english_name": "Mordred Buildup",
   "image_folder": "Mordred Buildup",
   "image_variants": [
     "前方",

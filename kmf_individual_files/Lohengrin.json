@@ -1,24 +1,22 @@
 {
-  "english_name": "Lohengrin",
   "name": "罗恩格林",
-  "url": "https://codegeass.fandom.com/wiki/Lohengrin",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Developed From": "瓦尔普尼尔",
-    "Handheld": "1x 大型刀",
-    "Known Pilots": "阿诺德·伦克",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Mechanical Designer": "阿久津淳一",
     "Model Number": "RPCX-05K/S-LC",
-    "Operators": "新布里塔尼亚帝国  \n艾因伯格",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "陆行旋轮推进系统2x 护盾"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Developed From": "瓦尔普尼尔",
+    "Operators": "新不列颠尼亚帝国 艾因伯格",
+    "Known Pilots": "阿诺德·伦克",
+    "Standard": "陆地旋轮推进系统 2x 盾牌",
+    "Handheld": "1x 大型刀剑",
+    "Anime": "Code Geass 夺还的罗塞",
+    "Mechanical Designer": "阿久津润一"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/ba/Lohengrin.jpg/revision/latest/scale-to-width-down/268?cb=20240706071608",
-  "introduction": "罗恩格林（ローエングリン，Rōengurin）是阿诺德·伦克在《Code Geass：夺还的罗泽》中使用的升级版KMF。",
-  "Design and Development": "由克里斯托夫·剪刀手升级，它配备了一面能量护盾（Blaze Luminous）盾牌、两只辅助臂以及一把大型剑，其所有攻防能力均得到了提升。",
-  "Trivia": "其名称可能源自《罗恩格林》，一位由天鹅牵引船只护送、拯救一位永不可询问其身份的少女的圣杯圆桌骑士。",
+  "introduction": "罗恩格林（ローエングリン，Rōengurin）是阿诺德·伦克在《Code Geass: 夺还的罗泽》中使用的升级版人型自在战斗装甲（KMF）。",
+  "Design and Development": "由克里斯托夫·剪刀手升级，它配备了闪光护盾、两只辅助臂和一把大剑，所有攻防能力均得到提升。",
+  "Trivia": "其名称可能源自罗恩格林，一位亚瑟王传说中圣杯的骑士，由天鹅拉船送他去拯救一位永远不能询问他身份的少女。",
+  "english_name": "Lohengrin",
   "image_folder": "Lohengrin",
   "image_variants": [
     "Standard"

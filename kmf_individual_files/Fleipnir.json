@@ -1,23 +1,21 @@
 {
-  "english_name": "Fleipnir",
   "name": "弗莱皮尼尔",
-  "url": "https://codegeass.fandom.com/wiki/Fleipnir",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Handheld": "2x 步枪",
-    "Known Pilots": "希思·洛特",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Mechanical Designer": "Junichi Akutsu",
     "Model Number": "RPCX-05K/W",
-    "Operators": "新布里塔尼亚帝国  \n艾因伯格",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "4x陆行旋轮推进系统"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Operators": "新不列颠尼亚帝国 艾因伯格",
+    "Known Pilots": "希思·洛特",
+    "Standard": "4x 陆地旋轮",
+    "Handheld": "2x 步枪",
+    "Anime": "Code Geass 夺还的罗塞",
+    "Mechanical Designer": "阿久津润一"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/9/95/Fleipnir.jpg/revision/latest/scale-to-width-down/268?cb=20240701064615",
-  "introduction": "弗莱普尼尔（Fleipnir）是《Code Geass：夺还的罗塞》中希思·洛特专用的KMF。",
-  "Design and Development": "装备双步枪，是以射击为主的机体。",
-  "Trivia": "其名称可能源自奥丁的八足骏马、洛基之子——斯雷普尼尔。",
+  "introduction": "弗莱普尼尔（フレイプニル, Fureipuniru）是希思·洛特在《Code Geass: 夺还的罗赛》中使用的专属人型自在战斗装甲 (KMF)。",
+  "Design and Development": "装备双步枪，是一台射击特化型机体。",
+  "Trivia": "其名称可能源自斯莱普尼尔，奥丁的八足马，洛基之子。",
+  "english_name": "Fleipnir",
   "image_folder": "Fleipnir",
   "image_variants": [
     "Standard"

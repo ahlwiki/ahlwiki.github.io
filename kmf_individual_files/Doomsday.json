@@ -1,18 +1,16 @@
 {
-  "english_name": "Doomsday",
   "name": "末日",
-  "url": "https://codegeass.fandom.com/wiki/Doomsday",
   "specs": {
-    "Armor Materials": "钨",
-    "Fixed": "全方位支配者",
-    "Handheld": "2x MVS剑",
     "KMF Generation": "第九世代",
-    "Known Pilots": "Zero（Genesic Re;Code）",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "能量翼"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Known Pilots": "Zero (Genesic Re;Code)",
+    "Standard": "能量翼",
+    "Fixed": "全向支配者",
+    "Handheld": "2把MVS (激光振动剑)"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/b4/Doomsday.jpg/revision/latest/scale-to-width-down/268?cb=20240106043055",
-  "introduction": "末日是《Code Geass: Genesic Re;Code》中登场的一台KMF，是Zero的专属KMF。",
+  "introduction": "末日是出现在《Code Geass: Genesic Re;Code》中的人型自在战斗装甲 (KMF)。它是Zero的专属人型自在战斗装甲 (KMF)。",
+  "english_name": "Doomsday",
   "image_folder": "Doomsday",
   "image_variants": [
     "前方",

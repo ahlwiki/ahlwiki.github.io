@@ -1,17 +1,15 @@
 {
-  "english_name": "Mark Nemo",
   "name": "马克·尼莫",
-  "url": "https://codegeass.fandom.com/wiki/Mark_Nemo",
   "specs": {
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
-    "Known Pilots": "娜娜莉·vi·布里塔尼亚 魔法装置 尼莫",
-    "Manga": "Code Geass 娜娜莉的梦魇",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "金色短刃 × 6（远程有线火箭锚）武士刀 × 1",
-    "Status": "摧毁"
+    "Known Pilots": "娜娜莉·vi·不列颠尼亚，魔法装置尼莫",
+    "Status": "已摧毁",
+    "Standard": "金发小刀 × 6（远程有线火箭锚），武士刀 × 1",
+    "Manga": "Code Geass 娜娜莉的梦魇"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/3d/Mark_Nemo_Colored.jpg/revision/latest/scale-to-width-down/267?cb=20240710182611",
-  "introduction": "首次登场于《娜娜莉的噩梦》漫画的马克·尼莫，是由娜娜莉·Vi·布里塔尼亚与魔法装置尼莫共同驾驶的先进KMF。与多数KMF不同，马克·尼莫未配备陆行旋轮，因此能进行更灵活的机动动作，可在高处跳跃奔跑。\n\n该机体的主要武器为六枚名为\"金发刃\"的远程有线火箭锚。这些武器与飞燕爪牙相似，但末端装有可贯穿任何KMF的锋利刃片，并能在地面高速旋转钻探。金发刃可在空中或地下进行远程操控，实现多目标锁定与摧毁。此外，马克·尼莫还配备一柄可斩断几乎任何障碍物的武士刀。该机体在娜娜莉与尼莫解除契约后被摧毁。\n\n在《失落的色彩》游戏中，当娜娜莉谈论理想中的KMF时，马克·尼莫曾作为背景画面出现。",
+  "introduction": "马克·尼莫首次出现在《娜娜莉的梦魇》漫画中，是一台由娜娜莉·vi·不列颠尼亚和魔法装置尼莫驾驶的先进人型自在战斗装甲（KMF）。与大多数人型自在战斗装甲不同，马克·尼莫没有陆地旋轮；因此，它可以更灵活地移动，能够跳跃并在高处奔跑。\n马克·尼莫的主要武器是六把被称为金发小刀的远程有线火箭锚。它们类似于Slash Haken，但末端装有锋利刀片，可以穿透任何人型自在战斗装甲，并能在地面上快速钻探。金发小刀还可以在空中或地下远程移动，从而瞄准并摧毁多台人型自在战斗装甲。马克·尼莫还配备了一把能够切割几乎任何障碍物的武士刀。在娜娜莉与尼莫解除契约后，它被摧毁。\n在《Lost Colors》电子游戏中，当娜娜莉谈论她理想的人型自在战斗装甲时，马克·尼莫出现在背景中。",
+  "english_name": "Mark Nemo",
   "image_folder": "Mark Nemo",
   "image_variants": [
     "Standard"

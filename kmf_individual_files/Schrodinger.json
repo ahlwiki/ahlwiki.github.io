@@ -1,21 +1,19 @@
 {
-  "english_name": "Schrodinger",
   "name": "薛定谔",
-  "url": "https://codegeass.fandom.com/wiki/Schrodinger",
   "specs": {
-    "Armor Materials": "钨",
-    "Developer": "劳埃德·阿斯普伦德",
-    "Game": "Code Geass: Genesic Re;Code",
-    "Handheld": "1x BLS剑\n1x BLB射击",
-    "KMF Generation": "第九世代",
-    "Known Pilots": "Ar",
     "Model Number": "GRX-A01",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "能量翼系统  \n心眼系统  \n红眼"
+    "KMF Generation": "第九世代",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Developer": "罗伊德·阿斯普林德",
+    "Known Pilots": "阿尔",
+    "Standard": "能量翼系统、心眼系统、红眼",
+    "Handheld": "1把BLS剑、1把BLB射击",
+    "Game": "Code Geass: Genesic Re;Code"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/69/Schrodinger.png/revision/latest/scale-to-width-down/267?cb=20230331203557",
-  "introduction": "施罗丁格是《Code Geass: Genesic Re;Code》中的一台KMF。由洛伊德·阿斯普林德为阿娅个人使用而建造。",
-  "Design and Development": "由于是由罗伊德·阿斯普林德设计，薛定谔在视觉上与他之前制造的兰斯洛特系列机型相似。机体以白色为主，辅以红色与金色点缀。薛定谔采用了Geass主题设计，其肩部和胸部呈现Geass符号造型，所搭载的能量翼系统也呈Geass符号形状。",
+  "introduction": "薛定谔是出自《Code Geass: Genesic Re;Code》的人型自在战斗装甲（KMF）。由罗伊德·阿斯普林德为阿尔个人使用而建造。",
+  "Design and Development": "由于由罗伊德·阿斯普林德设计，薛定谔在外观上与他之前制造的兰斯洛特系列机型相似。主体为白色，带有红色和金色点缀。薛定谔具有Geass主题，其肩部和胸部为Geass符号，所搭载的能量翼系统也呈Geass符号形状。",
+  "english_name": "Schrodinger",
   "image_folder": "Schrodinger",
   "image_variants": [
     "前方",

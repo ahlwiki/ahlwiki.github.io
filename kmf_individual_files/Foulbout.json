@@ -1,21 +1,19 @@
 {
-  "english_name": "Foulbout",
   "name": "福尔伯特",
-  "url": "https://codegeass.fandom.com/wiki/Foulbout",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Known Pilots": "诺兰德·冯·鲁内贝尔格",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Mechanical Designer": "Junichi Akutsu",
     "Model Number": "RPCX-01K",
-    "Operators": "新布里塔尼亚帝国  \n艾因伯格",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "陆行旋轮推进系统能量翼（泰坦）"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Operators": "新不列颠尼亚帝国 艾因伯格",
+    "Known Pilots": "诺兰德·冯·鲁内贝尔格",
+    "Standard": "陆地旋轮 能量翼（泰坦）",
+    "Anime": "Code Geass 夺还的罗塞",
+    "Mechanical Designer": "阿久津润一"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/3c/Foulbout.jpg/revision/latest/scale-to-width-down/268?cb=20240701064646",
-  "introduction": "法尔巴特（ファウルバウト，Faurubauto）是诺兰德·冯·鲁内贝尔格在《Code Geass：夺还的罗塞》中使用的专属KMF。",
-  "Trivia": "其名称源自北欧神话中“洛基”之父“法布提”。",
+  "introduction": "福尔波特（ファウルバウト, Faurubauto）是诺兰德·冯·鲁内贝尔格在《Code Geass: 夺还的罗泽》中使用的专属人型自在战斗装甲 (KMF)。",
+  "Trivia": "其名称源自北欧神话中“洛基”之父“法布提”（Fárbauti）。",
+  "english_name": "Foulbout",
   "image_folder": "Foulbout",
   "image_variants": [
     "标准",

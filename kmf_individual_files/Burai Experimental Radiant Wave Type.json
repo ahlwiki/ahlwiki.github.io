@@ -1,19 +1,17 @@
 {
-  "english_name": "Burai Experimental Radiant Wave Type",
   "name": "无赖试作型辐射波动式",
-  "url": "https://codegeass.fandom.com/wiki/Burai_Experimental_Radiant_Wave_Type",
   "specs": {
+    "Codename": "无赖 辐射波动实验型",
+    "Power Source": "尤克特拉希尔驱动 由 能量填充器 供能",
     "Armor Materials": "钨",
-    "Codename": "无赖试作型辐射波动式",
-    "Developed From": "无赖",
     "Manufacturer": "黑色骑士团",
-    "Operators": "黑色骑士团，日本解放战线",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Developed From": "无赖",
+    "Operators": "黑色骑士团, 日本解放战线"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/14/BuraiPPPTT.png/revision/latest?cb=20091211214231",
-  "introduction": "顾名思义，这是搭载了辐射波动武装单元的Burai衍生型。在游戏《Code Geass 反叛的鲁路修 - 失落色彩》的早期开发阶段，若Rai加入黑色骑士团，原本计划驾驶此机体。然而该方案被否决，Burai实验型辐射波动式最终被月下原型机取代。",
-  "Design and Specifications": "除了辐射波动臂和独特的深蓝色涂装外，这台机体与标准无赖之间没有明显差异。",
-  "Specifications": "一般特性\n乘员：1人\n高度：4.56米\n重量：7.53公吨\n动力源：能量填充器、世界树驱动超导体转移系统\n\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n\n武装\n2×飞燕爪牙\n1×护盾（Protector）\n辐射波动臂（辐射波动 × 1）",
+  "introduction": "顾名思义，这是无赖的一种变体，搭载了辐射波动臂单元。在游戏《Code Geass: 叛逆的鲁鲁修 - Lost Colors》的早期开发阶段，如果莱加入黑色骑士团，他本应驾驶这台机体。然而，这个想法被否决了，无赖 辐射波动实验型失去了其角色，转而由月下 原型机取代。",
+  "Design and Specifications": "除了辐射波动臂和独特的深蓝色涂装外，这与标准无赖没有明显区别。",
+  "Specifications": "一般特性\n乘员：1人\n高度：4.56米\n重量：7.53公吨\n动力源：能量填充器, 尤克特拉希尔驱动\n设计特点\n驾驶舱弹射系统\n事实球体传感器\n陆地旋轮推进系统\n武装\n2x 飞燕爪牙\n1x 保护者 (プロテクター, Purotekutā)\n辐射波动臂 (輻射波動, Fukushahadō × 1 字面意思：辐射波动)",
+  "english_name": "Burai Experimental Radiant Wave Type",
   "image_folder": "Burai Experimental Radiant Wave Type",
   "image_variants": [
     "Standard"

@@ -1,30 +1,29 @@
 {
-  "english_name": "Prytwen",
   "name": "普利德温",
-  "url": "https://codegeass.fandom.com/wiki/Prytwen",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "普利德温",
-    "Developed From": "格拉斯哥",
-    "Fixed": "磁力飞燕爪牙",
-    "Gross Weight": "6.88 吨",
-    "KMF Generation": "第四世代",
-    "Known Pilots": "索琪雅·谢尔帕\n奥尔德琳·泽冯\n玛丽贝尔·梅尔·布里塔尼亚\n托托·汤普森\n玛丽卡·索雷西\n亚历山德拉·多洛斯\n玛托亚卡·格兰杰\n杰米·霍根\n斯蒂芬妮·艾弗森\n莉莉·埃德曼",
-    "Manga": "Code Geass 双貌的奥兹",
-    "Manufacturer": "神圣布里塔尼亚帝国",
     "Model Number": "RPI-13/G",
-    "Operators": "竞技KMF联赛",
+    "Codename": "普里德温",
+    "KMF Generation": "第四世代",
     "Overall Height": "4.24 米",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "陆行旋轮推进系统",
-    "Variants": "各类定制机体"
+    "Gross Weight": "6.88 吨",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Developed From": "格拉斯哥",
+    "Variants": "多种定制机型",
+    "Operators": "KMF竞技联赛",
+    "Known Pilots": "索基亚·夏尔巴、奥德琳·泽冯、玛丽贝尔·梅尔·布列塔尼亚、托托·汤普森、玛丽卡·索雷西、亚历山德拉·多洛斯、马托阿卡·格兰杰、杰米·霍根、斯蒂芬妮·艾弗森、莉莉·艾德曼",
+    "Standard": "陆地旋轮推进系统",
+    "Fixed": "磁力钩索",
+    "Manga": "Code Geass 双貌的奥兹"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/0/03/Prytwen.jpg/revision/latest/scale-to-width-down/268?cb=20150214133142",
-  "introduction": "普里德温是神圣布里塔尼亚帝国为娱乐用途开发的KMF。",
-  "Design and Specifications": "民用KMF。普里德温以格拉斯哥为基础开发。\n该机体用于体育竞技，例如KMF竞技联盟中的长枪比武与阵型对抗等赛事。其性能较军用机降低40%，框架耐久度也有所不足。\n但该机体具备卓越的机动性。武器可根据驾驶员偏好定制，包括剑、盾、拐棍等近战武装。",
-  "Specifications": "一般特性  \n乘员：1人  \n高度：4.24米  \n重量：6.88公吨  \n动力源：世界树驱动超导体转移系统、能量填充器  \n\n设计特点  \n陆行旋轮推进系统  \n\n武装  \n磁力飞燕爪牙  \n\n可选武装  \n电磁刃  \n指节护甲  \n长柄武器  \n拐棍  \n盾牌",
+  "introduction": "普里德温是神圣不列颠尼亚帝国为娱乐用途开发的人型自在战斗装甲(KMF)。",
+  "Design and Specifications": "一款民用KMF。普里德温基于格拉斯哥开发。\n普里德温用于体育竞技，例如KMF竞技联赛中的马上枪术比赛和编队比赛。其性能相比军用机型降低了40%，且框架耐久性较差。\n但它拥有出色的机动性。其武器也可根据驾驶员偏好定制，包括剑、盾牌、拐或其他近战武器。",
+  "Specifications": "一般特性\n乘员：1名\n高度：4.24米\n重量：6.88公吨\n动力源：尤克特拉希尔驱动，能量填充器\n设计特点\n陆地旋轮推进系统\n武装\n磁力钩索\n可选武装\n电磁刃、指节护甲、长柄武器、拐、盾牌",
+  "english_name": "Prytwen",
   "image_folder": "Prytwen",
   "image_variants": [
-    "Standard"
+    "格琳达队",
+    "火球队"
   ]
 }

@@ -1,24 +1,22 @@
 {
-  "english_name": "Camden",
   "name": "卡姆登",
-  "url": "https://codegeass.fandom.com/wiki/Camden",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Fixed": "2x 反坦克导弹2x 地对空导弹",
-    "Handheld": "1x 突击步枪",
-    "Known Pilots": "Greede KirkwayneGran KirkwayneTomoomi OdaKensei Kuroto",
-    "Manufacturer": "新布里塔尼亚帝国",
     "Model Number": "RPI-221",
-    "Operators": "新布里塔尼亚帝国",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "2x陆行旋轮推进系统"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Operators": "新不列颠尼亚帝国",
+    "Known Pilots": "格里德·柯克韦恩、格兰·柯克韦恩、织田友臣、黑斗剑圣",
+    "Standard": "2x 陆地旋轮",
+    "Fixed": "2x 反坦克导弹、2x 地对空导弹",
+    "Handheld": "1x 突击步枪",
+    "Anime": "Code Geass 夺还的罗塞"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/0/04/Camden.jpg/revision/latest/scale-to-width-down/268?cb=20240622143039",
-  "introduction": "卡姆登（Camden，カムデン，Kamuden）是《Code Geass：夺还的罗塞》中登场的KMF。它是新布里塔尼亚帝国使用的量产机型。",
-  "Design and Development": "约第七代KMF的卡姆登型，其设计大幅偏离了传统布里塔尼亚KMF的造型。外观更接近带有\"装甲顶盖\"的方正结构，头部直接连接在\"顶盖\"而非传统布里塔尼亚KMF的\"颈部\"上。这种设计理念使卡姆登型比同代KMF更具\"坦克式\"防御特性。\n同样，这种箱式结构也使该KMF具备极高的模块化与泛用性——其侧面拥有充足表面积，可各安装4×2反坦克导弹或3×2地对空导弹，大幅提升作战能力。这种模块化设计在降低专业性的同时，提高了标准化程度并降低了制造成本。\n机械臂较纤细，取消了前代型号配备的眩晕电击棍，腿部采用趾行式而非跖行式结构。此外，与陆行旋轮推进系统常见的传统车轮不同，卡姆登型采用麦克纳姆轮，赋予KMF全向推进能力，使其具备极高的机动性。",
-  "Operational History": "卡姆登最初在新布里塔尼亚军队进攻并占领北海道时投入使用，并在占领该岛后成为该国标准配备的KMF。由于其更坚固的设计，卡姆登在战斗中证明与晓升级型型号不相上下。但它仍然无法匹敌更先进和专属的KMF。",
-  "Trivia": "其名称可能源自内伦敦的一个自治市——卡姆登。",
+  "introduction": "卡姆登（カムデン，Kamuden）是出现在《Code Geass: 夺还的罗赛》中的人型自在战斗装甲（KMF）。它是新不列颠尼亚帝国使用的量产机型。",
+  "Design and Development": "作为大约第七代的人型自在战斗装甲（KMF），卡姆登与旧不列颠尼亚的KMF设计大相径庭。其外形更方正，带有“装甲车顶”，头部连接在“车顶”而非传统不列颠尼亚KMF的“颈部”。这种设计理念使卡姆登比同代KMF更具“坦克”特性。同样，这种箱形结构也使KMF具有极高的模块化和多功能性，因为其两侧有足够的表面积安装4x2反坦克导弹或3x2地对空导弹，大大增强了作战能力。这种模块化降低了专业化程度，同时提高了标准化水平并降低了制造成本。手臂更细，取消了之前型号中配备的电击拐，腿部采用趾行而非跖行设计。此外，与陆地旋轮上常见的传统轮子不同，卡姆登的旋轮配备了麦克纳姆轮，使KMF具备全向推进能力，机动性极强。",
+  "Operational History": "卡姆登首次使用是在新不列颠尼亚部队进攻并占领北海道时，此后成为该国占领该岛后的标准配备KMF。由于其更坚固的设计，卡姆登在战斗中与晓改进型型号不相上下，但仍不及更先进和专属的KMF。",
+  "Trivia": "其名称可能源自卡姆登，伦敦内城的一个自治市镇。",
+  "english_name": "Camden",
   "image_folder": "Camden",
   "image_variants": [
     "Standard"

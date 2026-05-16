@@ -1,20 +1,18 @@
 {
-  "english_name": "Burai Special Weapons A-Type",
   "name": "Burai特殊武装A型",
-  "url": "https://codegeass.fandom.com/wiki/Burai_Special_Weapons_A-Type",
   "specs": {
+    "Codename": "无赖 特殊武器A型",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
-    "Codename": "无赖特殊武装A型",
+    "Manufacturer": "京都六家",
     "Developed From": "无赖",
-    "Game": "Code Geass DS",
-    "Manufacturer": "京都之家",
     "Operators": "黑色骑士团",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Game": "Code Geass DS"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/6/6d/BuraiSpecialWeaponsAType.png/revision/latest?cb=20120427192957",
-  "introduction": "布赖特殊武装A型仅在《Code Geass DS》中登场。该机型是以布赖为基础、专精于拆除与建造作业的改型。然而，它也能凭借铁球在战斗中独当一面，作为具备战斗能力的KMF从远近距离支援友军。黑色骑士团曾少量使用过布赖。",
-  "Design and Development": "除了铁球及其浅棕与灰色配色方案外，它与普通无赖并无区别。",
-  "Specifications": "基本参数\n乘员：1人\n动力源：世界树驱动超导体转移系统、能量填充器\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n武装\n1x 右臂内置铁球\n2x 胸部搭载飞燕爪牙\n可选武装\n1x 突击步枪\n1x 腕部四联装导弹发射器（共8管）\n1x 左肘部搭载拐棍（仅见于《京都来的使者》）",
+  "introduction": "无赖 特殊武器A型仅在《Code Geass DS》中登场。该机型是专精于拆解与建造作业的无赖改型。然而，它也能作为具备战斗能力的Knightmare在战场上独当一面，凭借其铁球从远距离或近距离支援友军。黑色骑士团在一定程度上使用无赖。",
+  "Design and Development": "除铁球及浅棕与灰色涂装外，该机型与普通无赖并无差异。",
+  "Specifications": "一般特性\n乘员：1名\n动力源：尤克特拉希尔驱动，能量填充器\n设计特征\n驾驶舱弹射系统\n事实球体传感器\n陆地旋轮\n武装\n1x 右臂内置铁球\n2x 胸部搭载飞燕爪牙\n可选武装\n1x 突击步枪\n1x 腕部四联装导弹发射器（共8管）\n1x 左肘部拐（仅见于《来自京都的使者》）",
+  "english_name": "Burai Special Weapons A-Type",
   "image_folder": "Burai Special Weapons A-Type",
   "image_variants": [
     "Standard"

@@ -1,23 +1,21 @@
 {
-  "english_name": "Levyletaine",
   "name": "利维莱坦",
-  "url": "https://codegeass.fandom.com/wiki/Levyletaine",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Handheld": "2x 大型阔剑步枪盾牌",
-    "Known Pilots": "格兰·基尔克韦恩",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Mechanical Designer": "Junichi Akutsu",
     "Model Number": "RPCX-06P/S1",
-    "Operators": "新布里塔尼亚帝国 艾因伯格（白骑士）",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "4x陆行旋轮推进系统"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Operators": "新不列颠尼亚帝国 阿尔（魏斯瑞特）",
+    "Known Pilots": "格兰·柯克韦恩",
+    "Standard": "4x陆地旋轮推进系统",
+    "Handheld": "2x大型刀剑 步枪 盾牌",
+    "Anime": "Code Geass 夺还的罗塞",
+    "Mechanical Designer": "阿久津润一"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/28/Levyletaine.jpg/revision/latest/scale-to-width-down/268?cb=20240624092614",
-  "introduction": "列维坦（レヴィルテイン）是出现在《Code Geass：夺还的罗赛》中的格兰·柯克韦恩的专属KMF。",
-  "Design and Development": "莱维莱坦旨在解决其他新布里塔尼亚KMF普遍存在的核心问题，它是一款多用途KMF，配备手持步枪、锋锐利剑以及重型硬光护盾。实际上，它是完美的全能型KMF，因此成为注重战术的格兰的理想选择。",
-  "Trivia": "其名称源自洛基创造的武器Lævateinn。根据资料记载，它既可能是剑也可能是魔杖。其设计风格与兰斯洛特相似。",
+  "introduction": "莱维莱坦（レヴィルテイン）是格兰·柯克韦恩的专属人型自在战斗装甲（KMF），登场于《Code Geass: 夺还的罗赛》。",
+  "Design and Development": "莱维莱坦旨在解决其他新不列颠尼亚人型自在战斗装甲（KMF）的核心问题，它是一款多用途人型自在战斗装甲（KMF），配备手持步枪、锋利的剑和重型硬光护盾。实际上，它是完美的全能型人型自在战斗装甲（KMF），使其成为战术型格兰的理想选择。",
+  "Trivia": "其名称源自洛基创造的武器Lævateinn。根据来源不同，它可能是一把剑或魔杖。其设计类似于兰斯洛特。",
+  "english_name": "Levyletaine",
   "image_folder": "Levyletaine",
   "image_variants": [
     "Standard"

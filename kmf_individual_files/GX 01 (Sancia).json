@@ -1,22 +1,20 @@
 {
-  "english_name": "GX 01 (Sancia)",
   "name": "GX 01（桑西亚）",
-  "url": "https://codegeass.fandom.com/wiki/GX_01_(Sancia)",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "桑西亚",
-    "Developed From": "GX 01",
-    "Known Pilots": "桑西亚",
-    "Manufacturer": "神圣布里塔尼亚帝国",
     "Model Number": "GX-01",
-    "Operators": "神圣布里塔尼亚帝国布里塔尼亚特别荣誉外籍军团",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Status": "损坏",
-    "Variants": "GX 01 Alpha\nGX 01 (达尔克)\nGX 01 (卢克雷蒂娅)"
+    "Codename": "桑西亚",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Developed From": "GX 01",
+    "Variants": "GX 01 Alpha、GX 01（达尔克）、GX 01（卢克雷蒂娅）",
+    "Operators": "神圣不列颠尼亚帝国、神圣布列塔尼亚帝国特别荣誉外籍军团",
+    "Known Pilots": "桑西亚",
+    "Status": "受损"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/dc/GX_01_Sancia_2.JPG/revision/latest/scale-to-width-down/268?cb=20100403041327",
-  "introduction": "该KMF登场于衍生漫画《娜娜莉的梦魇》。由桑西亚驾驶的GX 01作为小队领袖的座驾，专为担任指挥官角色而设计，负责率领游击队进行战斗。桑西亚的GX 01似乎是该小队中改造程度最高的KMF，其右臂已完全替换为反器材/KMF步枪。战斗中，桑西亚的GX 01单元始终与卢克雷蒂亚的机体保持协同距离，由桑西亚和卢克雷蒂亚提供火力支援，而达尔克与爱丽丝则负责追击敌人。该KMF在对抗红衣主教罗洛时，因遭到其Geass\"冰\"的攻击而受损。",
-  "Operational History": "该机体首次出现于第5区（位于格陵兰某处）的镇压行动中，担任非正规部队的支援角色与指挥官。在埼玉贫民窟灾难事件中，它再次以相同角色登场。成田战役期间，该机体第三次出现并指挥同一部队。最后一次登场时，桑西亚与其他非正规部队成员受命追捕前成员爱丽丝，但非正规部队转而反抗红衣主教罗洛，导致桑西亚驾驶的GX 01被红衣主教罗洛的Geass「冰」所破坏。",
+  "introduction": "这台人型自在战斗装甲（KMF）出现在衍生漫画《娜娜莉的梦魇》中。由桑西亚驾驶的GX 01负责在战斗中领导非正规部队，因为它被设计为符合其驾驶员作为部队领袖的角色。桑西亚的GX 01似乎是该小组中改进最多的KMF，其右臂完全被一门反器材/反KMF步枪取代。在战斗中，桑西亚的GX 01单元从不远离卢克雷蒂娅的单元，因为桑西亚和卢克雷蒂娅在战斗中提供支援火力，而达尔克和爱丽丝负责猎杀敌人。当她们背叛红衣主教罗洛时，这台KMF被罗洛的Geass——冰——所损坏。",
+  "Operational History": "它首次出现在第5区（位于格陵兰某处）的平定行动中，担任支援角色和非正规部队的指挥官；在埼玉贫民区灾难中再次以相同角色出现；在成田之战中再次出现并指挥相同部队；最后一次出现是当桑西亚和其余非正规部队受命追捕前非正规部队成员爱丽丝时，但非正规部队背叛了红衣主教罗洛，结果由桑西亚驾驶的GX 01被罗洛的Geass——冰——所损坏。",
+  "english_name": "GX 01 (Sancia)",
   "image_folder": "GX 01 (Sancia)",
   "image_variants": [
     "Standard"

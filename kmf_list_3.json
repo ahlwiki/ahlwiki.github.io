@@ -491,9 +491,12 @@
         }
     },
     {
-        "name": "Burai Custom",
-        "chinese_name": "Burai Custom",
+        "name": "Burai Custom (Benio Version)",
+        "chinese_name": "无赖改·贝尼奥机",
         "categories": {
+            "Manga": [
+                "Code Geass 白之骑士与红之夜叉"
+            ],
             "Manufacturer": [
                 "The Black Knights"
             ],
@@ -997,7 +1000,7 @@
     },
     {
         "name": "Gawain Rezero",
-        "chinese_name": "高文·再零",
+        "chinese_name": "高文·再零式",
         "categories": {
             "Game": [
                 "Code Geass: Genesic Re;Code"
@@ -1375,7 +1378,7 @@
     },
     {
         "name": "Gouka Byakuen",
-        "chinese_name": "白炎",
+        "chinese_name": "业火白炎",
         "categories": {
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -1735,7 +1738,7 @@
     },
     {
         "name": "Kumei Sougetsu",
-        "chinese_name": "久明创月",
+        "chinese_name": "空明苍月",
         "categories": {
             "Game": [
                 "Code Geass: Lost Stories"
@@ -1866,7 +1869,7 @@
     },
     {
         "name": "Lancelot Grail",
-        "chinese_name": "兰斯洛特圣杯",
+        "chinese_name": "兰斯洛特·圣杯",
         "categories": {
             "Anime": [
                 "Code Geass 叛逆的鲁鲁修Ⅲ 皇道"
@@ -1888,7 +1891,7 @@
     },
     {
         "name": "Lancelot HighGrail",
-        "chinese_name": "兰斯洛特·圣杯",
+        "chinese_name": "兰斯洛特·高圣杯",
         "categories": {
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -2638,6 +2641,9 @@
         "name": "Sougetsu",
         "chinese_name": "苍月",
         "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
             "Manufacturer": [
                 "Militarized Zone of India"
             ],

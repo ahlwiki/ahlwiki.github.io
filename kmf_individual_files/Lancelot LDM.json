@@ -1,23 +1,21 @@
 {
-  "english_name": "Lancelot LDM",
   "name": "兰斯洛特 LDM",
-  "url": "https://codegeass.fandom.com/wiki/Lancelot_LDM",
   "specs": {
+    "KMF Generation": "第九世代",
+    "Overall Height": "5.15 米",
+    "Gross Weight": "9.12 吨",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
     "Developed From": "兰斯洛特·阿尔比昂",
-    "Fixed": "4x飞燕爪牙",
-    "Game": "Code Geass: Genesic Re;Code",
-    "Gross Weight": "9.12 吨",
-    "Handheld": "2x超级VARIS步枪2x高周波振动剑（MVS）",
-    "KMF Generation": "第九世代",
-    "Known Pilots": "埃尔泽罗",
-    "Overall Height": "5.15 米",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "能量护盾（Blaze Luminous）系统\n广域感知传感器\n陆行旋轮推进系统\n能量翼"
+    "Known Pilots": "艾尔零",
+    "Standard": "闪光护盾系统、事实球体传感器、陆地旋轮推进系统、能量翼系统",
+    "Fixed": "4×飞燕爪牙",
+    "Handheld": "2×超级V.A.R.I.S.、2×MVS（激光振动剑）",
+    "Game": "Code Geass: Genesic Re;Code"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/c/cd/LancelotLDM-ST.png/revision/latest/scale-to-width-down/268?cb=20240202204930",
-  "introduction": "兰斯洛特LDM是出自《Code Geass: Genesic Re;Code》的KMF，由艾尔泽罗驾驶。",
-  "Design and Development": "兰斯洛特LDM似乎是基于兰斯洛特·阿尔比昂制造的机体。其性能参数与原机相当，并配备了完全相同的武器系统。",
+  "introduction": "兰斯洛特LDM是出自《Code Geass: Genesic Re;Code》的人型自在战斗装甲（KMF），由艾尔零驾驶。",
+  "Design and Development": "兰斯洛特LDM似乎是以兰斯洛特·阿尔比昂为基础开发的机体。它拥有与原型机同等的性能，并配备了所有相同的武器系统。",
+  "english_name": "Lancelot LDM",
   "image_folder": "Lancelot LDM",
   "image_variants": [
     "Standard"

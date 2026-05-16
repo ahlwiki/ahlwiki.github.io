@@ -1,22 +1,20 @@
 {
-  "english_name": "Canterbury",
   "name": "坎特伯雷",
-  "url": "https://codegeass.fandom.com/wiki/Canterbury",
   "specs": {
-    "Anime": "Code Geass 亡国的阿基德",
-    "Armor Materials": "钨",
     "Codename": "坎特伯雷",
     "KMF Generation": "第四和第五世代",
-    "Manufacturer": "神圣布里塔尼亚帝国",
-    "Operators": "欧洲布里塔尼亚布里塔尼亚军",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "1xVARIS攻城炮",
-    "Status": "量产型"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Operators": "欧洲不列颠尼亚、神圣布列塔尼亚帝国",
+    "Status": "量产型",
+    "Standard": "1×可变弹药反冲冲击喷射枪 (VARIS) 攻城加农炮",
+    "Anime": "Code Geass 亡国的阿基德"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/17/Cantebury_Art.JPG/revision/latest/scale-to-width-down/268?cb=20220102152945",
-  "introduction": "坎特伯雷是一种四足型KMF，主要用于攻城战。它首次出现在《Code Geass：亡国的阿基德》最终OVA中，用于围攻魏斯沃尔夫城堡。",
-  "Design and Specifications": "坎特伯雷是一种外形奇特的神圣布里塔尼亚帝国KMF，其设计与功能更接近JLF雷光，而非其他任何系统。与雷光相同，坎特伯雷采用四足结构，这可能是为了搭载经过改造、作为攻城炮使用的超重型VARIS步枪。该火炮威力强大，数发即可击穿魏斯沃夫城堡的防御城墙。然而，尽管拥有如此惊人的火力，坎特伯雷本身极为脆弱，需要多台萨瑟兰II型为其提供保护，以防备反击。",
-  "Trivia": "坎特伯雷，如同大多数布里塔尼亚KMF的命名方式，其名称源自英格兰的同名城市。",
+  "introduction": "坎特伯雷是一种四足人型自在战斗装甲 (KMF)，主要用于攻城战。它首次出现在《Code Geass: 亡国的阿基德》的最终OVA中，当时正在围攻白狼城。",
+  "Design and Specifications": "坎特伯雷是一种外形奇特的不列颠尼亚人型自在战斗装甲 (KMF)，其设计和功能更接近日本解放战线的雷光，而非其他任何系统。与雷光一样，坎特伯雷是四足结构，这可能是为了搭载经过改装成为攻城加农炮的超重型可变弹药反冲冲击喷射枪 (VARIS) 步枪。这门加农炮威力巨大，数发即可击穿白狼城的防御墙。然而，尽管拥有如此强大的火力，坎特伯雷本身却极为脆弱，需要多台萨瑟兰II型保护其免受反击。",
+  "Trivia": "坎特伯雷，如同大多数不列颠尼亚人型自在战斗装甲 (KMF) 的名称，源自英国的同名城市。",
+  "english_name": "Canterbury",
   "image_folder": "Canterbury",
   "image_variants": [
     "Standard"

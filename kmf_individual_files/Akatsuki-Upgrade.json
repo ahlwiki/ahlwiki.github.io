@@ -1,24 +1,22 @@
 {
-  "english_name": "Akatsuki-Upgrade",
   "name": "晓-改",
-  "url": "https://codegeass.fandom.com/wiki/Akatsuki-Upgrade",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Developed From": "晓量产型",
-    "Fixed": "1x 晓·苍牙式飞燕爪牙",
-    "Handheld": "1x 右臂搭载式火箭炮",
-    "Known Pilots": "春香·琉塔卡\n物部勲\n织田友臣\n宗森翔太",
     "Model Number": "Type-05c",
-    "Operators": "七颗闪耀之星",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Developed From": "晓 量产型",
+    "Operators": "七煌星",
+    "Known Pilots": "春香·留高、物部功、织田友臣、宗森翔太",
+    "Standard": "驾驶舱弹射系统、陆地旋轮",
+    "Fixed": "1x 飞燕爪",
+    "Handheld": "1x 右臂安装式火箭筒",
+    "Anime": "Code Geass 夺还的罗塞"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/a/a8/Akatsuki-upgrade.jpg/revision/latest/scale-to-width-down/268?cb=20240621204021",
-  "introduction": "晓改（暁改）是《Code Geass：夺还的罗赛》中登场的一款KMF。  \n它是对晓进行翻新改造后的机体，是北海道日本抵抗势力使用的主力KMF。",
-  "Design and Development": "与量产型相比，升级版晓式采用了更具棱角感的设计并搭载了更新后的软件系统。除此之外，其性能与前代大致相当，作为一款性能可靠的第七代KMF，足以与纽布里塔尼亚的卡姆登等机型抗衡。\n\n然而在频繁的交锋中，卡姆登凭借模块化设计能够搭载更重型火力（如反坦克导弹或地对空导弹），从而压制晓式。作为应对，晓式更倾向于采用伏击战术，利用其相对较小的机体轮廓突袭纽布里塔尼亚的对手。\n\n尽管面对艾因伯格家族使用的更专业、更先进的机型时仍显逊色。",
-  "Operational History": "晓升级版首次出现于皇历3年，在布里塔尼亚势力对日本合众国北海道区块的突袭中。随后新布里塔尼亚帝国成立，七星众使用晓升级版与之对抗。",
-  "Trivia": "相较于可携带旋转刃剑的旧式量产型晓，目前尚未有已知的晓改型装备近战型号。鉴于晓的优势在于全距离作战的灵活性，这一情况的原因尚不明确。讽刺的是，卡姆登专精于远程火力，如同欧洲的装甲熊蜂，因此两者的角色发生了互换。",
+  "introduction": "晓 改进型（暁改）是出现在《Code Geass: 夺还的罗赛》中的人型自在战斗装甲（KMF）。它是经过翻新的晓，并作为北海道日本抵抗力量使用的主要人型自在战斗装甲（KMF）。",
+  "Design and Development": "与量产型相比，改进型晓采用了略微更具棱角的设计和更新的软件。除此之外，它们的性能与前代大致相似，是一款性能尚可的第七代人型自在战斗装甲（KMF），能够与卡姆登等新不列颠尼亚帝国的人型自在战斗装甲（KMF）抗衡。然而，在频繁的实战中，卡姆登凭借其模块化设计能够携带更重的火力（如反坦克导弹或地对空导弹），从而压制晓。作为回应，晓更倾向于伏击战术，利用其相对较小的体型来出其不意地攻击新不列颠尼亚的对手。尽管如此，它仍然无法与艾因伯格使用的更专业、更先进的型号相匹敌。",
+  "Operational History": "晓 改进型首次出现在皇历3年，在不列颠尼亚势力对日本合众国北海道区块的突袭中。随后新不列颠尼亚帝国成立，晓 改进型被七煌星用于对抗新不列颠尼亚帝国。",
+  "Trivia": "与能够携带旋转刃剑的老式量产型晓相比，迄今为止没有已知的晓 改进型展示过携带近战武器。原因不明，考虑到晓的优势在于全距离的灵活性，这颇具讽刺意味。更讽刺的是，卡姆登专精于远程火力（如欧洲的装甲大黄蜂），因此角色似乎互换了。",
+  "english_name": "Akatsuki-Upgrade",
   "image_folder": "Akatsuki-Upgrade",
   "image_variants": [
     "Standard"

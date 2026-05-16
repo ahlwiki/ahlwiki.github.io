@@ -1,23 +1,21 @@
 {
-  "english_name": "GX 01 Alpha",
   "name": "GX 01 Alpha",
-  "url": "https://codegeass.fandom.com/wiki/GX_01_Alpha",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "Alpha",
-    "Developed From": "GX 01",
-    "KMF Generation": "第七世代",
-    "Manga": "Code Geass 娜娜莉的梦魇",
-    "Manufacturer": "神圣布里塔尼亚帝国",
     "Model Number": "GX-01",
-    "Operators": "神圣布里塔尼亚帝国，布里塔尼亚特别荣誉外籍军团",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Status": "摧毁",
-    "Variants": "GX 01 (达尔克) GX 01 (卢克雷蒂娅) GX 01 (桑西亚)"
+    "Codename": "阿尔法",
+    "KMF Generation": "第七世代",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Developed From": "GX 01",
+    "Variants": "GX 01 (达尔克) GX 01 (卢克雷蒂娅) GX 01 (桑西亚)",
+    "Operators": "神圣不列颠尼亚帝国, 神圣布列塔尼亚帝国",
+    "Status": "已摧毁",
+    "Manga": "Code Geass 娜娜莉的梦魇"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/db/GX_01_Alpha_4.JPG/revision/latest/scale-to-width-down/268?cb=20100403030338",
-  "introduction": "这台KMF仅出现在衍生漫画《Code Geass 娜娜莉的梦魇》中。GX 01 Alpha是为布里塔尼亚特别荣誉外籍军团成员爱丽丝专属建造的KMF，并担任非正规部队的尖兵之一。当卢克雷蒂亚和桑西亚为她们提供支援时，爱丽丝会尽可能与达尔克搭档行动，这台Alpha一直作为她的主力KMF，直到被尼莫机体摧毁后，爱丽丝开始驾驶名为Code Geass的新型KMF。",
-  "Operational History": "该机体首次登场于河口湖事件，当时Alpha轻松击败了日本解放战线的雷光，直到遭遇马克·尼莫，导致其失去一条手臂。在埼玉贫民窟灾难期间，她再次与马克·尼莫相遇，却再次让其逃脱。最终在成田战役中，她与马克·尼莫进行了最后一次交锋，并将其摧毁。",
+  "introduction": "这台人型自在战斗装甲 (KMF) 仅出现在衍生漫画《Code Geass: 娜娜莉的梦魇》中。GX 01 是专为神圣布列塔尼亚帝国非正规部队成员爱丽丝打造的人型自在战斗装甲 (KMF)，而阿尔法作为该部队的尖兵之一。在可能的情况下，它与达尔克配对，卢克雷蒂娅和桑西亚则提供支援。阿尔法一直是爱丽丝的主力人型自在战斗装甲 (KMF)，直到被马克·尼莫摧毁，之后爱丽丝开始驾驶一台名为Code Geass的新型人型自在战斗装甲 (KMF)。",
+  "Operational History": "它首次出现在河口湖事件中，阿尔法轻松击败了日本解放战线的雷光，直到遭遇马克·尼莫，导致失去一只手臂。在埼玉贫民区灾难中，她再次与马克·尼莫相遇，但再次让其逃脱。在成田之战中，她与马克·尼莫最后一次交锋，并被其摧毁。",
+  "english_name": "GX 01 Alpha",
   "image_folder": "GX 01 Alpha",
   "image_variants": [
     "Standard"

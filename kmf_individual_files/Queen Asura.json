@@ -1,21 +1,19 @@
 {
-  "english_name": "Queen Asura",
   "name": "阿修罗女王",
-  "url": "https://codegeass.fandom.com/wiki/Queen_Asura",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Known Pilots": "娜拉·沃恩",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Mechanical Designer": "Junichi Akutsu",
     "Model Number": "RPCX-02Q/S",
-    "Operators": "新布里塔尼亚帝国  \n艾因伯格",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "陆行旋轮推进系统"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Operators": "新不列颠尼亚帝国 阿尔",
+    "Known Pilots": "娜拉·沃恩",
+    "Standard": "陆地旋轮",
+    "Anime": "Code Geass 夺还的罗塞",
+    "Mechanical Designer": "阿久津润一"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/2d/Queen_Asura.jpg/revision/latest/scale-to-width-down/268?cb=20240701064556",
-  "introduction": "女王阿修罗（Queen Asura）是娜拉·沃恩在《Code Geass：夺还的罗赛》中使用的专属KMF。",
-  "Design and Development": "双手装备大型刀刃。其外观与库拉卡女王相似。",
+  "introduction": "女王阿修罗（クインアスラ，Kuin'asura）是娜拉·沃恩的专属人型自在战斗装甲（KMF），登场于《Code Geass: 夺还的罗赛》。",
+  "Design and Development": "双手装备大型刀刃。其外观与女王库拉卡相似。",
+  "english_name": "Queen Asura",
   "image_folder": "Queen Asura",
   "image_variants": [
     "Standard"

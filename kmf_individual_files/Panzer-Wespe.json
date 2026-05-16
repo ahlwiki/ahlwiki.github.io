@@ -1,25 +1,23 @@
 {
-  "english_name": "Panzer-Wespe",
   "name": "装甲黄蜂",
-  "url": "https://codegeass.fandom.com/wiki/Panzer-Wespe",
   "specs": {
-    "Armor Materials": "钨",
     "Codename": "装甲黄蜂",
-    "Developed From": "装甲熊蜂",
-    "Fixed": "2x 肩部搭载型加农炮\n2x 腰部搭载型机关炮\n2x 胸部搭载型3联装导弹荚舱\n2x 腰部搭载型飞燕爪牙\n2x 钩索臂",
-    "Known Pilots": "欧洲士兵",
-    "Manga": "Code Geass 双貌的奥兹",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
     "Manufacturer": "欧罗巴联合",
+    "Developed From": "装甲大黄蜂",
     "Operators": "欧罗巴联合",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "陆行旋轮推进系统\n驾驶舱弹射系统",
-    "Status": "主动式"
+    "Known Pilots": "欧洲士兵",
+    "Status": "现役",
+    "Standard": "陆地旋轮；驾驶舱弹射系统",
+    "Fixed": "2x 肩部加农炮；2x 腰部机关炮；2x 胸部3管导弹荚舱；2x 腰部飞燕爪牙；2x 格斗臂",
+    "Manga": "Code Geass 双貌的奥兹"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/1/1c/FnTimL1_%281%29.jpg/revision/latest/scale-to-width-down/268?cb=20150216030815",
-  "introduction": "装甲蜂式是欧罗巴联合使用的KMF，基于装甲熊蜂设计。它被认为是装甲熊蜂的后继机型，但尚不确定是否属于第五代。",
-  "Design and Specifications": "尽管两者之间的差异程度尚不明确，但与前任机型相比，它似乎拥有一对双臂，其两门臂载自动加农炮被改造为威力极强的肩载火炮。这使得\"装甲蜂\"的双臂变为模块化结构，不过该机体的双臂具体能实现何种功能仍属未知。  \n就装甲而言，\"装甲蜂\"的装甲显然厚重得多，这从其更为粗壮的腿部与胸部组件便可看出。  \n\"Panzer-Wespe\"为德语词汇，根据\"Panzer\"一词的翻译差异，可分别译为\"装甲黄蜂\"或\"坦克黄蜂\"。",
-  "Operational History": "装甲蜂式首次登场是在与格林达骑士团的战斗中。它作为火力支援单位支援了巴米德斯，这表明欧罗巴联合共和国与中东联邦之间结成了同盟。",
-  "Trivia": "考虑到其更大型火炮的性能，装甲黄蜂将是已经偏向远程火力的装甲熊蜂更为极端的进化形态。",
+  "introduction": "装甲黄蜂是欧罗巴联合使用的人型自在战斗装甲 (KMF)，基于装甲大黄蜂开发。它被认为是装甲大黄蜂的后继机型，但尚不清楚是否属于第五代。",
+  "Design and Specifications": "虽然两者之间的差异程度未知，但装甲黄蜂似乎拥有一对不同于前代的机械臂，其两门臂载自动加农炮被替换为极其强大的肩载火炮。这解放了黄蜂的机械臂，使其具备模块化能力，但黄蜂能用机械臂做什么尚不清楚。\n在装甲方面，黄蜂的装甲似乎更厚重，腿部与胸部部件更为庞大。\n“Panzer-Wespe”是德语，意为“装甲黄蜂”或“坦克黄蜂”，取决于“Panzer”一词的翻译，该词可指“装甲”或“坦克”。",
+  "Operational History": "装甲黄蜂首次登场是与格林达骑士团交战。它作为火力支援单位支援巴米德斯，表明欧罗巴联合共和国与中东联邦之间存在联盟关系。",
+  "Trivia": "鉴于其更大型火炮的性能，装甲黄蜂对于已经偏向远程的装甲大黄蜂而言，是更为极端的进化。",
+  "english_name": "Panzer-Wespe",
   "image_folder": "Panzer-Wespe",
   "image_variants": [
     "Standard"

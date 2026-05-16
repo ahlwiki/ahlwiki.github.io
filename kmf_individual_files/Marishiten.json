@@ -1,21 +1,19 @@
 {
-  "english_name": "Marishiten",
   "name": "摩利支天",
-  "url": "https://codegeass.fandom.com/wiki/Marishiten",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "纯净元素G",
-    "Developed From": "红莲圣天八极式",
-    "Fixed": "三臂",
-    "Gross Weight": "8.49 吨",
-    "Handheld": "1x 高周波振动剑（MVS）叉刃",
-    "Manga": "Code Geass 新洁的阿尔玛利亚",
     "Model Number": "LDM-T02/MTC",
+    "Codename": "纯元素G",
     "Overall Height": "5.24 米",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Gross Weight": "8.49 吨",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Developed From": "红莲圣天八极式/红莲LDM",
+    "Fixed": "三臂",
+    "Handheld": "1x MVS叉刀",
+    "Manga": "Code Geass 新洁的阿尔玛利亚"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/f/fe/Marishiten.jpg/revision/latest/scale-to-width-down/268?cb=20240802173351",
-  "introduction": "鞠熾天（Marishiten）是一台基于红莲圣天八极式开发的KMF。它登场于《Code Geass: Pure Almaria》。由和平标志的M驾驶。",
+  "introduction": "摩利支天是基于红莲圣天八极式开发的人型自在战斗装甲 (KMF)。它出现在《Code Geass: Pure Almaria》中。由和平标志的M驾驶。",
+  "english_name": "Marishiten",
   "image_folder": "Marishiten",
   "image_variants": [
     "Standard"

@@ -1,17 +1,15 @@
 {
-  "english_name": "Lancelot Leo",
   "name": "兰斯洛特·里奥",
-  "url": "https://codegeass.fandom.com/wiki/Lancelot_Leo",
   "specs": {
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
     "Developed From": "兰斯洛特",
-    "Game": "Code Geass：失落物语",
-    "Known Pilots": "枢木朱雀",
     "Operators": "=",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Known Pilots": "枢木朱雀",
+    "Game": "Code Geass：失落物语"
   },
-  "image_url": "",
-  "introduction": "兰斯洛特·里奥()是《Code Geass：叛逆的鲁路修 遗失物语》中登场的一款KMF。",
+  "introduction": "兰斯洛特·狮子()是出现在《Code Geass: 叛逆的鲁鲁修 Lost Stories》中的一台人型自在战斗装甲(KMF)。",
+  "english_name": "Lancelot Leo",
   "image_folder": "Lancelot Leo",
   "image_variants": [
     "前方",

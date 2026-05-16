@@ -1,24 +1,22 @@
 {
-  "english_name": "GX 01 (Lucretia)",
   "name": "GX 01（卢克莱修）",
-  "url": "https://codegeass.fandom.com/wiki/GX_01_(Lucretia)",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "卢克雷蒂娅",
-    "Developed From": "GX 01",
-    "KMF Generation": "第七世代",
-    "Known Pilots": "卢克雷蒂娅",
-    "Manga": "Code Geass 娜娜莉的梦魇",
-    "Manufacturer": "神圣布里塔尼亚帝国",
     "Model Number": "GX-01",
-    "Operators": "神圣布里塔尼亚帝国，布里塔尼亚特别荣誉外籍军团",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Status": "损坏",
-    "Variants": "GX 01 AlphaGX 01 (达尔克)GX 01 (桑西亚)"
+    "Codename": "卢克雷蒂娅",
+    "KMF Generation": "第七世代",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Developed From": "GX 01",
+    "Variants": "GX 01 Alpha、GX 01（达尔克）、GX 01（桑西亚）",
+    "Operators": "神圣不列颠尼亚帝国、神圣布列塔尼亚帝国",
+    "Known Pilots": "卢克雷蒂娅",
+    "Status": "受损",
+    "Manga": "Code Geass 娜娜莉的梦魇"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/2/21/GX_01_Lucretia_head.JPG/revision/latest/scale-to-width-down/268?cb=20101221114303",
-  "introduction": "该KMF仅出现在衍生漫画《娜娜莉的梦魇》中，由卢克雷蒂亚驾驶的GX-01是《CODE GEASS》宇宙中少数非战斗型KMF之一，也是唯一实际投入战斗的机型。该KMF的建造任务是在友军战线后方安全隐蔽处，借助她的Geass为\"不规则部队\"提供地形情报与战斗信息。战斗中该KMF始终与桑西亚保持近距离协同，桑西亚与卢克雷蒂亚负责提供支援，而达尔克与爱丽丝则负责追击敌人。当该KMF与红衣主教罗洛的冰之Geass对抗时，机体遭到损坏。",
-  "Operational History": "该机体首次登场于第5区（位于格陵兰某地）的镇压行动中，作为非正规部队的支援单位及战场战术指挥官。随后在埼玉贫民窟灾难事件中再次担任相同角色。成田战役中她与队友共同参战，最终登场于卢克雷蒂娅率领非正规部队追捕前成员爱丽丝的任务中。然而非正规部队反戈对抗红衣主教罗洛，导致卢克雷蒂娅驾驶的GX 01因红衣主教罗洛对冰层施加Geass而受损。",
+  "introduction": "这台人型自在战斗装甲（KMF）仅出现在外传漫画《娜娜莉的梦魇》中。由卢克雷蒂娅驾驶的GX-01是《叛逆的鲁鲁修》宇宙中少数非战斗型人型自在战斗装甲（KMF）之一，也是唯一一台实际投入战斗的此类机体。该人型自在战斗装甲（KMF）的建造任务是在友军战线后方安全隐蔽，借助其Geass为其余非正规部队提供地形信息和战斗信息。在战斗中，这台人型自在战斗装甲（KMF）从不远离桑西亚，桑西亚和卢克雷蒂娅负责提供支援，而达尔克和爱丽丝负责猎杀敌人。当非正规部队背叛红衣主教罗洛时，该人型自在战斗装甲（KMF）被红衣主教罗洛的Geass“冰”所损坏。",
+  "Operational History": "它首次出现在第5区（格陵兰某地）的平定行动中，担任支援角色和非正规部队的战场战术家。在埼玉贫民区灾难中，它再次以相同角色出现。她也与队友一同出现在成田之战中。最后一次出现是在卢克雷蒂娅和其余非正规部队被派去追捕前非正规部队成员爱丽丝时，但非正规部队背叛了红衣主教罗洛，结果卢克雷蒂娅驾驶的GX 01因红衣主教罗洛的Geass“冰”而受损。",
+  "english_name": "GX 01 (Lucretia)",
   "image_folder": "GX 01 (Lucretia)",
   "image_variants": [
     "Standard"

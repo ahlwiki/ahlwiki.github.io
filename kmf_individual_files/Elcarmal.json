@@ -1,22 +1,20 @@
 {
-  "english_name": "Elcarmal",
   "name": "埃尔卡马尔",
-  "url": "https://codegeass.fandom.com/wiki/Elcarmal",
   "specs": {
-    "Anime": "Code Geass 夺还的罗塞",
-    "Armor Materials": "钨",
-    "Handheld": "2x 爪部\n2x 陆行旋轮\n2管大型导弹发射器\n2x 肩部2管大型导弹 & 5管小型导弹发射器\n大型火炮",
-    "Known Pilots": "迪沃克·梅尔特",
-    "Manufacturer": "新布里塔尼亚帝国",
-    "Mechanical Designer": "Junichi Akutsu",
     "Model Number": "RPCX-03L/W",
-    "Operators": "新布里塔尼亚帝国  \n艾因伯格",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "4x陆行旋轮推进系统"
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "新不列颠尼亚帝国",
+    "Operators": "新不列颠尼亚帝国 艾因伯格",
+    "Known Pilots": "迪沃克·梅尔特",
+    "Standard": "4x 陆地旋轮",
+    "Handheld": "2x 利爪 2x 陆地旋轮 2管大型导弹发射器 2x 肩部2管大型导弹与5管小型导弹发射器 大型火炮加农炮",
+    "Anime": "Code Geass 夺还的罗塞",
+    "Mechanical Designer": "阿久津润一"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/b/bc/Elcarmal.jpg/revision/latest/scale-to-width-down/268?cb=20240701064624",
-  "introduction": "埃尔卡马尔（エルカルマル，Erukarumaru）是迪沃克·梅尔特在《Code Geass：夺还的罗赛》中使用的专属KMF。",
-  "Design and Development": "尽管诸如弗莱普尼尔之类的新布里塔尼亚KMF提供了稳定的火力，但埃尔卡马尔被设计为艾因伯格骑士团KMF收藏中的毁灭者。作为移动炮击型机甲，埃尔卡马尔搭载了一门巨大的背部榴弹炮，能够轻易撕裂十几台KMF的钨合金装甲。除了主炮外，埃尔卡马尔的肩部还部署了速射导弹，只有最优秀的KMF驾驶员才能规避。",
+  "introduction": "艾尔卡马尔（エルカルマル, Erukarumaru）是迪沃克·梅尔特专属的人型自在战斗装甲 (KMF)，登场于《Code Geass: 夺还的罗赛》。",
+  "Design and Development": "尽管新不列颠尼亚帝国的人型自在战斗装甲 (KMF) 如弗莱普尼尔提供了持续的火力，但艾尔卡马尔旨在成为艾因伯格骑士团机甲收藏中的毁灭者。为充当移动火炮机甲而建造，艾尔卡马尔配备了一门巨大的背部榴弹炮，可以轻易撕裂十几台人型自在战斗装甲 (KMF) 的钨制装甲。除了主炮外，艾尔卡马尔的肩部可发射速射导弹，只有最优秀的人型自在战斗装甲 (KMF) 驾驶员才能规避。",
+  "english_name": "Elcarmal",
   "image_folder": "Elcarmal",
   "image_variants": [
     "Standard"

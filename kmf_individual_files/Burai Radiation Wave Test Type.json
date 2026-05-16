@@ -1,23 +1,21 @@
 {
-  "english_name": "Burai Radiation Wave Test Type",
   "name": "辐射波动试验型无赖",
-  "url": "https://codegeass.fandom.com/wiki/Burai_Radiation_Wave_Test_Type",
   "specs": {
-    "Armor Materials": "钨",
-    "Classification": "实验型KMF",
-    "Codename": "辐射波动试验型无赖",
-    "Developed From": "无赖",
-    "Game": "Code Geass DS",
+    "Classification": "实验型人型自在战斗装甲",
+    "Codename": "无赖 辐射波动测试型",
     "KMF Generation": "第四世代",
-    "Manufacturer": "京都之家",
+    "Power Source": "尤克特拉希尔驱动",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都六家",
+    "Developed From": "无赖",
     "Operators": "黑色骑士团",
-    "Power Source": "世界树驱动器，能量填充剂",
-    "Standard": "驾驶舱弹射系统\n陆行旋轮推进系统\n广域感知传感器"
+    "Standard": "驾驶舱弹射系统陆地旋轮事实球体传感器",
+    "Game": "Code Geass DS"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/8/84/BuraiRadiationWaveTestType.png/revision/latest?cb=20100728124159",
-  "introduction": "Burai辐射波动测试型仅在《Code Geass DS》中登场。该机体是搭载了早期型辐射波动装置的Burai，被黑色骑士团有限度地使用。",
-  "Design and Development": "除了早期型号的辐射波动臂和棕色涂装外，这台机体与标准型无赖之间没有明显差异。",
-  "Specifications": "一般特性\n乘员：1人动力源：世界树驱动超导体转移系统，能量填充器\n设计特征\n驾驶舱弹射系统广域感知传感器陆行旋轮推进系统\n武装\n1x 左臂内置辐射波动装置2x 胸部搭载飞燕爪牙\n可选武装\n1x 突击步枪1x 腕部四联装导弹发射器（共8管）1x 左肘部搭载拐棍（仅见于《京都来的使者》）",
+  "introduction": "无赖 辐射波动测试型仅在《Code Geass DS》中登场。该机体是基于无赖改造而成，搭载了早期版本的辐射波冲击。它被黑色骑士团用于某些任务。",
+  "Design and Development": "除了早期型号的辐射波动臂和棕色涂装外，该机体与标准无赖没有明显差异。",
+  "Specifications": "一般特性\n乘员：1名\n动力源：尤克特拉希尔驱动，能量填充器\n设计特征\n驾驶舱弹射系统事实球体传感器陆地旋轮\n武装\n1x 左臂内置辐射波发射器2x 胸部搭载飞燕爪牙\n可选武装\n1x 突击步枪1x 腕部四联装导弹发射器（共8管）1x 左肘部搭载拐（仅在《来自京都的使者》中出现）",
+  "english_name": "Burai Radiation Wave Test Type",
   "image_folder": "Burai Radiation Wave Test Type",
   "image_variants": [
     "Standard"

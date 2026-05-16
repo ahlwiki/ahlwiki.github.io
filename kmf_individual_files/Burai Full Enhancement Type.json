@@ -1,20 +1,18 @@
 {
-  "english_name": "Burai Full Enhancement Type",
   "name": "全强化型无赖",
-  "url": "https://codegeass.fandom.com/wiki/Burai_Full_Enhancement_Type",
   "specs": {
-    "Armor Materials": "钨",
-    "Codename": "Burai 全强化型",
-    "Developed From": "无赖",
-    "Game": "Code Geass DS",
+    "Codename": "无赖 全强化型",
     "KMF Generation": "第四世代",
-    "Manufacturer": "京都之家",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Power Source": "尤克特拉希尔驱动 由 能量填充器 提供动力",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都六家",
+    "Developed From": "无赖",
+    "Game": "Code Geass DS"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/5/5c/BuraiFullEnhanceType.png/revision/latest?cb=20100303165000",
-  "introduction": "无赖全强化型仅在DS平台的《Code Geass 反叛的鲁路修》中登场。无赖全强化型是一种被特化为机动支援型KMF的无赖，用于在战线后方从远处支援友方KMF和步兵。无赖在一定程度上被黑色骑士团使用。",
-  "Design and Development": "无赖全强化型保留了无赖的大部分特性。然而，它采用了粉红色涂装，并在肩部安装了一对导弹发射舱，可进行全弹齐射，这一特征与格洛斯特的萨特尔武器系统相同。",
-  "Specifications": "基本参数\n乘员：1人\n动力源：世界树驱动超导体转移系统、能量填充器\n\n设计特征\n驾驶舱弹射系统\n广域感知传感器\n陆行旋轮推进系统\n\n固定武装\n2x 肩部导弹荚舱\n2x 胸部搭载飞燕爪牙\n\n可选武装\n1x 突击步枪\n1x 腕部四联装导弹发射器（共8管）\n1x 左肘部搭载拐棍（仅见于《京都来的使者》）",
+  "introduction": "无赖 全强化型仅在DS平台上的《Code Geass: 叛逆的鲁鲁修》中登场。无赖 全强化型是一种将无赖特化为移动支援型人型自在战斗装甲 (KMF) 的机型，用于在前线后方远程支援友方人型自在战斗装甲 (KMF) 和步兵。无赖在一定程度上被黑色骑士团使用。",
+  "Design and Development": "无赖 全强化型保留了无赖的大部分特性。然而，它采用了粉色涂装，并在肩部装有一对导弹荚舱，可进行全弹齐射，这一特点与格洛斯特的鞍式武器相同。",
+  "Specifications": "一般特性\n乘员：1名\n动力源：尤克特拉希尔驱动，能量填充器\n设计特征\n驾驶舱弹射系统\n事实球体传感器\n陆地旋轮推进系统\n武装\n2x 肩部导弹荚舱\n2x 胸部飞燕爪牙\n可选武装\n1x 突击步枪\n1x 腕部四联装导弹发射器（共8管）\n1x 左肘部拐（仅在《来自京都的使者》中出现）",
+  "english_name": "Burai Full Enhancement Type",
   "image_folder": "Burai Full Enhancement Type",
   "image_variants": [
     "Standard"

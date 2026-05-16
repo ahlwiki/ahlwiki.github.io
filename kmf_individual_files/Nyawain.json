@@ -1,19 +1,17 @@
 {
-  "english_name": "Nyawain",
   "name": "尼亚文",
-  "url": "https://codegeass.fandom.com/wiki/Nyawain",
   "specs": {
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
     "Armor Materials": "钨",
     "Developed From": "高文",
-    "Fixed": "10x 指部飞燕爪牙\n1x 尾部飞燕爪牙\n2x 肩部强子炮",
-    "Game": "Code Geass：失落物语",
-    "Known Pilots": "柴郡猫",
     "Operators": "仙境",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Known Pilots": "柴郡猫",
+    "Fixed": "10x 指部飞燕猫爪\n1x 尾部飞燕猫爪\n2x 肩部强子加农炮",
+    "Game": "Code Geass：失落物语"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/3/32/Nyawain-Game.jpg/revision/latest/scale-to-width-down/268?cb=20240518030655",
-  "introduction": "尼娅薇恩（Nyawain）是《Code Geass 反叛的鲁路修 失落物语》中登场的一款KMF。在二周年活动剧情《马克·爱丽丝：梦游仙境中的娜娜莉》中，由两只柴郡猫驾驶。",
-  "Design and Development": "基于猫科动物设计的机体，通体粉色，肩部装饰有爪形额外光束发生器。其尾部结构展现出极高灵活性。\n\n通过肩部各三组附加光束装置，尼亚文可发射呈爪印状的强力强子冲击波，名为\"强子奇迹光束\"。除继承高文同款指部飞燕爪牙外，其尾尖另搭载一枚同类武器，这十一枚装置统称为\"飞燕尼亚爪\"。",
+  "introduction": "喵汪（ニャウェイン, Nyau~ein）是《Code Geass 叛逆的鲁鲁修 Lost Stories》中登场的人型自在战斗装甲 (KMF)。在2周年纪念活动故事《马克·爱丽丝：娜娜莉梦游仙境》中，由两位柴郡猫驾驶。",
+  "Design and Development": "采用了许多基于猫的设计元素，其颜色为粉色，肩部装饰有爪形额外光束发生器。它还拥有一条高度灵活的尾巴。\n利用每侧肩部的三道额外光束，喵汪可以发射巨大的爪印形强子冲击波，称为强子奇迹光束。除了与高文相同的指部飞燕爪牙外，其尾部尖端还额外安装了一个，但这十一个被称为飞燕猫爪。",
+  "english_name": "Nyawain",
   "image_folder": "Nyawain",
   "image_variants": [
     "前方",

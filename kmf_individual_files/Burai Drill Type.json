@@ -1,22 +1,20 @@
 {
-  "english_name": "Burai Drill Type",
   "name": "无赖钻头型",
-  "url": "https://codegeass.fandom.com/wiki/Burai_Drill_Type",
   "specs": {
-    "Armor Materials": "钨",
-    "Classification": "改装型近战KMF",
-    "Codename": "无赖钻头型",
-    "Developed From": "无赖",
-    "Game": "Code Geass DS",
+    "Classification": "改装型近战人型自在战斗装甲 (KMF)",
+    "Codename": "无赖 钻头型",
     "KMF Generation": "第四世代",
-    "Manufacturer": "京都之家",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "京都六家",
+    "Developed From": "无赖",
     "Operators": "黑色骑士团",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Game": "Code Geass DS"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/d/de/BuraiDrillType.png/revision/latest?cb=20100303160444",
-  "introduction": "无赖钻探型仅在DS平台的《Code Geass 反叛的鲁路修》游戏中登场。该机型是专为工兵角色改造的无赖衍生型，因此更适合建筑与拆除作业而非作为战斗用KMF，但偶尔也被用于后者。",
-  "Design and Development": "无赖钻孔型是由无赖改造而来，专门用于建筑和拆除作业。尽管如此，黑色骑士团仍能将其投入战斗。该机体采用黄色涂装，并将双手替换为钻孔臂，但保留了胸部安装的两具飞燕爪牙。",
-  "Specifications": "一般特性\n乘员：1人动力源：世界树驱动超导体转移系统，能量填充器\n设计特征\n驾驶舱弹射系统广域感知传感器陆行旋轮推进系统\n武装\n2x 胸部搭载飞燕爪牙2x 手臂内置钻头臂\n可选武装\n1x 突击步枪1x 腕部搭载四联装导弹发射器（共8管）1x 左肘搭载拐棍（仅见于《京都来的使者》）",
+  "introduction": "无赖 钻头型仅在DS平台的《Code Geass: 叛逆的鲁鲁修》游戏中登场。无赖 钻头型是以无赖为基础，专门强化了工兵职能的机型。因此，无赖 钻头型更适合建筑和拆除任务，而非作为战斗型人型自在战斗装甲 (KMF)，但偶尔也被用于后者。",
+  "Design and Development": "无赖 钻头型由无赖发展而来，专精于建筑和拆除。尽管如此，黑色骑士团仍能将其用于战斗。它采用黄色涂装，并将双手替换为钻头臂。不过，它保留了胸部两侧的飞燕爪牙。",
+  "Specifications": "一般特性\n乘员：1名\n动力源：尤克特拉希尔驱动，能量填充器\n设计特点\n驾驶舱弹射系统\n事实球体传感器\n陆地旋轮\n武装\n2x 胸部飞燕爪牙\n2x 臂部内置钻头臂\n可选武装\n1x 突击步枪\n1x 腕部四联装导弹发射器（共8管）\n1x 左肘部拐（仅在《来自京都的使者》中出现）",
+  "english_name": "Burai Drill Type",
   "image_folder": "Burai Drill Type",
   "image_variants": [
     "Standard"

@@ -1,24 +1,22 @@
 {
-  "english_name": "Batalalan Du",
   "name": "巴塔拉兰·杜",
-  "url": "https://codegeass.fandom.com/wiki/Batalalan_Du",
   "specs": {
-    "Anime": "Code Geass 复活的鲁鲁修",
-    "Armor Materials": "钨",
-    "Codename": "巴塔拉兰·杜",
-    "Developer": "齐尔克斯坦王国",
-    "Fixed": "6枚 无畏飞燕爪牙\n库拉 热射线炮\n防空导弹\n捕获力场",
-    "Gross Weight": "54.23吨",
-    "Known Pilots": "贝尔克·巴图姆·比图尔",
     "Model Number": "K10T",
-    "Operators": "齐尔克斯坦王国",
+    "Codename": "巴塔拉兰·杜",
     "Overall Height": "18.50 米",
-    "Power Source": "世界树驱动器，能量填充剂"
+    "Gross Weight": "54.23吨",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Developer": "齐尔克斯坦王国",
+    "Operators": "齐尔克斯坦王国",
+    "Known Pilots": "贝尔克·巴图姆·比图尔",
+    "Fixed": "6门无畏式钩锚、库拉·拉热线加农炮、防空导弹、捕获场",
+    "Anime": "Code Geass 复活的鲁鲁修"
   },
-  "image_url": "https://static.wikia.nocookie.net/codegeass/images/8/89/K10t.png/revision/latest/scale-to-width-down/268?cb=20200827045432",
-  "introduction": "巴塔拉兰·杜伊是齐尔克斯坦王国的一台巨型地面型KMF级要塞，也是典狱长比图尔的主力KMF。",
-  "Design and Specifications": "装备有极其坚固的装甲，能够轻易抵御敌方攻击，包括红莲的辐射波动装置。它可以从默认的蟹形态变形为蝎形态。尾部搭载一门强大的热线炮，同时配备6枚\"无畏飞燕爪牙\"，每条腿部各有一枚，所有飞燕爪牙均可使用助推器改变方向并追击目标。它还能通过双爪产生的电磁场束缚对手的行动。",
-  "Operational History": "巴塔拉兰·杜与典狱长直属部队一同部署，拦截驾驶红莲特式参与黑色骑士团对吉尔克斯坦首都突袭的卡莲·修坦菲尔德。起初，凭借红莲新型框架装甲限制卡莲行动，巴塔拉兰·杜压制了她，甚至利用电磁场将其捕获。然而在框架装甲被解除后，卡莲迅速占据上风。经过数小时激战，卡莲摧毁了巴塔拉兰·杜及典狱长比图尔。",
+  "introduction": "巴塔拉兰·杜是齐尔克斯坦王国的一台巨型地面骑士巨型要塞。它是典狱长比图尔的主力人型自在战斗装甲。",
+  "Design and Specifications": "装备有极其坚固的装甲，能轻易抵挡敌方攻击，包括红莲的辐射波冲击。它可以从默认的螃蟹形态变形为蝎子形态。尾部装有强大的热线加农炮，并配备6门“无畏式钩锚”，每条腿各有一门，所有钩锚均可使用钩锚助推器改变方向并追击目标。它还可以通过爪子产生的电磁场束缚对手的行动。",
+  "Operational History": "巴塔拉兰·杜与典狱长的私人部队一同部署，拦截参与黑色骑士团对齐尔克斯坦首都突袭的卡莲·修坦费尔特（驾驶红莲特式）。起初，由于红莲特式的新型框架涂层限制了卡莲的行动，巴塔拉兰·杜压制了她，甚至用电磁场将其捕获。然而，在框架涂层被移除后，卡莲很快占据上风。经过数小时的战斗，卡莲摧毁了巴塔拉兰·杜，并连带消灭了典狱长比图尔。",
+  "english_name": "Batalalan Du",
   "image_folder": "Batalalan Du",
   "image_variants": [
     "Standard"
