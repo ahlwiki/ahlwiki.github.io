@@ -685,6 +685,13 @@
             const resp = await fetch(jsonPath);
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             const data = await resp.json();
+
+            // ================== 新增：动态修改网页标题 ==================
+            // 优先获取中文名 name，如果没有则降级使用英文名 english_name，再没有就显示“未知机甲”
+            const kmfName = data.name || data.english_name || "未知机甲";
+            document.title = `${kmfName} 详细档案`;
+            // ==========================================================
+
             const isMobile = window.innerWidth <= 700;
             if (isMobile) {
                 renderMobile(data);
