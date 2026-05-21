@@ -1,0 +1,22 @@
+{
+  "name": "Zi-阿尔忒弥斯",
+  "specs": {
+      "Model Number": "UZZ-001m",
+      "Codename": "Zi-阿尔忒弥斯",
+      "Modes": "堡垒模式",
+      "Power Source": "尤克特拉希尔驱动（由能量填充器供能）",
+      "Armor Materials": "钨",
+      "Developed Into": "Zi-奥尔提吉亚",
+      "Operators": "无名佣兵",
+      "Known Pilots": "罗泽",
+      "Standard": "陆地滑翔推进系统",
+      "Anime": "Code Geass: 夺还的罗泽",
+      "Mechanical Designer": "阿久津润一"
+  },
+  "introduction": "Zi-阿尔忒弥斯（Zi-アルテミス，Zi - Arutemisu）是《Code Geass: 夺还的罗泽》中由罗泽驾驶的Knightmare Frame。",
+  "english_name": "Zi-Artemis",
+  "image_variants": [
+    "人形态",
+    "喷气机形态"
+  ]
+}

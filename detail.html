@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>KMF 详细档案</title>
+    <link rel="icon" type="image/x-icon" href="./Site-favicon.ico">
     <style>
         * {
             margin: 0;
@@ -53,7 +54,7 @@
         }
         .kmf-image img {
             max-width: 100%;
-            max-height: 400px;
+            height: 400px;
             border-radius: 20px;
             background: #ffffff;
             box-shadow: 0 10px 20px rgba(0,0,0,0.5);
@@ -135,6 +136,21 @@
             border-radius: 1rem;
             margin: 1rem 0;
         }
+        .intro-text strong {
+            display: block;
+            margin-bottom: 0.6rem;
+            font-size: 1.1rem;
+            color: #e6c87a;
+        }
+        .intro-text .section-content {
+            margin-bottom: 1.2rem;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+        .pre-wrap {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
         .error-msg {
             text-align: center;
             padding: 2rem;
@@ -155,7 +171,6 @@
             .kmf-title-mobile h1 { font-size: 1.8rem; color: #ffdd99; }
             .kmf-title-mobile .sub { font-size: 0.8rem; color: #bcafa2; }
 
-            /* 单图居中 */
             .image-single {
                 display: flex;
                 justify-content: center;
@@ -168,7 +183,6 @@
                 border-radius: 12px;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.3);
             }
-            /* 两图并排居中 */
             .image-double {
                 display: flex;
                 justify-content: center;
@@ -197,7 +211,6 @@
                 text-align: center;
                 word-break: break-word;
             }
-            /* 多图横滑 */
             .image-scroll-container {
                 width: 100%;
                 overflow-x: auto;
@@ -226,7 +239,7 @@
                 border-radius: 12px;
                 box-shadow: 0 4px 8px rgba(0,0,0,0.3);
                 object-fit: contain;
-                max-height: 200px;
+                height: 200px;
             }
             .img-label {
                 margin-top: 0.4rem;
@@ -284,6 +297,9 @@
                 font-size: 0.9rem;
                 padding: 0.8rem;
             }
+            .intro-text strong {
+                margin-bottom: 0.4rem;
+            }
         }
 
         @media (min-width: 701px) {
@@ -316,19 +332,19 @@
 
     const jsonPath = `./kmf_individual_files/${encodeURIComponent(kmfName)}.json`;
 
-    // 桌面端字段分组（不变）
+    // 桌面端字段分组
     const groups = [
         {
             title: "⚙️ 基本规格",
             fields: [
                 { key: "Classification", label: "分类" }, { key: "Official Name", label: "官方名称" },
-                { key: "Codename", label: "代号" }, { key: "Crew", label: "乘员" },
+                { key: "Crew", label: "乘员" },
                 { key: "Power Source", label: "动力源" }, { key: "Armor Materials", label: "装甲材料" },
                 { key: "Developer", label: "开发者" }, { key: "Manufacturer", label: "制造商" },
                 { key: "Produced Units", label: "生产数量" }, { key: "Status", label: "状态" },
                 { key: "First deployment", label: "首次部署" }, { key: "Last Seen", label: "最后出现" },
                 { key: "Combines Into", label: "合体目标" }, { key: "Developed From", label: "发展自" },
-                { key: "Developed Into", label: "衍生型" }, { key: "Modes", label: "模式/形态" }
+                { key: "Developed Into", label: "衍生型" }, { key: "Modes", label: "模式/形态" }, { key: "Variants", label: "变体" }
             ]
         },
         {
@@ -400,7 +416,7 @@
                 const value = getSpecValue(specs, field.key);
                 if (value) {
                     hasAny = true;
-                    itemsHtml += `<div class="spec-item"><span class="spec-label">${field.label}</span><span class="spec-value">${escapeHtml(value)}</span></div>`;
+                    itemsHtml += `<div class="spec-item"><span class="spec-label">${field.label}</span><span class="spec-value pre-wrap">${escapeHtml(value)}</span></div>`;
                 }
             }
             if (hasAny) {
@@ -411,6 +427,15 @@
         if (!specsGridHtml.includes('spec-card')) {
             specsGridHtml = '<div class="specs-grid"><div class="spec-card"><h3>⚠️ 暂无详细规格数据</h3></div></div>';
         }
+
+        // 构建正文区域（无多余 <br>，依靠 CSS 间距和 pre-wrap）
+        let bodyHtml = `<div class="intro-text">`;
+        bodyHtml += `<strong>📖 机体介绍</strong><div class="section-content">${escapeHtml(intro)}</div>`;
+        if (design) bodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
+        if (design2) bodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design2)}</div>`;
+        if (trivia) bodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
+        if (trivia2) bodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia2)}</div>`;
+        bodyHtml += `</div>`;
 
         const html = `
             <div class="kmf-header">
@@ -425,13 +450,7 @@
                 </div>
             </div>
             ${specsGridHtml}
-            <div class="intro-text">
-                <strong>📖 机体介绍</strong><br>${escapeHtml(intro)}<br><br>
-                ${design ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design)}<br><br>` : ''}
-                ${design2 ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design2)}<br><br>` : ''}
-                ${trivia ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia)}` : ''}
-                ${trivia2 ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia2)}` : ''}
-            </div>
+            ${bodyHtml}
         `;
         document.getElementById('desktopContent').innerHTML = html;
 
@@ -491,7 +510,7 @@
 
         const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
 
-        // 图片区域 HTML（根据数量不同布局）
+        // 图片区域 HTML
         let imagesHtml = '';
         if (variants.length === 0) {
             imagesHtml = '';
@@ -522,8 +541,7 @@
             imagesHtml = `<div class="image-scroll-container"><div class="image-scroll-wrapper">${itemsHtml}</div></div>`;
         }
 
-        // ----- 构建手机端规格条目，高度和重量合并为一行 -----
-        // 普通字段（除了高度和重量）
+        // 构建手机端规格条目
         const orderedKeys = [
             "Classification", "Official Name", "Codename", "Crew", "Power Source", "Armor Materials",
             "Developer", "Manufacturer", "Produced Units", "Status", "First deployment", "Last Seen",
@@ -541,7 +559,6 @@
         };
         const allEntries = [];
 
-        // 先处理普通字段（不包括高度和重量）
         for (let key of orderedKeys) {
             const val = getSpecValue(specs, key);
             if (val) {
@@ -549,7 +566,6 @@
             }
         }
 
-        // 处理高度和重量合并
         const height = getSpecValue(specs, "Overall Height");
         const weight = getSpecValue(specs, "Gross Weight");
         let combinedValue = '';
@@ -564,7 +580,6 @@
             allEntries.unshift({ label: "高度 | 重量", value: combinedValue });
         }
 
-        // 补充可能遗漏的字段（排除已处理的）
         const excludeKeys = ["Model Number", "KMF Generation", "Overall Height", "Gross Weight"];
         for (let [key, val] of Object.entries(specs)) {
             if (val && !orderedKeys.includes(key) && !excludeKeys.includes(key)) {
@@ -572,7 +587,6 @@
             }
         }
 
-        // 手机端标题区，隐藏“型号:”、“世代:”标签，只显示数值
         const modelNum = getSpecValue(specs, "Model Number");
         const gen = getSpecValue(specs, "KMF Generation");
         let titleExtraHtml = '';
@@ -586,7 +600,7 @@
         const INITIAL_SHOW = 5;
         let specsTableHtml = `<div class="specs-table" id="specs-table-mobile">`;
         for (let i = 0; i < Math.min(INITIAL_SHOW, allEntries.length); i++) {
-            specsTableHtml += `<div class="specs-row"><div class="specs-label">${escapeHtml(allEntries[i].label)}</div><div class="specs-value">${escapeHtml(allEntries[i].value)}</div></div>`;
+            specsTableHtml += `<div class="specs-row"><div class="specs-label">${escapeHtml(allEntries[i].label)}</div><div class="specs-value pre-wrap">${escapeHtml(allEntries[i].value)}</div></div>`;
         }
         specsTableHtml += `</div>`;
         if (allEntries.length > INITIAL_SHOW) {
@@ -594,6 +608,15 @@
         } else if (allEntries.length === 0) {
             specsTableHtml = `<div class="specs-table"><div class="specs-row"><div class="specs-value">暂无详细规格</div></div></div>`;
         }
+
+        // 手机端正文（无多余 <br>）
+        let mobileBodyHtml = `<div class="intro-text">`;
+        mobileBodyHtml += `<strong>📖 机体介绍</strong><div class="section-content">${escapeHtml(intro)}</div>`;
+        if (design) mobileBodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
+        if (design2) mobileBodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design2)}</div>`;
+        if (trivia) mobileBodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
+        if (trivia2) mobileBodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia2)}</div>`;
+        mobileBodyHtml += `</div>`;
 
         const html = `
             <div class="kmf-title-mobile">
@@ -603,13 +626,7 @@
             </div>
             ${imagesHtml}
             ${specsTableHtml}
-            <div class="intro-text">
-                <strong>📖 机体介绍</strong><br>${escapeHtml(intro)}<br><br>
-                ${design ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design)}<br><br>` : ''}
-                ${design2 ? `<strong>🔧 开发背景</strong><br>${escapeHtml(design2)}<br><br>` : ''}
-                ${trivia ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia)}` : ''}
-                ${trivia2 ? `<strong>💡 历史/轶事</strong><br>${escapeHtml(trivia2)}` : ''}
-            </div>
+            ${mobileBodyHtml}
         `;
 
         const mobileContainer = document.getElementById('mobileContent');
@@ -640,7 +657,7 @@
         const toggleBtn = document.getElementById('toggle-specs-btn');
         if (toggleBtn) {
             let expanded = false;
-            const fullHtml = allEntries.map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
+            const fullHtml = allEntries.map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value pre-wrap">${escapeHtml(entry.value)}</div></div>`).join('');
             const tableDiv = document.getElementById('specs-table-mobile');
             toggleBtn.addEventListener('click', () => {
                 if (!expanded) {
@@ -648,7 +665,7 @@
                     toggleBtn.innerHTML = '收起 ↑';
                     expanded = true;
                 } else {
-                    tableDiv.innerHTML = allEntries.slice(0, INITIAL_SHOW).map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value">${escapeHtml(entry.value)}</div></div>`).join('');
+                    tableDiv.innerHTML = allEntries.slice(0, INITIAL_SHOW).map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value pre-wrap">${escapeHtml(entry.value)}</div></div>`).join('');
                     toggleBtn.innerHTML = '更多 ↓';
                     expanded = false;
                 }
@@ -682,15 +699,14 @@
     // 主流程
     async function loadData() {
         try {
-            const resp = await fetch(jsonPath);
+            //const resp = await fetch(jsonPath);
+            const resp = await fetch(jsonPath + '?t=' + Date.now());
+
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             const data = await resp.json();
 
-            // ================== 新增：动态修改网页标题 ==================
-            // 优先获取中文名 name，如果没有则降级使用英文名 english_name，再没有就显示“未知机甲”
-            const kmfName = data.name || data.english_name || "未知机甲";
-            document.title = `${kmfName} 详细档案`;
-            // ==========================================================
+            const displayName = data.name || data.english_name || "未知机甲";
+            document.title = `${displayName} 详细档案`;
 
             const isMobile = window.innerWidth <= 700;
             if (isMobile) {

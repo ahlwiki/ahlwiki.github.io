@@ -18,11 +18,10 @@
     "Anime": "Code Geass 叛逆的鲁鲁修",
     "Game": "Code Geass：叛逆的鲁路修 遗失物语"
   },
-  "introduction": "萨瑟兰可飞行型（サザーランド可翔式, Sazārando Kashōshiki）是杰雷米亚·戈特瓦尔德加入黑色骑士团后使用的一台萨瑟兰。",
+  "introduction": "萨瑟兰可翔式（サザーランド可翔式）是杰雷米亚·戈特瓦尔德加入黑色骑士团后使用的一台萨瑟兰。",
   "Design and Development": "一台原本标准涂装为纯血派颜色的萨瑟兰，加装了空中滑翔翼系统以实现飞行，并配备了晓所使用的标准火箭筒。",
-  "Operational History": "萨瑟兰可飞行型仅在一次行动中参战，即对Geass教团基地的突袭。",
+  "Operational History": "萨瑟兰可翔式仅在一次行动中参战，即对Geass教团基地的突袭。",
   "english_name": "Sutherland Flight-Enabled",
-  "image_folder": "Sutherland Flight-Enabled",
   "image_variants": [
     "前方",
     "后方"

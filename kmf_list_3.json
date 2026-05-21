@@ -32,7 +32,7 @@
         "model_number": "RZX-4EH"
     },
     {
-        "name": "Akatsuki Command Model Zikisan",
+        "name": "Akatsuki Zikisan",
         "chinese_name": "晓·直参仕样",
         "categories": {
             "Anime": [
@@ -51,8 +51,24 @@
         "model_number": "Type-05S/G"
     },
     {
-        "name": "Akatsuki Mass-Production Model",
-        "chinese_name": "晓·量产型",
+        "name": "Akatsuki Zikisan Flight-Enabled Version",
+        "chinese_name": "晓·直参仕样可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        },
+        "model_number": "Type-05S/G"
+    },
+    {
+        "name": "Akatsuki",
+        "chinese_name": "晓",
         "categories": {
             "Anime": [
                 "Code Geass 叛逆的鲁鲁修"
@@ -62,6 +78,22 @@
             ],
             "Manga": [
                 "Code Geass 双貌的奥兹"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        },
+        "model_number": "Type-05"
+    },
+    {
+        "name": "Akatsuki Flight-Enabled Version",
+        "chinese_name": "晓可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
             ],
             "Manufacturer": [
                 "Jabalpur Research Center"
@@ -1101,7 +1133,7 @@
     },
     {
         "name": "Gekka Custom",
-        "chinese_name": "月下·改",
+        "chinese_name": "月下·特装型",
         "categories": {
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -1146,7 +1178,7 @@
     },
     {
         "name": "Gekka Shiden",
-        "chinese_name": "月华·紫电",
+        "chinese_name": "月下·紫电机",
         "categories": {
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -1230,7 +1262,7 @@
     },
     {
         "name": "Glasgow Orpheus Custom",
-        "chinese_name": "格拉斯哥·俄耳甫斯定制型",
+        "chinese_name": "格拉斯哥·奥菲斯特装型",
         "categories": {
             "Manga": [
                 "Code Geass 双貌的奥兹"
@@ -1714,11 +1746,6 @@
             ]
         },
         "model_number": "Type-07T"
-    },
-    {
-        "name": "Knight Giga Fortress",
-        "chinese_name": "KMF巨型要塞",
-        "categories": {}
     },
     {
         "name": "Knightpolice",
@@ -3075,5 +3102,174 @@
             ]
         },
         "model_number": "RPI-212/PC"
+    },
+    {
+        "name": "Vincent Snipe",
+        "chinese_name": "文森特·狙击型",
+        "categories": {
+            "Manga": [
+                "Code Geass 白之骑士与红之夜叉"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "RPI-212/KKC01"
+    },
+    {
+        "name": "Vincent Ward",
+        "chinese_name": "文森特·沃德",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修",
+                "Code Geass 复活的鲁鲁修"
+            ],
+            "Manga": [
+                "Code Geass 双貌的奥兹",
+                "Code Geass 叛逆的鲁鲁修 Re"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories",
+                "Code Geass: Genesic Re;Code"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "RPI-212B"
+    },
+    {
+        "name": "Wang Hu",
+        "chinese_name": "王虎",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian MilitaryPluton"
+            ]
+        },
+        "model_number": "XT-403"
+    },
+    {
+        "name": "Zangetsu",
+        "chinese_name": "斩月",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "Type-04"
+    },
+    {
+        "name": "Zero Kagero",
+        "chinese_name": "零阳炎",
+        "categories": {
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "Type-02/0X"
+    },
+    {
+        "name": "Zetland",
+        "chinese_name": "泽特兰",
+        "categories": {
+            "Manga": [
+                "Code Geass 双貌的奥兹"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "RZX-6DD"
+    },
+    {
+        "name": "Zetland Heart",
+        "chinese_name": "泽特兰之心",
+        "categories": {
+            "Manga": [
+                "Code Geass 双貌的奥兹"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "RZX-6DD-EP3"
+    },
+    {
+        "name": "Zi-Apollo",
+        "chinese_name": "Zi-阿波罗",
+        "categories": {
+            "Anime": [
+                "Code Geass 夺还的罗塞"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "UZZ-001s"
+    },
+    {
+        "name": "Zi-Artemis",
+        "chinese_name": "Zi-阿尔忒弥斯",
+        "categories": {
+            "Anime": [
+                "Code Geass 夺还的罗塞"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "UZZ-001m"
+    },
+    {
+        "name": "Zi-Ortygia",
+        "chinese_name": "Zi-奥尔提吉亚",
+        "categories": {
+            "Anime": [
+                "Code Geass 夺还的罗塞"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "UZZ-001"
     }
 ]

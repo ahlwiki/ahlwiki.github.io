@@ -1,0 +1,21 @@
+{
+  "name": "Zi-奥尔提吉亚",
+  "specs": {
+      "Model Number": "UZZ-001",
+      "Codename": "Zi-奥尔提吉亚",
+      "Power Source": "尤克特拉希尔驱动（由能量填充器供能）",
+      "Armor Materials": "钨",
+      "Crew": "2",
+      "Developed From": "组合单元：Zi-阿波罗、Zi-阿尔忒弥斯",
+      "Operators": "无名佣兵",
+      "Known Pilots": "阿什·罗泽",
+      "Anime": "Code Geass: 夺还的罗泽",
+      "Mechanical Designer": "阿久津润一"
+  },
+  "introduction": "Zi-奥尔提吉亚（Zi-オルテギア，Zi - Orutegia）是Zi-阿波罗与Zi-阿尔忒弥斯合体而成的Knightmare Frame，在《Code Geass: 夺还的罗泽》中由阿什和罗泽共同驾驶。",
+  "english_name": "Zi-Ortygia",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

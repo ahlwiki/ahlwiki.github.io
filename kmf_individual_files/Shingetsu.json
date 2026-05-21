@@ -12,6 +12,8 @@
   "introduction": "新月（Shingetsu）是《Code Geass: Pure Almaria》中登场的人型自在战斗装甲（KMF）。它是十六夜特工白马·曾我（代号“新月”）的专属人型自在战斗装甲。",
   "Design and Development": "基于月下改造，为白马的个人使用而定制。除了配备可用于远距离和近距离战斗的内置武器外，其背部还装备了由珍珠派开发的新型热剑。此外，十六夜所属特工的代号通常与其人型自在战斗装甲相同。",
   "english_name": "Shingetsu",
-  "image_folder": "Shingetsu",
-  "image_variants": []
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
 }

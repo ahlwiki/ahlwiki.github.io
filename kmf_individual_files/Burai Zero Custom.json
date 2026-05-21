@@ -17,11 +17,10 @@
     "Anime": "Code Geass 叛逆的鲁鲁修",
     "Game": "Code Geass：叛逆的鲁路修 遗失物语"
   },
-  "introduction": "无赖 零式定制（無頼（ゼロ機），Burai Zero-ki）是黑色骑士团领袖Zero使用的专属无赖机体。",
-  "Design and Development": "尽管编号不同，零式定制无赖在功能上与标准型无赖完全相同。其主要区别在于头部被替换为独特的头部模块。",
+  "introduction": "无赖·ZERO机（無頼（ゼロ機））是黑色骑士团领袖Zero使用的专属无赖机体。",
+  "Design and Development": "尽管编号不同，ZERO机无赖在功能上与标准型无赖完全相同。其主要区别在于头部被替换为独特的头部模块。",
   "Operational History": "Zero首次在成田战役中使用其中一台这样的机体。",
   "english_name": "Burai Zero Custom",
-  "image_folder": "Burai Zero Custom",
   "image_variants": [
     "前方",
     "后方"
