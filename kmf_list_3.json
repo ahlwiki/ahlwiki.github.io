@@ -1224,7 +1224,8 @@
             "Operators": [
                 "The Black KnightsUnited Federation of Nations"
             ]
-        }
+        },
+        "model_number": "IFX-V10C2"
     },
     {
         "name": "Ghedo Vakka",
@@ -1310,6 +1311,22 @@
             ]
         },
         "model_number": "RPI-00/SC"
+    },
+    {
+        "name": "Gloucester Air",
+        "chinese_name": "格洛斯特·浮空型",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian Military"
+            ]
+        },
+        "model_number": "RPI-209FA"
     },
     {
         "name": "Gloucester Blue Barons Custom",
@@ -2236,7 +2253,8 @@
             "Operators": [
                 "Ashford AcademyBlack Knights"
             ]
-        }
+        },
+        "model_number": "MR-1"
     },
     {
         "name": "Nagid Shu Mane",
@@ -2611,7 +2629,8 @@
             "Operators": [
                 "United Federation of NationsIzayoi"
             ]
-        }
+        },
+        "model_number": "Type-05S/SC"
     },
     {
         "name": "Shinkirō",
@@ -3037,7 +3056,8 @@
             "Operators": [
                 "Holy Britannian EmpireValkyrie Squadron"
             ]
-        }
+        },
+        "model_number": "RPI-212A"
     },
     {
         "name": "Vincent Glinda",

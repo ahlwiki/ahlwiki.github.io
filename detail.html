@@ -389,7 +389,7 @@
         const design = data["Design and Development"] || '';
         const design2 = data["Design and Specifications"] || '';
         const trivia = data.Trivia || '';
-        const trivia2 = data["Operational History"] || '';
+        const fight = data["Operational History"] || '';
 
         function getSpec(key) { return getSpecValue(specs, key) || '—'; }
 
@@ -430,11 +430,11 @@
 
         // 构建正文区域（无多余 <br>，依靠 CSS 间距和 pre-wrap）
         let bodyHtml = `<div class="intro-text">`;
-        bodyHtml += `<strong>📖 机体介绍</strong><div class="section-content">${escapeHtml(intro)}</div>`;
-        if (design) bodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
-        if (design2) bodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design2)}</div>`;
-        if (trivia) bodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
-        if (trivia2) bodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia2)}</div>`;
+        bodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${escapeHtml(intro)}</div>`;
+        if (design) bodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
+        if (design2) bodyHtml += `<strong>📐 性能参数</strong><div class="section-content">${escapeHtml(design2)}</div>`;
+        if (fight) bodyHtml += `<strong>🕰️ 作战记录</strong><div class="section-content">${escapeHtml(fight)}</div>`;
+        if (trivia) bodyHtml += `<strong>🧩 趣闻余谈</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
         bodyHtml += `</div>`;
 
         const html = `
@@ -503,7 +503,7 @@
         const design = data["Design and Development"] || '';
         const design2 = data["Design and Specifications"] || '';
         const trivia = data.Trivia || '';
-        const trivia2 = data["Operational History"] || '';
+        const fight = data["Operational History"] || '';
 
         let variants = data.image_variants || [];
         variants = [...new Set(variants)];
@@ -611,11 +611,11 @@
 
         // 手机端正文（无多余 <br>）
         let mobileBodyHtml = `<div class="intro-text">`;
-        mobileBodyHtml += `<strong>📖 机体介绍</strong><div class="section-content">${escapeHtml(intro)}</div>`;
-        if (design) mobileBodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
-        if (design2) mobileBodyHtml += `<strong>🔧 开发背景</strong><div class="section-content">${escapeHtml(design2)}</div>`;
-        if (trivia) mobileBodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
-        if (trivia2) mobileBodyHtml += `<strong>💡 历史/轶事</strong><div class="section-content">${escapeHtml(trivia2)}</div>`;
+        mobileBodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${escapeHtml(intro)}</div>`;
+        if (design) mobileBodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
+        if (design2) mobileBodyHtml += `<strong>📐 性能参数</strong><div class="section-content">${escapeHtml(design2)}</div>`;
+        if (fight) mobileBodyHtml += `<strong>🕰️ 作战记录</strong><div class="section-content">${escapeHtml(fight)}</div>`;
+        if (trivia) mobileBodyHtml += `<strong>🧩 趣闻余谈</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
         mobileBodyHtml += `</div>`;
 
         const html = `
