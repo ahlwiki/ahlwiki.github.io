@@ -158,6 +158,32 @@
             font-size: 1.2rem;
         }
 
+        /* 页脚样式 */
+        .detail-footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+            font-size: 0.8rem;
+            color: #9aaec9;
+        }
+        .detail-footer a {
+            color: #9aaec9;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .detail-footer a:hover {
+            text-decoration: underline;
+        }
+        .detail-footer .beian-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+
         /* 手机端样式 */
         @media (max-width: 700px) {
             body { padding: 0.5rem; }
@@ -319,6 +345,21 @@
     <div class="mobile-layout" id="mobile-layout">
         <div id="mobileContent"></div>
     </div>
+
+    <!-- 页脚备案信息 -->
+    <div class="detail-footer">
+        <div class="beian-icons">
+            <span>
+                <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">桂ICP备2026009688号</a>
+            </span>
+            <span>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=xxxxx" target="_blank" rel="noopener noreferrer">
+                    <img src="http://www.beian.gov.cn/img/beian.png" style="vertical-align: middle; height: 16px; margin-right: 4px;" alt="公安备案图标" referrerpolicy="no-referrer">
+                    桂公网安备 xxxxx号
+                </a>
+            </span>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -428,7 +469,6 @@
             specsGridHtml = '<div class="specs-grid"><div class="spec-card"><h3>⚠️ 暂无详细规格数据</h3></div></div>';
         }
 
-        // 构建正文区域（无多余 <br>，依靠 CSS 间距和 pre-wrap）
         let bodyHtml = `<div class="intro-text">`;
         bodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${escapeHtml(intro)}</div>`;
         if (design) bodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
@@ -510,7 +550,6 @@
 
         const basePath = `./images/kmf_gallery/${encodeURIComponent(kmfName)}/`;
 
-        // 图片区域 HTML
         let imagesHtml = '';
         if (variants.length === 0) {
             imagesHtml = '';
@@ -520,10 +559,11 @@
         } else if (variants.length === 2) {
             let itemsHtml = '';
             for (let variant of variants) {
+                let displayLabel = (variant === "Standard") ? "标准" : variant;
                 itemsHtml += `
                     <div class="image-item">
-                        <img class="double-img" data-variant="${variant}" src="" alt="${variant}">
-                        <div class="img-label">${escapeHtml(variant)}</div>
+                        <img class="double-img" data-variant="${variant}" src="" alt="${displayLabel}">
+                        <div class="img-label">${escapeHtml(displayLabel)}</div>
                     </div>
                 `;
             }
@@ -531,17 +571,17 @@
         } else {
             let itemsHtml = '';
             for (let variant of variants) {
+                let displayLabel = (variant === "Standard") ? "标准" : variant;
                 itemsHtml += `
                     <div class="image-scroll-item">
-                        <img class="scroll-img" data-variant="${variant}" src="" alt="${variant}">
-                        <div class="img-label">${escapeHtml(variant)}</div>
+                        <img class="scroll-img" data-variant="${variant}" src="" alt="${displayLabel}">
+                        <div class="img-label">${escapeHtml(displayLabel)}</div>
                     </div>
                 `;
             }
             imagesHtml = `<div class="image-scroll-container"><div class="image-scroll-wrapper">${itemsHtml}</div></div>`;
         }
 
-        // 构建手机端规格条目
         const orderedKeys = [
             "Classification", "Official Name", "Codename", "Crew", "Power Source", "Armor Materials",
             "Developer", "Manufacturer", "Produced Units", "Status", "First deployment", "Last Seen",
@@ -609,7 +649,6 @@
             specsTableHtml = `<div class="specs-table"><div class="specs-row"><div class="specs-value">暂无详细规格</div></div></div>`;
         }
 
-        // 手机端正文（无多余 <br>）
         let mobileBodyHtml = `<div class="intro-text">`;
         mobileBodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${escapeHtml(intro)}</div>`;
         if (design) mobileBodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
@@ -632,7 +671,6 @@
         const mobileContainer = document.getElementById('mobileContent');
         mobileContainer.innerHTML = html;
 
-        // 加载手机端图片
         if (variants.length === 1) {
             const singleImg = document.querySelector('.single-img');
             if (singleImg) {
@@ -653,7 +691,6 @@
             });
         }
 
-        // 折叠/展开逻辑
         const toggleBtn = document.getElementById('toggle-specs-btn');
         if (toggleBtn) {
             let expanded = false;
@@ -696,12 +733,9 @@
         }
     }
 
-    // 主流程
     async function loadData() {
         try {
-            //const resp = await fetch(jsonPath);
             const resp = await fetch(jsonPath + '?t=' + Date.now());
-
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             const data = await resp.json();
 

@@ -201,6 +201,28 @@
             font-size: 0.8rem;
         }
 
+        .footer a {
+            color: #9aaec9;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer .beian-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+        .footer .beian-icons span {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
         @media (max-width: 640px) {
             .header h1{
                 font-size: 1.3rem;
@@ -361,7 +383,18 @@
     </div>
 
     <div class="footer">
-        © 布里塔尼亚帝国技术部 · 机体数: <span id="display-count">0</span> / <span id="total-count">0</span>
+        <div>© 布里塔尼亚帝国技术部 · 机体数: <span id="display-count">0</span> / <span id="total-count">0</span></div>
+        <div class="beian-icons">
+            <span>
+                <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">桂ICP备2026009688号</a>
+            </span>
+            <span>
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=xxxxx" target="_blank" rel="noopener noreferrer">
+                    <img src="http://www.beian.gov.cn/img/beian.png" style="vertical-align: middle; height: 16px; margin-right: 4px;" alt="公安备案图标">
+                    桂公网安备 xxxxx号
+                </a>
+            </span>
+        </div>
     </div>
 </div>
 
@@ -493,11 +526,8 @@
         renderFilteredList();
     }
 
-    // 修改后的高亮函数：清除所有按钮高亮，然后只高亮当前选中的按钮
     function updateActiveButtonForAll(category, value) {
-        // 先清除所有按钮的高亮
         document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-        // 再高亮当前分类的目标按钮
         const groups = document.querySelectorAll(`.filter-buttons[data-category="${category}"]`);
         groups.forEach(group => {
             if (value === '__all__') {
@@ -578,7 +608,6 @@
         img.onerror = function() {
             if (!fallbackAttempted) {
                 fallbackAttempted = true;
-                //this.src = basePath + '.icon';
                 this.src = basePath + '.jpg';
             } else {
                 this.onerror = null;
@@ -616,7 +645,6 @@
         renderFilteredList();
     }
 
-    // 移动端抽屉功能（完整）
     function initMobileDrawer() {
         const drawer = document.getElementById('mobile-drawer');
         const handle = document.getElementById('drawer-handle');
