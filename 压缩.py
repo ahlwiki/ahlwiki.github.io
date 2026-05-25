@@ -4,9 +4,9 @@ from PIL import Image
 
 # ========== 配置 ==========
 TARGET_DIR = "翻转"                # 要处理的文件夹名称
-QUALITY = 85                       # WebP 质量 (0-100)，建议 75-90
+QUALITY = 30                       # WebP 质量 (0-100)，建议 75-90
 METHOD = 6                         # 压缩方法 (0-6)，6 最慢但质量最好
-REMOVE_ORIGINAL = True            # 是否删除原始 PNG 文件（默认 False，保留）
+REMOVE_ORIGINAL = False            # 是否删除原始 PNG 文件（默认 False，保留）
 RECURSIVE = False                  # 是否递归处理子文件夹
 
 def convert_png_to_webp():
