@@ -136,7 +136,7 @@
             width: 60px;
             height: 85px;
             flex-shrink: 0;
-            background: #000000;
+            background: #ffffff;
             border-radius: 8px;
             overflow: hidden;
             display: flex;
@@ -670,9 +670,9 @@
             const labelSpan = document.getElementById('drawer-label');
             if (!labelSpan) return;
             if (drawer.classList.contains('open')) {
-                labelSpan.innerText = '⬇️ 下拉回收筛选';
+                labelSpan.innerText = '↓ 下拉回收筛选 ↓';
             } else {
-                labelSpan.innerText = '⬆️ 上拉展开筛选';
+                labelSpan.innerText = '↑ 上拉展开筛选 ↑';
             }
         }
 

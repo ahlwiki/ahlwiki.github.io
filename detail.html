@@ -647,7 +647,7 @@
         }
         specsTableHtml += `</div>`;
         if (allEntries.length > INITIAL_SHOW) {
-            specsTableHtml += `<button id="toggle-specs-btn" class="more-btn">更多 ↓</button>`;
+            specsTableHtml += `<button id="toggle-specs-btn" class="more-btn">↓ 更多 ↓</button>`;
         } else if (allEntries.length === 0) {
             specsTableHtml = `<div class="specs-table"><div class="specs-row"><div class="specs-value">暂无详细规格</div></div></div>`;
         }
@@ -702,11 +702,11 @@
             toggleBtn.addEventListener('click', () => {
                 if (!expanded) {
                     tableDiv.innerHTML = fullHtml;
-                    toggleBtn.innerHTML = '收起 ↑';
+                    toggleBtn.innerHTML = '↑ 收起 ↑';
                     expanded = true;
                 } else {
                     tableDiv.innerHTML = allEntries.slice(0, INITIAL_SHOW).map(entry => `<div class="specs-row"><div class="specs-label">${escapeHtml(entry.label)}</div><div class="specs-value pre-wrap">${escapeHtml(entry.value)}</div></div>`).join('');
-                    toggleBtn.innerHTML = '更多 ↓';
+                    toggleBtn.innerHTML = '↓ 更多 ↓';
                     expanded = false;
                 }
             });
