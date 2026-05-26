@@ -3165,6 +3165,31 @@
         "model_number": "RPI-212B"
     },
     {
+        "name": "Vincent Ward Air",
+        "chinese_name": "文森特·沃德·浮空型",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修",
+                "Code Geass 复活的鲁鲁修"
+            ],
+            "Manga": [
+                "Code Geass 双貌的奥兹",
+                "Code Geass 叛逆的鲁鲁修 Re"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories",
+                "Code Geass: Genesic Re;Code"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "RPI-212BFA"
+    },
+    {
         "name": "Wang Hu",
         "chinese_name": "王虎",
         "categories": {
