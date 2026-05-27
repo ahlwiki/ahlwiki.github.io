@@ -1,0 +1,26 @@
+{
+  "name": "萨瑟兰·浮空型",
+  "specs": {
+    "Model Number": "RPI-13AFA",
+    "KMF Generation": "第五世代",
+    "Overall Height": "4.39 米",
+    "Gross Weight": "8.41吨",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "神圣不列颠尼亚帝国",
+    "Developed From": "萨瑟兰",
+    "Operators": "神圣布里塔尼亚帝国",
+    "Known Pilots": "塞西尔·克鲁米、罗洛·兰佩鲁格、德拉·巴雷塔",
+    "Fixed": "浮空单元，2x飞燕爪牙",
+    "Handheld": "1x突击步枪",
+    "Anime": "Code Geass 叛逆的鲁鲁修"
+  },
+  "introduction": "由塞西尔·克鲁米和罗洛·兰佩路基驾驶的萨瑟兰·浮空型（サザーランド・エア）是动画《Code Geass 反叛的鲁路修》中登场的Knightmare Frame。到2018年，量产型浮空单元终于投入使用，可以装备到现有的萨瑟兰机甲上。尽管由于第七代Knightmare Frame的推出，萨瑟兰机甲已经显得过时，但它仍然是布里塔尼亚军队最常用的量产型Knightmare Frame 。",
+  "Design and Development": "这是配备KMF浮空单元的萨瑟兰。由于为兰斯洛特开发的浮空单元实现了大规模生产，因此在2018年atb演习中部署了大量此类装置。除了增加航空电子系统外，萨瑟兰的机身似乎没有其他变化，但随着飞行能力的提升，其战术和作战选择迅速增加。",
+  "Operational History": "在黑色叛乱期间，为了营救枢木朱雀，阿瓦隆级战舰上匆忙研制了一套临时版本。2018年，量产型浮空单元终于投入通用。",
+  "english_name": "Sutherland Air",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

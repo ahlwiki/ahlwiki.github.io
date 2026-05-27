@@ -412,7 +412,7 @@
 </div>
 
 <script>
-    const LIST_JSON_URL = "./kmf_list_3.json";
+    const LIST_JSON_URL = "./kmf_list.json";
     let allKmfData = [];
     let currentCategory = null;
     let currentValue = null;
@@ -743,7 +743,7 @@
             initMobileDrawer();
         } catch (err) {
             console.error(err);
-            container.innerHTML = `<div class="error-msg">❌ 加载失败: ${err.message}<br>请确认 kmf_list_3.json 存在且格式正确</div>`;
+            container.innerHTML = `<div class="error-msg">❌ 加载失败: ${err.message}<br>请确认 kmf_list.json 存在且格式正确</div>`;
         }
     }
 

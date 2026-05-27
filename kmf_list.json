@@ -1194,7 +1194,7 @@
     },
     {
         "name": "Gekkoei",
-        "chinese_name": "月光",
+        "chinese_name": "月虹影",
         "categories": {
             "Anime": [
                 "Code Geass 复活的鲁鲁修"
@@ -1210,7 +1210,7 @@
     },
     {
         "name": "Gekkoei Sui",
-        "chinese_name": "月光·翠",
+        "chinese_name": "月虹影帅",
         "categories": {
             "Game": [
                 "Super Robot Wars 30"
@@ -1459,7 +1459,7 @@
     },
     {
         "name": "Gun Du Goon",
-        "chinese_name": "钢髅",
+        "chinese_name": "钢度贡",
         "categories": {
             "Anime": [
                 "Code Geass 复活的鲁鲁修"
@@ -2724,6 +2724,22 @@
         "model_number": "RPI-13"
     },
     {
+        "name": "Sutherland Air",
+        "chinese_name": "萨瑟兰·浮空型",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        },
+        "model_number": "RPI-13AFA"
+    },
+    {
         "name": "Sutherland Blue Barons Custom",
         "chinese_name": "萨瑟兰蓝色男爵特装型",
         "categories": {
@@ -2937,6 +2953,22 @@
             ]
         },
         "model_number": "RPI-13/PC"
+    },
+    {
+        "name": "Sutherland Sieg",
+        "chinese_name": "萨瑟兰·齐格",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Holy Britannian EmpirePluton"
+            ]
+        },
+        "model_number": "Type-X/RPI-13J"
     },
     {
         "name": "Tristan",
