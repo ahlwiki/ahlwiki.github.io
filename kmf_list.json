@@ -1297,22 +1297,6 @@
         "model_number": "RPI-209"
     },
     {
-        "name": "Gloucester (Cornelia version)",
-        "chinese_name": "格洛斯特·柯内莉亚机",
-        "categories": {
-            "Anime": [
-                "Code Geass 叛逆的鲁鲁修"
-            ],
-            "Manufacturer": [
-                "Holy Britannian Empire"
-            ],
-            "Operators": [
-                "Britannian Military"
-            ]
-        },
-        "model_number": "RPI-00/SC"
-    },
-    {
         "name": "Gloucester Air",
         "chinese_name": "格洛斯特·浮空型",
         "categories": {
@@ -1327,6 +1311,22 @@
             ]
         },
         "model_number": "RPI-209FA"
+    },
+    {
+        "name": "Gloucester (Cornelia version)",
+        "chinese_name": "格洛斯特·柯内莉亚机",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian Military"
+            ]
+        },
+        "model_number": "RPI-00/SC"
     },
     {
         "name": "Gloucester Blue Barons Custom",
@@ -1630,7 +1630,7 @@
     },
     {
         "name": "Guren Type-02 Repair",
-        "chinese_name": "红莲贰式（甲壹型腕装备）",
+        "chinese_name": "红莲贰式·修补型",
         "categories": {
             "Anime": [
                 "Code Geass 叛逆的鲁鲁修"
@@ -2337,7 +2337,7 @@
     },
     {
         "name": "Panzer Hummel",
-        "chinese_name": "装甲熊蜂",
+        "chinese_name": "装甲野蜂",
         "categories": {
             "Anime": [
                 "Code Geass 叛逆的鲁鲁修",
@@ -2662,7 +2662,7 @@
                 "Chinese FederationThe Order of the Black KnightsUnited Federation of Nations"
             ]
         },
-        "model_number": "XT-404/F?"
+        "model_number": "XT-404/F??"
     },
     {
         "name": "Shingetsu",
@@ -3102,6 +3102,22 @@
         "model_number": "RPI-212"
     },
     {
+        "name": "Vincent Flight-Enabled Version",
+        "chinese_name": "文森特可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian MilitaryBlack Knights"
+            ]
+        },
+        "model_number": "RPI-212/F4A"
+    },
+    {
         "name": "Vincent Blaze",
         "chinese_name": "文森特·烈焰",
         "categories": {
@@ -3140,20 +3156,20 @@
         "model_number": "RPI-212A"
     },
     {
-        "name": "Vincent Flight-Enabled Version",
-        "chinese_name": "文森特可翔式",
+        "name": "Vincent Commander Model Air",
+        "chinese_name": "文森特指挥官·浮空型",
         "categories": {
             "Anime": [
                 "Code Geass 叛逆的鲁鲁修"
             ],
             "Manufacturer": [
-                "Holy Britannian Empire"
+                "Camelot"
             ],
             "Operators": [
-                "Britannian MilitaryBlack Knights"
+                "Holy Britannian EmpireValkyrie Squadron"
             ]
         },
-        "model_number": "RPI-212/F4A"
+        "model_number": "RPI-212AFA"
     },
     {
         "name": "Vincent Glinda",
