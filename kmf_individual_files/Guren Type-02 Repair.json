@@ -1,0 +1,31 @@
+{
+  "name": "红莲贰式（甲壹型腕装备）",
+  "specs": {
+    "Model Number": "Type-02",
+    "KMF Generation": "相当于第七世代",
+    "Overall Height": "4.51 米",
+    "Gross Weight": "7.51 吨",
+    "Power Source": "尤克特拉希尔驱动，由能量填充器供能",
+    "Armor Materials": "钨",
+    "Manufacturer": "贾巴尔普尔研究中心",
+    "Developed From": "红莲壹式",
+    "Developed Into": "红莲可翔式，月下试作机，红鬼灯",
+    "Variants": "红莲丙式",
+    "Operators": "黑色骑士团",
+    "Known Pilots": "卡莲·休妲菲尔特",
+    "Standard": "驾驶舱弹射系统，陆地旋轮，背部内置干扰烟雾散布系统",
+    "Fixed": "1x 右臂内置辐射波单元，1x 飞燕爪式飞燕爪牙（左胸部安装），1x 左臂定制手枪",
+    "Handheld": "1x 叉刃刀",
+    "Anime": "Code Geass 叛逆的鲁鲁修",
+    "Manga": "Code Geass 白之骑士与红之夜叉",
+    "Game": "Code Geass：叛逆的鲁路修 遗失物语"
+  },
+  "introduction": "红莲贰式（甲壹型腕装备）（紅蓮弐式 甲壱型腕装備），由卡莲驾驶，是一台在动画《Code Geass 反叛的鲁路修 R2》中首次登场的Knightmare Frame机体。在黑色叛乱之后，红莲贰式被装备了之前储备的实验性部件——01型装甲手臂。它拥有与普通右臂相同的基本功能，但辐射波的速射能力有所下降，削弱了红莲贰式的战斗力。",
+  "Design and Development": "黑色骑士团的骄傲，最强的Knightmare Frame 。由于右臂在与兰斯洛特空中骑兵的激战中损毁，它装备了由备用零件组装而成的01型装甲手臂。虽然可以使用辐射波，但无法进行速射。毕竟，在权宜之计的限制下，其战斗力有所下降是无法否认的。",
+   "Trivia": "红莲（紅蓮）在日语中意为“红色莲花”，也是佛教第七层地狱“红莲地狱”的缩写。红莲贰式升级机的名称也继续与佛教相关。",
+  "english_name": "Guren Type-02 Repair",
+  "image_variants": [
+    "前方",
+    "后方"
+  ]
+}

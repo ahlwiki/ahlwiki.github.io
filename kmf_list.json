@@ -1629,6 +1629,22 @@
         "model_number": "Type-02"
     },
     {
+        "name": "Guren Type-02 Repair",
+        "chinese_name": "红莲贰式（甲壹型腕装备）",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        },
+        "model_number": "Type-02"
+    },
+    {
         "name": "Guren Type-Hei",
         "chinese_name": "红莲丙式",
         "categories": {
@@ -1817,6 +1833,22 @@
             ]
         },
         "model_number": "Z-01"
+    },
+    {
+        "name": "Lancelot Air Cavalry",
+        "chinese_name": "兰斯洛特·空中骑兵",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "ASEEC"
+            ],
+            "Operators": [
+                "Holy Britannian Empire"
+            ]
+        },
+        "model_number": "Z-01/A"
     },
     {
         "name": "Lancelot Albion",
@@ -2617,6 +2649,22 @@
         "model_number": "XT-404"
     },
     {
+        "name": "Shen Hu Flight-Enabled Version",
+        "chinese_name": "神虎可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "Chinese FederationThe Order of the Black KnightsUnited Federation of Nations"
+            ]
+        },
+        "model_number": "XT-404/F?"
+    },
+    {
         "name": "Shingetsu",
         "chinese_name": "新月",
         "categories": {
@@ -3092,6 +3140,22 @@
         "model_number": "RPI-212A"
     },
     {
+        "name": "Vincent Flight-Enabled Version",
+        "chinese_name": "文森特可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Holy Britannian Empire"
+            ],
+            "Operators": [
+                "Britannian MilitaryBlack Knights"
+            ]
+        },
+        "model_number": "RPI-212/F4A"
+    },
+    {
         "name": "Vincent Glinda",
         "chinese_name": "文森特·格林达",
         "categories": {
@@ -3252,6 +3316,22 @@
             ]
         },
         "model_number": "Type-04"
+    },
+    {
+        "name": "Zangetsu Flight-Enabled Version",
+        "chinese_name": "斩月可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                ""
+            ],
+            "Operators": [
+                ""
+            ]
+        },
+        "model_number": "Type-04/F1C"
     },
     {
         "name": "Zero Kagero",
