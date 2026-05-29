@@ -32,41 +32,6 @@
         "model_number": "RZX-4EH"
     },
     {
-        "name": "Akatsuki Zikisan",
-        "chinese_name": "晓·直参仕样",
-        "categories": {
-            "Anime": [
-                "Code Geass 叛逆的鲁鲁修"
-            ],
-            "Game": [
-                "Code Geass: Lost Stories"
-            ],
-            "Manufacturer": [
-                "Jabalpur Research Center"
-            ],
-            "Operators": [
-                "The Black Knights"
-            ]
-        },
-        "model_number": "Type-05S/G"
-    },
-    {
-        "name": "Akatsuki Zikisan Flight-Enabled Version",
-        "chinese_name": "晓·直参仕样可翔式",
-        "categories": {
-            "Anime": [
-                "Code Geass 叛逆的鲁鲁修"
-            ],
-            "Manufacturer": [
-                "Jabalpur Research Center"
-            ],
-            "Operators": [
-                "The Black Knights"
-            ]
-        },
-        "model_number": "Type-05S/F2F"
-    },
-    {
         "name": "Akatsuki",
         "chinese_name": "晓",
         "categories": {
@@ -103,6 +68,41 @@
             ]
         },
         "model_number": "Type-05/F2D"
+    },
+    {
+        "name": "Akatsuki Zikisan",
+        "chinese_name": "晓·直参仕样",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Game": [
+                "Code Geass: Lost Stories"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        },
+        "model_number": "Type-05S/G"
+    },
+    {
+        "name": "Akatsuki Zikisan Flight-Enabled Version",
+        "chinese_name": "晓·直参仕样可翔式",
+        "categories": {
+            "Anime": [
+                "Code Geass 叛逆的鲁鲁修"
+            ],
+            "Manufacturer": [
+                "Jabalpur Research Center"
+            ],
+            "Operators": [
+                "The Black Knights"
+            ]
+        },
+        "model_number": "Type-05S/F2F"
     },
     {
         "name": "Akatsuki-Upgrade",
