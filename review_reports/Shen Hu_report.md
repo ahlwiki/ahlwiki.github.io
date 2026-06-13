@@ -1,0 +1,44 @@
+# 审核报告：Shen Hu.json
+
+### 文件：Shen Hu.json
+#### 问题列表
+- [introduction] “人型自在战斗装甲 (KMF)” 中的“人型自在战斗装甲”与标准术语“KMF”不一致，且括号内重复标注 → 建议修改为“KMF”
+- [Design and Specifications] “人型自在战斗装甲 (KMF)” 出现多次，与标准术语“KMF”不一致 → 建议统一修改为“KMF”
+- [Design and Specifications] “闪光护盾” 与标准术语“卢米纳斯护盾 (Blaze Luminous)”不一致 → 建议修改为“卢米纳斯护盾 (Blaze Luminous)”
+- [Design and Specifications] “事实球体” 与标准术语“事实球面传感器 (Factsphere Sensor)”不一致 → 建议修改为“事实球面传感器 (Factsphere Sensor)”
+- [Design and Specifications] “陆地旋轮” 与标准术语“陆地旋轮 (Landspinner)”不一致，但缺少英文标注 → 建议修改为“陆地旋轮 (Landspinner)”
+- [Design and Specifications] “飞翔滑走翼” 与标准术语“浮空单元（Float Unit）”不一致 → 建议修改为“浮空单元（Float Unit）”
+- [Design and Specifications] “强子加农炮” 与标准术语“MVS（Maser Vibration Sword，微波振动剑）”无直接对应，但“强子加农炮”在《叛逆的鲁鲁修》中为“Hadron Cannon”，建议统一为“强子加农炮”并保留英文标注，或确认是否需替换为其他标准术语（如“辐射波冲击”等，但此处描述为武器类型，需根据上下文判断）
+- [Design and Specifications] “飞燕爪牙” 与标准术语“MVS”无直接对应，但“飞燕爪牙”为神虎特有武装，非标准术语，无需修改
+- [Design and Specifications] “辐射波护盾” 与标准术语“卢米纳斯护盾 (Blaze Luminous)”不一致，且“辐射波”为红莲的武装，非护盾类型 → 建议修改为“卢米纳斯护盾 (Blaze Luminous)”
+- [Design and Specifications] “短剑” 与标准术语“MVS”无直接对应，但描述为“双刃短剑”，需确认是否为MVS变体 → 若为MVS，建议修改为“MVS（Maser Vibration Sword，微波振动剑）”
+- [Design and Specifications] “文森特单元” 与标准术语无直接对应，但为机体名称，无需修改
+- [Design and Specifications] “天愕覇王荷電粒子重砲” 与标准术语无直接对应，但为神虎特有武装，无需修改
+- [Design and Specifications] “卡利昂级浮空飞艇” 与标准术语无直接对应，但为舰船名称，无需修改
+- [Operational History] “晓型” 与标准术语无直接对应，但为机体名称，无需修改
+- [Operational History] “红莲飞行型” 与标准术语无直接对应，但为机体名称，无需修改
+- [Operational History] “蜃气楼” 与标准术语无直接对应，但为机体名称，无需修改
+- [Operational History] “加拉哈德” 与标准术语无直接对应，但为机体名称，无需修改
+- [Operational History] “兰斯洛特·阿尔比昂” 与标准术语无直接对应，但为机体名称，无需修改
+- [Operational History] “阿瓦隆” 与标准术语无直接对应，但为舰船名称，无需修改
+- [Trivia] “飞燕爪牙” 与标准术语无直接对应，但为神虎特有武装，无需修改
+- [Trivia] “古夫” 与标准术语无直接对应，但为其他作品机体名称，无需修改
+- [specs] “相当于第七世代” 与标准术语“第七世代”不一致，建议删除“相当于” → 建议修改为“第七世代”
+- [specs] “履带式陆地旋轮推进系统” 与标准术语“陆地旋轮 (Landspinner)”不一致，且“履带式”为描述性内容 → 建议修改为“陆地旋轮 (Landspinner)”
+- [specs] “可选飞翔滑走翼” 与标准术语“浮空单元（Float Unit）”不一致 → 建议修改为“可选浮空单元（Float Unit）”
+- [specs] “腕部带电飞燕爪牙” 与标准术语无直接对应，但为神虎特有武装，无需修改
+- [specs] “胸部带电粒子加农炮” 与标准术语无直接对应，但为神虎特有武装，无需修改
+- [specs] “双刃短剑” 与标准术语“MVS”无直接对应，需确认是否为MVS → 若为MVS，建议修改为“MVS（Maser Vibration Sword，微波振动剑）”
+- [specs] “尤克特拉希尔驱动” 与标准术语无直接对应，但为《叛逆的鲁鲁修》中能量系统名称，无需修改
+- [specs] “能量填充器” 与标准术语无直接对应，但为描述性内容，无需修改
+- [specs] “钨” 与标准术语无直接对应，但为装甲材料，无需修改
+- [specs] “贾巴尔普尔研究中心” 与标准术语无直接对应，但为设定名称，无需修改
+- [specs] “楚延” 与标准术语无直接对应，但为机体名称，无需修改
+- [specs] “王虎” 与标准术语无直接对应，但为机体名称，无需修改
+- [specs] “中华联邦、黑色骑士团、联合国联邦” 与标准术语无直接对应，但为组织名称，无需修改
+- [specs] “黎星刻” 与标准术语无直接对应，但为角色名称，无需修改
+- [specs] “驾驶舱弹射系统” 与标准术语一致，无需修改
+- [specs] “Code Geass 叛逆的鲁鲁修” 与标准术语无直接对应，但为作品名称，无需修改
+- [specs] “Code Geass 双貌的奥兹” 与标准术语无直接对应，但为作品名称，无需修改
+- [specs] “Code Geass 叛逆的鲁鲁修 Re” 与标准术语无直接对应，但为作品名称，无需修改
+- [specs] “Code Geass：叛逆的鲁路修 遗失物语” 与标准术语无直接对应，但为作品名称，无需修改

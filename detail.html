@@ -130,11 +130,17 @@
             white-space: pre-wrap;
         }
         .intro-text {
-            line-height: 1.6;
             background: #010a14;
             padding: 1.2rem;
             border-radius: 1rem;
             margin: 1rem 0;
+        }
+        /* 各大详情块之间的间距（宽间距） */
+        .intro-text .section-content {
+            margin-bottom: 1.5rem;
+        }
+        .intro-text .section-content:last-child {
+            margin-bottom: 0;
         }
         .intro-text strong {
             display: block;
@@ -142,10 +148,35 @@
             font-size: 1.1rem;
             color: #e6c87a;
         }
-        .intro-text .section-content {
-            margin-bottom: 1.2rem;
+        /* 普通详情段落（机体总览、研发背景等）：宽间距 + 首行缩进两字符 */
+        .detail-paragraph {
+            line-height: 1.5;
+            margin-bottom: 0.4rem;
             white-space: pre-wrap;
             word-break: break-word;
+            text-indent: 2em;   /* 首行缩进两字符 */
+        }
+        .detail-paragraph:last-child {
+            margin-bottom: 0;
+        }
+        /* 趣闻余谈段落：窄间距，带项目符号，缩进，无首行缩进 */
+        .trivia-paragraph {
+            line-height: 1.4;
+            margin-left: 1.2rem;
+            word-break: break-word;
+            white-space: normal;
+        }
+        .trivia-paragraph:last-child {
+            margin-bottom: 0;
+        }
+        .trivia-bullet {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            display: inline-block;
+            margin-right: 0.5rem;
+            color: #d4af37;
+            font-weight: bold;
         }
         .pre-wrap {
             white-space: pre-wrap;
@@ -189,7 +220,7 @@
             gap: 4px;
         }
 
-        /* 手机端样式 */
+        /* 手机端样式适配 */
         @media (max-width: 700px) {
             body { padding: 0.5rem; }
             .detail-container { padding: 0rem; border: none; }
@@ -331,6 +362,22 @@
             .intro-text strong {
                 margin-bottom: 0.4rem;
             }
+            /* 移动端普通详情段落保持首行缩进 */
+            .detail-paragraph {
+                margin-bottom: 0.3rem;
+                text-indent: 2em;
+            }
+            /* 移动端趣闻窄间距适配 */
+            .trivia-paragraph {
+                margin-left: 0.8rem;
+                line-height: 1.4;
+            }
+            .trivia-paragraph:last-child {
+                margin-bottom: 0;
+            }
+            .intro-text .section-content {
+                margin-bottom: 1.2rem;
+            }
         }
 
         @media (min-width: 701px) {
@@ -396,10 +443,10 @@
             ]
         },
         {
-            title: "🗡️ 武装 & 系统",
+            title: "🗡️ 武装 & 装备",
             fields: [
                 { key: "Fixed", label: "固定武装" }, { key: "Handheld", label: "手持武器" },
-                { key: "Standard", label: "特殊系统" }, { key: "Optional", label: "可选装备" }
+                { key: "Standard", label: "标配装备" }, { key: "Optional", label: "可选装备" }
             ]
         },
         {
@@ -428,16 +475,43 @@
         });
     }
 
+    /**
+     * 将普通文本（已转义）按换行符分割成段落，返回带段落标签的HTML
+     * @param {string} escapedText 已转义的多行文本
+     * @param {boolean} addBullet 是否添加项目符号（仅用于趣闻）
+     * @returns {string} 段落HTML
+     */
+    function splitTextToParagraphs(escapedText, addBullet = false) {
+        if (!escapedText || !escapedText.trim()) return '';
+        const paragraphs = escapedText.split(/\r?\n/);
+        const validParagraphs = paragraphs.filter(p => p.trim().length > 0);
+        if (validParagraphs.length === 0) return '';
+
+        let result = '';
+        if (addBullet) {
+            // 趣闻：带项目符号，使用 .trivia-paragraph 样式（窄间距）
+            for (let para of validParagraphs) {
+                result += `<p class="trivia-paragraph"><span class="trivia-bullet" aria-hidden="true">·</span> ${para.trim()}</p>`;
+            }
+        } else {
+            // 普通详情：无项目符号，使用 .detail-paragraph 样式（宽间距 + 首行缩进）
+            for (let para of validParagraphs) {
+                result += `<p class="detail-paragraph">${para.trim()}</p>`;
+            }
+        }
+        return result;
+    }
+
     // ========== 桌面端渲染 ==========
     function renderDesktop(data) {
         const specs = data.specs || {};
         const nameZh = data.name || kmfName;
         const englishName = data.english_name || '';
-        const intro = data.introduction || '暂无简介';
-        const design = data["Design and Development"] || '';
-        const design2 = data["Design and Specifications"] || '';
-        const trivia = data.Trivia || '';
-        const fight = data["Operational History"] || '';
+        const introRaw = data.introduction || '';
+        const designRaw = data["Design and Development"] || '';
+        const design2Raw = data["Design and Specifications"] || '';
+        const triviaRaw = data.Trivia || '';
+        const fightRaw = data["Operational History"] || '';
 
         function getSpec(key) { return getSpecValue(specs, key) || '—'; }
 
@@ -476,12 +550,20 @@
             specsGridHtml = '<div class="specs-grid"><div class="spec-card"><h3>⚠️ 暂无详细规格数据</h3></div></div>';
         }
 
+        // 处理普通详情段落（不添加项目符号，宽间距，首行缩进已在CSS中）
+        const introHtml = introRaw ? splitTextToParagraphs(escapeHtml(introRaw), false) : '';
+        const designHtml = designRaw ? splitTextToParagraphs(escapeHtml(designRaw), false) : '';
+        const design2Html = design2Raw ? splitTextToParagraphs(escapeHtml(design2Raw), false) : '';
+        const fightHtml = fightRaw ? splitTextToParagraphs(escapeHtml(fightRaw), false) : '';
+        // 趣闻段落（添加项目符号，窄间距）
+        const triviaHtml = triviaRaw ? splitTextToParagraphs(escapeHtml(triviaRaw), true) : '';
+
         let bodyHtml = `<div class="intro-text">`;
-        bodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${escapeHtml(intro)}</div>`;
-        if (design) bodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
-        if (design2) bodyHtml += `<strong>📐 性能参数</strong><div class="section-content">${escapeHtml(design2)}</div>`;
-        if (fight) bodyHtml += `<strong>🕰️ 作战记录</strong><div class="section-content">${escapeHtml(fight)}</div>`;
-        if (trivia) bodyHtml += `<strong>🧩 趣闻余谈</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
+        if (introHtml) bodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${introHtml}</div>`;
+        if (designHtml) bodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${designHtml}</div>`;
+        if (design2Html) bodyHtml += `<strong>📐 性能参数</strong><div class="section-content">${design2Html}</div>`;
+        if (fightHtml) bodyHtml += `<strong>🕰️ 作战记录</strong><div class="section-content">${fightHtml}</div>`;
+        if (triviaHtml) bodyHtml += `<strong>🧩 趣闻余谈</strong><div class="section-content">${triviaHtml}</div>`;
         bodyHtml += `</div>`;
 
         const html = `
@@ -541,16 +623,16 @@
         }
     }
 
-    // ========== 手机端渲染 ==========
+    // ========== 手机端渲染（逻辑与桌面端一致） ==========
     function renderMobile(data) {
         const specs = data.specs || {};
         const nameZh = data.name || kmfName;
         const englishName = data.english_name || '';
-        const intro = data.introduction || '暂无简介';
-        const design = data["Design and Development"] || '';
-        const design2 = data["Design and Specifications"] || '';
-        const trivia = data.Trivia || '';
-        const fight = data["Operational History"] || '';
+        const introRaw = data.introduction || '';
+        const designRaw = data["Design and Development"] || '';
+        const design2Raw = data["Design and Specifications"] || '';
+        const triviaRaw = data.Trivia || '';
+        const fightRaw = data["Operational History"] || '';
 
         let variants = data.image_variants || [];
         variants = [...new Set(variants)];
@@ -656,12 +738,19 @@
             specsTableHtml = `<div class="specs-table"><div class="specs-row"><div class="specs-value">暂无详细规格</div></div></div>`;
         }
 
+        // 处理普通详情段落（不添加项目符号）
+        const introHtml = introRaw ? splitTextToParagraphs(escapeHtml(introRaw), false) : '';
+        const designHtml = designRaw ? splitTextToParagraphs(escapeHtml(designRaw), false) : '';
+        const design2Html = design2Raw ? splitTextToParagraphs(escapeHtml(design2Raw), false) : '';
+        const fightHtml = fightRaw ? splitTextToParagraphs(escapeHtml(fightRaw), false) : '';
+        const triviaHtml = triviaRaw ? splitTextToParagraphs(escapeHtml(triviaRaw), true) : '';
+
         let mobileBodyHtml = `<div class="intro-text">`;
-        mobileBodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${escapeHtml(intro)}</div>`;
-        if (design) mobileBodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${escapeHtml(design)}</div>`;
-        if (design2) mobileBodyHtml += `<strong>📐 性能参数</strong><div class="section-content">${escapeHtml(design2)}</div>`;
-        if (fight) mobileBodyHtml += `<strong>🕰️ 作战记录</strong><div class="section-content">${escapeHtml(fight)}</div>`;
-        if (trivia) mobileBodyHtml += `<strong>🧩 趣闻余谈</strong><div class="section-content">${escapeHtml(trivia)}</div>`;
+        if (introHtml) mobileBodyHtml += `<strong>📖 机体总览</strong><div class="section-content">${introHtml}</div>`;
+        if (designHtml) mobileBodyHtml += `<strong>🛠️ 研发背景</strong><div class="section-content">${designHtml}</div>`;
+        if (design2Html) mobileBodyHtml += `<strong>📐 性能参数</strong><div class="section-content">${design2Html}</div>`;
+        if (fightHtml) mobileBodyHtml += `<strong>🕰️ 作战记录</strong><div class="section-content">${fightHtml}</div>`;
+        if (triviaHtml) mobileBodyHtml += `<strong>🧩 趣闻余谈</strong><div class="section-content">${triviaHtml}</div>`;
         mobileBodyHtml += `</div>`;
 
         const html = `
