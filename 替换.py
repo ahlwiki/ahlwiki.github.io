@@ -3,8 +3,8 @@ from pathlib import Path
 
 # ===================== 配置区 =====================
 TARGET_DIR = Path(__file__).parent / "kmf_individual_files"  # JSON 文件夹路径
-FIND_TEXT = "公吨"  # 要查找的文本
-REPLACE_TEXT = "吨"  # 替换后的文本
+FIND_TEXT = "边疆"  # 要查找的文本
+REPLACE_TEXT = "边境"  # 替换后的文本
 
 
 # =================================================

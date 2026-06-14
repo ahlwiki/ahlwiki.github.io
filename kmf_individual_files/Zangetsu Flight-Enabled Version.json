@@ -1,7 +1,7 @@
 {
   "name": "斩月可翔式",
   "specs": {
-    "Classification": "空战指挥官型Knightmare Frame",
+    "Classification": "空战指挥官型KMF",
     "Model Number": "Type-04/F1C",
     "KMF Generation": "相当于第七代",
     "Overall Height": "4.68 米",
@@ -18,7 +18,7 @@
     "Anime": "《朱禁城的新娘》、《达摩克利斯之剑》",
     "Mechanical Designer": "安田朗"
   },
-  "introduction": "由藤堂京四郎驾驶的斩月可翔式（斬月可翔）是动画《Code Geass 反叛的鲁路修 R2》中首次登场的Knightmare Frame。它是配备了黑骑士团的飞行系统——飞翔滑走翼的 斩月机体，可以进行无辅助飞行和空中战斗。",
+  "introduction": "由藤堂京四郎驾驶的斩月可翔式（斬月可翔）是动画《Code Geass 反叛的鲁路修 R2》中首次登场的KMF。它是配备了黑骑士团的飞行系统——飞翔滑走翼的 斩月机体，可以进行无辅助飞行和空中战斗。",
   "Design and Specifications": "这是一款高性能的KMF，由拉克沙塔·恰拉在月下的基础上开发，作为藤堂京四郎的定制机体。它的各项性能超越了四圣剑驾驶的晓·直参仕样，除了飞翔滑走翼和辐射屏障外，它还配备了月下（藤堂版）上的冲击扩散柔性纤维，以及来自该机体的青道刃妖剑斩鹤刀近战武器。",
   "english_name": "Zangetsu Flight-Enabled Version",
   "image_variants": [

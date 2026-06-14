@@ -1,7 +1,7 @@
 {
   "name": "零阳炎",
   "specs": {
-    "Classification": "指挥官型Knightmare Frame",
+    "Classification": "指挥官型KMF",
     "Model Number": "Type-02/0X",
     "KMF Generation": "相当于第七代",
     "Overall Height": "4.51 米",
@@ -19,8 +19,8 @@
     "Handheld": "1×突击步枪",
     "Game": "Code Geass: 叛逆的鲁路修 Lost Stories"
   },
-  "introduction": "零阳炎（零陽炎，ZERO Kagerō）是出现在《Code Geass: 叛逆的鲁路修 Lost Stories》中的Knightmare Frame。它是为零的私人使用而设计的。",
-  "Design and Development": "零阳炎是设计成为零的专属Knightmare Frame的机体。由于它被设计为指挥官机，因此配备了增强型事实球感应器和高计算能力。\n尽管设计图已经完成，但零阳炎从未被制造完成，因为决定将捕获的高文作为零的专属Knightmare Frame。",
+  "introduction": "零阳炎（零陽炎，ZERO Kagerō）是出现在《Code Geass: 叛逆的鲁路修 Lost Stories》中的KMF。它是为零的私人使用而设计的。",
+  "Design and Development": "零阳炎是设计成为零的专属KMF的机体。由于它被设计为指挥官机，因此配备了增强型事实球感应器和高计算能力。\n尽管设计图已经完成，但零阳炎从未被制造完成，因为决定将捕获的高文作为零的专属KMF。",
   "english_name": "Zero Kagero",
   "image_variants": [
     "前方",
