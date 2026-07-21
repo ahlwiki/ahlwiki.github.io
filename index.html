@@ -26,25 +26,104 @@
             padding: 2rem 1.5rem;
         }
 
+        /* Header 头部容器样式 */
         .header {
             text-align: center;
             margin-bottom: 2rem;
-            border-bottom: 2px solid rgba(230, 200, 100, 0.4);
-            padding-bottom: 1rem;
+            padding: 1.5rem;
+            background: rgba(10, 15, 26, 0.65);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            border-radius: 16px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
         }
 
         .header h1 {
-            font-size: 2.5rem;
-            background: linear-gradient(135deg, #f0e6a0, #b8860b, #d4af37);
+            font-size: 1.8rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff2a3, #d4af37, #aa7c11);
             background-clip: text;
             -webkit-background-clip: text;
             color: transparent;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 10px rgba(212, 175, 55, 0.2);
         }
 
-        .header p {
-            color: #9aaec0;
+        /* 网站描述折叠组件 (SEO Friendly) */
+        .seo-intro {
+            text-align: left;
+        }
+
+        /* 原生折叠组件的摘要标题 */
+        .seo-intro summary {
+            font-size: 0.9rem;
+            color: #d4af37;
+            cursor: pointer;
+            text-align: center;
+            padding: 0.4rem 0;
+            user-select: none;
+            transition: color 0.2s;
+            outline: none;
+            list-style: none; /* 移除默认箭头 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .seo-intro summary::-webkit-details-marker {
+            display: none; /* 兼容 Safari 移除默认箭头 */
+        }
+
+        .seo-intro summary:hover {
+            color: #fff2a3;
+        }
+
+        /* 自定义指示箭头：默认向下 */
+        .seo-intro summary::after {
+            content: "▼";
+            font-size: 0.75rem;
+            transition: transform 0.3s ease;
+            display: inline-block;
+        }
+
+        /* 展开状态时：箭头上下翻转 (旋转 180 度) */
+        .seo-intro[open] summary::after {
+            transform: rotate(180deg);
+        }
+
+        .seo-content {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px dashed rgba(212, 175, 55, 0.2);
+        }
+
+        .seo-content p {
+            color: #b0c4de;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin-bottom: 0.8rem;
+            text-align: justify;
+        }
+
+        .seo-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .seo-content strong {
+            color: #f0e6a0;
+            font-weight: 600;
+        }
+
+        .seo-content em {
+            display: block;
             margin-top: 0.5rem;
+            color: #d4af37;
+            font-style: normal;
+            font-size: 0.85rem;
+            text-align: center;
         }
 
         .filter-bar {
@@ -224,12 +303,22 @@
             gap: 4px;
         }
 
+        /* 移动端适配 */
         @media (max-width: 640px) {
-            .header h1{
-                font-size: 1.3rem;
+            .header {
+                padding: 1rem;
+                margin-bottom: 1.2rem;
             }
-            .header p {
-                display: none;
+            .header h1 {
+                font-size: 1.25rem;
+                margin-bottom: 0.6rem;
+            }
+            .seo-intro summary {
+                font-size: 0.8rem;
+            }
+            .seo-content p {
+                font-size: 0.78rem;
+                line-height: 1.6;
             }
             .container {
                 padding: 1rem;
@@ -320,7 +409,24 @@
                 font-size: 0.9rem;
                 font-weight: bold;
                 color: #d4af37;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 6px;
             }
+            /* 移动端抽屉的箭头样式与翻转动画 */
+            .drawer-arrow {
+                font-size: 0.75rem;
+                display: inline-block;
+                transition: transform 0.3s ease;
+                /* 默认收起时抽屉在底部，箭头向上指示拉出，采用预置翻转 */
+                transform: rotate(180deg);
+            }
+            .mobile-drawer.open .drawer-arrow {
+                /* 展开后箭头翻转向下 */
+                transform: rotate(0deg);
+            }
+
             .mobile-clear-group {
                 background: rgba(0,0,0,0.2);
                 border-radius: 40px;
@@ -373,8 +479,18 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>⚙️Code Geass·KMF图鉴⚙️</h1>
-        <p>Code Geass系列作品KMF（Knightmare Frame，全称“人型自在战斗装甲骑”）档案</p>
+        <h1>Code Geass机体图鉴 - 叛逆的鲁鲁修KMF全系列数据库</h1>
+
+        <!-- 使用 HTML5 原生 <details> 组件实现无缝折叠/展开 -->
+        <details class="seo-intro" id="seo-details">
+            <summary id="seo-summary">📖 点击 展开 网站简介与数据库说明</summary>
+            <div class="seo-content">
+                <p><strong>欢迎来到Code Geass机体图鉴（叛逆的鲁鲁修KMF图鉴）！</strong>本站是专为《CODE GEASS》系列粉丝打造的Knightmare Frame（KMF）机体资料库，致力于收录并展示动画、剧场版及外传中登场的全部KMF机体数据。</p>
+                <p>无论你是寻找鲁鲁修·兰佩路基的专属座驾<strong>“蜃气楼”</strong>与<strong>“高文”</strong>，还是追寻枢木朱雀的<strong>“兰斯洛特”</strong>系列，或是红月卡莲的<strong>“红莲”</strong>系列，甚至是其他配角与敌方阵营的稀有机体，本<strong>鲁鲁修机体图鉴</strong>均提供详尽的机体参数、武装配置、性能排名及高清图鉴展示。</p>
+                <p>本<strong>Code Geass机体图鉴</strong>旨在为所有热爱《叛逆的鲁鲁修》的玩家与漫迷提供最便捷、最精准的一站式查询服务。我们会持续跟进系列最新作品，不断补充和完善KMF图鉴数据，助你彻底了解神圣不列颠尼亚帝国与黑色骑士团的每一台钢铁巨人。</p>
+                <p><em>—— 开启你的KMF图鉴之旅，从Code Geass机体图鉴开始。</em></p>
+            </div>
+        </details>
     </div>
 
     <div class="filter-bar" id="desktop-filter-bar"></div>
@@ -400,11 +516,12 @@
     </div>
 </div>
 
+<!-- 移动端底部抽屉组件 -->
 <div id="mobile-drawer" class="mobile-drawer">
     <div class="drawer-handle" id="drawer-handle">
         <div class="drag-bar"></div>
         <div class="drawer-header-row">
-            <span id="drawer-label">⬆️ 上拉展开筛选</span>
+            <span id="drawer-label">点击 展开 筛选栏 <i class="drawer-arrow">▼</i></span>
         </div>
     </div>
     <div class="drawer-content" id="drawer-content"></div>
@@ -422,6 +539,32 @@
         "Manga": "📖 漫画",
         "Game": "🎮 游戏",
     };
+
+    // 动态更新 SEO 简介栏的文字（展开 vs 收起）
+    function updateSummaryText() {
+        const seoDetails = document.getElementById('seo-details');
+        const seoSummary = document.getElementById('seo-summary');
+        if (!seoDetails || !seoSummary) return;
+
+        if (seoDetails.open) {
+            seoSummary.innerText = '📖 点击 收起 网站简介';
+        } else {
+            seoSummary.innerText = '📖 点击 展开 网站简介';
+        }
+    }
+
+    // 屏幕宽度自适应控制：PC端默认展开折叠卡片，移动端默认收起
+    function autoAdjustDetailsState() {
+        const seoDetails = document.getElementById('seo-details');
+        if (seoDetails) {
+            if (window.innerWidth > 640) {
+                seoDetails.open = true; // 大屏默认展开，展示丰富文本
+            } else {
+                seoDetails.open = false; // 小屏默认折叠，节省首屏空间
+            }
+            updateSummaryText();
+        }
+    }
 
     function escapeHtml(str) {
         if (!str) return '';
@@ -647,6 +790,7 @@
         renderFilteredList();
     }
 
+    // 初始化移动端筛选抽屉（使用 ▼ 图标与平滑旋转逻辑）
     function initMobileDrawer() {
         const drawer = document.getElementById('mobile-drawer');
         const handle = document.getElementById('drawer-handle');
@@ -665,13 +809,14 @@
             updateDrawerLabel();
         }
 
+        // 统一控制移动端抽屉的文字提示与箭头▼
         function updateDrawerLabel() {
             const labelSpan = document.getElementById('drawer-label');
             if (!labelSpan) return;
             if (drawer.classList.contains('open')) {
-                labelSpan.innerText = '↓ 下拉回收筛选 ↓';
+                labelSpan.innerHTML = '下拉 收起 筛选栏 <i class="drawer-arrow">▼</i>';
             } else {
-                labelSpan.innerText = '↑ 上拉展开筛选 ↑';
+                labelSpan.innerHTML = '上拉 展开 筛选栏 <i class="drawer-arrow">▼</i>';
             }
         }
 
@@ -725,6 +870,14 @@
     }
 
     async function init() {
+        autoAdjustDetailsState(); // 初始化折叠框状态及文字
+
+        // 绑定 SEO 简介框 toggle 事件，动态修改提示文字
+        const seoDetails = document.getElementById('seo-details');
+        if (seoDetails) {
+            seoDetails.addEventListener('toggle', updateSummaryText);
+        }
+
         const container = document.getElementById('kmf-list-container');
         try {
             const res = await fetch(LIST_JSON_URL);
